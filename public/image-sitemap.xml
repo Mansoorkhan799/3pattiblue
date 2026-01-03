@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://cardrummyapp.com.pk/</loc>
+    <image:image>
+      <image:loc>https://cardrummyapp.com.pk/card-rummy.webp</image:loc>
+      <image:title>Card Rummy Logo</image:title>
+      <image:caption>Card Rummy - Pakistan's Premier Card Gaming Platform</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cardrummyapp.com.pk/card-rummy-logo.webp</image:loc>
+      <image:title>Card Rummy Official Logo</image:title>
+      <image:caption>Official Card Rummy logo for social media and branding</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cardrummyapp.com.pk/feature/card-rummy-screenshot-1.webp</image:loc>
+      <image:title>Card Rummy App Screenshot 1</image:title>
+      <image:caption>Card Rummy mobile app interface</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cardrummyapp.com.pk/feature/card-rummy-screenshot-2.webp</image:loc>
+      <image:title>Card Rummy App Screenshot 2</image:title>
+      <image:caption>Card Rummy gameplay screenshot</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cardrummyapp.com.pk/feature/card-rummy-screenshot-3.webp</image:loc>
+      <image:title>Card Rummy App Screenshot 3</image:title>
+      <image:caption>Card Rummy features screenshot</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cardrummyapp.com.pk/feature/card-rummy-screenshot-4.webp</image:loc>
+      <image:title>Card Rummy App Screenshot 4</image:title>
+      <image:caption>Card Rummy games screenshot</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cardrummyapp.com.pk/feature/card-rummy-screenshot-5.webp</image:loc>
+      <image:title>Card Rummy App Screenshot 5</image:title>
+      <image:caption>Card Rummy Teen Patti screenshot</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cardrummyapp.com.pk/feature/card-rummy-screenshot-6.webp</image:loc>
+      <image:title>Card Rummy App Screenshot 6</image:title>
+      <image:caption>Card Rummy Rummy game screenshot</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cardrummyapp.com.pk/feature/card-rummy-screenshot-7.webp</image:loc>
+      <image:title>Card Rummy App Screenshot 7</image:title>
+      <image:caption>Card Rummy Dragon vs Tiger screenshot</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cardrummyapp.com.pk/feature/card-rummy-screenshot-8.webp</image:loc>
+      <image:title>Card Rummy App Screenshot 8</image:title>
+      <image:caption>Card Rummy slots screenshot</image:caption>
+    </image:image>
+  </url>
+</urlset>

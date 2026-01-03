@@ -1,0 +1,48 @@
+import { NextResponse } from 'next/server';
+
+export async function GET() {
+  const baseUrl = 'https://cardrummyapp.com.pk';
+  
+  const robotsTxt = `# Card Rummy Robots.txt
+User-agent: *
+Allow: /
+
+# Priority pages
+Allow: /download-card-rummy
+Allow: /deposit-money-in-card-rummy
+Allow: /withdraw-money-from-card-rummy
+Allow: /card-rummy-for-pc
+Allow: /about-us
+Allow: /blog
+Allow: /blog/is-card-rummy-real-or-fake
+Allow: /blog/create-card-rummy-account-and-login
+Allow: /blog/tips-to-win-big-in-card-rummy
+
+# Standard pages
+Allow: /contact-us
+Allow: /privacy
+Allow: /disclaimer
+
+# Mobile-specific directives
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Image-specific directives
+User-agent: Googlebot-Image
+Allow: /
+
+# Sitemaps
+Sitemap: ${baseUrl}/sitemap.xml
+Sitemap: ${baseUrl}/image-sitemap.xml
+
+# Crawl delay to prevent server overload
+Crawl-delay: 1
+`;
+
+  return new NextResponse(robotsTxt, {
+    headers: {
+      'Content-Type': 'text/plain',
+      'Cache-Control': 'public, max-age=3600, s-maxage=86400'
+    }
+  });
+}
