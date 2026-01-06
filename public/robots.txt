@@ -125,9 +125,3 @@ Allow: /
 Sitemap: https://cardrummyapp.com.pk/sitemap-index.xml
 Sitemap: https://cardrummyapp.com.pk/sitemap.xml
 Sitemap: https://cardrummyapp.com.pk/image-sitemap.xml
-
-# ============================================
-# HOST
-# ============================================
-
-Host: https://cardrummyapp.com.pk
