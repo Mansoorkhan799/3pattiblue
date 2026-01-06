@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'How to Create a Card Rummy Account and Login - Step by Step Guide',
+  title: 'How to Create a Card Rummy Account and Login? - Step by Step Guide',
   description: 'Learn how to create your Card Rummy account and login with our step-by-step guide. Get started playing games and earning rewards in minutes.',
   keywords: ['Card Rummy account', 'Card Rummy login', 'Card Rummy registration', 'Card Rummy sign up', 'Card Rummy guide'],
   robots: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: "https://cardrummyapp.com.pk/blog/create-card-rummy-account-and-login",
   },
   openGraph: {
-    title: 'How to Create Account and Login - Card Rummy',
+    title: 'How to Create Account and Login? - Card Rummy',
     description: 'Learn how to create an account and login to Card Rummy. Step by step guide for registration and accessing your account.',
     type: 'article',
     publishedTime: '2026-01-20T00:00:00Z',
@@ -43,7 +43,7 @@ export default function CreateAccountLogin() {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white">How to Create a <Link href="/" className="text-accent hover:text-accent">Card Rummy</Link> Account and Login</h1>
+            <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white">How to Create a <Link href="/" className="text-accent hover:text-accent">Card Rummy</Link> Account and Login?</h1>
             
             <div className="prose prose-lg max-w-none">
               <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
@@ -243,7 +243,7 @@ export default function CreateAccountLogin() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "BlogPosting",
-            "headline": "How to Create Account and Login - Card Rummy",
+            "headline": "How to Create Account and Login? - Card Rummy",
             "description": "Learn how to create an account and login to Card Rummy. Step by step guide for registration and accessing your account.",
             "datePublished": "2026-01-20T00:00:00Z",
             "dateModified": new Date().toISOString(),
