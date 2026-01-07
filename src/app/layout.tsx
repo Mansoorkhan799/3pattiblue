@@ -19,7 +19,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://cardrummyapp.com.pk'),
   title: {
-    default: "Card Rummy - Download Game APK | Earn Money in Pakistan 2026",
+    default: "Card Rummy Game Download | New Earning App in Pakistan 2026",
     template: "%s | Card Rummy"
   },
   description: "Download Card Rummy APK, Pakistan's premier card game platform. Play Teen Patti, Rummy, Dragon vs Tiger & more. Win real cash with JazzCash & EasyPaisa. Join 500K+ players!",

@@ -5,10 +5,10 @@ import { Metadata } from 'next';
 // This additional metadata enhances the page-specific SEO
 export const metadata: Metadata = {
   title: {
-    default: "Card Rummy - Download Game APK | Earn Money in Pakistan 2026",
+    default: "Card Rummy Game Download | New Earning App in Pakistan 2026",
     template: "%s | Card Rummy"
   },
-  description: "Card Rummy - Pakistan's #1 card game app. Download Card Rummy APK to play Teen Patti, Rummy, Dragon vs Tiger & more. Win real cash with JazzCash & EasyPaisa. Join 500K+ players!",
+  description: "Download Card Rummy APK, Pakistan's premier card game platform. Play Teen Patti, Rummy, Dragon vs Tiger & more. Win real cash with JazzCash & EasyPaisa. Join 500K+ players!",
   keywords: [
     "Card Rummy",
     "3 Patti Card Rummy",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "best earning app Pakistan"
   ],
   openGraph: {
-    title: 'Card Rummy - Download Game APK | Earn Money in Pakistan 2026',
+    title: 'Card Rummy Game Download | New Earning App in Pakistan 2026',
     description: 'Join 500K+ players on Pakistan\'s premier card game platform. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
     images: [
       {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Card Rummy - Download Game APK | Earn Money in Pakistan 2026',
+    title: 'Card Rummy Game Download | New Earning App in Pakistan 2026',
     description: 'Join 500K+ players on Pakistan\'s premier card game platform. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
     images: ['https://cardrummyapp.com.pk/card-rummy-logo.webp']
   }
@@ -128,17 +128,17 @@ export default function Home() {
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
                 <Link href="/" className="hover:text-[#FFA500] transition-colors">
-                  <span className="text-white">Card Rummy</span>
+                  <span className="text-white">Card Rummy Game Download</span>
                 </Link>
               </h1>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
-                <span className="text-[#FFA500]">Game Download</span>{' '}
-                <span className="text-white">| New Earning App in Pakistan 2026</span>
+                <span className="text-[#FFA500]">New Earning App</span>{' '}
+                <span className="text-white">in Pakistan 2026</span>
               </h2>
             </div>
             
             <p className="text-lg text-gray-300 leading-relaxed">
-              <strong className="text-white">Card Rummy</strong> is Pakistan's most popular online card game platform where you can enjoy a wide collection of casino games with its attractive design, fun background music, and engaging look. <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">Download Card Rummy</Link> now to get this wonderful app and start playing. <strong className="text-white">Card Rummy</strong> offers real money earning opportunities through Teen Patti, Rummy, Dragon vs Tiger, and many other exciting card games.
+              <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> is an exciting online card game where you can enjoy a wide collection of casino games with its attractive design, fun background music, and engaging look. <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">Download Card Rummy</Link> now to get this wonderful app and start playing.
             </p>
 
             {/* Download Button */}
