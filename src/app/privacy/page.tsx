@@ -35,10 +35,10 @@ export default function PrivacyPolicyPage() {
                 <h2 className="text-2xl font-bold mb-4 text-white">Introduction</h2>
                 <p className="text-gray-300 mb-4">
                   <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and website at <a href="https://www.cardrummyapp.com.pk" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">www.cardrummyapp.com.pk</a> (collectively, the "Service").
-                </p>
+              </p>
                 <p className="text-gray-300">
-                  Please read this Privacy Policy carefully. By accessing or using our Service, you acknowledge that you have read, understood, and agree to be bound by all the terms outlined in this Privacy Policy.
-                </p>
+                Please read this Privacy Policy carefully. By accessing or using our Service, you acknowledge that you have read, understood, and agree to be bound by all the terms outlined in this Privacy Policy.
+              </p>
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Information We Collect</h2>
@@ -46,24 +46,24 @@ export default function PrivacyPolicyPage() {
               <div className="bg-[#0A1029] rounded-xl p-6 mb-6">
                 <h3 className="text-2xl font-semibold mb-4 text-accent">Personal Data</h3>
                 <p className="text-gray-300 mb-4">
-                  When you use our Service, we may collect personally identifiable information, such as:
-                </p>
+                When you use our Service, we may collect personally identifiable information, such as:
+              </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-300">
                   <li>Mobile phone number (for account registration)</li>
                   <li>Email address (optional)</li>
-                  <li>Device information (model, operating system, unique device identifiers)</li>
+                <li>Device information (model, operating system, unique device identifiers)</li>
                   <li>IP address and location data</li>
                   <li>JazzCash/EasyPaisa account details for transactions</li>
                   <li>Transaction history and payment information</li>
                   <li>Gameplay data and statistics</li>
-                </ul>
+              </ul>
               </div>
               
               <div className="bg-[#0A1029] rounded-xl p-6 mb-8">
                 <h3 className="text-2xl font-semibold mb-4 text-accent">Usage Data</h3>
                 <p className="text-gray-300 mb-4">
-                  We may also collect information on how the Service is accessed and used ("Usage Data"). This Usage Data may include:
-                </p>
+                We may also collect information on how the Service is accessed and used ("Usage Data"). This Usage Data may include:
+              </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-300">
                   <li>Games played (Teen Patti, Rummy, Dragon vs Tiger, etc.) and time spent</li>
                   <li>Deposits and withdrawals through JazzCash/EasyPaisa</li>
@@ -71,14 +71,14 @@ export default function PrivacyPolicyPage() {
                   <li>Features accessed within the app</li>
                   <li>Performance data and crash reports</li>
                   <li>Referral activities</li>
-                </ul>
+              </ul>
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">How We Use Your Information</h2>
               <div className="bg-[#0A1029] rounded-xl p-6 mb-8">
                 <p className="text-gray-300 mb-4">
-                  We use the collected data for various purposes:
-                </p>
+                We use the collected data for various purposes:
+              </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-300">
                   <li>To provide and maintain our Card Rummy gaming Service</li>
                   <li>To verify your identity and prevent fraud</li>
@@ -104,7 +104,7 @@ export default function PrivacyPolicyPage() {
                   <li>All transactions are processed through secure payment gateways</li>
                   <li>We maintain detailed transaction logs for your security and reference</li>
                   <li>Your account number is encrypted and stored securely</li>
-                </ul>
+              </ul>
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Disclosure of Data</h2>
@@ -113,7 +113,7 @@ export default function PrivacyPolicyPage() {
                 <h3 className="text-2xl font-semibold mb-4 text-accent">Legal Requirements</h3>
                 <p className="text-gray-300">
                   We may disclose your Personal Data if required to do so by law or in response to valid requests by public authorities in Pakistan (e.g., a court or a government agency).
-                </p>
+              </p>
               </div>
               
               <div className="bg-[#0A1029] rounded-xl p-6 mb-8">
@@ -128,7 +128,7 @@ export default function PrivacyPolicyPage() {
                 </ul>
                 <p className="text-gray-300 mt-4">
                   We ensure all third parties comply with strict data protection standards.
-                </p>
+              </p>
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Data Security</h2>
@@ -145,14 +145,14 @@ export default function PrivacyPolicyPage() {
                 </ul>
                 <p className="text-gray-300 mt-4">
                   However, no method of transmission over the Internet or electronic storage is 100% secure. While we strive to protect your Personal Data, we cannot guarantee absolute security.
-                </p>
+              </p>
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Your Data Protection Rights</h2>
               <div className="bg-[#0A1029] rounded-xl p-6 mb-8">
                 <p className="text-gray-300 mb-4">
                   You have the following rights regarding your personal data:
-                </p>
+              </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-300">
                   <li><strong className="text-white">Right to Access:</strong> Request a copy of your personal data</li>
                   <li><strong className="text-white">Right to Rectification:</strong> Correct inaccurate or incomplete information</li>
@@ -160,10 +160,10 @@ export default function PrivacyPolicyPage() {
                   <li><strong className="text-white">Right to Object:</strong> Object to certain data processing activities</li>
                   <li><strong className="text-white">Right to Data Portability:</strong> Receive your data in a structured format</li>
                   <li><strong className="text-white">Right to Withdraw Consent:</strong> Withdraw consent for data processing at any time</li>
-                </ul>
+              </ul>
                 <p className="text-gray-300 mt-4">
                   To exercise any of these rights, please contact us at <a href="mailto:support@cardrummyapp.com.pk" className="text-accent hover:underline">support@cardrummyapp.com.pk</a>
-                </p>
+              </p>
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Age Restriction</h2>
@@ -173,7 +173,7 @@ export default function PrivacyPolicyPage() {
                 </p>
                 <p className="text-gray-300">
                   If you are a parent or guardian and you are aware that your child has provided us with Personal Data, please contact us immediately. If we become aware that we have collected Personal Data from users under 18 without verification of parental consent, we will take steps to remove that information from our servers.
-                </p>
+              </p>
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Cookies and Tracking</h2>
@@ -197,15 +197,15 @@ export default function PrivacyPolicyPage() {
                   <li>Sending an in-app notification for significant changes</li>
                 </ul>
                 <p className="text-gray-300 mt-4">
-                  You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
-                </p>
+                You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+              </p>
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Contact Us</h2>
               <div className="bg-accent/10 border-l-4 border-accent rounded-r-lg p-6 mb-4">
                 <p className="text-gray-300 mb-4">
                   If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
-                </p>
+              </p>
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-center">
                     <svg className="w-5 h-5 text-accent mr-3" fill="currentColor" viewBox="0 0 20 20">
@@ -230,7 +230,7 @@ export default function PrivacyPolicyPage() {
                     <strong className="text-white mr-2">Support:</strong>
                     <Link href="/contact-us" className="text-accent hover:underline">Visit Contact Us page</Link>
                   </li>
-                </ul>
+              </ul>
               </div>
               
               <div className="bg-[#0A1029] rounded-xl p-6 mt-8 text-center">
@@ -247,4 +247,4 @@ export default function PrivacyPolicyPage() {
       </div>
     </div>
   );
-}
+} 

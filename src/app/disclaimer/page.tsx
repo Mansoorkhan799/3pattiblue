@@ -72,7 +72,7 @@ export default function Disclaimer() {
                       <span className="text-accent mr-2 font-bold">•</span>
                       <span>Users are advised to be aware of their <strong>local laws and regulations</strong> related to online gaming and gambling before engaging with any app or website mentioned.</span>
                     </li>
-                  </ul>
+              </ul>
                 </div>
 
                 <div className="bg-[#0A1029] rounded-xl p-6 border border-red-200">
@@ -99,12 +99,12 @@ export default function Disclaimer() {
                     <li className="flex items-start">
                       <span className="text-blue-600 mr-2">✓</span>
                       <span>Be aware of the risks involved in real money gaming</span>
-                    </li>
+                </li>
                     <li className="flex items-start">
                       <span className="text-blue-600 mr-2">✓</span>
                       <span>Seek professional help if you have gambling concerns</span>
-                    </li>
-                  </ul>
+                </li>
+              </ul>
                 </div>
 
                 <div className="bg-[#0A1029] rounded-xl p-6 border border-accent">

@@ -106,8 +106,8 @@ export default function Footer() {
             </p>
             <a 
               href="https://pkcardrummy.com/?from_gameid=5784509&channelCode=100000"
-              target="_blank"
-              rel="noopener noreferrer"
+              target="_blank" 
+              rel="noopener noreferrer" 
               className="download-btn bg-transparent hover:bg-[#0ea5e9]/10 text-white font-bold py-3 px-6 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl border-2 border-[#0ea5e9]"
             >
               <span>DOWNLOAD NOW</span>
