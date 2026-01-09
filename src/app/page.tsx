@@ -5,10 +5,10 @@ import { Metadata } from 'next';
 // This additional metadata enhances the page-specific SEO
 export const metadata: Metadata = {
   title: {
-    default: "Card Rummy Game Download | New Earning App in Pakistan 2026",
+    default: "Card Rummy - Download APK | Play & Earn Real Money in Pakistan 2026",
     template: "%s | Card Rummy"
   },
-  description: "Download Card Rummy APK, Pakistan's premier card game platform. Play Teen Patti, Rummy, Dragon vs Tiger & more. Win real cash with JazzCash & EasyPaisa. Join 500K+ players!",
+  description: "Card Rummy - Pakistan's #1 card game platform. Download Card Rummy APK, play Teen Patti, Rummy, Dragon vs Tiger & win real cash. Fast withdrawals via JazzCash & EasyPaisa. Join 500K+ players!",
   keywords: [
     "Card Rummy",
     "3 Patti Card Rummy",
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
     "best earning app Pakistan"
   ],
   openGraph: {
-    title: 'Card Rummy Game Download | New Earning App in Pakistan 2026',
-    description: 'Join 500K+ players on Pakistan\'s premier card game platform. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
+    title: 'Card Rummy - Download APK | Play & Earn Real Money in Pakistan 2026',
+    description: 'Card Rummy - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
     images: [
       {
         url: 'https://cardrummyapp.com.pk/card-rummy-logo.webp',
@@ -41,8 +41,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Card Rummy Game Download | New Earning App in Pakistan 2026',
-    description: 'Join 500K+ players on Pakistan\'s premier card game platform. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
+    title: 'Card Rummy - Download APK | Play & Earn Real Money in Pakistan 2026',
+    description: 'Card Rummy - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
     images: ['https://cardrummyapp.com.pk/card-rummy-logo.webp']
   }
 };
@@ -127,18 +127,16 @@ export default function Home() {
           <div className="md:w-1/2 space-y-6">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-                <Link href="/" className="hover:text-[#FFA500] transition-colors">
-                  <span className="text-white">Card Rummy Game Download</span>
-                </Link>
+                <span className="text-white">Card Rummy</span>
               </h1>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
-                <span className="text-[#FFA500]">New Earning App</span>{' '}
-                <span className="text-white">in Pakistan 2026</span>
+                <span className="text-[#FFA500]">Download APK & Play</span>{' '}
+                <span className="text-white">Real Money Games in Pakistan 2026</span>
               </h2>
             </div>
             
             <p className="text-lg text-gray-300 leading-relaxed">
-              <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> is an exciting online card game where you can enjoy a wide collection of casino games with its attractive design, fun background music, and engaging look. <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">Download Card Rummy</Link> now to get this wonderful app and start playing.
+              <strong className="text-white font-semibold">Card Rummy</strong> is Pakistan's premier online card game platform where you can play Teen Patti, Rummy, Dragon vs Tiger, and many other exciting casino games. With <strong className="text-white font-semibold">Card Rummy</strong>, you can enjoy attractive graphics, smooth gameplay, and earn real cash rewards. <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">Download Card Rummy APK</Link> now to start playing and winning real money with fast withdrawals via JazzCash and EasyPaisa.
             </p>
 
             {/* Download Button */}
