@@ -250,6 +250,7 @@ export default function Home() {
                 fetchPriority="high"
                 quality={90}
                 sizes="320px"
+                style={{ width: '100%', height: '100%', objectFit: 'contain' }}
               />
             </div>
           </div>
@@ -267,6 +268,7 @@ export default function Home() {
                 fetchPriority="high"
                 quality={90}
                 sizes="280px"
+                style={{ width: '100%', height: '100%', objectFit: 'contain' }}
               />
             </div>
           </div>
