@@ -8,18 +8,18 @@
   "theme_color": "#06091F",
   "icons": [
     {
-      "src": "https://cardrummyapp.com.pk/favicon.ico",
+      "src": "/favicon.ico",
       "sizes": "16x16 32x32 48x48",
       "type": "image/x-icon"
     },
     {
-      "src": "https://cardrummyapp.com.pk/card-rummy.webp",
+      "src": "/card-rummy-logo.webp",
       "sizes": "192x192 512x512",
       "type": "image/webp",
       "purpose": "any maskable"
     },
     {
-      "src": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
+      "src": "/card-rummy.webp",
       "sizes": "512x512",
       "type": "image/webp",
       "purpose": "any"
