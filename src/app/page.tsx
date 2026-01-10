@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 // This additional metadata enhances the page-specific SEO
 export const metadata: Metadata = {
   title: {
-    default: "Card Rummy - Download APK | Play & Earn Real Money in Pakistan 2026",
+    default: "Card Rummy - Download APK | Play & Earn Real Money",
     template: "%s | Card Rummy"
   },
   description: "Card Rummy - Pakistan's #1 card game platform. Download Card Rummy APK, play Teen Patti, Rummy, Dragon vs Tiger & win real cash. Fast withdrawals via JazzCash & EasyPaisa. Join 500K+ players!",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "best earning app Pakistan"
   ],
   openGraph: {
-    title: 'Card Rummy - Download APK | Play & Earn Real Money in Pakistan 2026',
+    title: 'Card Rummy - Download APK | Play & Earn Real Money',
     description: 'Card Rummy - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
     images: [
       {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Card Rummy - Download APK | Play & Earn Real Money in Pakistan 2026',
+    title: 'Card Rummy - Download APK | Play & Earn Real Money',
     description: 'Card Rummy - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
     images: ['https://cardrummyapp.com.pk/card-rummy-logo.webp']
   }
