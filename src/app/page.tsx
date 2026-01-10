@@ -12,7 +12,17 @@ export const metadata: Metadata = {
   description: "Card Rummy 2026 - Pakistan's #1 card game platform. Download Card Rummy APK, play Teen Patti, Rummy, Dragon vs Tiger & win real cash. Fast withdrawals via JazzCash & EasyPaisa. Join 500K+ players!",
   keywords: [
     "Card Rummy",
+    "card rummy game",
+    "card rummy download",
+    "card rummy app",
+    "card rummy apk",
+    "card rummy pakistan",
+    "card rummy online",
+    "download card rummy",
+    "card rummy real money",
     "3 Patti Card Rummy",
+    "how to play card rummy",
+    "card rummy 2026",
     "Pakistan card games",
     "Teen Patti game",
     "online rummy game",
@@ -25,7 +35,10 @@ export const metadata: Metadata = {
     "card game earning app",
     "Teen Patti online",
     "Dragon vs Tiger",
-    "best earning app Pakistan"
+    "best earning app Pakistan",
+    "rummy card game",
+    "play rummy online",
+    "rummy game download"
   ],
   openGraph: {
     title: 'Card Rummy - Download APK | Play & Earn Real Money',
@@ -137,6 +150,14 @@ export default function Home() {
           },
           {
             "@type": "Question",
+            "name": "How to download Card Rummy app for Android?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "To download the Card Rummy app for Android, visit cardrummyapp.com.pk, click the download button, enable Unknown Sources in your settings, and install the APK file. The Card Rummy game is free to download and works on Android 5.0 or higher."
+            }
+          },
+          {
+            "@type": "Question",
             "name": "Is Card Rummy safe and legal?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -157,6 +178,46 @@ export default function Home() {
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "You can withdraw money from Card Rummy using JazzCash or EasyPaisa. Go to the Wallet section, click Withdrawal, choose your payment method, enter the amount and account details, then confirm. Withdrawals are processed quickly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What games are available on Card Rummy?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Card Rummy offers multiple games including Teen Patti, Classic Rummy, Dragon vs Tiger, Andar Bahar, Poker, and various slot games. All games are available 24/7 with real cash prizes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long do Card Rummy withdrawals take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Card Rummy withdrawals through JazzCash and EasyPaisa are processed within 5-30 minutes. The platform offers fast, secure withdrawals with no hidden fees."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the minimum withdrawal on Card Rummy?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The minimum withdrawal amount on Card Rummy depends on your payment method. Generally, you can withdraw as low as PKR 500 via JazzCash or EasyPaisa."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I contact Card Rummy customer support?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can contact Card Rummy customer support via 24/7 live chat within the app, email at support@cardrummyapp.com.pk, or through WhatsApp. Support team responds quickly to all queries."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What bonuses does Card Rummy offer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Card Rummy offers welcome bonuses for new users, daily login bonuses, deposit bonuses, referral bonuses, and recharge rebates. Special VIP bonuses are available for high-volume players."
             }
           }
         ]
