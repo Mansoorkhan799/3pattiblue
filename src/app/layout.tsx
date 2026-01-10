@@ -4,7 +4,7 @@ import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import DeferredStyles from "@/components/DeferredStyles";
-import ScrollToTop from "@/components/ScrollToTop";
+import ScrollToTopWrapper from "@/components/ScrollToTopWrapper";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -165,7 +165,7 @@ export default function RootLayout({
         </main>
         <DeferredStyles />
         <Footer />
-        <ScrollToTop />
+        <ScrollToTopWrapper />
         
         {/* Structured data for Organization */}
         <Script
