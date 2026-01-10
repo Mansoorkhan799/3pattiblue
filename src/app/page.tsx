@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from 'next/link';
+import Script from 'next/script';
 import { Metadata } from 'next';
 
 // This additional metadata enhances the page-specific SEO
@@ -166,8 +167,10 @@ export default function Home() {
   return (
     <>
       {/* Schema.org JSON-LD */}
-      <script
+      <Script
+        id="homepage-schema"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       
