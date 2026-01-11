@@ -27,7 +27,6 @@ img {
 /* Prevent layout shift for footer */
 footer {
   contain: layout style paint;
-  will-change: auto;
 }
 
 /* Optimize font loading to prevent layout shift */
@@ -35,23 +34,20 @@ body {
   font-display: swap;
 }
 
-/* Prevent layout shift for all images */
-img, picture, video {
-  max-width: 100%;
-  height: auto;
-  display: block;
+/* Reserve space for common elements to prevent CLS */
+main {
+  min-height: calc(100vh - 200px);
 }
 
-/* Optimize rendering performance */
-* {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Optimize LCP element rendering */
+p.text-lg.text-gray-300.leading-relaxed {
+  contain: layout style;
+  will-change: contents;
 }
 
-/* Prevent layout shift for footer */
-footer {
-  min-height: 300px;
-  contain: layout style paint;
+/* Reduce layout shifts */
+section {
+  contain: layout;
 }
 
 .download-btn {

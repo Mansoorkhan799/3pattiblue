@@ -146,13 +146,14 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/card-rummy-logo.webp" sizes="180x180" />
         <meta property="og:image" content="https://cardrummyapp.com.pk/card-rummy-logo.webp" />
         
-        {/* Preconnect to Google Tag Manager for faster loading */}
+        {/* Preconnect to external domains for faster loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="preconnect" href="https://www.google-analytics.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         
-        {/* Google Analytics - Load after page is interactive to avoid blocking */}
+        {/* Preload critical resources */}
+        <link rel="preload" href="/card-rummy-logo.webp" as="image" type="image/webp" />
+        
+        {/* Google Analytics - Load after page is interactive to reduce impact on LCP */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
           strategy="afterInteractive"
@@ -164,6 +165,7 @@ export default function RootLayout({
             gtag('js', new Date());
             gtag('config', 'G-XXXXXXXXXX', {
               page_path: window.location.pathname,
+              send_page_view: false
             });
           `}
         </Script>

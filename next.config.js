@@ -100,16 +100,9 @@ const nextConfig = {
       };
     }
 
-    // Target modern browsers - don't transpile modern JS features
-    // This reduces legacy JavaScript by not transpiling ES2022+ features
+    // Target modern browsers - don't transpile modern JavaScript features
     if (!isServer) {
       config.target = ['web', 'es2022'];
-      
-      // Optimize output for modern browsers
-      if (config.optimization) {
-        config.optimization.usedExports = true;
-        config.optimization.sideEffects = false;
-      }
     }
 
     return config;
@@ -120,9 +113,6 @@ const nextConfig = {
     optimizeCss: true,
     scrollRestoration: true,
   },
-
-  // Target modern browsers only - reduce legacy JavaScript
-  transpilePackages: [],
   
   // Modern module/nomodule pattern
   modularizeImports: {

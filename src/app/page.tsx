@@ -253,8 +253,8 @@ export default function Home() {
               </h2>
             </div>
             
-            <p className="text-lg text-gray-300 leading-relaxed">
-              <Link href="/" className="text-accent hover:underline">Card Rummy</Link> is Pakistan's premier online card game platform where you can play Teen Patti, Rummy, Dragon vs Tiger, and many other exciting casino games. Card Rummy offers the best card gaming experience with attractive graphics, smooth gameplay, and real cash rewards. <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">Download Card Rummy APK</Link> now to start playing and winning real money with fast withdrawals via JazzCash and EasyPaisa.
+            <p className="text-lg text-gray-300 leading-relaxed" style={{ contain: 'layout style' }}>
+              <Link href="/" className="text-accent hover:underline">Card Rummy</Link> is Pakistan's premier online card game platform, where you can play more than 30+ exciting casino games. Card Rummy offers the best card gaming experience with attractive graphics, smooth gameplay, and real cash rewards. So download now, start playing, and win real money with fast withdrawals via JazzCash and Easy Paisa.
             </p>
 
             {/* Download Button */}
