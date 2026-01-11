@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import DeferredStyles from "@/components/DeferredStyles";
 import ScrollToTopWrapper from "@/components/ScrollToTopWrapper";
+import WebVitalsTracker from "@/components/WebVitalsTracker";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -187,6 +188,7 @@ export default function RootLayout({
         <DeferredStyles />
         <Footer />
         <ScrollToTopWrapper />
+        <WebVitalsTracker />
         
         {/* Structured data for Organization */}
         <Script
