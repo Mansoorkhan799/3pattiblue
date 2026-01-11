@@ -24,9 +24,11 @@ img {
   height: auto;
 }
 
-/* Prevent layout shift for footer - reserve space without excessive whitespace */
+/* Prevent layout shift for footer */
 footer {
   contain: layout style paint;
+  min-height: 400px;
+  height: auto;
 }
 
 /* Optimize font loading to prevent layout shift */
@@ -59,11 +61,6 @@ p.text-lg.text-gray-300.leading-relaxed {
 /* Reduce layout shifts */
 section {
   contain: layout;
-}
-
-/* Optimize image loading */
-img[loading="lazy"] {
-  content-visibility: auto;
 }
 
 .download-btn {

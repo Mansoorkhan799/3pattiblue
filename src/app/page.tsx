@@ -253,11 +253,9 @@ export default function Home() {
               </h2>
             </div>
             
-            <div className="text-lg text-gray-300 leading-relaxed" style={{ contain: 'layout style', minHeight: '140px', display: 'block' }}>
-              <p>
-                <Link href="/" className="text-accent hover:underline">Card Rummy</Link> is Pakistan's premier online card game platform, where you can play more than 30+ exciting casino games. Card Rummy offers the best card gaming experience with attractive graphics, smooth gameplay, and real cash rewards. So download now, start playing, and win real money with fast withdrawals via JazzCash and Easy Paisa.
-              </p>
-            </div>
+            <p className="text-lg text-gray-300 leading-relaxed" style={{ contain: 'layout style', minHeight: '120px', display: 'block' }}>
+              <Link href="/" className="text-accent hover:underline">Card Rummy</Link> is Pakistan's premier online card game platform, where you can play more than 30+ exciting casino games. Card Rummy offers the best card gaming experience with attractive graphics, smooth gameplay, and real cash rewards. So download now, start playing, and win real money with fast withdrawals via JazzCash and Easy Paisa.
+            </p>
 
             {/* Download Button */}
             <div className="flex justify-center my-8">
@@ -309,7 +307,7 @@ export default function Home() {
 
           {/* Desktop Image */}
           <div className="hidden md:block md:w-1/2 md:mt-8">
-            <div className="relative ml-auto" style={{ width: '320px', height: '320px', maxWidth: '100%', contain: 'layout style' }}>
+            <div className="relative ml-auto" style={{ width: '320px', height: '320px', maxWidth: '100%' }}>
               <Image
                 src="/card-rummy.webp"
                 alt="Card Rummy Logo"
@@ -318,7 +316,7 @@ export default function Home() {
                 className="object-contain drop-shadow-2xl"
                 priority={true}
                 fetchPriority="high"
-                quality={85}
+                quality={90}
                 sizes="320px"
                 style={{ width: '100%', height: '100%', objectFit: 'contain' }}
               />
@@ -327,7 +325,7 @@ export default function Home() {
 
           {/* Mobile Image */}
           <div className="mt-8 md:hidden">
-            <div className="relative mx-auto" style={{ width: '280px', height: '280px', maxWidth: '100%', contain: 'layout style' }}>
+            <div className="relative mx-auto" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
               <Image
                 src="/card-rummy.webp"
                 alt="Card Rummy Logo"
@@ -336,7 +334,7 @@ export default function Home() {
                 className="object-contain drop-shadow-2xl"
                 priority={true}
                 fetchPriority="high"
-                quality={85}
+                quality={90}
                 sizes="280px"
                 style={{ width: '100%', height: '100%', objectFit: 'contain' }}
               />
