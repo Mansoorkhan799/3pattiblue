@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: '3Patti Blue vs Card Rummy: Which Game Is Better for Earning Real Cash? 2026',

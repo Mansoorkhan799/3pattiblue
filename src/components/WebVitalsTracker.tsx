@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import { onCLS, onFID, onFCP, onLCP, onTTFB, onINP, Metric } from 'web-vitals';
+import { onCLS, onFCP, onLCP, onTTFB, onINP, Metric } from 'web-vitals';
 
 // Function to send Core Web Vitals to Google Analytics
 function sendToAnalytics(metric: Metric) {
@@ -19,12 +19,12 @@ function sendToAnalytics(metric: Metric) {
 export default function WebVitalsTracker() {
   useEffect(() => {
     // Track Core Web Vitals
+    // Note: onFID is deprecated, replaced by onINP
     onCLS(sendToAnalytics);
-    onFID(sendToAnalytics);
     onFCP(sendToAnalytics);
     onLCP(sendToAnalytics);
     onTTFB(sendToAnalytics);
-    onINP(sendToAnalytics);
+    onINP(sendToAnalytics); // Replaces onFID
   }, []);
 
   return null;
