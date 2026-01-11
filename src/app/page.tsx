@@ -240,7 +240,7 @@ export default function Home() {
       />
       
       {/* Hero Section with improved spacing */}
-      <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto" style={{ minHeight: '400px' }}>
         <div className="md:flex md:items-start md:justify-between md:space-x-12 lg:space-x-20">
           <div className="md:w-1/2 space-y-6">
             <div className="space-y-4">
@@ -253,7 +253,7 @@ export default function Home() {
               </h2>
             </div>
             
-            <p className="text-lg text-gray-300 leading-relaxed" style={{ contain: 'layout style' }}>
+            <p className="text-lg text-gray-300 leading-relaxed" style={{ contain: 'layout style', minHeight: '120px', display: 'block' }}>
               <Link href="/" className="text-accent hover:underline">Card Rummy</Link> is Pakistan's premier online card game platform, where you can play more than 30+ exciting casino games. Card Rummy offers the best card gaming experience with attractive graphics, smooth gameplay, and real cash rewards. So download now, start playing, and win real money with fast withdrawals via JazzCash and Easy Paisa.
             </p>
 

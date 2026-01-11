@@ -103,6 +103,11 @@ const nextConfig = {
     // Target modern browsers - don't transpile modern JavaScript features
     if (!isServer) {
       config.target = ['web', 'es2022'];
+      
+      // Disable polyfills for modern features
+      config.resolve.alias = {
+        ...config.resolve.alias,
+      };
     }
 
     return config;
@@ -112,6 +117,7 @@ const nextConfig = {
   experimental: {
     optimizeCss: true,
     scrollRestoration: true,
+    optimizePackageImports: ['react-icons'],
   },
   
   // Modern module/nomodule pattern

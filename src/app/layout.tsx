@@ -152,20 +152,22 @@ export default function RootLayout({
         
         {/* Preload critical resources */}
         <link rel="preload" href="/card-rummy-logo.webp" as="image" type="image/webp" />
+        <link rel="preload" href="/card-rummy.webp" as="image" type="image/webp" />
         
         {/* Google Analytics - Load after page is interactive to reduce impact on LCP */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-XXXXXXXXXX', {
               page_path: window.location.pathname,
-              send_page_view: false
+              send_page_view: false,
+              transport_type: 'beacon'
             });
           `}
         </Script>

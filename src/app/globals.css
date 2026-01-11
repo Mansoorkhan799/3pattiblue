@@ -27,11 +27,23 @@ img {
 /* Prevent layout shift for footer */
 footer {
   contain: layout style paint;
+  min-height: 400px;
+  height: auto;
 }
 
 /* Optimize font loading to prevent layout shift */
 body {
   font-display: swap;
+}
+
+/* Prevent font-related layout shifts */
+* {
+  font-family: inherit;
+}
+
+/* Reserve space for hero section to prevent CLS */
+section.py-8 {
+  min-height: 400px;
 }
 
 /* Reserve space for common elements to prevent CLS */
@@ -42,7 +54,8 @@ main {
 /* Optimize LCP element rendering */
 p.text-lg.text-gray-300.leading-relaxed {
   contain: layout style;
-  will-change: contents;
+  min-height: 120px;
+  display: block;
 }
 
 /* Reduce layout shifts */
