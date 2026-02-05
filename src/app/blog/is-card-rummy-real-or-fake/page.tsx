@@ -379,7 +379,7 @@ export default function CardRummyRealOrFakePage() {
                 <h4 className="text-white font-semibold mb-2">📥 Download Card Rummy APK</h4>
                 <p className="text-gray-400 text-sm">Get the latest version of Card Rummy for Android</p>
               </Link>
-              <Link href="/blog/create-account-login" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+              <Link href="/blog/create-card-rummy-account-and-login" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
                 <h4 className="text-white font-semibold mb-2">🔐 Account & Login Guide</h4>
                 <p className="text-gray-400 text-sm">Learn how to create and secure your account</p>
               </Link>
