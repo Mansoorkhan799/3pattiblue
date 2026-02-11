@@ -110,7 +110,9 @@ export default function Home() {
         },
         "foundingDate": "2024",
         "sameAs": [
-          "https://www.facebook.com/share/1at8tjJcje/"
+          "https://www.facebook.com/profile.php?id=61587903094679",
+          "https://x.com/juniper60122",
+          "https://www.pinterest.com/3patiblue/"
         ],
         "contactPoint": {
           "@type": "ContactPoint",

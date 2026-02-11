@@ -221,7 +221,9 @@ export default function RootLayout({
               "description": "3Patti Blue is Pakistan's most trusted Teen Patti gaming platform since 2024, offering authentic Teen Patti, Rummy, and 30+ card games with instant payouts and verified security.",
               "foundingDate": "2024",
               "sameAs": [
-                "https://www.facebook.com/share/1at8tjJcje/"
+                "https://www.facebook.com/profile.php?id=61587903094679",
+                "https://x.com/juniper60122",
+                "https://www.pinterest.com/3patiblue/"
               ],
               "aggregateRating": {
                 "@type": "AggregateRating",
