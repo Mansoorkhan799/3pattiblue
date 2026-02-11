@@ -1,32 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Main Sitemap (All Pages) -->
+  <!-- Pages Sitemap -->
   <sitemap>
-    <loc>https://3patiblueapp.com.pk/sitemap.xml</loc>
+    <loc>https://3patiblueapp.com.pk/page-sitemap.xml</loc>
     <lastmod>2026-02-11</lastmod>
   </sitemap>
   
-  <!-- Pages Sitemap (Main Pages Only) -->
+  <!-- Posts Sitemap -->
   <sitemap>
-    <loc>https://3patiblueapp.com.pk/pages-sitemap.xml</loc>
-    <lastmod>2026-02-11</lastmod>
-  </sitemap>
-  
-  <!-- Posts Sitemap (Blog Posts Only) -->
-  <sitemap>
-    <loc>https://3patiblueapp.com.pk/posts-sitemap.xml</loc>
+    <loc>https://3patiblueapp.com.pk/post-sitemap.xml</loc>
     <lastmod>2026-02-11</lastmod>
   </sitemap>
   
   <!-- Image Sitemap -->
   <sitemap>
     <loc>https://3patiblueapp.com.pk/image-sitemap.xml</loc>
-    <lastmod>2026-02-11</lastmod>
-  </sitemap>
-  
-  <!-- Dynamic API Sitemap (Auto-generated) -->
-  <sitemap>
-    <loc>https://3patiblueapp.com.pk/api/sitemap</loc>
     <lastmod>2026-02-11</lastmod>
   </sitemap>
 </sitemapindex>
