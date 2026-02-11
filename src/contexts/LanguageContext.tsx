@@ -19,11 +19,11 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       try {
-        const savedLang = localStorage.getItem('preferred-language') as Language;
-        if (savedLang && (savedLang === 'en' || savedLang === 'ur')) {
-          setLanguage(savedLang);
-          document.documentElement.setAttribute('lang', savedLang === 'ur' ? 'ur-PK' : 'en-PK');
-          document.documentElement.setAttribute('dir', savedLang === 'ur' ? 'rtl' : 'ltr');
+      const savedLang = localStorage.getItem('preferred-language') as Language;
+      if (savedLang && (savedLang === 'en' || savedLang === 'ur')) {
+        setLanguage(savedLang);
+        document.documentElement.setAttribute('lang', savedLang === 'ur' ? 'ur-PK' : 'en-PK');
+        document.documentElement.setAttribute('dir', savedLang === 'ur' ? 'rtl' : 'ltr');
         }
       } catch (error) {
         // Handle corrupted localStorage gracefully
@@ -46,7 +46,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     setLanguage(newLang);
     
     try {
-      localStorage.setItem('preferred-language', newLang);
+    localStorage.setItem('preferred-language', newLang);
     } catch (error) {
       console.error('Error saving language preference:', error);
     }

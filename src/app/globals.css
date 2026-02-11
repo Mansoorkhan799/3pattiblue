@@ -107,7 +107,7 @@ section {
 /* Prevent layout shift by ensuring content takes up space */
 .stars-bg {
   pointer-events: none;
-}
+} 
 
 /* Mobile Menu Animations */
 @keyframes fadeIn {
