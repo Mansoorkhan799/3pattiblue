@@ -355,11 +355,11 @@ export default function BlogHighPayoutGames() {
           </p>
 
           <p className="text-gray-300 mb-4">
-            <strong>Teen Patti</strong> and <strong>Rummy</strong> offer higher potential payouts for skilled players but require more experience and carry more risk. They're best for players who have built a bankroll and mastered the basics. For more strategies, check our <Link href="/blog/tips-to-win-big-in-card-rummy" className="text-[#FFA500] hover:underline font-semibold">tips to win big guide</Link>.
+            <strong>Teen Patti</strong> and <strong>Rummy</strong> offer higher potential payouts for skilled players but require more experience and carry more risk. They're best for players who have built a bankroll and mastered the basics. For more strategies, check our <Link href="/blog/tips-to-win-big-in-3-patti-blue" className="text-[#FFA500] hover:underline font-semibold">tips to win big guide</Link>.
           </p>
 
           <p className="text-gray-300 mb-4">
-            <strong>Best strategy:</strong> Start with Dragon vs Tiger to build your bankroll, then gradually explore other games. Use Andar Bahar for steady income, and advance to Teen Patti/Rummy as you gain skill and confidence. New to 3Patti Blue? See our <Link href="/blog/how-to-use-card-rummy-app-pakistan-guide-2026" className="text-[#FFA500] hover:underline font-semibold">complete beginner's guide</Link>.
+            <strong>Best strategy:</strong> Start with Dragon vs Tiger to build your bankroll, then gradually explore other games. Use Andar Bahar for steady income, and advance to Teen Patti/Rummy as you gain skill and confidence. New to 3Patti Blue? See our <Link href="/blog/how-to-use-3-patti-blue-app-pakistan-guide-2026" className="text-[#FFA500] hover:underline font-semibold">complete beginner's guide</Link>.
           </p>
 
           <p className="text-gray-300 mb-4">
@@ -368,7 +368,7 @@ export default function BlogHighPayoutGames() {
 
           <div className="mt-12 text-center">
             <Link 
-              href="/download-card-rummy"
+              href="/download-3-patti-blue"
               className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"
             >
               Download 3Patti Blue - Start Playing High-Payout Games
@@ -379,11 +379,11 @@ export default function BlogHighPayoutGames() {
         <aside className="mt-16 pt-8 border-t border-gray-700">
           <h3 className="text-2xl font-bold text-white mb-6">Related Articles</h3>
           <div className="grid md:grid-cols-2 gap-6">
-            <Link href="/blog/tips-to-win-big-in-card-rummy" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
+            <Link href="/blog/tips-to-win-big-in-3-patti-blue" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
               <h4 className="text-xl font-semibold text-white mb-2">Tips to Win Big in 3Patti Blue</h4>
               <p className="text-gray-400">Advanced strategies for maximizing earnings</p>
             </Link>
-            <Link href="/blog/how-to-use-card-rummy-app-pakistan-guide-2026" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
+            <Link href="/blog/how-to-use-3-patti-blue-app-pakistan-guide-2026" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
               <h4 className="text-xl font-semibold text-white mb-2">Complete Beginner's Guide</h4>
               <p className="text-gray-400">Learn how to use 3Patti Blue app</p>
             </Link>

@@ -147,7 +147,7 @@ export default function MobileNavigation() {
                 </span>
               </Link>
               <Link 
-                href="/download-card-rummy" 
+                href="/download-3-patti-blue" 
                 className="group relative text-white hover:text-accent py-4 px-6 text-lg font-bold transition-all duration-300 rounded-2xl border-2 border-transparent hover:border-accent/50 bg-gradient-to-r from-transparent to-transparent hover:from-accent/5 hover:to-accent/10 hover:shadow-lg hover:shadow-accent/20 hover:translate-x-2 active:scale-95"
                 onClick={() => setIsOpen(false)}
               >
@@ -157,7 +157,7 @@ export default function MobileNavigation() {
                 </span>
               </Link>
               <Link 
-                href="/deposit-money-in-card-rummy" 
+                href="/deposit-money-in-3-patti-blue" 
                 className="group relative text-white hover:text-accent py-4 px-6 text-lg font-bold transition-all duration-300 rounded-2xl border-2 border-transparent hover:border-accent/50 bg-gradient-to-r from-transparent to-transparent hover:from-accent/5 hover:to-accent/10 hover:shadow-lg hover:shadow-accent/20 hover:translate-x-2 active:scale-95"
                 onClick={() => setIsOpen(false)}
               >
@@ -167,7 +167,7 @@ export default function MobileNavigation() {
                 </span>
               </Link>
               <Link 
-                href="/withdraw-money-from-card-rummy" 
+                href="/withdraw-money-from-3-patti-blue" 
                 className="group relative text-white hover:text-accent py-4 px-6 text-lg font-bold transition-all duration-300 rounded-2xl border-2 border-transparent hover:border-accent/50 bg-gradient-to-r from-transparent to-transparent hover:from-accent/5 hover:to-accent/10 hover:shadow-lg hover:shadow-accent/20 hover:translate-x-2 active:scale-95"
                 onClick={() => setIsOpen(false)}
               >

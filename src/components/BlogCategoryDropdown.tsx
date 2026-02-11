@@ -7,7 +7,7 @@ const BlogCategoryDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const categories = [
-    { name: 'Account & Login', href: '/blog/create-card-rummy-account-and-login' },
+    { name: 'Account & Login', href: '/blog/create-3-patti-blue-account-and-login' },
   ];
 
   return (

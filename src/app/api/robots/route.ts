@@ -38,18 +38,18 @@ Disallow: /api/
 Disallow: /admin/
 
 # Priority pages (3Patti Blue routes)
-Allow: /download-card-rummy
-Allow: /deposit-money-in-card-rummy
-Allow: /withdraw-money-from-card-rummy
-Allow: /card-rummy-for-pc
+Allow: /download-3-patti-blue
+Allow: /deposit-money-in-3-patti-blue
+Allow: /withdraw-money-from-3-patti-blue
+Allow: /3-patti-blue-for-pc
 Allow: /about-us
 Allow: /blog
-Allow: /blog/is-card-rummy-real-or-fake
-Allow: /blog/create-card-rummy-account-and-login
-Allow: /blog/tips-to-win-big-in-card-rummy
-Allow: /blog/3patti-blue-vs-card-rummy
-Allow: /blog/3patti-gold-vs-card-rummy
-Allow: /blog/3patti-lucky-vs-card-rummy
+Allow: /blog/is-3-patti-blue-real-or-fake
+Allow: /blog/create-3-patti-blue-account-and-login
+Allow: /blog/tips-to-win-big-in-3-patti-blue
+Allow: /blog/3patti-blue-vs-other-apps
+Allow: /blog/3patti-gold-vs-3patti-blue
+Allow: /blog/3patti-lucky-vs-3patti-blue
 Allow: /blog/dragon-vs-tiger-andar-bahar-high-payout-games
 
 # Standard pages

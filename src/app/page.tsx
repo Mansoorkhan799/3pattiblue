@@ -151,8 +151,8 @@ export default function Home() {
           "availability": "https://schema.org/InStock",
           "priceValidUntil": "2026-12-31"
         },
-        "downloadUrl": "https://3patiblueapp.com.pk/download-card-rummy",
-        "installUrl": "https://3patiblueapp.com.pk/download-card-rummy",
+        "downloadUrl": "https://3patiblueapp.com.pk/download-3-patti-blue",
+        "installUrl": "https://3patiblueapp.com.pk/download-3-patti-blue",
         "softwareVersion": "1.204(1)",
         "releaseNotes": "Enhanced security, faster withdrawals, improved UI/UX, new game modes",
         "datePublished": "2024-01-15",

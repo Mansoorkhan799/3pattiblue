@@ -35,13 +35,13 @@ export default function Header() {
           <Link href="/" className="text-white hover:text-accent font-medium transition-colors">
             {t('header.home')}
           </Link>
-          <Link href="/download-card-rummy" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/download-3-patti-blue" className="text-white hover:text-accent font-medium transition-colors">
             {t('header.download')}
           </Link>
-          <Link href="/deposit-money-in-card-rummy" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/deposit-money-in-3-patti-blue" className="text-white hover:text-accent font-medium transition-colors">
             {t('header.deposit')}
           </Link>
-          <Link href="/withdraw-money-from-card-rummy" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/withdraw-money-from-3-patti-blue" className="text-white hover:text-accent font-medium transition-colors">
             {t('header.withdraw')}
           </Link>
           <Link href="/about-us" className="text-white hover:text-accent font-medium transition-colors">

@@ -47,7 +47,7 @@ export default function Blog() {
             <span>•</span>
             <span>18 min read</span>
           </div>
-          <Link href="/blog/card-rummy-app-review-2026" className="text-accent hover:underline font-semibold">
+          <Link href="/blog/3-patti-blue-app-review-2026" className="text-accent hover:underline font-semibold">
             Read More →
           </Link>
         </div>
@@ -61,7 +61,7 @@ export default function Blog() {
             <span>•</span>
             <span>7 min read</span>
           </div>
-          <Link href="/blog/is-card-rummy-real-or-fake" className="text-accent hover:underline font-semibold">
+          <Link href="/blog/is-3-patti-blue-real-or-fake" className="text-accent hover:underline font-semibold">
             Read More →
           </Link>
         </div>
@@ -75,7 +75,7 @@ export default function Blog() {
             <span>•</span>
             <span>15 min read</span>
           </div>
-          <Link href="/blog/how-to-use-card-rummy-app-pakistan-guide-2026" className="text-accent hover:underline font-semibold">
+          <Link href="/blog/how-to-use-3-patti-blue-app-pakistan-guide-2026" className="text-accent hover:underline font-semibold">
             Read More →
           </Link>
         </div>
@@ -89,7 +89,7 @@ export default function Blog() {
             <span>•</span>
             <span>5 min read</span>
           </div>
-          <Link href="/blog/create-card-rummy-account-and-login" className="text-accent hover:underline font-semibold">
+          <Link href="/blog/create-3-patti-blue-account-and-login" className="text-accent hover:underline font-semibold">
             Read More →
           </Link>
         </div>
@@ -103,7 +103,7 @@ export default function Blog() {
             <span>•</span>
             <span>6 min read</span>
           </div>
-          <Link href="/blog/tips-to-win-big-in-card-rummy" className="text-accent hover:underline font-semibold">
+          <Link href="/blog/tips-to-win-big-in-3-patti-blue" className="text-accent hover:underline font-semibold">
             Read More →
           </Link>
         </div>
@@ -117,7 +117,7 @@ export default function Blog() {
             <span>•</span>
             <span>13 min read</span>
           </div>
-          <Link href="/blog/card-rummy-tips-10-smart-tricks" className="text-accent hover:underline font-semibold">
+          <Link href="/blog/3-patti-blue-tips-10-smart-tricks" className="text-accent hover:underline font-semibold">
             Read More →
           </Link>
         </div>
@@ -145,7 +145,7 @@ export default function Blog() {
             <span>•</span>
             <span>16 min read</span>
           </div>
-          <Link href="/blog/card-rummy-bonuses-vip-guide" className="text-accent hover:underline font-semibold">
+          <Link href="/blog/3-patti-blue-bonuses-vip-guide" className="text-accent hover:underline font-semibold">
             Read More →
           </Link>
         </div>
@@ -159,7 +159,7 @@ export default function Blog() {
             <span>•</span>
             <span>14 min read</span>
           </div>
-          <Link href="/blog/is-card-rummy-safe-legal-pakistan" className="text-accent hover:underline font-semibold">
+          <Link href="/blog/is-3-patti-blue-safe-legal-pakistan" className="text-accent hover:underline font-semibold">
             Read More →
           </Link>
         </div>
@@ -173,7 +173,7 @@ export default function Blog() {
             <span>•</span>
             <span>15 min read</span>
           </div>
-          <Link href="/blog/responsible-gaming-guide-card-rummy" className="text-accent hover:underline font-semibold">
+          <Link href="/blog/responsible-gaming-guide-3-patti-blue" className="text-accent hover:underline font-semibold">
             Read More →
           </Link>
         </div>
@@ -187,7 +187,7 @@ export default function Blog() {
             <span>•</span>
             <span>8 min read</span>
           </div>
-          <Link href="/blog/3patti-blue-vs-card-rummy" className="text-accent hover:underline font-semibold">
+          <Link href="/blog/3patti-blue-vs-other-apps" className="text-accent hover:underline font-semibold">
             Read More →
           </Link>
         </div>
@@ -201,7 +201,7 @@ export default function Blog() {
             <span>•</span>
             <span>9 min read</span>
           </div>
-          <Link href="/blog/3patti-gold-vs-card-rummy" className="text-accent hover:underline font-semibold">
+          <Link href="/blog/3patti-gold-vs-3patti-blue" className="text-accent hover:underline font-semibold">
             Read More →
           </Link>
         </div>
@@ -215,7 +215,7 @@ export default function Blog() {
             <span>•</span>
             <span>10 min read</span>
           </div>
-          <Link href="/blog/3patti-lucky-vs-card-rummy" className="text-accent hover:underline font-semibold">
+          <Link href="/blog/3patti-lucky-vs-3patti-blue" className="text-accent hover:underline font-semibold">
             Read More →
           </Link>
         </div>
@@ -229,7 +229,7 @@ export default function Blog() {
             <span>•</span>
             <span>11 min read</span>
           </div>
-          <Link href="/blog/3patti-room-vs-card-rummy" className="text-accent hover:underline font-semibold">
+          <Link href="/blog/3patti-room-vs-3patti-blue" className="text-accent hover:underline font-semibold">
             Read More →
           </Link>
         </div>

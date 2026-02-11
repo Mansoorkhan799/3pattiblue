@@ -39,12 +39,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/download-card-rummy" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/download-3-patti-blue" className="text-gray-300 hover:text-accent transition-colors">
                   {t('header.download')}
                 </Link>
               </li>
               <li>
-                <Link href="/card-rummy-for-pc" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/3-patti-blue-for-pc" className="text-gray-300 hover:text-accent transition-colors">
                   {t('header.pcVersion')}
                 </Link>
               </li>
@@ -73,22 +73,22 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/deposit-money-in-card-rummy" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/deposit-money-in-3-patti-blue" className="text-gray-300 hover:text-accent transition-colors">
                   {t('footer.depositGuide')}
                 </Link>
               </li>
               <li>
-                <Link href="/withdraw-money-from-card-rummy" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/withdraw-money-from-3-patti-blue" className="text-gray-300 hover:text-accent transition-colors">
                   {t('footer.withdrawGuide')}
                 </Link>
               </li>
               <li>
-                <Link href="/blog/create-card-rummy-account-and-login" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/blog/create-3-patti-blue-account-and-login" className="text-gray-300 hover:text-accent transition-colors">
                   {t('footer.accountLogin')}
                 </Link>
               </li>
               <li>
-                <Link href="/blog/tips-to-win-big-in-card-rummy" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/blog/tips-to-win-big-in-3-patti-blue" className="text-gray-300 hover:text-accent transition-colors">
                   {t('footer.tipsToWin')}
                 </Link>
               </li>

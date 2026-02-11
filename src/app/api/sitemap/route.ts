@@ -37,7 +37,7 @@ export async function GET() {
       ]
     },
     {
-      url: '/download-card-rummy',
+      url: '/download-3-patti-blue',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9,
@@ -50,19 +50,19 @@ export async function GET() {
       ]
     },
     {
-      url: '/deposit-money-in-card-rummy',
+      url: '/deposit-money-in-3-patti-blue',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9
     },
     {
-      url: '/withdraw-money-from-card-rummy',
+      url: '/withdraw-money-from-3-patti-blue',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9
     },
     {
-      url: '/card-rummy-for-pc',
+      url: '/3-patti-blue-for-pc',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9,
@@ -123,61 +123,61 @@ export async function GET() {
   // Blog posts
   const blogPosts: PageType[] = [
     {
-      url: '/blog/is-card-rummy-real-or-fake',
+      url: '/blog/is-3-patti-blue-real-or-fake',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/create-card-rummy-account-and-login',
+      url: '/blog/create-3-patti-blue-account-and-login',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/tips-to-win-big-in-card-rummy',
+      url: '/blog/tips-to-win-big-in-3-patti-blue',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/3patti-blue-vs-card-rummy',
+      url: '/blog/3patti-blue-vs-other-apps',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/3patti-gold-vs-card-rummy',
+      url: '/blog/3patti-gold-vs-3patti-blue',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/3patti-lucky-vs-card-rummy',
+      url: '/blog/3patti-lucky-vs-3patti-blue',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/3patti-room-vs-card-rummy',
+      url: '/blog/3patti-room-vs-3patti-blue',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/card-rummy-app-review-2026',
+      url: '/blog/3-patti-blue-app-review-2026',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/card-rummy-bonuses-vip-guide',
+      url: '/blog/3-patti-blue-bonuses-vip-guide',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/card-rummy-tips-10-smart-tricks',
+      url: '/blog/3-patti-blue-tips-10-smart-tricks',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
@@ -195,19 +195,19 @@ export async function GET() {
       priority: 0.8
     },
     {
-      url: '/blog/how-to-use-card-rummy-app-pakistan-guide-2026',
+      url: '/blog/how-to-use-3-patti-blue-app-pakistan-guide-2026',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/is-card-rummy-safe-legal-pakistan',
+      url: '/blog/is-3-patti-blue-safe-legal-pakistan',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
     },
     {
-      url: '/blog/responsible-gaming-guide-card-rummy',
+      url: '/blog/responsible-gaming-guide-3-patti-blue',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
