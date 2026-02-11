@@ -2,61 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://cardrummyapp.com.pk/</loc>
+    <loc>https://3patiblueapp.com.pk/</loc>
     <image:image>
-      <image:loc>https://cardrummyapp.com.pk/favicon.ico</image:loc>
-      <image:title>Card Rummy Favicon</image:title>
-      <image:caption>Card Rummy site icon and favicon</image:caption>
+      <image:loc>https://3patiblueapp.com.pk/favicon.ico</image:loc>
+      <image:title>3Patti Blue Favicon</image:title>
+      <image:caption>3Patti Blue site icon and favicon</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cardrummyapp.com.pk/card-rummy.webp</image:loc>
-      <image:title>Card Rummy Logo</image:title>
-      <image:caption>Card Rummy - Pakistan's Premier Card Gaming Platform</image:caption>
+      <image:loc>https://3patiblueapp.com.pk/3-patti-blue.webp</image:loc>
+      <image:title>3Patti Blue Logo</image:title>
+      <image:caption>3Patti Blue - Pakistan's Premier Teen Patti Gaming Platform</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cardrummyapp.com.pk/card-rummy-logo.webp</image:loc>
-      <image:title>Card Rummy Official Logo</image:title>
-      <image:caption>Official Card Rummy logo for social media and branding</image:caption>
+      <image:loc>https://3patiblueapp.com.pk/3-patti-blue-logo.webp</image:loc>
+      <image:title>3Patti Blue Official Logo</image:title>
+      <image:caption>Official 3Patti Blue logo for social media and branding</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cardrummyapp.com.pk/card-rummy-game-interface.webp</image:loc>
-      <image:title>Card Rummy Game Interface</image:title>
-      <image:caption>Card Rummy mobile app game interface and loading screen</image:caption>
+      <image:loc>https://3patiblueapp.com.pk/3pattiblue.webp</image:loc>
+      <image:title>3Patti Blue App Icon</image:title>
+      <image:caption>3Patti Blue mobile app icon and brand identity</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cardrummyapp.com.pk/card-rummy-games.webp</image:loc>
-      <image:title>Card Rummy Games Collection</image:title>
-      <image:caption>Card Rummy games collection showing Teen Patti, Rummy, Dragon vs Tiger and more</image:caption>
+      <image:loc>https://3patiblueapp.com.pk/3-patti-blue-app.webp</image:loc>
+      <image:title>3Patti Blue Mobile App</image:title>
+      <image:caption>3Patti Blue mobile app interface and loading screen</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cardrummyapp.com.pk/card-rummy-earn-bonus.webp</image:loc>
-      <image:title>Card Rummy Bonuses &amp; Rewards</image:title>
-      <image:caption>Card Rummy bonuses, rewards, and referral program interface</image:caption>
+      <image:loc>https://3patiblueapp.com.pk/3-patti-blue-game.webp</image:loc>
+      <image:title>3Patti Blue Games Collection</image:title>
+      <image:caption>3Patti Blue games collection showing Teen Patti, Rummy, Dragon vs Tiger and more</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cardrummyapp.com.pk/card-rummy-add-money.webp</image:loc>
-      <image:title>Card Rummy Deposit Money</image:title>
-      <image:caption>Card Rummy deposit money interface with JazzCash and EasyPaisa payment methods</image:caption>
+      <image:loc>https://3patiblueapp.com.pk/3-patti-blue-pakistan.webp</image:loc>
+      <image:title>3Patti Blue Pakistan</image:title>
+      <image:caption>3Patti Blue gaming platform designed for Pakistan players</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cardrummyapp.com.pk/card-rummy-withdraw-money.webp</image:loc>
-      <image:title>Card Rummy Withdraw Money</image:title>
-      <image:caption>Card Rummy withdraw money interface for fast withdrawals via JazzCash and EasyPaisa</image:caption>
+      <image:loc>https://3patiblueapp.com.pk/3-patti-blue-apk-add-money.webp</image:loc>
+      <image:title>3Patti Blue Deposit Money</image:title>
+      <image:caption>3Patti Blue deposit money interface with JazzCash and EasyPaisa payment methods</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cardrummyapp.com.pk/card-rummy-refer-and-earn.webp</image:loc>
-      <image:title>Card Rummy Refer and Earn</image:title>
-      <image:caption>Card Rummy referral program to earn money by inviting friends</image:caption>
+      <image:loc>https://3patiblueapp.com.pk/3-patti-blue-withdraw-money.webp</image:loc>
+      <image:title>3Patti Blue Withdraw Money</image:title>
+      <image:caption>3Patti Blue withdraw money interface for fast withdrawals via JazzCash and EasyPaisa</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cardrummyapp.com.pk/card-rummy-recharge-rebate.webp</image:loc>
-      <image:title>Card Rummy Recharge Rebate</image:title>
-      <image:caption>Card Rummy recharge rebate and VIP bonus system</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://cardrummyapp.com.pk/card-rummy-bind-mail.webp</image:loc>
-      <image:title>Card Rummy Account Security</image:title>
-      <image:caption>Card Rummy account security and email binding interface</image:caption>
+      <image:loc>https://3patiblueapp.com.pk/3-patti-blue-Pakistan-refer-and-earn.webp</image:loc>
+      <image:title>3Patti Blue Refer and Earn</image:title>
+      <image:caption>3Patti Blue referral program to earn money by inviting friends in Pakistan</image:caption>
     </image:image>
   </url>
 </urlset>
