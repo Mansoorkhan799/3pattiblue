@@ -44,7 +44,7 @@ export default function Header() {
           <Link href="/withdraw-money-from-3-patti-blue" className="text-white hover:text-accent font-medium transition-colors">
             {t('header.withdraw')}
           </Link>
-          <Link href="/about-us" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/3-patti-blue-pakistan-about-us" className="text-white hover:text-accent font-medium transition-colors">
             {t('header.aboutUs')}
           </Link>
           <Link href="/blog" className="text-white hover:text-accent font-medium transition-colors">

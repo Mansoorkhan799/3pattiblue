@@ -177,7 +177,7 @@ export default function MobileNavigation() {
                 </span>
               </Link>
               <Link 
-                href="/about-us" 
+                href="/3-patti-blue-pakistan-about-us" 
                 className="group relative text-white hover:text-accent py-4 px-6 text-lg font-bold transition-all duration-300 rounded-2xl border-2 border-transparent hover:border-accent/50 bg-gradient-to-r from-transparent to-transparent hover:from-accent/5 hover:to-accent/10 hover:shadow-lg hover:shadow-accent/20 hover:translate-x-2 active:scale-95"
                 onClick={() => setIsOpen(false)}
               >

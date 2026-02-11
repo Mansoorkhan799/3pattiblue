@@ -18,12 +18,12 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://3patiblueapp.com.pk/about-us",
+    canonical: "https://3patiblueapp.com.pk/3-patti-blue-pakistan-about-us",
   },
   openGraph: {
     title: 'About 3Patti Blue - Pakistan\'s Most Trusted Teen Patti Platform',
     description: 'Discover 3Patti Blue\'s journey from 2024 to becoming Pakistan\'s #1 Teen Patti platform. Join 1M+ players earning real cash with instant withdrawals.',
-    url: "https://3patiblueapp.com.pk/about-us",
+    url: "https://3patiblueapp.com.pk/3-patti-blue-pakistan-about-us",
     siteName: "3Patti Blue",
     locale: "en_PK",
     type: "website",

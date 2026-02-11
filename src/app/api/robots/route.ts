@@ -42,7 +42,7 @@ Allow: /download-3-patti-blue
 Allow: /deposit-money-in-3-patti-blue
 Allow: /withdraw-money-from-3-patti-blue
 Allow: /3-patti-blue-for-pc
-Allow: /about-us
+Allow: /3-patti-blue-pakistan-about-us
 Allow: /blog
 Allow: /blog/is-3-patti-blue-real-or-fake
 Allow: /blog/create-3-patti-blue-account-and-login

@@ -75,15 +75,15 @@ export async function GET() {
       ]
     },
     {
-      url: '/about-us',
+      url: '/3-patti-blue-pakistan-about-us',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.7,
       images: [
         {
           loc: '/3-patti-blue.webp',
-          title: 'About 3Patti Blue',
-          caption: 'Learn about 3Patti Blue gaming platform'
+          title: 'About 3Patti Blue Pakistan',
+          caption: 'Learn about 3Patti Blue gaming platform in Pakistan'
         }
       ]
     },

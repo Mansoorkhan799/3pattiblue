@@ -54,7 +54,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/about-us" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/3-patti-blue-pakistan-about-us" className="text-gray-300 hover:text-accent transition-colors">
                   {t('header.aboutUs')}
                 </Link>
               </li>

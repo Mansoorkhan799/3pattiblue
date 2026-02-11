@@ -41,7 +41,7 @@ export default function Contact() {
           <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                Welcome to the Contact Us page of this site. Here, we will share the source to contact us. Feel free to contact us if you are facing any problems regarding our site, such as <Link href="/" className="text-accent hover:underline font-semibold">3Patti Blue</Link> APP related content or <Link href="/about-us" className="text-accent hover:text-accent font-semibold">About us</Link>, <Link href="/privacy" className="text-accent hover:text-accent font-semibold">privacy policy</Link>, etc.
+                Welcome to the Contact Us page of this site. Here, we will share the source to contact us. Feel free to contact us if you are facing any problems regarding our site, such as <Link href="/" className="text-accent hover:underline font-semibold">3Patti Blue</Link> APP related content or <Link href="/3-patti-blue-pakistan-about-us" className="text-accent hover:text-accent font-semibold">About us</Link>, <Link href="/privacy" className="text-accent hover:text-accent font-semibold">privacy policy</Link>, etc.
               </p>
 
               {/* Email Contact Section */}
@@ -104,7 +104,7 @@ export default function Contact() {
               </div>
               <h3 className="text-xl font-bold mb-2 text-white">About Us</h3>
               <p className="text-gray-400 mb-4">Learn more about our platform</p>
-              <Link href="/about-us" className="text-accent hover:text-accent font-semibold">
+              <Link href="/3-patti-blue-pakistan-about-us" className="text-accent hover:text-accent font-semibold">
                 About Us →
               </Link>
             </div>
