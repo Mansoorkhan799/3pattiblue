@@ -2,23 +2,23 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Card Rummy App Review 2026: Features, Pros, Cons, and Payout Speed',
-  description: 'Complete Card Rummy app review 2026: Honest analysis of features, games, bonuses, withdrawal speed, pros & cons. Is Card Rummy worth it for Pakistan players?',
+  title: '3Patti Blue App Review 2026: Features, Pros, Cons, and Payout Speed',
+  description: 'Complete 3Patti Blue app review 2026: Honest analysis of features, games, bonuses, withdrawal speed, pros & cons. Is 3Patti Blue worth it for Pakistan players?',
   keywords: [
-    'Card Rummy review',
-    'Card Rummy app review',
-    'Card Rummy review 2026',
-    'Card Rummy pros cons',
-    'Card Rummy features',
-    'Card Rummy payout speed',
-    'is Card Rummy good',
-    'Card Rummy worth it',
-    'Card Rummy honest review',
-    'Card Rummy Pakistan review'
+    '3Patti Blue review',
+    '3Patti Blue app review',
+    '3Patti Blue review 2026',
+    '3Patti Blue pros cons',
+    '3Patti Blue features',
+    '3Patti Blue payout speed',
+    'is 3Patti Blue good',
+    '3Patti Blue worth it',
+    '3Patti Blue honest review',
+    '3Patti Blue Pakistan review'
   ],
   openGraph: {
-    title: 'Card Rummy App Review 2026: Features, Pros, Cons, and Payout Speed',
-    description: 'Honest, comprehensive review of Card Rummy app. Features, games, bonuses, withdrawal speed, and real user experience for 2026.',
+    title: '3Patti Blue App Review 2026: Features, Pros, Cons, and Payout Speed',
+    description: 'Honest, comprehensive review of 3Patti Blue app. Features, games, bonuses, withdrawal speed, and real user experience for 2026.',
     type: 'article',
   },
 };
@@ -32,12 +32,12 @@ export default function BlogCardRummyAppReview() {
           <span className="mx-2">/</span>
           <Link href="/blog" className="hover:text-[#FFA500]">Blog</Link>
           <span className="mx-2">/</span>
-          <span className="text-white">Card Rummy App Review 2026</span>
+          <span className="text-white">3Patti Blue App Review 2026</span>
         </nav>
 
         <header className="mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Card Rummy App Review 2026: Features, Pros, Cons, and Payout Speed
+            3Patti Blue App Review 2026: Features, Pros, Cons, and Payout Speed
           </h1>
           <div className="flex items-center gap-4 text-gray-400 text-sm">
             <time dateTime="2026-01-11">January 11, 2026</time>
@@ -48,13 +48,13 @@ export default function BlogCardRummyAppReview() {
 
         <div className="prose prose-invert prose-lg max-w-none">
           <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-            Is <Link href="/" className="text-[#FFA500] hover:underline font-semibold">Card Rummy</Link> worth your time and money? This comprehensive 2026 review covers everything: games, bonuses, withdrawal speed, user experience, and honest pros and cons. Whether you're a beginner or experienced player, this review will help you decide if Card Rummy is right for you.
+            Is <Link href="/" className="text-[#FFA500] hover:underline font-semibold">3Patti Blue</Link> worth your time and money? This comprehensive 2026 review covers everything: games, bonuses, withdrawal speed, user experience, and honest pros and cons. Whether you're a beginner or experienced player, this review will help you decide if 3Patti Blue is right for you.
           </p>
 
           <div className="bg-gradient-to-r from-purple-800/50 to-orange-600/50 rounded-lg p-8 my-8">
             <p className="text-white text-2xl font-bold mb-4">Overall Rating: 4.5/5 ⭐</p>
             <p className="text-white text-lg">
-              Card Rummy is one of the best real money gaming apps in Pakistan, with fast withdrawals, generous bonuses, and multiple games. However, it operates in a legal gray area and requires responsible play.
+              3Patti Blue is one of the best real money gaming apps in Pakistan, with fast withdrawals, generous bonuses, and multiple games. However, it operates in a legal gray area and requires responsible play.
             </p>
           </div>
 
@@ -92,7 +92,7 @@ export default function BlogCardRummyAppReview() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">1. Games Available - Rating: 5/5</h2>
           
           <p className="text-gray-300 mb-4">
-            Card Rummy offers <strong>4 different games</strong>, which is more variety than most competitors:
+            3Patti Blue offers <strong>4 different games</strong>, which is more variety than most competitors:
           </p>
 
           <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Game Breakdown</h3>
@@ -131,7 +131,7 @@ export default function BlogCardRummyAppReview() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">2. Bonuses & Promotions - Rating: 5/5</h2>
           
           <p className="text-gray-300 mb-4">
-            Card Rummy has one of the <strong>most generous bonus systems</strong> in Pakistan:
+            3Patti Blue has one of the <strong>most generous bonus systems</strong> in Pakistan:
           </p>
 
           <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Bonus Breakdown</h3>
@@ -155,7 +155,7 @@ export default function BlogCardRummyAppReview() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">3. Withdrawal Speed - Rating: 5/5</h2>
           
           <p className="text-gray-300 mb-4">
-            <strong>This is Card Rummy's biggest strength.</strong> Withdrawal speed is unmatched:
+            <strong>This is 3Patti Blue's biggest strength.</strong> Withdrawal speed is unmatched:
           </p>
 
           <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Withdrawal Times</h3>
@@ -180,7 +180,7 @@ export default function BlogCardRummyAppReview() {
           <div className="bg-green-900/30 border border-green-600 rounded-lg p-6 my-8">
             <p className="text-white font-semibold mb-2">⚡ Withdrawal Verdict</p>
             <p className="text-gray-300">
-              Best-in-class. 5-30 minute withdrawals are 10-50x faster than competitors. This alone makes Card Rummy worth considering if fast payouts matter to you.
+              Best-in-class. 5-30 minute withdrawals are 10-50x faster than competitors. This alone makes 3Patti Blue worth considering if fast payouts matter to you.
             </p>
           </div>
 
@@ -229,7 +229,7 @@ export default function BlogCardRummyAppReview() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">6. VIP Program - Rating: 5/5</h2>
           
           <p className="text-gray-300 mb-4">
-            Card Rummy's VIP program is <strong>comprehensive and rewarding</strong>:
+            3Patti Blue's VIP program is <strong>comprehensive and rewarding</strong>:
           </p>
 
           <h3 className="text-2xl font-semibold text-white mt-8 mb-4">VIP Highlights</h3>
@@ -303,7 +303,7 @@ export default function BlogCardRummyAppReview() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-white mt-12 mb-6">10. Is Card Rummy Worth It?</h2>
+          <h2 className="text-3xl font-bold text-white mt-12 mb-6">10. Is 3Patti Blue Worth It?</h2>
           
           <h3 className="text-2xl font-semibold text-white mt-8 mb-4">For Beginners</h3>
           <p className="text-gray-300 mb-4">
@@ -334,7 +334,7 @@ export default function BlogCardRummyAppReview() {
           <div className="bg-gradient-to-r from-purple-800 to-orange-600 rounded-lg p-8 my-8">
             <h3 className="text-2xl font-bold text-white mb-4">Overall Rating: 4.5/5 ⭐</h3>
             <p className="text-white text-lg mb-4">
-              <strong>Card Rummy is one of the best real money gaming apps in Pakistan.</strong> It excels in:
+              <strong>3Patti Blue is one of the best real money gaming apps in Pakistan.</strong> It excels in:
             </p>
             <ul className="list-disc pl-6 text-white space-y-2 mb-4">
               <li>Withdrawal speed (5-30 minutes - unmatched)</li>
@@ -351,7 +351,7 @@ export default function BlogCardRummyAppReview() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">Recommendation</h2>
           
           <p className="text-gray-300 mb-4">
-            <strong>Card Rummy is recommended IF:</strong>
+            <strong>3Patti Blue is recommended IF:</strong>
           </p>
           <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
             <li>You can afford to lose the money you play with</li>
@@ -362,7 +362,7 @@ export default function BlogCardRummyAppReview() {
           </ul>
 
           <p className="text-gray-300 mb-4">
-            <strong>Card Rummy is NOT recommended IF:</strong>
+            <strong>3Patti Blue is NOT recommended IF:</strong>
           </p>
           <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
             <li>You have gambling addiction issues</li>
@@ -375,14 +375,14 @@ export default function BlogCardRummyAppReview() {
           <div className="bg-orange-600/20 border border-orange-500 rounded-lg p-6 my-8">
             <p className="text-white font-semibold mb-2">⚠️ Final Warning</p>
             <p className="text-gray-300">
-              Card Rummy is a real money gaming app. You can lose money. The legal status is ambiguous. Only play with money you can afford to lose, set strict limits, and play responsibly. If you have addiction concerns, don't play.
+              3Patti Blue is a real money gaming app. You can lose money. The legal status is ambiguous. Only play with money you can afford to lose, set strict limits, and play responsibly. If you have addiction concerns, don't play.
             </p>
           </div>
 
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">Conclusion</h2>
           
           <p className="text-gray-300 mb-4">
-            Card Rummy is a well-designed, feature-rich gaming app with excellent withdrawal speed, generous bonuses, and comprehensive VIP rewards. For players who can manage risk responsibly, it offers one of the best gaming experiences in Pakistan.
+            3Patti Blue is a well-designed, feature-rich gaming app with excellent withdrawal speed, generous bonuses, and comprehensive VIP rewards. For players who can manage risk responsibly, it offers one of the best gaming experiences in Pakistan.
           </p>
 
           <p className="text-gray-300 mb-4">
@@ -390,7 +390,7 @@ export default function BlogCardRummyAppReview() {
           </p>
 
           <p className="text-gray-300 mb-4">
-            <strong>Bottom line:</strong> If you're looking for fast payouts, good bonuses, and game variety, Card Rummy is an excellent choice - as long as you play responsibly.
+            <strong>Bottom line:</strong> If you're looking for fast payouts, good bonuses, and game variety, 3Patti Blue is an excellent choice - as long as you play responsibly.
           </p>
 
           <div className="mt-12 text-center">
@@ -398,7 +398,7 @@ export default function BlogCardRummyAppReview() {
               href="/download-card-rummy"
               className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"
             >
-              Download Card Rummy APK v1.225
+              Download 3Patti Blue APK v1.225
             </Link>
           </div>
         </div>
@@ -407,7 +407,7 @@ export default function BlogCardRummyAppReview() {
           <h3 className="text-2xl font-bold text-white mb-6">Related Reviews & Guides</h3>
           <div className="grid md:grid-cols-2 gap-6">
             <Link href="/blog/is-card-rummy-safe-legal-pakistan" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
-              <h4 className="text-xl font-semibold text-white mb-2">Is Card Rummy Safe and Legal?</h4>
+              <h4 className="text-xl font-semibold text-white mb-2">Is 3Patti Blue Safe and Legal?</h4>
               <p className="text-gray-400">Complete safety and legal analysis</p>
             </Link>
             <Link href="/blog/responsible-gaming-guide-card-rummy" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">

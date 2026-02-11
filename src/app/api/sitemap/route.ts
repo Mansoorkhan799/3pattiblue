@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://cardrummyapp.com.pk';
+  const baseUrl = 'https://3patiblueapp.com.pk';
   
   // Define page type
   type PageType = {
@@ -25,14 +25,14 @@ export async function GET() {
       priority: 1.0,
       images: [
         {
-          loc: '/card-rummy.webp',
-          title: 'Card Rummy Logo',
-          caption: 'The official logo of Card Rummy gaming platform'
+          loc: '/3-patti-blue.webp',
+          title: '3Patti Blue Logo',
+          caption: 'The official logo of 3Patti Blue gaming platform'
         },
         {
-          loc: '/card-rummy-logo.webp',
-          title: 'Card Rummy Hero Image',
-          caption: 'Card Rummy gaming platform showcase'
+          loc: '/3-patti-blue-logo.webp',
+          title: '3Patti Blue Hero Image',
+          caption: '3Patti Blue gaming platform showcase'
         }
       ]
     },
@@ -43,9 +43,9 @@ export async function GET() {
       priority: 0.9,
       images: [
         {
-          loc: '/card-rummy.webp',
-          title: 'Download Card Rummy',
-          caption: 'Download Card Rummy APK for Android'
+          loc: '/3-patti-blue.webp',
+          title: 'Download 3Patti Blue APK',
+          caption: 'Download official 3Patti Blue APK for Android'
         }
       ]
     },
@@ -68,9 +68,9 @@ export async function GET() {
       priority: 0.9,
       images: [
         {
-          loc: '/card-rummy.webp',
-          title: 'Card Rummy for PC',
-          caption: 'Play Card Rummy on PC using Android Emulator'
+          loc: '/3-patti-blue.webp',
+          title: '3Patti Blue for PC',
+          caption: 'Play 3Patti Blue on PC using Android Emulator'
         }
       ]
     },
@@ -81,9 +81,9 @@ export async function GET() {
       priority: 0.7,
       images: [
         {
-          loc: '/card-rummy.webp',
-          title: 'About Card Rummy',
-          caption: 'Learn about Card Rummy gaming platform'
+          loc: '/3-patti-blue.webp',
+          title: 'About 3Patti Blue',
+          caption: 'Learn about 3Patti Blue gaming platform'
         }
       ]
     },
@@ -94,9 +94,9 @@ export async function GET() {
       priority: 0.8,
       images: [
         {
-          loc: '/card-rummy.webp',
-          title: 'Card Rummy Blog',
-          caption: 'Guides and tutorials for Card Rummy gaming platform'
+          loc: '/3-patti-blue.webp',
+          title: '3Patti Blue Blog',
+          caption: 'Guides and tutorials for 3Patti Blue gaming platform'
         }
       ]
     },
@@ -136,6 +136,78 @@ export async function GET() {
     },
     {
       url: '/blog/tips-to-win-big-in-card-rummy',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/3patti-blue-vs-card-rummy',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/3patti-gold-vs-card-rummy',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/3patti-lucky-vs-card-rummy',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/3patti-room-vs-card-rummy',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/card-rummy-app-review-2026',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/card-rummy-bonuses-vip-guide',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/card-rummy-tips-10-smart-tricks',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/create-account-login',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/dragon-vs-tiger-andar-bahar-high-payout-games',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/how-to-use-card-rummy-app-pakistan-guide-2026',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/is-card-rummy-safe-legal-pakistan',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/responsible-gaming-guide-card-rummy',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8

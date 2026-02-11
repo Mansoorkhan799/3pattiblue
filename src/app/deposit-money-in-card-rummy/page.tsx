@@ -2,23 +2,23 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Deposit Money in Card Rummy? | Quick & Safe Payment Guide 2026',
-  description: 'Learn how to deposit money in Card Rummy using JazzCash and EasyPaisa. Follow our step-by-step guide for quick, safe, and secure deposits.',
+  title: 'How to Deposit Money in 3Patti Blue? | Quick & Safe Payment Guide 2026',
+  description: 'Learn how to deposit money in 3Patti Blue using JazzCash and EasyPaisa. Follow our step-by-step guide for quick, safe, and secure deposits.',
   keywords: 'deposit money card rummy, card rummy payment methods, jazzcash deposit, easypaisa deposit, add funds card rummy, card rummy recharge',
   openGraph: {
-    title: 'How to Deposit Money in Card Rummy? | Quick & Safe Payment Guide',
-    description: 'Step-by-step guide to deposit money in Card Rummy using JazzCash and EasyPaisa. Quick, safe, and secure payment methods.',
-    url: 'https://cardrummyapp.com.pk/deposit-money-in-card-rummy',
-    siteName: 'Card Rummy',
+    title: 'How to Deposit Money in 3Patti Blue? | Quick & Safe Payment Guide',
+    description: 'Step-by-step guide to deposit money in 3Patti Blue using JazzCash and EasyPaisa. Quick, safe, and secure payment methods.',
+    url: 'https://3patiblueapp.com.pk/deposit-money-in-card-rummy',
+    siteName: '3Patti Blue',
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Deposit Money in Card Rummy?',
-    description: 'Learn how to deposit money in Card Rummy using JazzCash and EasyPaisa with our complete guide.',
+    title: 'How to Deposit Money in 3Patti Blue?',
+    description: 'Learn how to deposit money in 3Patti Blue using JazzCash and EasyPaisa with our complete guide.',
   },
   alternates: {
-    canonical: 'https://cardrummyapp.com.pk/deposit-money-in-card-rummy',
+    canonical: 'https://3patiblueapp.com.pk/deposit-money-in-card-rummy',
   },
 };
 
@@ -30,13 +30,13 @@ export default function DepositMoneyPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              How to Deposit Money in Card Rummy?
+              How to Deposit Money in 3Patti Blue?
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8">
               Quick, Safe & Easy Payment Methods with JazzCash and EasyPaisa
             </p>
             <Link
-              href="https://pkcardrummy.com/?from_gameid=5784509&channelCode=100000"
+              href="https://3pattibluevip.com?from_gameid=9483409&channelCode=100000"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-accent text-primary px-8 py-4 rounded-full text-lg font-bold hover:bg-accent/90 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105"
@@ -53,10 +53,10 @@ export default function DepositMoneyPage() {
           <div className="max-w-4xl mx-auto">
             <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> is an exciting online game where users can play many amazing games daily. If you haven't already, <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">download Card Rummy</Link> to get started. You need to deposit money to enjoy it without any problems. Adding funds to the Card Rummy Game is very easy, as it offers quick and safe payment methods, including JazzCash and Easy Paisa.
+                <Link href="/" className="text-accent hover:underline font-semibold">3Patti Blue</Link> is an exciting online game where users can play many amazing games daily. If you haven't already, <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">download 3Patti Blue</Link> to get started. You need to deposit money to enjoy it without any problems. Adding funds to the 3Patti Blue Game is very easy, as it offers quick and safe payment methods, including JazzCash and Easy Paisa.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                Card Rummy offers a simple deposit method that all new players can use without any confusion. It takes only a few minutes, and your money will be added immediately. Once you've earned money through gameplay, you can easily <Link href="/withdraw-money-from-card-rummy" className="text-accent hover:underline font-semibold">withdraw money from Card Rummy</Link> using the same secure payment methods.
+                3Patti Blue offers a simple deposit method that all new players can use without any confusion. It takes only a few minutes, and your money will be added immediately. Once you've earned money through gameplay, you can easily <Link href="/withdraw-money-from-card-rummy" className="text-accent hover:underline font-semibold">withdraw money from 3Patti Blue</Link> using the same secure payment methods.
               </p>
             </div>
           </div>
@@ -68,7 +68,7 @@ export default function DepositMoneyPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
-              Steps to Deposit Money in Card Rummy
+              Steps to Deposit Money in 3Patti Blue
             </h2>
 
             <div className="space-y-8">
@@ -79,9 +79,9 @@ export default function DepositMoneyPage() {
                     1
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Open Card Rummy App</h3>
+                    <h3 className="text-2xl font-bold text-white mb-3">Open 3Patti Blue App</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      First, open the Card Rummy app on your Android device. Your internet connection must be stable to open the app. Log in to your account by entering your registered phone number and password. Enter your login details correctly to log in successfully.
+                      First, open the 3Patti Blue app on your Android device. Your internet connection must be stable to open the app. Log in to your account by entering your registered phone number and password. Enter your login details correctly to log in successfully.
                     </p>
                   </div>
                 </div>
@@ -156,7 +156,7 @@ export default function DepositMoneyPage() {
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-white mb-3">Approve Payment</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      After clicking on the submit button, you will receive a payment request on your selected account. Log in to your account and approve the payment request that you have received from 3Card Rummy.
+                      After clicking on the submit button, you will receive a payment request on your selected account. Log in to your account and approve the payment request that you have received from 33Patti Blue.
                     </p>
                   </div>
                 </div>
@@ -171,7 +171,7 @@ export default function DepositMoneyPage() {
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-white mb-3">Wait for Complete Payment</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      After approving the payment request, a deposit will be added to your 3Patti Card Rummy account instantly. Sometimes it can take longer due to payment delays or network issues. When you receive payment, you can use it to play games without any hurdles.
+                      After approving the payment request, a deposit will be added to your 3Patti 3Patti Blue account instantly. Sometimes it can take longer due to payment delays or network issues. When you receive payment, you can use it to play games without any hurdles.
                     </p>
                   </div>
                 </div>
@@ -212,7 +212,7 @@ export default function DepositMoneyPage() {
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-300">Add a small amount if you are a beginner in Card Rummy.</span>
+                  <span className="text-lg text-gray-300">Add a small amount if you are a beginner in 3Patti Blue.</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
@@ -233,7 +233,7 @@ export default function DepositMoneyPage() {
             <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Conclusion</h2>
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                Adding funds to Card Rummy is a fast and easy method if you follow all the steps correctly. You are required to open the app, tap the shop button, enter the correct payment details, and approve payment requests to deposit money into your Card Rummy account.
+                Adding funds to 3Patti Blue is a fast and easy method if you follow all the steps correctly. You are required to open the app, tap the shop button, enter the correct payment details, and approve payment requests to deposit money into your 3Patti Blue account.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 You must use secure and real payment methods to deposit money safely and enjoy games instantly. New users can easily add funds to their accounts and play games by following the proper steps.
@@ -253,28 +253,28 @@ export default function DepositMoneyPage() {
             <div className="space-y-6">
               <div className="bg-secondary rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
                 <h3 className="text-xl font-bold text-accent mb-3">
-                  How can we add money to our Card Rummy account?
+                  How can we add money to our 3Patti Blue account?
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  You can add money to your Card Rummy account by opening the app, selecting the shop option, choosing a payment method and amount, confirming the deposit, and approving the payment request.
+                  You can add money to your 3Patti Blue account by opening the app, selecting the shop option, choosing a payment method and amount, confirming the deposit, and approving the payment request.
                 </p>
               </div>
 
               <div className="bg-secondary rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
                 <h3 className="text-xl font-bold text-accent mb-3">
-                  Is adding funds to Card Rummy secure?
+                  Is adding funds to 3Patti Blue secure?
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  Yes, it is safe to add funds to Card Rummy, as it uses a modern security system to protect your personal data and funds.
+                  Yes, it is safe to add funds to 3Patti Blue, as it uses a modern security system to protect your personal data and funds.
                 </p>
               </div>
 
               <div className="bg-secondary rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
                 <h3 className="text-xl font-bold text-accent mb-3">
-                  Which payment methods are available on Card Rummy?
+                  Which payment methods are available on 3Patti Blue?
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  Card Rummy provides two payment methods, including Easypaisa and Jazzcash, that are secure and authentic.
+                  3Patti Blue provides two payment methods, including Easypaisa and Jazzcash, that are secure and authentic.
                 </p>
               </div>
             </div>
@@ -290,15 +290,15 @@ export default function DepositMoneyPage() {
               Ready to Start Playing?
             </h2>
             <p className="text-lg text-gray-300 mb-8">
-              Download Card Rummy now and deposit money to start earning real cash!
+              Download 3Patti Blue now and deposit money to start earning real cash!
             </p>
             <Link
-              href="https://pkcardrummy.com/?from_gameid=5784509&channelCode=100000"
+              href="https://3pattibluevip.com?from_gameid=9483409&channelCode=100000"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-accent text-primary px-8 py-4 rounded-full text-lg font-bold hover:bg-accent/90 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105"
             >
-              Download Card Rummy Now
+              Download 3Patti Blue Now
             </Link>
           </div>
         </div>
@@ -311,13 +311,13 @@ export default function DepositMoneyPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "HowTo",
-            "name": "How to Deposit Money in Card Rummy",
-            "description": "Step-by-step guide to deposit money in Card Rummy using JazzCash and EasyPaisa",
+            "name": "How to Deposit Money in 3Patti Blue",
+            "description": "Step-by-step guide to deposit money in 3Patti Blue using JazzCash and EasyPaisa",
             "step": [
               {
                 "@type": "HowToStep",
-                "name": "Open Card Rummy App",
-                "text": "Open the Card Rummy app on your Android device and log in to your account."
+                "name": "Open 3Patti Blue App",
+                "text": "Open the 3Patti Blue app on your Android device and log in to your account."
               },
               {
                 "@type": "HowToStep",
@@ -347,7 +347,7 @@ export default function DepositMoneyPage() {
               {
                 "@type": "HowToStep",
                 "name": "Wait for Complete Payment",
-                "text": "Wait for the deposit to be added to your Card Rummy account."
+                "text": "Wait for the deposit to be added to your 3Patti Blue account."
               }
             ]
           })

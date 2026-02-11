@@ -2,22 +2,22 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: '3Patti Lucky vs Card Rummy: Which Game Is Better for Earning Real Cash? 2026',
-  description: '3Patti Lucky vs Card Rummy detailed comparison 2026: Games, bonuses, payout speed & earning analysis. Find the best real money app for Pakistan!',
+  title: '3Patti Lucky vs 3Patti Blue: Which Game Is Better for Earning Real Cash? 2026',
+  description: '3Patti Lucky vs 3Patti Blue detailed comparison 2026: Games, bonuses, payout speed & earning analysis. Find the best real money app for Pakistan!',
   keywords: [
-    '3Patti Lucky vs Card Rummy',
-    'Card Rummy vs 3Patti Lucky',
+    '3Patti Lucky vs 3Patti Blue',
+    '3Patti Blue vs 3Patti Lucky',
     '3Patti Lucky',
-    'Card Rummy comparison',
+    '3Patti Blue comparison',
     'best earning app Pakistan',
     'real money game comparison',
     'Teen Patti app comparison',
     '3Patti Lucky review',
-    'Card Rummy review'
+    '3Patti Blue review'
   ],
   openGraph: {
-    title: '3Patti Lucky vs Card Rummy: Which Game Is Better for Earning Real Cash?',
-    description: '3Patti Lucky vs Card Rummy comparison: Discover which app offers better earning potential, bonuses & withdrawals for Pakistan players!',
+    title: '3Patti Lucky vs 3Patti Blue: Which Game Is Better for Earning Real Cash?',
+    description: '3Patti Lucky vs 3Patti Blue comparison: Discover which app offers better earning potential, bonuses & withdrawals for Pakistan players!',
     type: 'article',
   },
 };
@@ -31,12 +31,12 @@ export default function Blog3PattiLuckyVsCardRummy() {
           <span className="mx-2">/</span>
           <Link href="/blog" className="hover:text-[#FFA500]">Blog</Link>
           <span className="mx-2">/</span>
-          <span className="text-white">3Patti Lucky vs Card Rummy</span>
+          <span className="text-white">3Patti Lucky vs 3Patti Blue</span>
         </nav>
 
         <header className="mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            3Patti Lucky vs Card Rummy: Which Game Is Better for Earning Real Cash?
+            3Patti Lucky vs 3Patti Blue: Which Game Is Better for Earning Real Cash?
           </h1>
           <div className="flex items-center gap-4 text-gray-400 text-sm">
             <time dateTime="2026-01-11">January 11, 2026</time>
@@ -47,7 +47,7 @@ export default function Blog3PattiLuckyVsCardRummy() {
 
         <div className="prose prose-invert prose-lg max-w-none">
           <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-            Looking to earn real cash from card games in Pakistan? <strong>3Patti Lucky</strong> and <Link href="/" className="text-[#FFA500] hover:underline font-semibold">Card Rummy</Link> are both popular choices, but they offer very different experiences and earning potentials. This comprehensive comparison will help you decide which platform is worth your time and money.
+            Looking to earn real cash from card games in Pakistan? <strong>3Patti Lucky</strong> and <Link href="/" className="text-[#FFA500] hover:underline font-semibold">3Patti Blue</Link> are both popular choices, but they offer very different experiences and earning potentials. This comprehensive comparison will help you decide which platform is worth your time and money.
           </p>
 
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">Quick Comparison Overview</h2>
@@ -57,7 +57,7 @@ export default function Blog3PattiLuckyVsCardRummy() {
                 <tr className="bg-purple-900">
                   <th className="border border-gray-700 p-4 text-left text-white">Feature</th>
                   <th className="border border-gray-700 p-4 text-left text-white">3Patti Lucky</th>
-                  <th className="border border-gray-700 p-4 text-left text-white">Card Rummy</th>
+                  <th className="border border-gray-700 p-4 text-left text-white">3Patti Blue</th>
                 </tr>
               </thead>
               <tbody>
@@ -120,9 +120,9 @@ export default function Blog3PattiLuckyVsCardRummy() {
             It's still just Teen Patti. If you get bored with the game or hit a losing streak, you have limited options.
           </p>
 
-          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Card Rummy</h3>
+          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">3Patti Blue</h3>
           <p className="text-gray-300 mb-4">
-            Card Rummy offers a complete gaming ecosystem:
+            3Patti Blue offers a complete gaming ecosystem:
           </p>
           <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
             <li><strong>Teen Patti:</strong> All variants including AK47, Joker, Muflis</li>
@@ -132,7 +132,7 @@ export default function Blog3PattiLuckyVsCardRummy() {
           </ul>
 
           <div className="bg-purple-800/30 border border-purple-600 rounded-lg p-6 my-8">
-            <p className="text-white font-semibold mb-2">🏆 Winner: Card Rummy</p>
+            <p className="text-white font-semibold mb-2">🏆 Winner: 3Patti Blue</p>
             <p className="text-gray-300">4 different games vs 1 game. More variety = more earning opportunities + less boredom. Switch games based on your skill or luck on any given day.</p>
           </div>
 
@@ -150,7 +150,7 @@ export default function Blog3PattiLuckyVsCardRummy() {
             Total first deposit value: If you deposit ₨4,000, you get ₨2,000 bonus = ₨6,000 total
           </p>
 
-          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Card Rummy Bonuses</h3>
+          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">3Patti Blue Bonuses</h3>
           <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
             <li>Welcome Bonus: Up to ₨500</li>
             <li>First Deposit: 100% bonus (max ₨5,000)</li>
@@ -165,7 +165,7 @@ export default function Blog3PattiLuckyVsCardRummy() {
           </p>
 
           <div className="bg-purple-800/30 border border-purple-600 rounded-lg p-6 my-8">
-            <p className="text-white font-semibold mb-2">🏆 Winner: Card Rummy</p>
+            <p className="text-white font-semibold mb-2">🏆 Winner: 3Patti Blue</p>
             <p className="text-gray-300">2x welcome bonus, double the first deposit bonus, and significantly more ongoing promotions.</p>
           </div>
 
@@ -185,7 +185,7 @@ export default function Blog3PattiLuckyVsCardRummy() {
             <li>Support response time: 12-24 hours</li>
           </ul>
 
-          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Card Rummy Withdrawal</h3>
+          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">3Patti Blue Withdrawal</h3>
           <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
             <li>Processing Time: 5-30 minutes (JazzCash/EasyPaisa)</li>
             <li>Minimum Withdrawal: ₨300</li>
@@ -198,12 +198,12 @@ export default function Blog3PattiLuckyVsCardRummy() {
           <div className="bg-red-900/30 border border-red-600 rounded-lg p-6 my-8">
             <p className="text-white font-semibold mb-2">⚠️ Critical Difference</p>
             <p className="text-gray-300">
-              Card Rummy is up to <strong>144x faster</strong> than 3Patti Lucky (30 minutes vs 72 hours). When you win money, you want it NOW, not in 3 days.
+              3Patti Blue is up to <strong>144x faster</strong> than 3Patti Lucky (30 minutes vs 72 hours). When you win money, you want it NOW, not in 3 days.
             </p>
           </div>
 
           <div className="bg-purple-800/30 border border-purple-600 rounded-lg p-6 my-8">
-            <p className="text-white font-semibold mb-2">🏆 Winner: Card Rummy</p>
+            <p className="text-white font-semibold mb-2">🏆 Winner: 3Patti Blue</p>
             <p className="text-gray-300">No contest. Get your winnings in minutes instead of waiting days.</p>
           </div>
 
@@ -222,9 +222,9 @@ export default function Blog3PattiLuckyVsCardRummy() {
             <strong>Total VIP rewards if you reach Gold:</strong> ₨900 in level-up bonuses + 5% weekly rebate
           </p>
 
-          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Card Rummy VIP (10 Levels)</h3>
+          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">3Patti Blue VIP (10 Levels)</h3>
           <p className="text-gray-300 mb-4">
-            Card Rummy offers a comprehensive 10-level system:
+            3Patti Blue offers a comprehensive 10-level system:
           </p>
           <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
             <li>Levels 1-3: 5-8% daily rebate, ₨100-500 bonuses</li>
@@ -245,12 +245,12 @@ export default function Blog3PattiLuckyVsCardRummy() {
               <strong>3Patti Lucky (Gold VIP):</strong> ₨2,500/week rebate (5% weekly)
             </p>
             <p className="text-gray-300">
-              <strong>Card Rummy (VIP 10):</strong> ₨10,500/week rebate (15% daily = 105% weekly) - <strong>4.2x more!</strong>
+              <strong>3Patti Blue (VIP 10):</strong> ₨10,500/week rebate (15% daily = 105% weekly) - <strong>4.2x more!</strong>
             </p>
           </div>
 
           <div className="bg-purple-800/30 border border-purple-600 rounded-lg p-6 my-8">
-            <p className="text-white font-semibold mb-2">🏆 Winner: Card Rummy</p>
+            <p className="text-white font-semibold mb-2">🏆 Winner: 3Patti Blue</p>
             <p className="text-gray-300">10 levels vs 3 levels. 30x higher total bonuses. Daily rebates vs weekly. Not even close.</p>
           </div>
 
@@ -267,7 +267,7 @@ export default function Blog3PattiLuckyVsCardRummy() {
             If you refer 10 friends depositing ₨5,000/month each: ₨5,000/month passive income (10% of ₨50,000)
           </p>
 
-          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Card Rummy Referral</h3>
+          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">3Patti Blue Referral</h3>
           <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
             <li>Commission: 10-20% on deposits</li>
             <li>Paid: Instantly</li>
@@ -280,7 +280,7 @@ export default function Blog3PattiLuckyVsCardRummy() {
           </p>
 
           <div className="bg-purple-800/30 border border-purple-600 rounded-lg p-6 my-8">
-            <p className="text-white font-semibold mb-2">🏆 Winner: Card Rummy</p>
+            <p className="text-white font-semibold mb-2">🏆 Winner: 3Patti Blue</p>
             <p className="text-gray-300">2x higher commission, instant payments, better tracking, and referral bonuses.</p>
           </div>
 
@@ -295,7 +295,7 @@ export default function Blog3PattiLuckyVsCardRummy() {
             <li>❌ Slow updates</li>
           </ul>
 
-          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Card Rummy Support</h3>
+          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">3Patti Blue Support</h3>
           <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
             <li>✅ 24/7 live chat support</li>
             <li>✅ Response time: Instant (1-2 minutes)</li>
@@ -305,7 +305,7 @@ export default function Blog3PattiLuckyVsCardRummy() {
           </ul>
 
           <div className="bg-purple-800/30 border border-purple-600 rounded-lg p-6 my-8">
-            <p className="text-white font-semibold mb-2">🏆 Winner: Card Rummy</p>
+            <p className="text-white font-semibold mb-2">🏆 Winner: 3Patti Blue</p>
             <p className="text-gray-300">Professional 24/7 support vs email-only support. When you have a withdrawal issue at 2 AM, you'll appreciate instant live chat.</p>
           </div>
 
@@ -320,7 +320,7 @@ export default function Blog3PattiLuckyVsCardRummy() {
             <li><strong>Total: ₨3,000-7,300/month</strong></li>
           </ul>
 
-          <p className="text-gray-300 mb-2"><strong>Card Rummy Monthly Earnings:</strong></p>
+          <p className="text-gray-300 mb-2"><strong>3Patti Blue Monthly Earnings:</strong></p>
           <ul className="list-disc pl-6 text-gray-300 mb-4 space-y-1">
             <li>Game winnings: ₨5,000-12,000</li>
             <li>Daily rebates: ₨1,500-3,000</li>
@@ -338,7 +338,7 @@ export default function Blog3PattiLuckyVsCardRummy() {
             <li><strong>Total: ₨17,500-36,000/month</strong></li>
           </ul>
 
-          <p className="text-gray-300 mb-2"><strong>Card Rummy Monthly Earnings:</strong></p>
+          <p className="text-gray-300 mb-2"><strong>3Patti Blue Monthly Earnings:</strong></p>
           <ul className="list-disc pl-6 text-gray-300 mb-4 space-y-1">
             <li>Game winnings: ₨30,000-60,000</li>
             <li>Daily rebates: ₨8,000-15,000</li>
@@ -358,10 +358,10 @@ export default function Blog3PattiLuckyVsCardRummy() {
             <li>You're satisfied with lower earning potential</li>
           </ul>
           <p className="text-gray-300 mb-6">
-            <strong>Honestly, there aren't many good reasons to choose 3Patti Lucky over Card Rummy.</strong>
+            <strong>Honestly, there aren't many good reasons to choose 3Patti Lucky over 3Patti Blue.</strong>
           </p>
 
-          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Choose Card Rummy If:</h3>
+          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Choose 3Patti Blue If:</h3>
           <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
             <li>You want 2-3x higher earning potential</li>
             <li>You value fast withdrawals (minutes vs days)</li>
@@ -375,9 +375,9 @@ export default function Blog3PattiLuckyVsCardRummy() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">Final Verdict</h2>
           
           <div className="bg-gradient-to-r from-purple-800 to-orange-600 rounded-lg p-8 my-8">
-            <p className="text-2xl font-bold text-white mb-4">🏆 Overwhelming Winner: Card Rummy</p>
+            <p className="text-2xl font-bold text-white mb-4">🏆 Overwhelming Winner: 3Patti Blue</p>
             <p className="text-white text-lg mb-4">
-              Card Rummy wins every single category - and it's not even close. 3Patti Lucky offers limited games, slow withdrawals, weak bonuses, and poor support.
+              3Patti Blue wins every single category - and it's not even close. 3Patti Lucky offers limited games, slow withdrawals, weak bonuses, and poor support.
             </p>
             <p className="text-white mb-4">
               <strong>The Gap Is Massive:</strong>
@@ -393,14 +393,14 @@ export default function Blog3PattiLuckyVsCardRummy() {
               <li>2-3x total earning potential</li>
             </ul>
             <p className="text-white mt-4">
-              <strong>Bottom Line:</strong> Unless you have a specific reason to use 3Patti Lucky, Card Rummy is objectively better in every measurable way.
+              <strong>Bottom Line:</strong> Unless you have a specific reason to use 3Patti Lucky, 3Patti Blue is objectively better in every measurable way.
             </p>
           </div>
 
-          <h2 className="text-3xl font-bold text-white mt-12 mb-6">Getting Started with Card Rummy (The Smart Choice)</h2>
+          <h2 className="text-3xl font-bold text-white mt-12 mb-6">Getting Started with 3Patti Blue (The Smart Choice)</h2>
           
           <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-3">
-            <li>Download Card Rummy APK v1.225 from the official website</li>
+            <li>Download 3Patti Blue APK v1.225 from the official website</li>
             <li>Install and create account (2 minutes)</li>
             <li>Claim ₨500 welcome bonus</li>
             <li>Make first deposit for 100% bonus (up to ₨5,000)</li>
@@ -413,22 +413,22 @@ export default function Blog3PattiLuckyVsCardRummy() {
           <div className="bg-orange-600/20 border border-orange-500 rounded-lg p-6 my-8">
             <p className="text-white font-semibold mb-2">⚠️ Play Responsibly</p>
             <p className="text-gray-300">
-              While Card Rummy offers much better earning potential, all real money gaming involves risk. Only play with funds you can afford to lose. Set limits and stick to them. Never chase losses.
+              While 3Patti Blue offers much better earning potential, all real money gaming involves risk. Only play with funds you can afford to lose. Set limits and stick to them. Never chase losses.
             </p>
           </div>
 
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">Conclusion</h2>
           
           <p className="text-gray-300 mb-4">
-            The comparison between 3Patti Lucky and Card Rummy isn't even competitive. Card Rummy dominates in every category: game variety, bonuses, withdrawal speed, VIP program, referral system, customer support, and overall earning potential.
+            The comparison between 3Patti Lucky and 3Patti Blue isn't even competitive. 3Patti Blue dominates in every category: game variety, bonuses, withdrawal speed, VIP program, referral system, customer support, and overall earning potential.
           </p>
 
           <p className="text-gray-300 mb-4">
-            3Patti Lucky's slow withdrawals (72 hours!) and limited game selection make it a poor choice when Card Rummy exists. Why wait 3 days for your money when you can get it in 30 minutes?
+            3Patti Lucky's slow withdrawals (72 hours!) and limited game selection make it a poor choice when 3Patti Blue exists. Why wait 3 days for your money when you can get it in 30 minutes?
           </p>
 
           <p className="text-gray-300 mb-4">
-            <strong>If you're serious about earning real cash from card games, the choice is obvious: Card Rummy.</strong>
+            <strong>If you're serious about earning real cash from card games, the choice is obvious: 3Patti Blue.</strong>
           </p>
 
           <div className="mt-12 text-center">
@@ -436,7 +436,7 @@ export default function Blog3PattiLuckyVsCardRummy() {
               href="/download-card-rummy"
               className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"
             >
-              Download Card Rummy APK v1.225 - Start Earning Today
+              Download 3Patti Blue APK v1.225 - Start Earning Today
             </Link>
           </div>
         </div>
@@ -445,10 +445,10 @@ export default function Blog3PattiLuckyVsCardRummy() {
           <h3 className="text-2xl font-bold text-white mb-6">More Comparisons</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <Link href="/blog/3patti-blue-vs-card-rummy" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
-              <h4 className="text-xl font-semibold text-white mb-2">3Patti Blue vs Card Rummy</h4>
+              <h4 className="text-xl font-semibold text-white mb-2">3Patti Blue vs 3Patti Blue</h4>
             </Link>
             <Link href="/blog/3patti-gold-vs-card-rummy" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
-              <h4 className="text-xl font-semibold text-white mb-2">3Patti Gold vs Card Rummy</h4>
+              <h4 className="text-xl font-semibold text-white mb-2">3Patti Gold vs 3Patti Blue</h4>
             </Link>
             <Link href="/blog/tips-to-win-big-in-card-rummy" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
               <h4 className="text-xl font-semibold text-white mb-2">Tips to Win Big</h4>

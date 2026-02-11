@@ -3,16 +3,16 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Is Card Rummy Real or Fake to Earn Money? - Complete Guide 2026',
-  description: 'Discover if Card Rummy app is real or fake. Learn about legitimacy, payment methods, safety tips, and how to identify fake apps. Complete guide for Pakistani players.',
+  title: 'Is 3Patti Blue Real or Fake to Earn Money? - Complete Guide 2026',
+  description: 'Discover if 3Patti Blue app is real or fake. Learn about legitimacy, payment methods, safety tips, and how to identify fake apps. Complete guide for Pakistani players.',
   keywords: [
-    'Card Rummy real or fake',
-    'Card Rummy legit',
-    'Card Rummy Pakistan',
-    'Is Card Rummy safe',
-    'Card Rummy earning',
-    'Card Rummy withdrawal',
-    'Card Rummy scam'
+    '3Patti Blue real or fake',
+    '3Patti Blue legit',
+    '3Patti Blue Pakistan',
+    'Is 3Patti Blue safe',
+    '3Patti Blue earning',
+    '3Patti Blue withdrawal',
+    '3Patti Blue scam'
   ],
   robots: {
     index: true,
@@ -25,14 +25,14 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://cardrummyapp.com.pk/blog/is-card-rummy-real-or-fake",
+    canonical: "https://3patiblueapp.com.pk/blog/is-card-rummy-real-or-fake",
   },
   openGraph: {
-    title: 'Is Card Rummy Real or Fake to Earn Money?',
-    description: 'Complete guide about Card Rummy legitimacy, payment methods, and safety tips for Pakistani players.',
-    url: "https://cardrummyapp.com.pk/blog/is-card-rummy-real-or-fake",
-    siteName: "Card Rummy",
-    locale: "en_US",
+    title: 'Is 3Patti Blue Real or Fake to Earn Money?',
+    description: 'Complete guide about 3Patti Blue legitimacy, payment methods, and safety tips for Pakistani players.',
+    url: "https://3patiblueapp.com.pk/blog/is-card-rummy-real-or-fake",
+    siteName: "3Patti Blue",
+    locale: "en_PK",
     type: "article",
   },
 };
@@ -42,35 +42,35 @@ export default function CardRummyRealOrFakePage() {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "headline": "Is Card Rummy Real or Fake to Earn Money? - Complete Guide 2026",
-    "description": "Discover if Card Rummy app is real or fake. Learn about legitimacy, payment methods, safety tips, and how to identify fake apps.",
-    "image": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
+    "headline": "Is 3Patti Blue Real or Fake to Earn Money? - Complete Guide 2026",
+    "description": "Discover if 3Patti Blue app is real or fake. Learn about legitimacy, payment methods, safety tips, and how to identify fake apps.",
+    "image": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
     "author": {
       "@type": "Organization",
-      "name": "Card Rummy",
-      "url": "https://cardrummyapp.com.pk"
+      "name": "3Patti Blue",
+      "url": "https://3patiblueapp.com.pk"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Card Rummy",
+      "name": "3Patti Blue",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://cardrummyapp.com.pk/card-rummy-logo.webp"
+        "url": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp"
       }
     },
     "datePublished": "2026-01-03",
     "dateModified": "2026-01-03",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://cardrummyapp.com.pk/blog/is-card-rummy-real-or-fake"
+      "@id": "https://3patiblueapp.com.pk/blog/is-card-rummy-real-or-fake"
     },
     "articleSection": "Gaming",
-    "keywords": "Card Rummy real or fake, Card Rummy legit, Card Rummy Pakistan, Card Rummy safety",
-    "articleBody": "Complete guide about Card Rummy legitimacy, payment methods like JazzCash and EasyPaisa, and safety tips for Pakistani players.",
+    "keywords": "3Patti Blue real or fake, 3Patti Blue legit, 3Patti Blue Pakistan, 3Patti Blue safety",
+    "articleBody": "Complete guide about 3Patti Blue legitimacy, payment methods like JazzCash and EasyPaisa, and safety tips for Pakistani players.",
     "inLanguage": "en-US",
     "about": {
       "@type": "Thing",
-      "name": "Card Rummy App Legitimacy"
+      "name": "3Patti Blue App Legitimacy"
     }
   };
 
@@ -88,13 +88,13 @@ export default function CardRummyRealOrFakePage() {
         <span className="text-gray-500 mx-2">/</span>
         <Link href="/blog" className="text-[#0ea5e9] hover:underline">Blog</Link>
         <span className="text-gray-500 mx-2">/</span>
-        <span className="text-gray-400">Is Card Rummy Real or Fake?</span>
+        <span className="text-gray-400">Is 3Patti Blue Real or Fake?</span>
       </nav>
 
       {/* Hero Section */}
       <header className="mb-12">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
-          Is Card Rummy Real or Fake to Earn Money?
+          Is 3Patti Blue Real or Fake to Earn Money?
         </h1>
         <div className="flex items-center gap-4 text-gray-400 text-sm mb-6">
           <time>January 2026</time>
@@ -105,8 +105,8 @@ export default function CardRummyRealOrFakePage() {
         {/* Featured Image */}
         <div className="relative w-full h-64 md:h-96 rounded-xl overflow-hidden mb-8">
           <Image
-            src="/card-rummy.webp"
-            alt="Card Rummy Real or Fake"
+            src="/3-patti-blue.webp"
+            alt="3Patti Blue Real or Fake"
             fill
             className="object-cover"
             priority
@@ -118,10 +118,10 @@ export default function CardRummyRealOrFakePage() {
       <div className="prose prose-lg max-w-none">
         <div className="bg-secondary rounded-xl p-6 md:p-8 mb-8">
           <p className="text-gray-300 leading-relaxed mb-4">
-            <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> App is a popular online gaming platform where you can play card games for entertainment and earn real money. The app is very popular in Pakistan and has a large community where you can play classic 3Patti card games, Andar Bahar, Dragon Tiger, and 7 Up Down games, all worth trying. The Card Rummy app offers extra earning opportunities through rewards and bonuses, tournaments, and promotional events, depending on gameplay.
+            <Link href="/" className="text-accent hover:underline font-semibold">3Patti Blue</Link> App is a popular online gaming platform where you can play card games for entertainment and earn real money. The app is very popular in Pakistan and has a large community where you can play classic 3Patti card games, Andar Bahar, Dragon Tiger, and 7 Up Down games, all worth trying. The 3Patti Blue app offers extra earning opportunities through rewards and bonuses, tournaments, and promotional events, depending on gameplay.
           </p>
           <p className="text-gray-300 leading-relaxed">
-            If you are confused and looking for side income opportunities that require little effort, a question keeps popping up: <strong className="text-white">Is Card Rummy real or fake for earning money?</strong> Whether it is safe to download and whether your personal information is secure, this guide will provide clarity on your questions.
+            If you are confused and looking for side income opportunities that require little effort, a question keeps popping up: <strong className="text-white">Is 3Patti Blue real or fake for earning money?</strong> Whether it is safe to download and whether your personal information is secure, this guide will provide clarity on your questions.
           </p>
         </div>
 
@@ -130,16 +130,16 @@ export default function CardRummyRealOrFakePage() {
           <h2 className="text-2xl font-bold mb-4 text-[#FFA500]">Table of Contents</h2>
           <ul className="space-y-2 text-gray-300">
             <li className="hover:text-[#FFA500] transition-colors">
-              <a href="#is-real-or-fake">Is Card Rummy Real or Fake to Earn Money?</a>
+              <a href="#is-real-or-fake">Is 3Patti Blue Real or Fake to Earn Money?</a>
             </li>
             <li className="hover:text-[#FFA500] transition-colors">
-              <a href="#legit-pakistan">Is Card Rummy legit in Pakistan?</a>
+              <a href="#legit-pakistan">Is 3Patti Blue legit in Pakistan?</a>
             </li>
             <li className="hover:text-[#FFA500] transition-colors">
               <a href="#payment-methods">Supported Payment Methods for Withdrawal</a>
             </li>
             <li className="hover:text-[#FFA500] transition-colors">
-              <a href="#find-fake-apps">Ways to find fake Card Rummy apps</a>
+              <a href="#find-fake-apps">Ways to find fake 3Patti Blue apps</a>
             </li>
             <li className="hover:text-[#FFA500] transition-colors">
               <a href="#final-thought">Final Thought</a>
@@ -153,10 +153,10 @@ export default function CardRummyRealOrFakePage() {
         {/* Main Content */}
         <section id="is-real-or-fake" className="mb-12">
           <div className="bg-secondary rounded-xl p-6 md:p-8">
-            <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Is Card Rummy Real or Fake to Earn Money?</h2>
+            <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Is 3Patti Blue Real or Fake to Earn Money?</h2>
             <div className="bg-gradient-to-r from-[#0ea5e9]/20 to-[#6366f1]/20 border-l-4 border-[#0ea5e9] rounded-lg p-6 mb-6">
               <p className="text-white text-lg font-semibold">
-                ✅ Card Rummy is a REAL earning app that allows Pakistani users to play card games and earn real money through legitimate payment methods.
+                ✅ 3Patti Blue is a REAL earning app that allows Pakistani users to play card games and earn real money through legitimate payment methods.
               </p>
             </div>
             <p className="text-gray-300 leading-relaxed">
@@ -167,9 +167,9 @@ export default function CardRummyRealOrFakePage() {
 
         <section id="legit-pakistan" className="mb-12">
           <div className="bg-secondary rounded-xl p-6 md:p-8">
-            <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Is Card Rummy legit in Pakistan?</h2>
+            <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Is 3Patti Blue legit in Pakistan?</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Yes, the Card Rummy app is legit and widely used by many players. The platform has a massive community and has gained popularity for its smooth gameplay, faster, easier withdrawal processes, and multiple earning options.
+              Yes, the 3Patti Blue app is legit and widely used by many players. The platform has a massive community and has gained popularity for its smooth gameplay, faster, easier withdrawal processes, and multiple earning options.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
               <div className="bg-[#0A1029] p-4 rounded-lg text-center">
@@ -192,7 +192,7 @@ export default function CardRummyRealOrFakePage() {
           <div className="bg-secondary rounded-xl p-6 md:p-8">
             <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Supported Payment Methods for the Withdrawal Process</h2>
             <p className="text-gray-300 leading-relaxed mb-6">
-              The Card Rummy App claims to encourage withdrawals via different payment options, including Easy Paisa, Jazz Cash, and local bank transfer. 3Patti Card Rummy offers smooth withdrawals, so you cannot face any issues. The withdrawals typically have:
+              The 3Patti Blue App claims to encourage withdrawals via different payment options, including Easy Paisa, Jazz Cash, and local bank transfer. 3Patti 3Patti Blue offers smooth withdrawals, so you cannot face any issues. The withdrawals typically have:
             </p>
             
             <div className="space-y-4">
@@ -219,9 +219,9 @@ export default function CardRummyRealOrFakePage() {
 
         <section id="find-fake-apps" className="mb-12">
           <div className="bg-secondary rounded-xl p-6 md:p-8">
-            <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Ways to find fake Card Rummy apps</h2>
+            <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Ways to find fake 3Patti Blue apps</h2>
             <p className="text-gray-300 leading-relaxed mb-6">
-              Because the Card Rummy app is not available on the official Play Store, fake and harmful copies are prevalent. Here are the techniques that will help you identify harmful copies and fake versions:
+              Because the 3Patti Blue app is not available on the official Play Store, fake and harmful copies are prevalent. Here are the techniques that will help you identify harmful copies and fake versions:
             </p>
 
             <div className="space-y-6">
@@ -232,7 +232,7 @@ export default function CardRummyRealOrFakePage() {
                   <div>
                     <h3 className="text-xl font-bold text-[#f87171] mb-2">Fake Websites</h3>
                     <p className="text-gray-300">
-                      If the Card Rummy app is not designed correctly, has a poor user interface, and does not provide regular updates or improvements, there is a high chance it is a fake app.
+                      If the 3Patti Blue app is not designed correctly, has a poor user interface, and does not provide regular updates or improvements, there is a high chance it is a fake app.
                     </p>
                   </div>
                 </div>
@@ -245,7 +245,7 @@ export default function CardRummyRealOrFakePage() {
                   <div>
                     <h3 className="text-xl font-bold text-[#f87171] mb-2">Unrealistic Earning Offers</h3>
                     <p className="text-gray-300">
-                      The Card Rummy App offers daily bonuses and rewards, but if it guarantees income and promises high daily earnings, it may be a scam.
+                      The 3Patti Blue App offers daily bonuses and rewards, but if it guarantees income and promises high daily earnings, it may be a scam.
                     </p>
                   </div>
                 </div>
@@ -297,21 +297,21 @@ export default function CardRummyRealOrFakePage() {
           <div className="bg-gradient-to-r from-[#0ea5e9]/20 to-[#6366f1]/20 rounded-xl p-6 md:p-8 border-2 border-[#0ea5e9]">
             <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Final Thought</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Card Rummy is one of the most famous online earning game apps that claim you can use it and withdraw money using local payment methods. The app is easy to use, and you can also earn with referral bonuses of PKR 1000 per referral, welcome bonuses, and registration bonuses.
+              3Patti Blue is one of the most famous online earning game apps that claim you can use it and withdraw money using local payment methods. The app is easy to use, and you can also earn with referral bonuses of PKR 1000 per referral, welcome bonuses, and registration bonuses.
             </p>
             <p className="text-white font-semibold text-lg">
-              So, if you want to earn real money, you can use the 3Patti Card Rummy app hassle-free. ✅
+              So, if you want to earn real money, you can use the 3Patti 3Patti Blue app hassle-free. ✅
             </p>
             
             {/* CTA Button */}
             <div className="mt-6 text-center">
               <a 
-                href="https://pkcardrummy.com/?from_gameid=5784509&channelCode=100000"
+                href="https://3pattibluevip.com?from_gameid=9483409&channelCode=100000"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-[#0ea5e9] hover:bg-[#0284c7] text-white font-bold py-3 px-8 rounded-full transition-all shadow-lg hover:shadow-xl"
               >
-                <span>Download Official Card Rummy</span>
+                <span>Download Official 3Patti Blue</span>
                 <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
                 </svg>
@@ -327,7 +327,7 @@ export default function CardRummyRealOrFakePage() {
             <div className="space-y-4">
               <details className="group bg-[#0a1029]/50 rounded-xl">
                 <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-                  Does the Card Rummy app actually pay real money?
+                  Does the 3Patti Blue app actually pay real money?
                   <span className="transition group-open:rotate-180">
                     <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
                       <path d="M6 9l6 6 6-6"></path>
@@ -335,13 +335,13 @@ export default function CardRummyRealOrFakePage() {
                   </span>
                 </summary>
                 <div className="p-4 pt-0 text-gray-300">
-                  Yes, the Card Rummy app pays real money, so you can easily withdraw your earnings to your account through JazzCash, EasyPaisa, or bank transfer.
+                  Yes, the 3Patti Blue app pays real money, so you can easily withdraw your earnings to your account through JazzCash, EasyPaisa, or bank transfer.
                 </div>
               </details>
 
               <details className="group bg-[#0a1029]/50 rounded-xl">
                 <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-                  What are the tips for using Card Rummy safely?
+                  What are the tips for using 3Patti Blue safely?
                   <span className="transition group-open:rotate-180">
                     <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
                       <path d="M6 9l6 6 6-6"></path>
@@ -349,13 +349,13 @@ export default function CardRummyRealOrFakePage() {
                   </span>
                 </summary>
                 <div className="p-4 pt-0 text-gray-300">
-                  Make sure you have downloaded the Card Rummy app from the official site (cardrummyapp.com.pk) to earn real money and use strong passwords to protect your account from hackers. Never share your login credentials with anyone.
+                  Make sure you have downloaded the 3Patti Blue app from the official site (3patiblueapp.com.pk) to earn real money and use strong passwords to protect your account from hackers. Never share your login credentials with anyone.
                 </div>
               </details>
 
               <details className="group bg-[#0a1029]/50 rounded-xl">
                 <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-                  What are the signs that Card Rummy is not fake?
+                  What are the signs that 3Patti Blue is not fake?
                   <span className="transition group-open:rotate-180">
                     <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
                       <path d="M6 9l6 6 6-6"></path>
@@ -363,7 +363,7 @@ export default function CardRummyRealOrFakePage() {
                   </span>
                 </summary>
                 <div className="p-4 pt-0 text-gray-300">
-                  If your app doesn't have customer support, a poor-quality UI, no updates, or withdrawal options that aren't clear, it's fake. The real Card Rummy has 24/7 customer support, regular updates, clear withdrawal process, and positive user reviews. Always verify by reading reviews and downloading from the official website.
+                  If your app doesn't have customer support, a poor-quality UI, no updates, or withdrawal options that aren't clear, it's fake. The real 3Patti Blue has 24/7 customer support, regular updates, clear withdrawal process, and positive user reviews. Always verify by reading reviews and downloading from the official website.
                 </div>
               </details>
             </div>
@@ -376,8 +376,8 @@ export default function CardRummyRealOrFakePage() {
             <h3 className="text-2xl font-bold mb-6 text-[#FFA500]">Related Articles</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <Link href="/download-card-rummy" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
-                <h4 className="text-white font-semibold mb-2">📥 Download Card Rummy APK</h4>
-                <p className="text-gray-400 text-sm">Get the latest version of Card Rummy for Android</p>
+                <h4 className="text-white font-semibold mb-2">📥 Download 3Patti Blue APK</h4>
+                <p className="text-gray-400 text-sm">Get the latest version of 3Patti Blue for Android</p>
               </Link>
               <Link href="/blog/create-card-rummy-account-and-login" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
                 <h4 className="text-white font-semibold mb-2">🔐 Account & Login Guide</h4>

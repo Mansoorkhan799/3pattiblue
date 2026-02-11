@@ -3,9 +3,9 @@ import Link from 'next/link';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'How to Create a Card Rummy Account and Login? - Step by Step Guide',
-  description: 'Learn how to create your Card Rummy account and login with our step-by-step guide. Get started playing games and earning rewards in minutes.',
-  keywords: ['Card Rummy account', 'Card Rummy login', 'Card Rummy registration', 'Card Rummy sign up', 'Card Rummy guide'],
+  title: 'How to Create a 3Patti Blue Account and Login? - Step by Step Guide',
+  description: 'Learn how to create your 3Patti Blue account and login with our step-by-step guide. Get started playing games and earning rewards in minutes.',
+  keywords: ['3Patti Blue account', '3Patti Blue login', '3Patti Blue registration', '3Patti Blue sign up', '3Patti Blue guide'],
   robots: {
     index: true,
     follow: true,
@@ -17,14 +17,14 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://cardrummyapp.com.pk/blog/create-card-rummy-account-and-login",
+    canonical: "https://3patiblueapp.com.pk/blog/create-card-rummy-account-and-login",
   },
   openGraph: {
-    title: 'How to Create Account and Login? - Card Rummy',
-    description: 'Learn how to create an account and login to Card Rummy. Step by step guide for registration and accessing your account.',
+    title: 'How to Create Account and Login? - 3Patti Blue',
+    description: 'Learn how to create an account and login to 3Patti Blue. Step by step guide for registration and accessing your account.',
     type: 'article',
     publishedTime: '2026-01-20T00:00:00Z',
-    authors: ['Card Rummy Team'],
+    authors: ['3Patti Blue Team'],
   }
 };
 
@@ -43,12 +43,12 @@ export default function CreateAccountLogin() {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white">How to Create a <Link href="/" className="text-accent hover:text-accent">Card Rummy</Link> Account and Login?</h1>
+            <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white">How to Create a <Link href="/" className="text-accent hover:text-accent">3Patti Blue</Link> Account and Login?</h1>
             
             <div className="prose prose-lg max-w-none">
               <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
                 <p className="text-lg text-gray-300 leading-relaxed mb-0">
-                  Getting started with Card Rummy is quick and easy. This guide will walk you through the process of creating your account and logging in, so you can start playing Teen Patti, Rummy, and other card games to earn real money right away.
+                  Getting started with 3Patti Blue is quick and easy. This guide will walk you through the process of creating your account and logging in, so you can start playing Teen Patti, Rummy, and other card games to earn real money right away.
                 </p>
               </div>
 
@@ -61,8 +61,8 @@ export default function CreateAccountLogin() {
                       1
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-2xl font-bold mb-3 text-white">Download the Card Rummy App</h3>
-                      <p className="text-gray-300 leading-relaxed">First, <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">download the Card Rummy app</Link> from our official website. Once downloaded, install the app on your Android device.</p>
+                      <h3 className="text-2xl font-bold mb-3 text-white">Download the 3Patti Blue App</h3>
+                      <p className="text-gray-300 leading-relaxed">First, <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">download the 3Patti Blue app</Link> from our official website. Once downloaded, install the app on your Android device.</p>
                     </div>
                   </div>
                   
@@ -72,7 +72,7 @@ export default function CreateAccountLogin() {
                     </div>
                     <div className="flex-1">
                       <h3 className="text-2xl font-bold mb-3 text-white">Open the App and Tap "Register"</h3>
-                      <p className="text-gray-300 leading-relaxed">Launch the Card Rummy app on your device. On the welcome screen, you'll see a "Register" button. Tap on it to begin the account creation process.</p>
+                      <p className="text-gray-300 leading-relaxed">Launch the 3Patti Blue app on your device. On the welcome screen, you'll see a "Register" button. Tap on it to begin the account creation process.</p>
                     </div>
                   </div>
                   
@@ -115,7 +115,7 @@ export default function CreateAccountLogin() {
               </div>
 
               <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
-                <h2 className="text-3xl font-bold mb-8 text-white">How to Login to Your Card Rummy Account</h2>
+                <h2 className="text-3xl font-bold mb-8 text-white">How to Login to Your 3Patti Blue Account</h2>
                 
                 <div className="space-y-8">
                   <div className="flex items-start">
@@ -123,8 +123,8 @@ export default function CreateAccountLogin() {
                       1
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-2xl font-bold mb-3 text-white">Open the Card Rummy App</h3>
-                      <p className="text-gray-300 leading-relaxed">Launch the Card Rummy app on your Android device.</p>
+                      <h3 className="text-2xl font-bold mb-3 text-white">Open the 3Patti Blue App</h3>
+                      <p className="text-gray-300 leading-relaxed">Launch the 3Patti Blue app on your Android device.</p>
                     </div>
                   </div>
                   
@@ -174,7 +174,7 @@ export default function CreateAccountLogin() {
                     <svg className="w-6 h-6 text-orange-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    <span><strong>Don't Share Your Credentials:</strong> Never share your mobile number or password with anyone, even if they claim to be from Card Rummy support.</span>
+                    <span><strong>Don't Share Your Credentials:</strong> Never share your mobile number or password with anyone, even if they claim to be from 3Patti Blue support.</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-orange-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
@@ -186,13 +186,13 @@ export default function CreateAccountLogin() {
                     <svg className="w-6 h-6 text-orange-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    <span><strong>Update Regularly:</strong> Keep the Card Rummy app updated to the latest version to benefit from security improvements.</span>
+                    <span><strong>Update Regularly:</strong> Keep the 3Patti Blue app updated to the latest version to benefit from security improvements.</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-orange-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    <span><strong>Beware of Phishing:</strong> Only download Card Rummy from official sources and never click on suspicious links.</span>
+                    <span><strong>Beware of Phishing:</strong> Only download 3Patti Blue from official sources and never click on suspicious links.</span>
                   </li>
                 </ul>
               </div>
@@ -213,17 +213,17 @@ export default function CreateAccountLogin() {
                   
                   <div className="bg-[#0A1029] rounded-xl p-6">
                     <h3 className="text-xl font-bold mb-3 text-accent">Can't Receive OTP?</h3>
-                    <p className="text-gray-300 leading-relaxed">If you're not receiving OTP messages, check your network connection, ensure your mobile number is correct, or try requesting a new OTP. Contact Card Rummy support if the problem persists.</p>
+                    <p className="text-gray-300 leading-relaxed">If you're not receiving OTP messages, check your network connection, ensure your mobile number is correct, or try requesting a new OTP. Contact 3Patti Blue support if the problem persists.</p>
                   </div>
                 </div>
               </div>
 
               <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 text-center">
                 <h2 className="text-3xl font-bold mb-4 text-white">Ready to Start Playing?</h2>
-                <p className="text-white text-lg mb-8 max-w-2xl mx-auto">Now that you know how to create an account and login to Card Rummy, you're ready to start playing Teen Patti, Rummy, and other card games to earn real money. Download the app today!</p>
+                <p className="text-white text-lg mb-8 max-w-2xl mx-auto">Now that you know how to create an account and login to 3Patti Blue, you're ready to start playing Teen Patti, Rummy, and other card games to earn real money. Download the app today!</p>
                 
                 <Link 
-                  href="https://pkcardrummy.com/?from_gameid=5784509&channelCode=100000"
+                  href="https://3pattibluevip.com?from_gameid=9483409&channelCode=100000"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#0A1029] transition-all shadow-2xl hover:shadow-3xl transform hover:scale-105"
@@ -243,26 +243,26 @@ export default function CreateAccountLogin() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "BlogPosting",
-            "headline": "How to Create Account and Login? - Card Rummy",
-            "description": "Learn how to create an account and login to Card Rummy. Step by step guide for registration and accessing your account.",
+            "headline": "How to Create Account and Login? - 3Patti Blue",
+            "description": "Learn how to create an account and login to 3Patti Blue. Step by step guide for registration and accessing your account.",
             "datePublished": "2026-01-20T00:00:00Z",
             "dateModified": new Date().toISOString(),
             "author": {
               "@type": "Organization",
-              "name": "Card Rummy Team",
-              "url": "https://cardrummyapp.com.pk"
+              "name": "3Patti Blue Team",
+              "url": "https://3patiblueapp.com.pk"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "Card Rummy",
+              "name": "3Patti Blue",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://cardrummyapp.com.pk/card-rummy.webp"
+                "url": "https://3patiblueapp.com.pk/3-patti-blue.webp"
               }
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://cardrummyapp.com.pk/blog/create-card-rummy-account-and-login"
+              "@id": "https://3patiblueapp.com.pk/blog/create-card-rummy-account-and-login"
             }
           })
         }}

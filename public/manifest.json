@@ -1,28 +1,34 @@
 {
-  "name": "Card Rummy",
-  "short_name": "Card Rummy",
-  "description": "Pakistan's premier card gaming platform offering Teen Patti, Rummy, Dragon vs Tiger and more. Earn real cash rewards!",
+  "name": "3Patti Blue",
+  "short_name": "3Patti Blue",
+  "description": "Pakistan's premier Teen Patti gaming platform offering Teen Patti, Rummy, Dragon vs Tiger and more. Earn real cash rewards!",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#06091F",
   "theme_color": "#06091F",
   "icons": [
     {
-      "src": "/favicon.ico",
-      "sizes": "16x16 32x32 48x48",
-      "type": "image/x-icon"
+      "src": "/3-patti-blue-logo.webp",
+      "sizes": "16x16 32x32 48x48 64x64 128x128",
+      "type": "image/webp"
     },
     {
-      "src": "/card-rummy-logo.webp",
-      "sizes": "192x192 512x512",
+      "src": "/3-patti-blue-logo.webp",
+      "sizes": "192x192",
       "type": "image/webp",
       "purpose": "any maskable"
     },
     {
-      "src": "/card-rummy.webp",
+      "src": "/3-patti-blue-logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/3-patti-blue.webp",
       "sizes": "512x512",
       "type": "image/webp",
       "purpose": "any"
     }
   ]
-} 
+}

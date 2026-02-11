@@ -3,9 +3,9 @@ import Link from 'next/link';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Tips to Win Big in Card Rummy - Expert Strategies & Tricks 2026',
-  description: 'Discover expert strategies and proven tips to maximize your winnings in Card Rummy. Learn how to win big in Teen Patti, Rummy, and other card games.',
-  keywords: ['Card Rummy tips', 'win big Card Rummy', 'Teen Patti strategies', 'Rummy tricks', 'Card Rummy strategies', 'earn money Card Rummy'],
+  title: 'Tips to Win Big in 3Patti Blue - Expert Strategies & Tricks 2026',
+  description: 'Discover expert strategies and proven tips to maximize your winnings in 3Patti Blue. Learn how to win big in Teen Patti, Rummy, and other card games.',
+  keywords: ['3Patti Blue tips', 'win big 3Patti Blue', 'Teen Patti strategies', 'Rummy tricks', '3Patti Blue strategies', 'earn money 3Patti Blue'],
   robots: {
     index: true,
     follow: true,
@@ -17,14 +17,14 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://cardrummyapp.com.pk/blog/tips-to-win-big-in-card-rummy",
+    canonical: "https://3patiblueapp.com.pk/blog/tips-to-win-big-in-card-rummy",
   },
   openGraph: {
-    title: 'Tips to Win Big in Card Rummy - Expert Strategies',
+    title: 'Tips to Win Big in 3Patti Blue - Expert Strategies',
     description: 'Discover expert strategies and tips to maximize your winnings in Teen Patti, Rummy, and other card games.',
     type: 'article',
     publishedTime: '2026-01-20T00:00:00Z',
-    authors: ['Card Rummy Team'],
+    authors: ['3Patti Blue Team'],
   }
 };
 
@@ -43,12 +43,12 @@ export default function TipsToWinBig() {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white">Tips to Win Big in <Link href="/" className="text-accent hover:text-accent">Card Rummy</Link></h1>
+            <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white">Tips to Win Big in <Link href="/" className="text-accent hover:text-accent">3Patti Blue</Link></h1>
             
             <div className="prose prose-lg max-w-none">
               <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
                 <p className="text-lg text-gray-300 leading-relaxed mb-0">
-                  Want to maximize your winnings in Card Rummy? If you haven't already, <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">download Card Rummy</Link> to get started. Whether you're playing Teen Patti, Rummy, Dragon vs Tiger, or other card games, these expert strategies and tips will help you play smarter and earn more real cash. Follow these proven techniques to boost your success rate and become a winning player.
+                  Want to maximize your winnings in 3Patti Blue? If you haven't already, <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">download 3Patti Blue</Link> to get started. Whether you're playing Teen Patti, Rummy, Dragon vs Tiger, or other card games, these expert strategies and tips will help you play smarter and earn more real cash. Follow these proven techniques to boost your success rate and become a winning player.
                 </p>
               </div>
 
@@ -67,7 +67,7 @@ export default function TipsToWinBig() {
                   <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-2xl font-bold mb-3 text-white">2. Use Bonuses Wisely</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      Card Rummy offers daily login bonuses, referral bonuses, and deposit rewards. Use these bonuses strategically to play more games without spending your own money. Take advantage of welcome bonuses, daily rewards, and special promotions to increase your balance and play more rounds.
+                      3Patti Blue offers daily login bonuses, referral bonuses, and deposit rewards. Use these bonuses strategically to play more games without spending your own money. Take advantage of welcome bonuses, daily rewards, and special promotions to increase your balance and play more rounds.
                     </p>
                   </div>
 
@@ -123,7 +123,7 @@ export default function TipsToWinBig() {
                   <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-2xl font-bold mb-3 text-white">10. Avoid Fake Apps</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      Always download the original Card Rummy app through official and trusted sources. Fake links or websites can steal your personal data and money. Verify the app's authenticity before installing.
+                      Always download the original 3Patti Blue app through official and trusted sources. Fake links or websites can steal your personal data and money. Verify the app's authenticity before installing.
                     </p>
                   </div>
                 </div>
@@ -258,7 +258,7 @@ export default function TipsToWinBig() {
                   <div>
                     <h3 className="text-xl font-bold text-red-400 mb-2">Play Responsibly</h3>
                     <p className="text-red-300 mb-0">
-                      Remember that Card Rummy is for entertainment purposes. Only play with money you can afford to lose. If you feel you're developing a gambling problem, seek professional help immediately. Set limits and stick to them.
+                      Remember that 3Patti Blue is for entertainment purposes. Only play with money you can afford to lose. If you feel you're developing a gambling problem, seek professional help immediately. Set limits and stick to them.
                     </p>
                   </div>
                 </div>
@@ -267,10 +267,10 @@ export default function TipsToWinBig() {
               {/* CTA */}
               <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 text-center">
                 <h2 className="text-3xl font-bold mb-4 text-white">Ready to Win Big?</h2>
-                <p className="text-white text-lg mb-8 max-w-2xl mx-auto">Apply these expert tips and strategies to maximize your winnings in Card Rummy. Download the app now and start playing smarter!</p>
+                <p className="text-white text-lg mb-8 max-w-2xl mx-auto">Apply these expert tips and strategies to maximize your winnings in 3Patti Blue. Download the app now and start playing smarter!</p>
                 
                 <Link 
-                  href="https://pkcardrummy.com/?from_gameid=5784509&channelCode=100000"
+                  href="https://3pattibluevip.com?from_gameid=9483409&channelCode=100000"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#0A1029] transition-all shadow-2xl hover:shadow-3xl transform hover:scale-105"
@@ -290,26 +290,26 @@ export default function TipsToWinBig() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "BlogPosting",
-            "headline": "Tips to Win Big in Card Rummy - Expert Strategies",
+            "headline": "Tips to Win Big in 3Patti Blue - Expert Strategies",
             "description": "Discover expert strategies and tips to maximize your winnings in Teen Patti, Rummy, and other card games.",
             "datePublished": "2026-01-20T00:00:00Z",
             "dateModified": new Date().toISOString(),
             "author": {
               "@type": "Organization",
-              "name": "Card Rummy Team",
-              "url": "https://cardrummyapp.com.pk"
+              "name": "3Patti Blue Team",
+              "url": "https://3patiblueapp.com.pk"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "Card Rummy",
+              "name": "3Patti Blue",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://cardrummyapp.com.pk/card-rummy.webp"
+                "url": "https://3patiblueapp.com.pk/3-patti-blue.webp"
               }
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://cardrummyapp.com.pk/blog/tips-to-win-big-in-card-rummy"
+              "@id": "https://3patiblueapp.com.pk/blog/tips-to-win-big-in-card-rummy"
             }
           })
         }}

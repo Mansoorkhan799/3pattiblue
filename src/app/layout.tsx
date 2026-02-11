@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import DeferredStyles from "@/components/DeferredStyles";
 import ScrollToTopWrapper from "@/components/ScrollToTopWrapper";
 import WebVitalsTracker from "@/components/WebVitalsTracker";
+import { LanguageProvider } from "@/contexts/LanguageContext";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -18,45 +19,58 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://cardrummyapp.com.pk'),
+  metadataBase: new URL('https://3patiblueapp.com.pk'),
   title: {
-    default: "Card Rummy - Download APK | Play & Earn Real Money",
-    template: "%s | Card Rummy"
+    default: "3Patti Blue - Download APK | Pakistan's #1 Teen Patti App 2026",
+    template: "%s | 3Patti Blue"
   },
-  description: "Card Rummy 2026 - Pakistan's #1 card game platform. Download Card Rummy APK, play Teen Patti, Rummy, Dragon vs Tiger & win real cash. Fast withdrawals via JazzCash & EasyPaisa. Join 500K+ players!",
+  description: "3Patti Blue 2026 - Pakistan's most trusted Teen Patti platform with 1M+ players. Download official APK, play authentic Teen Patti, Rummy, Dragon Tiger & win real money. Instant withdrawals via JazzCash & EasyPaisa. Get PKR 100 bonus! | تین پتی بلیو - 10 لاکھ سے زیادہ کھلاڑی۔ جاز کیش اور ایزی پیسہ سے فوری نکاسی۔ 100 روپے بونس حاصل کریں!",
   keywords: [
-    "Card Rummy",
-    "card rummy game",
-    "card rummy download",
-    "card rummy app",
-    "card rummy apk",
-    "card rummy pakistan",
-    "card rummy online",
-    "download card rummy",
-    "card rummy real money",
-    "3 Patti Card Rummy",
-    "how to play card rummy",
-    "card rummy 2026",
-    "Pakistan card games",
+    "3Patti Blue",
+    "3patti blue download",
+    "3patti blue apk",
+    "3patti blue app",
+    "3patti blue pakistan",
+    "3patti blue game",
+    "download 3patti blue",
+    "3patti blue online",
+    "3patti blue real money",
+    "3patti blue earn money",
+    "how to play 3patti blue",
+    "3patti blue 2026",
+    "3patti blue withdrawal",
+    "3patti blue bonus",
+    "teen patti 3patti blue",
+    "Pakistan teen patti",
     "Teen Patti game",
-    "online rummy game",
-    "earn money playing cards",
+    "teen patti real cash",
+    "best teen patti app",
+    "teen patti online pakistan",
     "Android gaming app 2026",
-    "JazzCash gaming",
+    "JazzCash gaming app",
     "EasyPaisa gaming",
-    "mobile card games",
-    "real money games Pakistan",
-    "card game earning app",
-    "Teen Patti online",
-    "Dragon vs Tiger",
-    "best earning app Pakistan",
-    "rummy card game",
-    "play rummy online",
-    "rummy game download"
+    "mobile card games pakistan",
+    "real money gaming app",
+    "teen patti earning app",
+    "Dragon vs Tiger game",
+    "rummy online pakistan",
+    "best earning app 2026",
+    "3patti blue login",
+    "3patti blue register",
+    // Urdu Keywords for SEO
+    "تین پتی بلیو",
+    "تین پتی گیم",
+    "آن لائن تین پتی پاکستان",
+    "پیسے کمانے والی ایپ",
+    "جاز کیش سے پیسے کمائیں",
+    "ایزی پیسہ گیمنگ",
+    "تین پتی بلیو ڈاؤن لوڈ",
+    "رمی گیم",
+    "ڈریگن ٹائیگر"
   ],
-  authors: [{ name: "Card Rummy Team" }],
-  creator: "Card Rummy",
-  publisher: "Card Rummy",
+  authors: [{ name: "3Patti Blue Team" }],
+  creator: "3Patti Blue",
+  publisher: "3Patti Blue Gaming Platform",
   robots: {
     index: true,
     follow: true,
@@ -70,61 +84,62 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/favicon.ico', type: 'image/x-icon', sizes: 'any' },
-      { url: '/card-rummy-logo.webp', type: 'image/webp', sizes: '192x192' },
-      { url: '/card-rummy.webp', type: 'image/webp', sizes: '512x512' }
+      { url: '/3-patti-blue-logo.webp', type: 'image/webp', sizes: '16x16' },
+      { url: '/3-patti-blue-logo.webp', type: 'image/webp', sizes: '32x32' },
+      { url: '/3-patti-blue-logo.webp', type: 'image/webp', sizes: '192x192' },
+      { url: '/3-patti-blue-logo.webp', type: 'image/webp', sizes: '512x512' }
     ],
     apple: [
-      { url: '/card-rummy-logo.webp', sizes: '180x180' }
+      { url: '/3-patti-blue-logo.webp', sizes: '180x180' }
     ],
     shortcut: [
-      { url: '/favicon.ico', type: 'image/x-icon' }
+      { url: '/3-patti-blue-logo.webp', type: 'image/webp' }
     ]
   },
-  manifest: 'https://cardrummyapp.com.pk/manifest.json',
+  manifest: 'https://3patiblueapp.com.pk/manifest.json',
   verification: {
     google: "8a7c21f6e90a89ef",
   },
   alternates: {
-    canonical: "https://cardrummyapp.com.pk",
+    canonical: "https://3patiblueapp.com.pk",
   },
   openGraph: {
-    title: "Card Rummy - Download APK | Play & Earn Real Money",
-    description: "Card Rummy 2026 - Pakistan's #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!",
-    url: "https://cardrummyapp.com.pk",
-    siteName: "Card Rummy",
-    locale: "en_US",
+    title: "3Patti Blue - Pakistan's #1 Teen Patti App | Download & Win Real Cash",
+    description: "3Patti Blue 2026 - Trusted by 1M+ players. Authentic Teen Patti gameplay, instant payouts (5-30 min), 100% welcome bonus. JazzCash & EasyPaisa supported. Download now & get PKR 100 free!",
+    url: "https://3patiblueapp.com.pk",
+    siteName: "3Patti Blue",
+    locale: "en_PK",
     type: "website",
     images: [
       {
-        url: "https://cardrummyapp.com.pk/feature/og-image.webp",
+        url: "https://3patiblueapp.com.pk/feature/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "Card Rummy - Premier Card Gaming Platform",
+        alt: "3Patti Blue - Pakistan's Most Trusted Teen Patti Gaming Platform",
       },
       {
-        url: "https://cardrummyapp.com.pk/feature/og-image-square.webp",
+        url: "https://3patiblueapp.com.pk/feature/og-image-square.webp",
         width: 800,
         height: 800,
-        alt: "Card Rummy - Premier Card Gaming Platform",
+        alt: "3Patti Blue - Authentic Teen Patti Experience",
       }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Card Rummy - Download APK | Play & Earn Real Money",
-    description: "Card Rummy 2026 - Pakistan's #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!",
-    creator: "@cardrummy",
+    title: "3Patti Blue - Pakistan's #1 Teen Patti App | Win Real Money",
+    description: "3Patti Blue 2026 - Join 1M+ players earning daily. Authentic Teen Patti, instant withdrawals, 100% bonus. Download official APK & play now!",
+    creator: "@3PattiBlue",
     images: [
       {
-        url: "https://cardrummyapp.com.pk/feature/twitter-card.webp",
+        url: "https://3patiblueapp.com.pk/feature/twitter-card.webp",
         width: 1200,
         height: 600,
-        alt: "Card Rummy - Premier Card Gaming Platform",
+        alt: "3Patti Blue - Authentic Teen Patti Gaming Platform",
       }
     ],
   },
-  applicationName: "Card Rummy",
+  applicationName: "3Patti Blue",
   category: "Gaming",
   classification: "Card Gaming Platform",
 };
@@ -135,17 +150,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning data-lang="en-PK">
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 32x32" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="icon" href="/card-rummy-logo.webp" type="image/webp" sizes="192x192" />
-        <link rel="icon" href="/card-rummy.webp" type="image/webp" sizes="512x512" />
-        <link rel="apple-touch-icon" href="/card-rummy-logo.webp" sizes="180x180" />
-        <meta property="og:image" content="https://cardrummyapp.com.pk/card-rummy-logo.webp" />
+        <link rel="icon" href="/3-patti-blue-logo.webp" type="image/webp" sizes="16x16" />
+        <link rel="icon" href="/3-patti-blue-logo.webp" type="image/webp" sizes="32x32" />
+        <link rel="shortcut icon" href="/3-patti-blue-logo.webp" type="image/webp" />
+        <link rel="icon" href="/3-patti-blue-logo.webp" type="image/webp" sizes="192x192" />
+        <link rel="icon" href="/3-patti-blue-logo.webp" type="image/webp" sizes="512x512" />
+        <link rel="apple-touch-icon" href="/3-patti-blue-logo.webp" sizes="180x180" />
+        <meta property="og:image" content="https://3patiblueapp.com.pk/3-patti-blue-logo.webp" />
         
         {/* Preconnect to external domains for faster loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
@@ -178,15 +194,17 @@ export default function RootLayout({
         }}
         suppressHydrationWarning
       >
-        <div className="stars-bg fixed inset-0 z-0 opacity-20"></div>
-        <Header />
-        <main className="flex-grow relative z-10">
-        {children}
-        </main>
-        <DeferredStyles />
-        <Footer />
-        <ScrollToTopWrapper />
-        <WebVitalsTracker />
+        <LanguageProvider>
+          <div className="stars-bg fixed inset-0 z-0 opacity-20"></div>
+          <Header />
+          <main className="flex-grow relative z-10">
+          {children}
+          </main>
+          <DeferredStyles />
+          <Footer />
+          <ScrollToTopWrapper />
+          <WebVitalsTracker />
+        </LanguageProvider>
         
         {/* Structured data for Organization */}
         <Script
@@ -196,14 +214,29 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "Card Rummy",
-              "url": "https://cardrummyapp.com.pk",
-              "logo": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
-              "description": "Card Rummy is Pakistan's premier card gaming platform, offering Teen Patti, Rummy, and many other card games with real cash rewards.",
+              "name": "3Patti Blue",
+              "legalName": "3Patti Blue Gaming Platform",
+              "url": "https://3patiblueapp.com.pk",
+              "logo": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
+              "description": "3Patti Blue is Pakistan's most trusted Teen Patti gaming platform since 2024, offering authentic Teen Patti, Rummy, and 30+ card games with instant payouts and verified security.",
+              "foundingDate": "2024",
               "sameAs": [
-                "https://facebook.com/cardrummy",
-                "https://twitter.com/cardrummy"
-              ]
+                "https://www.facebook.com/share/1at8tjJcje/"
+              ],
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.7",
+                "bestRating": "5",
+                "ratingCount": "1000000",
+                "reviewCount": "250000"
+              },
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "support@3patiblueapp.com.pk",
+                "contactType": "Customer Support",
+                "areaServed": "PK",
+                "availableLanguage": ["English", "Urdu"]
+              }
             })
           }}
         />
@@ -216,19 +249,30 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              "name": "Card Rummy",
-              "operatingSystem": "Android",
+              "name": "3Patti Blue",
+              "alternateName": "3Patti Blue App",
+              "operatingSystem": "Android 5.0+",
               "applicationCategory": "GameApplication",
+              "applicationSubCategory": "Card Game",
               "offers": {
                 "@type": "Offer",
                 "price": "0",
-                "priceCurrency": "PKR"
+                "priceCurrency": "PKR",
+                "availability": "https://schema.org/InStock"
               },
               "aggregateRating": {
                 "@type": "AggregateRating",
                 "ratingValue": "4.7",
-                "ratingCount": "200000"
-              }
+                "bestRating": "5",
+                "ratingCount": "1000000",
+                "reviewCount": "250000"
+              },
+              "softwareVersion": "1.204(1)",
+              "datePublished": "2024-01-15",
+              "dateModified": "2026-02-10",
+              "fileSize": "49MB",
+              "contentRating": "18+",
+              "description": "3Patti Blue - Pakistan's #1 Teen Patti app with 1M+ players. Authentic gameplay, instant withdrawals, 100% bonus. Download now!"
             })
           }}
         />

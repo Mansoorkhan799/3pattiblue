@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - Card Rummy | Your Privacy Matters',
-  description: 'Read our privacy policy to understand how Card Rummy collects, uses, and protects your personal information. We are committed to your data security.',
-  keywords: ['Card Rummy privacy policy', 'privacy', 'data protection', 'user privacy', 'data security'],
+  title: 'Privacy Policy - 3Patti Blue | Your Privacy Matters',
+  description: 'Read our privacy policy to understand how 3Patti Blue collects, uses, and protects your personal information. We are committed to your data security.',
+  keywords: ['3Patti Blue privacy policy', 'privacy', 'data protection', 'user privacy', 'data security'],
   openGraph: {
-    title: 'Privacy Policy - Card Rummy',
-    description: 'Learn how Card Rummy protects your personal information and data.',
-    url: 'https://cardrummyapp.com.pk/privacy',
-    siteName: 'Card Rummy',
+    title: 'Privacy Policy - 3Patti Blue',
+    description: 'Learn how 3Patti Blue protects your personal information and data.',
+    url: 'https://3patiblueapp.com.pk/privacy',
+    siteName: '3Patti Blue',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://cardrummyapp.com.pk/privacy',
+    canonical: 'https://3patiblueapp.com.pk/privacy',
   },
 };
 
@@ -34,7 +34,7 @@ export default function PrivacyPolicyPage() {
               <div className="bg-[#0A1029] border-l-4 border-accent rounded-r-lg p-6 mb-8">
                 <h2 className="text-2xl font-bold mb-4 text-white">Introduction</h2>
                 <p className="text-gray-300 mb-4">
-                  <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and website at <a href="https://www.cardrummyapp.com.pk" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">www.cardrummyapp.com.pk</a> (collectively, the "Service").
+                  <Link href="/" className="text-accent hover:underline font-semibold">3Patti Blue</Link> ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and website at <a href="https://www.3patiblueapp.com.pk" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">www.3patiblueapp.com.pk</a> (collectively, the "Service").
               </p>
                 <p className="text-gray-300">
                 Please read this Privacy Policy carefully. By accessing or using our Service, you acknowledge that you have read, understood, and agree to be bound by all the terms outlined in this Privacy Policy.
@@ -80,7 +80,7 @@ export default function PrivacyPolicyPage() {
                 We use the collected data for various purposes:
               </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-300">
-                  <li>To provide and maintain our Card Rummy gaming Service</li>
+                  <li>To provide and maintain our 3Patti Blue gaming Service</li>
                   <li>To verify your identity and prevent fraud</li>
                   <li>To process deposits and withdrawals through JazzCash and EasyPaisa</li>
                   <li>To notify you about changes, updates, or new features</li>
@@ -162,14 +162,14 @@ export default function PrivacyPolicyPage() {
                   <li><strong className="text-white">Right to Withdraw Consent:</strong> Withdraw consent for data processing at any time</li>
               </ul>
                 <p className="text-gray-300 mt-4">
-                  To exercise any of these rights, please contact us at <a href="mailto:support@cardrummyapp.com.pk" className="text-accent hover:underline">support@cardrummyapp.com.pk</a>
+                  To exercise any of these rights, please contact us at <a href="mailto:support@3patiblueapp.com.pk" className="text-accent hover:underline">support@3patiblueapp.com.pk</a>
               </p>
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Age Restriction</h2>
               <div className="bg-red-900/20 border-l-4 border-red-500 rounded-r-lg p-6 mb-8">
                 <p className="text-gray-300 mb-4">
-                  <strong className="text-white">Important:</strong> Card Rummy is intended only for users who are 18 years of age or older. We do not knowingly collect personally identifiable information from anyone under 18 years of age.
+                  <strong className="text-white">Important:</strong> 3Patti Blue is intended only for users who are 18 years of age or older. We do not knowingly collect personally identifiable information from anyone under 18 years of age.
                 </p>
                 <p className="text-gray-300">
                   If you are a parent or guardian and you are aware that your child has provided us with Personal Data, please contact us immediately. If we become aware that we have collected Personal Data from users under 18 without verification of parental consent, we will take steps to remove that information from our servers.
@@ -213,14 +213,14 @@ export default function PrivacyPolicyPage() {
                       <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
                     </svg>
                     <strong className="text-white mr-2">Email:</strong>
-                    <a href="mailto:support@cardrummyapp.com.pk" className="text-accent hover:underline">support@cardrummyapp.com.pk</a>
+                    <a href="mailto:support@3patiblueapp.com.pk" className="text-accent hover:underline">support@3patiblueapp.com.pk</a>
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 text-accent mr-3" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clipRule="evenodd"/>
                     </svg>
                     <strong className="text-white mr-2">Website:</strong>
-                    <a href="https://www.cardrummyapp.com.pk" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">www.cardrummyapp.com.pk</a>
+                    <a href="https://www.3patiblueapp.com.pk" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">www.3patiblueapp.com.pk</a>
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 text-accent mr-3" fill="currentColor" viewBox="0 0 20 20">
@@ -235,10 +235,10 @@ export default function PrivacyPolicyPage() {
               
               <div className="bg-[#0A1029] rounded-xl p-6 mt-8 text-center">
                 <p className="text-gray-400 text-sm mb-4">
-                  By using Card Rummy, you consent to this Privacy Policy and agree to its terms.
+                  By using 3Patti Blue, you consent to this Privacy Policy and agree to its terms.
                 </p>
                 <p className="text-gray-400 text-sm">
-                  © 2026 Card Rummy. All rights reserved.
+                  © 2026 3Patti Blue. All rights reserved.
                 </p>
               </div>
             </div>

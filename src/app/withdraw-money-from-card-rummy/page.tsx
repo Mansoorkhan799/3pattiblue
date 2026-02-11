@@ -2,23 +2,23 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Withdraw Money from Card Rummy? | Fast & Secure Withdrawal Guide 2026',
-  description: 'Learn how to withdraw money from Card Rummy using JazzCash, EasyPaisa, and Bank Transfer. Follow our step-by-step guide for quick and secure withdrawals.',
+  title: 'How to Withdraw Money from 3Patti Blue? | Fast & Secure Withdrawal Guide 2026',
+  description: 'Learn how to withdraw money from 3Patti Blue using JazzCash, EasyPaisa, and Bank Transfer. Follow our step-by-step guide for quick and secure withdrawals.',
   keywords: 'withdraw money card rummy, card rummy withdrawal, jazzcash withdrawal, easypaisa withdrawal, cash out card rummy, card rummy payout',
   openGraph: {
-    title: 'How to Withdraw Money from Card Rummy? | Fast & Secure Withdrawal Guide',
-    description: 'Step-by-step guide to withdraw money from Card Rummy using JazzCash, EasyPaisa, and Bank Transfer. Quick and secure withdrawals.',
-    url: 'https://cardrummyapp.com.pk/withdraw-money-from-card-rummy',
-    siteName: 'Card Rummy',
+    title: 'How to Withdraw Money from 3Patti Blue? | Fast & Secure Withdrawal Guide',
+    description: 'Step-by-step guide to withdraw money from 3Patti Blue using JazzCash, EasyPaisa, and Bank Transfer. Quick and secure withdrawals.',
+    url: 'https://3patiblueapp.com.pk/withdraw-money-from-card-rummy',
+    siteName: '3Patti Blue',
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Withdraw Money from Card Rummy?',
-    description: 'Learn how to withdraw money from Card Rummy using our complete withdrawal guide.',
+    title: 'How to Withdraw Money from 3Patti Blue?',
+    description: 'Learn how to withdraw money from 3Patti Blue using our complete withdrawal guide.',
   },
   alternates: {
-    canonical: 'https://cardrummyapp.com.pk/withdraw-money-from-card-rummy',
+    canonical: 'https://3patiblueapp.com.pk/withdraw-money-from-card-rummy',
   },
 };
 
@@ -30,13 +30,13 @@ export default function WithdrawMoneyPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              How to Withdraw Money from Card Rummy?
+              How to Withdraw Money from 3Patti Blue?
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8">
               Fast, Secure & Easy Cash Out with JazzCash, EasyPaisa & Bank Transfer
             </p>
             <Link
-              href="https://pkcardrummy.com/?from_gameid=5784509&channelCode=100000"
+              href="https://3pattibluevip.com?from_gameid=9483409&channelCode=100000"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-accent text-primary px-8 py-4 rounded-full text-lg font-bold hover:bg-accent/90 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105"
@@ -53,10 +53,10 @@ export default function WithdrawMoneyPage() {
           <div className="max-w-4xl mx-auto">
             <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> is a well-known online card game that offers many variants of Teen Patti and allows players to earn real money. If you haven't already, <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">download Card Rummy</Link> to get started. Many players play it to earn extra income. Once you win money, the first step is to cash out your funds securely.
+                <Link href="/" className="text-accent hover:underline font-semibold">3Patti Blue</Link> is a well-known online card game that offers many variants of Teen Patti and allows players to earn real money. If you haven't already, <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">download 3Patti Blue</Link> to get started. Many players play it to earn extra income. Once you win money, the first step is to cash out your funds securely.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                New players can feel confused when they try to withdraw cash from Card Rummy. But the withdrawal process is straightforward, so that everyone can do it without any confusion. You can send your earnings to your personal accounts, such as Easypaisa and Jazzcash. Before withdrawing, make sure you have <Link href="/deposit-money-in-card-rummy" className="text-accent hover:underline font-semibold">deposited money in Card Rummy</Link> to start playing and winning.
+                New players can feel confused when they try to withdraw cash from 3Patti Blue. But the withdrawal process is straightforward, so that everyone can do it without any confusion. You can send your earnings to your personal accounts, such as Easypaisa and Jazzcash. Before withdrawing, make sure you have <Link href="/deposit-money-in-card-rummy" className="text-accent hover:underline font-semibold">deposited money in 3Patti Blue</Link> to start playing and winning.
               </p>
             </div>
           </div>
@@ -68,7 +68,7 @@ export default function WithdrawMoneyPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
-              Step-By-Step Guide to Withdraw Money from Card Rummy
+              Step-By-Step Guide to Withdraw Money from 3Patti Blue
             </h2>
 
             <div className="space-y-8">
@@ -79,9 +79,9 @@ export default function WithdrawMoneyPage() {
                     1
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Open Card Rummy App</h3>
+                    <h3 className="text-2xl font-bold text-white mb-3">Open 3Patti Blue App</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      First, open the Card Rummy app on your phone and log in to your account using your registered mobile number and password. You must have a strong internet connection to avoid login issues.
+                      First, open the 3Patti Blue app on your phone and log in to your account using your registered mobile number and password. You must have a strong internet connection to avoid login issues.
                     </p>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ export default function WithdrawMoneyPage() {
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-white mb-3">Click on Wallet Option</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      After logging in to your Card Rummy account, click on the wallet option. You will see your current balance and other options, such as the withdraw and deposit buttons.
+                      After logging in to your 3Patti Blue account, click on the wallet option. You will see your current balance and other options, such as the withdraw and deposit buttons.
                     </p>
                   </div>
                 </div>
@@ -141,7 +141,7 @@ export default function WithdrawMoneyPage() {
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-white mb-3">Select Payment Method</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      Card Rummy provides many payment methods, including Easypaisa, Jazzcash, and Bank Transfer. Select the payment method that you want to use easily.
+                      3Patti Blue provides many payment methods, including Easypaisa, Jazzcash, and Bank Transfer. Select the payment method that you want to use easily.
                     </p>
                   </div>
                 </div>
@@ -186,7 +186,7 @@ export default function WithdrawMoneyPage() {
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-white mb-3">Wait for Processing</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      After confirming the withdrawal, Card Rummy will start processing your withdrawal request. It usually takes 24 hours or less. It may take longer due to network issues or payment delays.
+                      After confirming the withdrawal, 3Patti Blue will start processing your withdrawal request. It usually takes 24 hours or less. It may take longer due to network issues or payment delays.
                     </p>
                   </div>
                 </div>
@@ -224,7 +224,7 @@ export default function WithdrawMoneyPage() {
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-300">Use the same account information that you have used to create a Card Rummy account.</span>
+                  <span className="text-lg text-gray-300">Use the same account information that you have used to create a 3Patti Blue account.</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
@@ -236,7 +236,7 @@ export default function WithdrawMoneyPage() {
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-300">Update your Card Rummy app for smooth payouts.</span>
+                  <span className="text-lg text-gray-300">Update your 3Patti Blue app for smooth payouts.</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
@@ -263,10 +263,10 @@ export default function WithdrawMoneyPage() {
             <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Conclusion</h2>
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                Cashing out funds from Card Rummy is very easy if you know the proper steps. Re-check your account information and select a real payment method. You can enjoy your earnings without any trouble if you follow the whole process correctly.
+                Cashing out funds from 3Patti Blue is very easy if you know the proper steps. Re-check your account information and select a real payment method. You can enjoy your earnings without any trouble if you follow the whole process correctly.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                Follow all rules and withdrawal limits to avoid problems. It provides safe, quick withdrawals to all its users. You can securely collect your winnings and enjoy your favorite games in 3Card Rummy by following these simple steps.
+                Follow all rules and withdrawal limits to avoid problems. It provides safe, quick withdrawals to all its users. You can securely collect your winnings and enjoy your favorite games in 33Patti Blue by following these simple steps.
               </p>
             </div>
           </div>
@@ -283,28 +283,28 @@ export default function WithdrawMoneyPage() {
             <div className="space-y-6">
               <div className="bg-secondary rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
                 <h3 className="text-xl font-bold text-accent mb-3">
-                  What is the minimum amount that we can withdraw from the Card Rummy Game?
+                  What is the minimum amount that we can withdraw from the 3Patti Blue Game?
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  You can easily withdraw a minimum of Rs 100 from your Card Rummy account, as it supports withdrawals of that amount.
+                  You can easily withdraw a minimum of Rs 100 from your 3Patti Blue account, as it supports withdrawals of that amount.
                 </p>
               </div>
 
               <div className="bg-secondary rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
                 <h3 className="text-xl font-bold text-accent mb-3">
-                  How long does Card Rummy take to send withdrawals?
+                  How long does 3Patti Blue take to send withdrawals?
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  Card Rummy usually processes withdrawals in 3 to 24 hours. It may take longer due to some issues.
+                  3Patti Blue usually processes withdrawals in 3 to 24 hours. It may take longer due to some issues.
                 </p>
               </div>
 
               <div className="bg-secondary rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
                 <h3 className="text-xl font-bold text-accent mb-3">
-                  What should we do if our payout fails on Card Rummy?
+                  What should we do if our payout fails on 3Patti Blue?
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  If your withdrawal fails on Card Rummy, contact its customer support team to approve your withdrawal.
+                  If your withdrawal fails on 3Patti Blue, contact its customer support team to approve your withdrawal.
                 </p>
               </div>
             </div>
@@ -320,15 +320,15 @@ export default function WithdrawMoneyPage() {
               Ready to Withdraw Your Winnings?
             </h2>
             <p className="text-lg text-gray-300 mb-8">
-              Download Card Rummy now and start withdrawing your earnings securely!
+              Download 3Patti Blue now and start withdrawing your earnings securely!
             </p>
             <Link
-              href="https://pkcardrummy.com/?from_gameid=5784509&channelCode=100000"
+              href="https://3pattibluevip.com?from_gameid=9483409&channelCode=100000"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-accent text-primary px-8 py-4 rounded-full text-lg font-bold hover:bg-accent/90 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105"
             >
-              Download Card Rummy Now
+              Download 3Patti Blue Now
             </Link>
           </div>
         </div>
@@ -341,13 +341,13 @@ export default function WithdrawMoneyPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "HowTo",
-            "name": "How to Withdraw Money from Card Rummy",
-            "description": "Step-by-step guide to withdraw money from Card Rummy using JazzCash, EasyPaisa, and Bank Transfer",
+            "name": "How to Withdraw Money from 3Patti Blue",
+            "description": "Step-by-step guide to withdraw money from 3Patti Blue using JazzCash, EasyPaisa, and Bank Transfer",
             "step": [
               {
                 "@type": "HowToStep",
-                "name": "Open Card Rummy App",
-                "text": "Open the Card Rummy app on your phone and log in to your account."
+                "name": "Open 3Patti Blue App",
+                "text": "Open the 3Patti Blue app on your phone and log in to your account."
               },
               {
                 "@type": "HowToStep",
@@ -382,7 +382,7 @@ export default function WithdrawMoneyPage() {
               {
                 "@type": "HowToStep",
                 "name": "Wait for Processing",
-                "text": "Wait for Card Rummy to process your withdrawal (usually within 24 hours)."
+                "text": "Wait for 3Patti Blue to process your withdrawal (usually within 24 hours)."
               },
               {
                 "@type": "HowToStep",

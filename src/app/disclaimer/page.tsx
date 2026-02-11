@@ -2,23 +2,23 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Disclaimer - Card Rummy | Legal Information',
-  description: 'Read the disclaimer for Card Rummy. Important legal information about the use of this blog and third-party platforms.',
-  keywords: ['Card Rummy disclaimer', 'legal disclaimer', 'terms', 'conditions', 'gambling disclaimer'],
+  title: 'Disclaimer - 3Patti Blue | Legal Information',
+  description: 'Read the disclaimer for 3Patti Blue. Important legal information about the use of this blog and third-party platforms.',
+  keywords: ['3Patti Blue disclaimer', 'legal disclaimer', 'terms', 'conditions', 'gambling disclaimer'],
   openGraph: {
-    title: 'Disclaimer - Card Rummy',
-    description: 'Legal disclaimer and important information about Card Rummy.',
-    url: 'https://cardrummyapp.com.pk/disclaimer',
-    siteName: 'Card Rummy',
+    title: 'Disclaimer - 3Patti Blue',
+    description: 'Legal disclaimer and important information about 3Patti Blue.',
+    url: 'https://3patiblueapp.com.pk/disclaimer',
+    siteName: '3Patti Blue',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Disclaimer - Card Rummy',
-    description: 'Legal disclaimer and important information about Card Rummy.',
+    title: 'Disclaimer - 3Patti Blue',
+    description: 'Legal disclaimer and important information about 3Patti Blue.',
   },
   alternates: {
-    canonical: 'https://cardrummyapp.com.pk/disclaimer',
+    canonical: 'https://3patiblueapp.com.pk/disclaimer',
   },
   robots: {
     index: true,
@@ -58,7 +58,7 @@ export default function Disclaimer() {
               {/* Main Disclaimer Content */}
               <div className="space-y-6 text-gray-300">
                 <p className="text-lg leading-relaxed">
-                  The information provided on this blog (<a href="https://www.cardrummyapp.com.pk" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.cardrummyapp.com.pk</a>) about <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> is for <strong>general informational and entertainment purposes only</strong>. We do not host, promote, or encourage any form of gambling or betting activities.
+                  The information provided on this blog (<a href="https://www.3patiblueapp.com.pk" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.3patiblueapp.com.pk</a>) about <Link href="/" className="text-accent hover:underline font-semibold">3Patti Blue</Link> is for <strong>general informational and entertainment purposes only</strong>. We do not host, promote, or encourage any form of gambling or betting activities.
                 </p>
 
                 <div className="bg-[#0A1029] rounded-xl p-6 border border-accent">
@@ -66,7 +66,7 @@ export default function Disclaimer() {
                   <ul className="space-y-3 text-gray-300">
                     <li className="flex items-start">
                       <span className="text-accent mr-2 font-bold">•</span>
-                      <span>Card Rummy is a card game that may involve <strong>real money</strong> when played on certain platforms.</span>
+                      <span>3Patti Blue is a card game that may involve <strong>real money</strong> when played on certain platforms.</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-accent mr-2 font-bold">•</span>
@@ -140,9 +140,9 @@ export default function Disclaimer() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Disclaimer - Card Rummy",
-            "description": "Legal disclaimer and important information about Card Rummy website.",
-            "url": "https://cardrummyapp.com.pk/disclaimer"
+            "name": "Disclaimer - 3Patti Blue",
+            "description": "Legal disclaimer and important information about 3Patti Blue website.",
+            "url": "https://3patiblueapp.com.pk/disclaimer"
           })
         }}
       />

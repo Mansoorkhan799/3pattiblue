@@ -2,23 +2,23 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Card Rummy Tips: 10 Smart Tricks to Play Safely and Win More 2026',
-  description: '10 proven Card Rummy tips and tricks 2026: Bankroll management, game selection, bonus maximization, withdrawal strategies & safe play tips to increase winnings in Pakistan!',
+  title: '3Patti Blue Tips: 10 Smart Tricks to Play Safely and Win More 2026',
+  description: '10 proven 3Patti Blue tips and tricks 2026: Bankroll management, game selection, bonus maximization, withdrawal strategies & safe play tips to increase winnings in Pakistan!',
   keywords: [
-    'Card Rummy tips',
-    'Card Rummy tricks',
-    'how to win Card Rummy',
-    'Card Rummy strategies',
-    'Card Rummy winning tips',
-    'Card Rummy bankroll management',
-    'Card Rummy safe play',
-    'Card Rummy winning guide',
-    'Card Rummy tips Pakistan',
-    'Card Rummy tricks 2026'
+    '3Patti Blue tips',
+    '3Patti Blue tricks',
+    'how to win 3Patti Blue',
+    '3Patti Blue strategies',
+    '3Patti Blue winning tips',
+    '3Patti Blue bankroll management',
+    '3Patti Blue safe play',
+    '3Patti Blue winning guide',
+    '3Patti Blue tips Pakistan',
+    '3Patti Blue tricks 2026'
   ],
   openGraph: {
-    title: 'Card Rummy Tips: 10 Smart Tricks to Play Safely and Win More',
-    description: 'Proven tips and tricks to maximize your Card Rummy earnings. Learn bankroll management, game strategies, and safe play techniques!',
+    title: '3Patti Blue Tips: 10 Smart Tricks to Play Safely and Win More',
+    description: 'Proven tips and tricks to maximize your 3Patti Blue earnings. Learn bankroll management, game strategies, and safe play techniques!',
     type: 'article',
   },
 };
@@ -32,12 +32,12 @@ export default function BlogCardRummyTips() {
           <span className="mx-2">/</span>
           <Link href="/blog" className="hover:text-[#FFA500]">Blog</Link>
           <span className="mx-2">/</span>
-          <span className="text-white">Card Rummy Tips & Tricks</span>
+          <span className="text-white">3Patti Blue Tips & Tricks</span>
         </nav>
 
         <header className="mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Card Rummy Tips: 10 Smart Tricks to Play Safely and Win More
+            3Patti Blue Tips: 10 Smart Tricks to Play Safely and Win More
           </h1>
           <div className="flex items-center gap-4 text-gray-400 text-sm">
             <time dateTime="2026-01-11">January 11, 2026</time>
@@ -48,7 +48,7 @@ export default function BlogCardRummyTips() {
 
         <div className="prose prose-invert prose-lg max-w-none">
           <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-            Want to increase your winnings in <Link href="/" className="text-[#FFA500] hover:underline font-semibold">Card Rummy</Link> while playing safely? These 10 proven tips and tricks will help you maximize earnings, minimize losses, and build a sustainable winning strategy. Whether you're a beginner or experienced player, these strategies can significantly improve your results.
+            Want to increase your winnings in <Link href="/" className="text-[#FFA500] hover:underline font-semibold">3Patti Blue</Link> while playing safely? These 10 proven tips and tricks will help you maximize earnings, minimize losses, and build a sustainable winning strategy. Whether you're a beginner or experienced player, these strategies can significantly improve your results.
           </p>
 
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">Tip 1: Master Bankroll Management</h2>
@@ -219,7 +219,7 @@ export default function BlogCardRummyTips() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">Tip 6: Maximize VIP Benefits</h2>
           
           <p className="text-gray-300 mb-4">
-            VIP levels provide significant benefits. For a complete guide to all VIP benefits and bonuses, see our <Link href="/blog/card-rummy-bonuses-vip-guide" className="text-[#FFA500] hover:underline font-semibold">Card Rummy Bonuses & VIP Guide</Link>. Here's how to maximize them:
+            VIP levels provide significant benefits. For a complete guide to all VIP benefits and bonuses, see our <Link href="/blog/card-rummy-bonuses-vip-guide" className="text-[#FFA500] hover:underline font-semibold">3Patti Blue Bonuses & VIP Guide</Link>. Here's how to maximize them:
           </p>
 
           <h3 className="text-2xl font-semibold text-white mt-8 mb-4">VIP Level-Up Strategy</h3>
@@ -390,7 +390,7 @@ export default function BlogCardRummyTips() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">Putting It All Together: Your Daily Routine</h2>
           
           <div className="bg-gradient-to-r from-purple-800 to-orange-600 rounded-lg p-8 my-8">
-            <h3 className="text-xl font-bold text-white mb-4">📅 Optimal Daily Card Rummy Routine</h3>
+            <h3 className="text-xl font-bold text-white mb-4">📅 Optimal Daily 3Patti Blue Routine</h3>
             <ol className="list-decimal pl-6 text-white space-y-3">
               <li><strong>Morning (5 minutes):</strong> Check daily tasks, plan which ones to complete</li>
               <li><strong>Session 1 (1 hour):</strong> Complete daily tasks, play Dragon vs Tiger at low stakes</li>
@@ -403,7 +403,7 @@ export default function BlogCardRummyTips() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">Conclusion</h2>
           
           <p className="text-gray-300 mb-4">
-            These 10 tips can significantly improve your Card Rummy results:
+            These 10 tips can significantly improve your 3Patti Blue results:
           </p>
           <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-2">
             <li>Master bankroll management (5% rule, daily limits)</li>
@@ -419,7 +419,7 @@ export default function BlogCardRummyTips() {
           </ol>
 
           <p className="text-gray-300 mb-4">
-            <strong>Remember:</strong> Card Rummy is entertainment with earning potential, but it's not a guaranteed income source. Play responsibly, set limits, and prioritize fun over profits. These tips will help you maximize your chances, but there's always risk involved.
+            <strong>Remember:</strong> 3Patti Blue is entertainment with earning potential, but it's not a guaranteed income source. Play responsibly, set limits, and prioritize fun over profits. These tips will help you maximize your chances, but there's always risk involved.
           </p>
 
           <div className="mt-12 text-center">
@@ -427,7 +427,7 @@ export default function BlogCardRummyTips() {
               href="/download-card-rummy"
               className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"
             >
-              Download Card Rummy - Start Applying These Tips
+              Download 3Patti Blue - Start Applying These Tips
             </Link>
           </div>
         </div>
@@ -437,7 +437,7 @@ export default function BlogCardRummyTips() {
           <div className="grid md:grid-cols-2 gap-6">
             <Link href="/blog/how-to-use-card-rummy-app-pakistan-guide-2026" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
               <h4 className="text-xl font-semibold text-white mb-2">Complete Beginner's Guide</h4>
-              <p className="text-gray-400">Learn the basics of Card Rummy</p>
+              <p className="text-gray-400">Learn the basics of 3Patti Blue</p>
             </Link>
             <Link href="/blog/card-rummy-bonuses-vip-guide" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
               <h4 className="text-xl font-semibold text-white mb-2">Bonuses & VIP Guide</h4>

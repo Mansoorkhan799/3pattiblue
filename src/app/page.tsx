@@ -1,136 +1,191 @@
 import Image from "next/image";
-import Link from 'next/link';
 import Script from 'next/script';
 import { Metadata } from 'next';
+import HeroSection from '@/components/HomePage/HeroSection';
+import SectionHeading from '@/components/SectionHeading';
+import TranslatableText from '@/components/TranslatableText';
 
-// This additional metadata enhances the page-specific SEO
+// Enhanced metadata with E-E-A-T signals and GEO optimization for 2026
 export const metadata: Metadata = {
   title: {
-    default: "Card Rummy APK Pakistan v1.225 | Free Download for Android",
-    template: "%s | Card Rummy"
+    default: "3Patti Blue APK Download v1.204(1) | Play Real Teen Patti & Win Cash 2026",
+    template: "%s | 3Patti Blue"
   },
-  description: "Card Rummy 2026 - Pakistan's #1 card game platform. Download Card Rummy APK, play Teen Patti, Rummy, Dragon vs Tiger & win real cash. Fast withdrawals via JazzCash & EasyPaisa. Join 500K+ players!",
+  description: "3Patti Blue - Pakistan's most trusted Teen Patti gaming platform in 2026. Download 3Patti Blue APK for Android. Play authentic Teen Patti, Rummy, Dragon Tiger & win real money. Instant withdrawals via JazzCash & EasyPaisa. Join 1M+ verified players earning daily! | تین پتی بلیو - پاکستان کا سب سے قابل اعتماد گیمنگ پلیٹ فارم۔ جاز کیش اور ایزی پیسہ سے فوری نکاسی۔",
   keywords: [
-    "Card Rummy",
-    "card rummy game",
-    "card rummy download",
-    "card rummy app",
-    "card rummy apk",
-    "card rummy pakistan",
-    "card rummy online",
-    "download card rummy",
-    "card rummy real money",
-    "3 Patti Card Rummy",
-    "how to play card rummy",
-    "card rummy 2026",
-    "Pakistan card games",
-    "Teen Patti game",
-    "online rummy game",
-    "earn money playing cards",
+    "3Patti Blue",
+    "3patti blue download",
+    "3patti blue apk",
+    "3patti blue app",
+    "3patti blue pakistan",
+    "3patti blue real money",
+    "3patti blue game",
+    "download 3patti blue",
+    "3patti blue online",
+    "3patti blue 2026",
+    "Teen Patti 3Patti Blue",
+    "how to play 3patti blue",
+    "3patti blue earn money",
+    "Pakistan teen patti games",
+    "best teen patti app 2026",
+    "3patti blue withdrawal",
+    "3patti blue bonus",
+    "teen patti real cash",
     "Android gaming app 2026",
-    "JazzCash gaming",
+    "JazzCash gaming app",
     "EasyPaisa gaming",
-    "mobile card games",
-    "real money games Pakistan",
-    "card game earning app",
-    "Teen Patti online",
-    "Dragon vs Tiger",
-    "best earning app Pakistan",
-    "rummy card game",
-    "play rummy online",
-    "rummy game download"
+    "mobile card games pakistan",
+    "real money gaming app",
+    "teen patti earning app",
+    "Dragon vs Tiger game",
+    "rummy online pakistan",
+    "best earning app 2026",
+    // Urdu Keywords for Pakistan
+    "تین پتی بلیو",
+    "تین پتی گیم",
+    "آن لائن تین پتی",
+    "پیسے کمانے والی ایپ",
+    "جاز کیش گیمنگ",
+    "ایزی پیسہ گیمنگ",
+    "پاکستان میں تین پتی",
+    "رمی گیم پاکستان",
+    "ڈریگن ٹائیگر گیم",
+    "آن لائن کارڈ گیمز پاکستان"
   ],
   openGraph: {
-    title: 'Card Rummy APK Pakistan v1.225 | Free Download for Android',
-    description: 'Card Rummy 2026 - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
+    title: '3Patti Blue APK - Download & Win Real Money | Pakistan #1 Teen Patti App',
+    description: '3Patti Blue 2026 - Join 1M+ players winning real cash daily. Authentic Teen Patti experience with instant JazzCash & EasyPaisa withdrawals. Download now & get Rs.100 bonus!',
     images: [
       {
-        url: 'https://cardrummyapp.com.pk/card-rummy-logo.webp',
+        url: 'https://3patiblueapp.com.pk/3-patti-blue-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'Card Rummy APK Download'
+        alt: '3Patti Blue - Authentic Teen Patti Gaming Platform'
       }
     ],
     type: 'website'
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Card Rummy APK Pakistan v1.225 | Free Download for Android',
-    description: 'Card Rummy 2026 - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
-    images: ['https://cardrummyapp.com.pk/card-rummy-logo.webp']
+    title: '3Patti Blue - Pakistan\'s #1 Teen Patti App | Win Real Cash',
+    description: '3Patti Blue 2026 - Trusted by 1M+ players. Play authentic Teen Patti & win real money. Instant withdrawals via JazzCash & EasyPaisa. Download now & get PKR 100 bonus!',
+    images: ['https://3patiblueapp.com.pk/3-patti-blue-logo.webp']
   }
 };
 
 export default function Home() {
-  // Schema.org structured data for SEO
+  // Enhanced Schema.org structured data with E-E-A-T signals for GEO 2026
   const schemaData = {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": "https://cardrummyapp.com.pk/#website",
-        "url": "https://cardrummyapp.com.pk/",
-        "name": "Card Rummy",
-        "description": "Pakistan's premier card game platform with Teen Patti, Rummy, Dragon Tiger and more",
-        "inLanguage": "en-US",
+        "@id": "https://3patiblueapp.com.pk/#website",
+        "url": "https://3patiblueapp.com.pk/",
+        "name": "3Patti Blue",
+        "alternateName": "3Patti Blue Pakistan",
+        "description": "Pakistan's most trusted Teen Patti gaming platform. Experience authentic 3Patti gameplay with verified security and instant payouts.",
+        "inLanguage": ["en-PK", "ur-PK"],
+        "publisher": {
+          "@id": "https://3patiblueapp.com.pk/#organization"
+        },
         "potentialAction": {
           "@type": "SearchAction",
-          "target": "https://cardrummyapp.com.pk/?s={search_term_string}",
+          "target": "https://3patiblueapp.com.pk/?s={search_term_string}",
           "query-input": "required name=search_term_string"
         }
       },
       {
         "@type": "Organization",
-        "@id": "https://cardrummyapp.com.pk/#organization",
-        "name": "Card Rummy",
-        "url": "https://cardrummyapp.com.pk/",
+        "@id": "https://3patiblueapp.com.pk/#organization",
+        "name": "3Patti Blue",
+        "legalName": "3Patti Blue Gaming Platform",
+        "url": "https://3patiblueapp.com.pk/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
+          "url": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
           "width": 512,
-          "height": 512
+          "height": 512,
+          "caption": "3Patti Blue - Authentic Teen Patti Gaming"
         },
+        "foundingDate": "2024",
         "sameAs": [
           "https://www.facebook.com/share/1at8tjJcje/"
         ],
         "contactPoint": {
           "@type": "ContactPoint",
-          "email": "support@cardrummyapp.com.pk",
+          "email": "support@3patiblueapp.com.pk",
           "contactType": "Customer Support",
-          "areaServed": "PK"
+          "areaServed": "PK",
+                "availableLanguage": ["English", "Urdu", "اردو"],
+          "hoursAvailable": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "ratingCount": "1000000",
+          "reviewCount": "250000"
         }
       },
       {
         "@type": "SoftwareApplication",
-        "name": "Card Rummy",
+        "name": "3Patti Blue",
+        "alternateName": "3Patti Blue App",
         "operatingSystem": "Android 5.0+",
         "applicationCategory": "GameApplication",
-        "image": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
-        "logo": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
+        "applicationSubCategory": "Card Game",
+        "image": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
+        "logo": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "ratingCount": "500000"
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "ratingCount": "1000000",
+          "reviewCount": "250000"
         },
         "offers": {
           "@type": "Offer",
           "price": "0",
-          "priceCurrency": "PKR"
+          "priceCurrency": "PKR",
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": "2026-12-31"
         },
-        "downloadUrl": "https://cardrummyapp.com.pk/download-card-rummy",
-        "softwareVersion": "V1.225",
+        "downloadUrl": "https://3patiblueapp.com.pk/download-card-rummy",
+        "installUrl": "https://3patiblueapp.com.pk/download-card-rummy",
+        "softwareVersion": "1.204(1)",
+        "releaseNotes": "Enhanced security, faster withdrawals, improved UI/UX, new game modes",
+        "datePublished": "2024-01-15",
+        "dateModified": "2026-01-01",
         "fileSize": "49MB",
-        "description": "Play Teen Patti, Rummy, Dragon Tiger and other card games. Earn real money with JazzCash & EasyPaisa withdrawals.",
+        "contentRating": "18+",
+        "description": "3Patti Blue is Pakistan's most trusted Teen Patti gaming platform. Play authentic Teen Patti, Rummy, Dragon Tiger & more card games. Win real money with instant JazzCash & EasyPaisa withdrawals. Verified security, fair play guaranteed.",
+        "featureList": [
+          "Authentic Teen Patti gameplay",
+          "Real money winnings",
+          "Instant JazzCash & EasyPaisa withdrawals",
+          "Daily bonuses and rewards",
+          "24/7 customer support",
+          "Secure encrypted transactions",
+          "Multiple card games",
+          "Email binding for account security"
+        ],
         "screenshot": [
-          "https://cardrummyapp.com.pk/card-rummy-logo.webp",
-          "https://cardrummyapp.com.pk/card-rummy.webp",
-          "https://cardrummyapp.com.pk/card-rummy-game-interface.webp",
-          "https://cardrummyapp.com.pk/card-rummy-games.webp",
-          "https://cardrummyapp.com.pk/card-rummy-earn-bonus.webp"
+          "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
+          "https://3patiblueapp.com.pk/3-patti-blue.webp",
+          "https://3patiblueapp.com.pk/3-patti-blue-game.webp",
+          "https://3patiblueapp.com.pk/3-patti-blue-pakistan.webp",
+          "https://3patiblueapp.com.pk/3pattiblue.webp"
         ],
         "author": {
           "@type": "Organization",
-          "name": "Card Rummy"
+          "name": "3Patti Blue",
+          "@id": "https://3patiblueapp.com.pk/#organization"
+        },
+        "provider": {
+          "@type": "Organization",
+          "name": "3Patti Blue",
+          "@id": "https://3patiblueapp.com.pk/#organization"
         }
       },
       {
@@ -138,90 +193,82 @@ export default function Home() {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What is Card Rummy?",
+            "name": "What is 3Patti Blue and how does it work?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Card Rummy is Pakistan's premier online card game platform where you can play Teen Patti, Rummy, Dragon vs Tiger, and many other exciting casino games. Card Rummy offers real cash rewards with fast withdrawals via JazzCash and EasyPaisa."
+              "text": "3Patti Blue is Pakistan's most trusted Teen Patti gaming platform in 2026. It offers authentic Teen Patti gameplay where you can compete with real players and win real money. The app provides secure, encrypted transactions and instant withdrawals through JazzCash and EasyPaisa. With over 1 million verified players, 3Patti Blue ensures fair play, verified security protocols, and 24/7 customer support. You can start playing with free daily bonuses or deposit money to win bigger cash prizes."
             }
           },
           {
             "@type": "Question",
-            "name": "How to download Card Rummy?",
+            "name": "How to download 3Patti Blue APK?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You can download Card Rummy APK from the official website cardrummyapp.com.pk. The app is available for Android devices and can be installed directly by downloading the APK file."
+              "text": "To download 3Patti Blue APK, visit the official website 3patiblueapp.com.pk and click the download button. The 3Patti Blue APK file (49MB) will be downloaded to your Android device. Enable 'Install from Unknown Sources' in your device settings, then open the APK file to install. The app is free to download and compatible with Android 5.0 or higher. Always download from the official website to ensure you get the authentic, secure version of 3Patti Blue."
             }
           },
           {
             "@type": "Question",
-            "name": "How to download Card Rummy app for Android?",
+            "name": "Is 3Patti Blue safe and secure to use?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "To download the Card Rummy app for Android, visit cardrummyapp.com.pk, click the download button, enable Unknown Sources in your settings, and install the APK file. The Card Rummy game is free to download and works on Android 5.0 or higher."
+              "text": "Yes, 3Patti Blue is completely safe and secure. The platform uses advanced 256-bit SSL encryption to protect all transactions and personal data. All payment methods (JazzCash, EasyPaisa) are verified and secure. The app has been trusted by over 1 million users in Pakistan since 2024. 3Patti Blue implements fair play algorithms, regular security audits, and KYC verification to prevent fraud. Your money and personal information are protected with bank-level security. However, always ensure you download from the official website only."
             }
           },
           {
             "@type": "Question",
-            "name": "Is Card Rummy safe and legal?",
+            "name": "How to earn and win money on 3Patti Blue?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, Card Rummy is safe to use with secure data protection. The platform uses encrypted transactions and protects user privacy. However, legality depends on local laws, so always check your region's regulations."
+              "text": "You can earn money on 3Patti Blue through multiple ways: (1) Playing Teen Patti, Rummy, Dragon Tiger and other skill-based games against real players. (2) Claiming daily login bonuses and rewards worth up to PKR 500. (3) Getting 100% welcome bonus on your first deposit. (4) Referring friends and earning 10-20% commission on their deposits. (5) Participating in daily tournaments with cash prizes. (6) VIP rewards program offering up to 10% rebate on deposits. Winners receive their earnings instantly in their wallet, which can be withdrawn anytime via JazzCash or EasyPaisa."
             }
           },
           {
             "@type": "Question",
-            "name": "How to earn money on Card Rummy?",
+            "name": "How to withdraw money from 3Patti Blue?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You can earn money on Card Rummy by playing games like Teen Patti, Rummy, and Dragon vs Tiger. The platform offers welcome bonuses, daily rewards, referral commissions, and deposit bonuses to help you start earning."
+              "text": "Withdrawing money from 3Patti Blue is quick and easy: (1) Open the app and go to the Wallet section. (2) Click on 'Withdrawal' option. (3) Select your preferred payment method - JazzCash or EasyPaisa. (4) Enter the amount you want to withdraw (minimum PKR 500). (5) Provide your verified account details. (6) Confirm the withdrawal request. Your money will be processed within 5-30 minutes and transferred directly to your JazzCash or EasyPaisa account. There are no hidden fees or charges on withdrawals."
             }
           },
           {
             "@type": "Question",
-            "name": "How to withdraw money from Card Rummy?",
+            "name": "What games are available on 3Patti Blue?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You can withdraw money from Card Rummy using JazzCash or EasyPaisa. Go to the Wallet section, click Withdrawal, choose your payment method, enter the amount and account details, then confirm. Withdrawals are processed quickly."
+              "text": "3Patti Blue offers 30+ exciting games including: Teen Patti (Classic, Joker, Muflis), Rummy (Points, Pool, Deals), Dragon vs Tiger, Andar Bahar, 7 Up Down, Poker (Texas Hold'em, Omaha), Blackjack, Zoo Roulette, Car Roulette, Crash, Domino, Ludo, Fishing Rush, and various slot games like Mines, 777 Bingo, and Fruit Line. All games feature real money gameplay, live multiplayer modes, and fair play algorithms. New games are added regularly based on player preferences."
             }
           },
           {
             "@type": "Question",
-            "name": "What games are available on Card Rummy?",
+            "name": "What is the minimum deposit and withdrawal amount?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Card Rummy offers multiple games including Teen Patti, Classic Rummy, Dragon vs Tiger, Andar Bahar, Poker, and various slot games. All games are available 24/7 with real cash prizes."
+              "text": "The minimum deposit amount on 3Patti Blue is PKR 100, and you'll receive a 100% welcome bonus on your first deposit. The minimum withdrawal amount is PKR 500 via JazzCash or EasyPaisa. There is no maximum limit on withdrawals - you can withdraw any amount you've won. All transactions are processed instantly with zero hidden charges. Deposits reflect in your wallet within seconds, while withdrawals are processed within 5-30 minutes."
             }
           },
           {
             "@type": "Question",
-            "name": "How long do Card Rummy withdrawals take?",
+            "name": "How long do 3Patti Blue withdrawals take?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Card Rummy withdrawals through JazzCash and EasyPaisa are processed within 5-30 minutes. The platform offers fast, secure withdrawals with no hidden fees."
+              "text": "3Patti Blue offers the fastest withdrawal processing in Pakistan. Withdrawals through JazzCash and EasyPaisa are typically processed within 5-30 minutes. Most users receive their money within 10-15 minutes. The platform operates 24/7, so you can withdraw money anytime. During peak hours, processing might take up to 30 minutes. All withdrawals are secure, encrypted, and tracked. You'll receive instant notifications once your withdrawal is processed and transferred to your account."
             }
           },
           {
             "@type": "Question",
-            "name": "What is the minimum withdrawal on Card Rummy?",
+            "name": "How to contact 3Patti Blue customer support?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The minimum withdrawal amount on Card Rummy depends on your payment method. Generally, you can withdraw as low as PKR 500 via JazzCash or EasyPaisa."
+              "text": "3Patti Blue provides 24/7 customer support through multiple channels: (1) Live Chat - Available inside the app for instant responses within 2-5 minutes. (2) WhatsApp Support - Message the official WhatsApp number provided in the app for personalized assistance. (3) Email - support@3patiblueapp.com.pk for detailed queries and account issues. (4) FAQ Section - Comprehensive help center covering common questions. The support team is available in English and Urdu, and typically resolves issues within minutes. Response time is guaranteed under 10 minutes for urgent withdrawal or deposit issues."
             }
           },
           {
             "@type": "Question",
-            "name": "How do I contact Card Rummy customer support?",
+            "name": "What bonuses does 3Patti Blue offer in 2026?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You can contact Card Rummy customer support via 24/7 live chat within the app, email at support@cardrummyapp.com.pk, or through WhatsApp. Support team responds quickly to all queries."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What bonuses does Card Rummy offer?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Card Rummy offers welcome bonuses for new users, daily login bonuses, deposit bonuses, referral bonuses, and recharge rebates. Special VIP bonuses are available for high-volume players."
+              "text": "3Patti Blue offers industry-leading bonuses in 2026: (1) Welcome Bonus - 100% match on first deposit up to PKR 100,000. (2) Daily Login Bonus - Free chips worth PKR 50-500 daily. (3) Recharge Rebate - 5-30% bonus on every deposit based on amount. (4) Referral Bonus - Earn 10-20% commission when friends join and play. (5) VIP Rewards - Up to 10% daily rebate for active players (VIP levels 1-20). (6) Festival Bonuses - Special rewards during Eid, Independence Day, etc. (7) Loyalty Program - Cashback and exclusive perks for regular players. All bonuses are instant, transparent, and easy to claim."
             }
           }
         ]
@@ -239,160 +286,59 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       
-      {/* Hero Section with improved spacing */}
-      <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto" style={{ minHeight: '400px' }}>
-        <div className="md:flex md:items-start md:justify-between md:space-x-12 lg:space-x-20">
-          <div className="md:w-1/2 space-y-6">
-            <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-                <span className="text-white">Card Rummy</span>
-              </h1>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
-                <span className="text-[#FFA500]">Download APK & Play</span>{' '}
-                <span className="text-white">Real Money Games in Pakistan 2026</span>
-              </h2>
-            </div>
-            
-            <p className="text-lg text-gray-300 leading-relaxed" style={{ contain: 'layout style', minHeight: '120px', display: 'block' }}>
-              <Link href="/" className="text-accent hover:underline">Card Rummy</Link> is Pakistan's premier online card game platform, where you can play more than 30+ exciting casino games. Card Rummy offers the best card gaming experience with attractive graphics, smooth gameplay, and real cash rewards. So download now, start playing, and win real money with fast withdrawals via JazzCash and Easy Paisa.
-            </p>
+      {/* Hero Section - Now with Full Translation Support */}
+      <HeroSection />
 
-            {/* Download Button */}
-            <div className="flex justify-center my-8">
-              <a 
-                href="https://pkcardrummy.com/?from_gameid=5784509&channelCode=100000"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="relative flex items-center px-8 py-4 text-white font-semibold text-lg rounded-full border-2 border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all group"
-              >
-                <span>DOWNLOAD NOW</span>
-                <div className="ml-3 bg-[#f97316] rounded-full p-2 group-hover:scale-110 transition-transform">
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-                  </svg>
-                </div>
-              </a>
-            </div>
-
-            {/* Stats Grid with improved spacing */}
-            <div className="flex flex-row gap-4 justify-center mt-8 mb-4" style={{ minHeight: '120px' }}>
-              <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
-                <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                </svg>
-                <div className="text-white text-2xl font-bold mb-1">500K+</div>
-                <div className="text-gray-400 text-sm">Downloads</div>
-              </div>
-              
-              <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
-                <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                  <path d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H3V4h18v12z"/>
-                </svg>
-                <div className="text-white text-2xl font-bold mb-1">200K+</div>
-                <div className="text-gray-400 text-sm">Ratings</div>
-              </div>
-              
-              <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
-                <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                  <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
-                </svg>
-                <div className="text-white text-2xl font-bold mb-1">49MB</div>
-                <div className="text-gray-400 text-sm">App Size</div>
-              </div>
-            </div>
-
-            {/* Android only notice */}
-            <p className="text-gray-400 text-sm text-center italic">*Available for Android devices only</p>
-          </div>
-
-          {/* Desktop Image */}
-          <div className="hidden md:block md:w-1/2 md:mt-8">
-            <div className="relative ml-auto" style={{ width: '320px', height: '320px', maxWidth: '100%' }}>
-              <Image
-                src="/card-rummy.webp"
-                alt="Card Rummy Logo"
-                width={320}
-                height={320}
-                className="object-contain drop-shadow-2xl"
-                priority={true}
-                fetchPriority="high"
-                quality={90}
-                sizes="320px"
-                style={{ width: '100%', height: '100%', objectFit: 'contain' }}
-              />
-            </div>
-          </div>
-
-          {/* Mobile Image */}
-          <div className="mt-8 md:hidden">
-            <div className="relative mx-auto" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
-              <Image
-                src="/card-rummy.webp"
-                alt="Card Rummy Logo"
-                width={280}
-                height={280}
-                className="object-contain drop-shadow-2xl"
-                priority={true}
-                fetchPriority="high"
-                quality={90}
-                sizes="280px"
-                style={{ width: '100%', height: '100%', objectFit: 'contain' }}
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* App Specifications Table with improved spacing */}
+      {/* App Specifications Table - Optimized for Featured Snippets */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="download">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[#FFA500]">Download Info Table</h2>
+        <SectionHeading translationKey="section.downloadInfo" className="text-2xl md:text-3xl font-bold mb-8 text-accent" />
         <div className="overflow-hidden rounded-2xl shadow-2xl border border-gray-800">
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-800">
               <tbody className="divide-y divide-gray-800">
                 <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">App Name</td>
-                  <td className="py-4 px-6 text-left text-white">Card Rummy</td>
+                  <td className="py-4 px-6 text-left font-medium text-white"><TranslatableText translationKey="table.appName" /></td>
+                  <td className="py-4 px-6 text-left text-white"><TranslatableText translationKey="value.appName" /></td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Developer</td>
-                  <td className="py-4 px-6 text-left text-white">eriocardrummy dev</td>
+                  <td className="py-4 px-6 text-left font-medium text-white"><TranslatableText translationKey="table.developer" /></td>
+                  <td className="py-4 px-6 text-left text-white"><TranslatableText translationKey="value.developer" /></td>
                 </tr>
                 <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Category</td>
-                  <td className="py-4 px-6 text-left text-white">Cards, Game</td>
+                  <td className="py-4 px-6 text-left font-medium text-white"><TranslatableText translationKey="table.category" /></td>
+                  <td className="py-4 px-6 text-left text-white"><TranslatableText translationKey="value.category" /></td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Size</td>
-                  <td className="py-4 px-6 text-left text-white">49MB</td>
+                  <td className="py-4 px-6 text-left font-medium text-white"><TranslatableText translationKey="table.size" /></td>
+                  <td className="py-4 px-6 text-left text-white"><TranslatableText translationKey="value.size" /></td>
                 </tr>
                 <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Latest Version</td>
-                  <td className="py-4 px-6 text-left text-white">V1.225</td>
+                  <td className="py-4 px-6 text-left font-medium text-white"><TranslatableText translationKey="table.version" /></td>
+                  <td className="py-4 px-6 text-left text-white"><TranslatableText translationKey="value.version" /></td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Required OS</td>
-                  <td className="py-4 px-6 text-left text-white">Android 5.0+</td>
+                  <td className="py-4 px-6 text-left font-medium text-white"><TranslatableText translationKey="table.os" /></td>
+                  <td className="py-4 px-6 text-left text-white"><TranslatableText translationKey="value.os" /></td>
                 </tr>
                 <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Update</td>
-                  <td className="py-4 px-6 text-left text-white">1st-January-2026</td>
+                  <td className="py-4 px-6 text-left font-medium text-white"><TranslatableText translationKey="table.updated" /></td>
+                  <td className="py-4 px-6 text-left text-white"><TranslatableText translationKey="value.updated" /></td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Downloads</td>
-                  <td className="py-4 px-6 text-left text-white">500k+</td>
+                  <td className="py-4 px-6 text-left font-medium text-white"><TranslatableText translationKey="table.downloads" /></td>
+                  <td className="py-4 px-6 text-left text-white"><TranslatableText translationKey="value.downloads" /></td>
                 </tr>
                 <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Rating Count</td>
-                  <td className="py-4 px-6 text-left text-white">200000+</td>
+                  <td className="py-4 px-6 text-left font-medium text-white"><TranslatableText translationKey="table.rating" /></td>
+                  <td className="py-4 px-6 text-left text-white"><TranslatableText translationKey="value.rating" /></td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Language</td>
-                  <td className="py-4 px-6 text-left text-white">English, Urdu</td>
+                  <td className="py-4 px-6 text-left font-medium text-white"><TranslatableText translationKey="table.language" /></td>
+                  <td className="py-4 px-6 text-left text-white"><TranslatableText translationKey="value.languages" /></td>
                 </tr>
                 <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Price</td>
-                  <td className="py-4 px-6 text-left text-white">Free (0$)</td>
+                  <td className="py-4 px-6 text-left font-medium text-white"><TranslatableText translationKey="table.price" /></td>
+                  <td className="py-4 px-6 text-left text-white"><TranslatableText translationKey="value.price" /></td>
                 </tr>
               </tbody>
             </table>
@@ -400,80 +346,99 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Overview Section */}
+      {/* Overview Section - GEO Optimized with Natural Language */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Overview</h2>
+          <SectionHeading translationKey="section.overview" className="text-3xl font-bold mb-8 text-accent" />
           <div className="space-y-6">
-            <p className="text-gray-300 leading-relaxed">
-              This app is divided into various sections, including card games, slots, poker, and many others, making it easy to find games that you want to play. CardRummy is designed with modern graphics, smooth gameplay, and an easy interface that makes this platform more suitable for both beginners and experienced players. This app also offers you great and interesting services, allowing you to earn significant money even by investing a small amount. You can also win real cash rewards or bonuses for free. So, download the game, and start playing your favorite games to earn real cash for free.
-            </p>
+            <TranslatableText 
+              translationKey="content.overview.text" 
+              className="text-gray-300 leading-relaxed"
+              as="p"
+            />
+            <TranslatableText 
+              translationKey="content.overview.text2" 
+              className="text-gray-300 leading-relaxed"
+              as="p"
+            />
           </div>
         </div>
       </section>
 
-      {/* What is Card Rummy Section */}
+      {/* What is 3Patti Blue - E-E-A-T Optimized Section */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">What is Card Rummy?</h2>
+          <SectionHeading translationKey="section.understanding" className="text-3xl font-bold mb-8 text-accent" />
           <div className="space-y-6">
-            <p className="text-gray-300 leading-relaxed">
-              Card Rummy is Pakistan's most popular online card game platform that combines classic card games like Teen Patti and Rummy with modern gaming technology. When people search for "Card Rummy", they're looking for a trusted platform to play card games and earn real money. Card Rummy delivers exactly that - a safe, secure, and exciting gaming experience where you can play different card games to earn money. It has become the go-to platform for card game enthusiasts in Pakistan who want to enjoy beautiful design, simple settings, classic themes, and easy gameplay options.
-            </p>
+            <TranslatableText 
+              translationKey="content.understanding.text" 
+              className="text-gray-300 leading-relaxed"
+              as="p"
+            />
 
-            <p className="text-gray-300 leading-relaxed">
-              The Card Rummy platform allows you to withdraw your winnings or deposit money anytime using local payment methods like JazzCash and EasyPaisa. When you complete your deposit, you receive a deposit bonus as well. With its attractive visuals, user-friendly design, and exciting offers, Card Rummy stands out as one of the most enjoyable and engaging casino-style card games available in Pakistan today.
-            </p>
+            <TranslatableText 
+              translationKey="content.understanding.text2" 
+              className="text-gray-300 leading-relaxed"
+              as="p"
+            />
           </div>
         </div>
       </section>
 
-      {/* Why Card Rummy Popular Section */}
+      {/* Why 3Patti Blue is Popular - User Intent Focused */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Why Card Rummy Game so Popular?</h2>
+          <SectionHeading translationKey="section.whyFastest" className="text-3xl font-bold mb-8 text-accent" />
           <div className="space-y-6">
-            <p className="text-gray-300 leading-relaxed">
-              The 3 Patti Card Rummy game is very popular because it allows you to earn real money while having fun. It is easy to play because it provides you with simple rules that are very easy to understand, especially for beginners. The design of this app is very beautiful and colorful, which gives you a real casino experience on your device. Players love this app because you can withdraw and deposit money easily through Easypaisa and Jazzcash without facing any delays.
-            </p>
-
-            <p className="text-gray-300 leading-relaxed">
-              It also includes many exciting games such as Teen Patti, Dragon vs Tiger, Poker, Rummy, and Slots, so that you never feel bored. The other main reason for the popularity of 3 Patti Card Rummy is its daily bonus and rewards that help you earn coins and extra cash. It is very safe and secure and can protect your personal details or money, and work smoothly even on low-storage devices.
-            </p>
+            <TranslatableText 
+              translationKey="content.whyFastest.text" 
+              className="text-gray-300 leading-relaxed"
+              as="p"
+            />
+            <TranslatableText 
+              translationKey="content.whyFastest.text2" 
+              className="text-gray-300 leading-relaxed"
+              as="p"
+            />
           </div>
         </div>
       </section>
 
-      {/* How to Start Section */}
+      {/* How to Start - Step-by-Step Guide Optimized for Voice Search */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">How Can We Start with Card Rummy?</h2>
+          <SectionHeading translationKey="section.getStarted" className="text-3xl font-bold mb-8 text-accent" />
           <div className="space-y-4">
-            <p className="text-gray-300 leading-relaxed">To start the CardRummy game, follow the given steps:</p>
+            <TranslatableText 
+              translationKey="content.getStarted.intro" 
+              className="text-gray-300 leading-relaxed"
+              as="p"
+            />
             <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-              <li>Firstly, open the official website of 3 Patti Card Rummy and <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">download the APK file</Link> to your device.</li>
-              <li>Once downloaded then click on the downloaded APK file to start the installation by allowing the Unknown Sources.</li>
-              <li>Once installation is complete, click on it to open the 3 Patti Card Rummy app.</li>
-              <li>When the app opens then log in with your mobile number or just play as a guest.</li>
-              <li>When you log in, you will get free chips or welcome bonuses to start playing the game.</li>
-              <li>Choose a table or game that you want to play, and start enjoying the game.</li>
+              <li><strong><TranslatableText translationKey="content.getStarted.step1" /></strong></li>
+              <li><strong><TranslatableText translationKey="content.getStarted.step2" /></strong></li>
+              <li><strong><TranslatableText translationKey="content.getStarted.step3" /></strong></li>
+              <li><strong><TranslatableText translationKey="content.getStarted.step4" /></strong></li>
+              <li><strong><TranslatableText translationKey="content.getStarted.step5" /></strong></li>
+              <li><strong><TranslatableText translationKey="content.getStarted.step6" /></strong></li>
+              <li><strong><TranslatableText translationKey="content.getStarted.step7" /></strong></li>
             </ol>
           </div>
         </div>
       </section>
 
-      {/* Game Screenshots Section */}
+      {/* Game Screenshots Section - Visual Content for GEO */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-[#06091F] rounded-xl p-8">
-          <h2 className="text-4xl font-bold mb-12 text-[#FFA500] text-center">Card Rummy App Screenshots</h2>
+          <SectionHeading translationKey="section.screenshots" className="text-4xl font-bold mb-12 text-accent text-center" />
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             {/* Main Game Interface */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl">
                 <Image
-                  src="/card-rummy-game-interface.webp"
-                  alt="Card Rummy Game Interface"
+                  src="/3-patti-blue-game.webp"
+                  alt="3Patti Blue Authentic Teen Patti Game Interface with Live Players"
                   width={400}
                   height={711}
                   className="w-full h-auto"
@@ -481,15 +446,15 @@ export default function Home() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
-              <p className="text-center text-gray-300 mt-3 font-medium">Game Interface</p>
+              <p className="text-center text-gray-300 mt-3 font-medium">Live Teen Patti Interface</p>
             </div>
 
             {/* Games Collection */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl">
                 <Image
-                  src="/card-rummy-games.webp"
-                  alt="Card Rummy Games Collection"
+                  src="/3-patti-blue-pakistan.webp"
+                  alt="3Patti Blue 30+ Games Collection - Teen Patti, Rummy, Dragon Tiger"
                   width={400}
                   height={711}
                   className="w-full h-auto"
@@ -497,15 +462,15 @@ export default function Home() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
-              <p className="text-center text-gray-300 mt-3 font-medium">Games Collection</p>
+              <p className="text-center text-gray-300 mt-3 font-medium">30+ Game Selection</p>
             </div>
 
             {/* Bonuses */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl">
                 <Image
-                  src="/card-rummy-earn-bonus.webp"
-                  alt="Card Rummy Bonuses & Rewards"
+                  src="/3-patti-blue-Pakistan-refer-and-earn.webp"
+                  alt="3Patti Blue Daily Bonuses and Rewards - Earn Free Chips"
                   width={400}
                   height={711}
                   className="w-full h-auto"
@@ -513,15 +478,15 @@ export default function Home() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
-              <p className="text-center text-gray-300 mt-3 font-medium">Bonuses & Rewards</p>
+              <p className="text-center text-gray-300 mt-3 font-medium">Daily Bonuses & Rewards</p>
             </div>
 
             {/* Add Money */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl">
                 <Image
-                  src="/card-rummy-add-money.webp"
-                  alt="Card Rummy Deposit Money"
+                  src="/3-patti-blue-apk-add-money.webp"
+                  alt="3Patti Blue Instant Deposit via JazzCash & EasyPaisa"
                   width={400}
                   height={711}
                   className="w-full h-auto"
@@ -529,15 +494,15 @@ export default function Home() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
-              <p className="text-center text-gray-300 mt-3 font-medium">Add Money</p>
+              <p className="text-center text-gray-300 mt-3 font-medium">Quick Deposit (JazzCash/EasyPaisa)</p>
             </div>
 
             {/* Withdraw Money */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl">
                 <Image
-                  src="/card-rummy-withdraw-money.webp"
-                  alt="Card Rummy Withdraw Money"
+                  src="/3-patti-blue-withdraw-money.webp"
+                  alt="3Patti Blue Fast Withdrawal Process - Get Money in 5 Minutes"
                   width={400}
                   height={711}
                   className="w-full h-auto"
@@ -545,50 +510,34 @@ export default function Home() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
-              <p className="text-center text-gray-300 mt-3 font-medium">Withdraw Money</p>
-            </div>
-
-            {/* Refer and Earn */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
-                <Image
-                  src="/card-rummy-refer-and-earn.webp"
-                  alt="Card Rummy Refer and Earn"
-                  width={400}
-                  height={711}
-                  className="w-full h-auto"
-                  loading="lazy"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
-              </div>
-              <p className="text-center text-gray-300 mt-3 font-medium">Refer & Earn</p>
-            </div>
-          </div>
-
-          {/* Additional Screenshots */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Recharge Rebate */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
-              <Image
-                  src="/card-rummy-recharge-rebate.webp"
-                  alt="Card Rummy Recharge Rebate"
-                  width={400}
-                  height={711}
-                  className="w-full h-auto"
-                loading="lazy"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-              </div>
-              <p className="text-center text-gray-300 mt-3 font-medium">Recharge Rebate</p>
+              <p className="text-center text-gray-300 mt-3 font-medium">Instant Withdrawals (5-30 mins)</p>
             </div>
 
             {/* Bind Email */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl">
+                <Image
+                  src="/3pattiblue.webp"
+                  alt="3Patti Blue Bind Email - Secure Your Account"
+                  width={400}
+                  height={711}
+                  className="w-full h-auto"
+                  loading="lazy"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
+              </div>
+              <p className="text-center text-gray-300 mt-3 font-medium">Bind Email</p>
+            </div>
+          </div>
+
+          {/* Additional Screenshots */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Refer and Win */}
+            <div className="w-full">
+              <div className="rounded-lg overflow-hidden shadow-2xl">
               <Image
-                  src="/card-rummy-bind-mail.webp"
-                  alt="Card Rummy Bind Email"
+                  src="/3-patti-blue-app.webp"
+                  alt="3Patti Blue Refer and Win Program - Earn Rewards"
                   width={400}
                   height={711}
                   className="w-full h-auto"
@@ -596,68 +545,68 @@ export default function Home() {
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
               </div>
-              <p className="text-center text-gray-300 mt-3 font-medium">Account Security</p>
+              <p className="text-center text-gray-300 mt-3 font-medium">Refer and Win</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Features Section */}
+      {/* Features Section - Value Proposition for Users */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-accent">Top Features of Card Rummy</h2>
+        <SectionHeading translationKey="section.features" className="text-2xl md:text-3xl font-bold mb-8 text-accent" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">1: Real Money Earning</h3>
-            <p className="text-gray-300">Card Rummy allows you to earn real cash rewards just by playing the game that you want to play or like. Whether you enjoy teen patti, poker, or rummy, every match provides you with a chance to win money. This app directly transfers your earnings through the local and easy payment methods safely.</p>
+            <h3 className="text-xl font-semibold mb-3 text-accent"><TranslatableText translationKey="content.feature1.title" /></h3>
+            <TranslatableText translationKey="content.feature1.text" className="text-gray-300" as="p" />
           </div>
           <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">2: Easy Withdraw & Deposit</h3>
-            <p className="text-gray-300">With 3 Patti Card Rummy, you can manage your money in a super simple or fast way. With just a few steps, you can withdraw or deposit money anytime using local payment methods, such as JazzCash or EasyPaisa. It also ensures you have secure and quick transactions without any delays.</p>
+            <h3 className="text-xl font-semibold mb-3 text-accent"><TranslatableText translationKey="content.feature2.title" /></h3>
+            <TranslatableText translationKey="content.feature2.text" className="text-gray-300" as="p" />
           </div>
           <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">3: Attractive Interface</h3>
-            <p className="text-gray-300">This app is designed with a bright, colorful, and modern interface that can attract its users. The background music, smooth animations, and clear layout create an amazing or pleasant experience. Each section of this app is designed very well, so that you can find your favourite game easily.</p>
+            <h3 className="text-xl font-semibold mb-3 text-accent"><TranslatableText translationKey="content.feature3.title" /></h3>
+            <TranslatableText translationKey="content.feature3.text" className="text-gray-300" as="p" />
           </div>
           <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">4: Popular Games</h3>
-            <p className="text-gray-300">3 Card Rummy provides you with a wide variety of famous games in one app so that you can enjoy dragon vs tiger, poker, slots, and many other exciting options. Each game of this app has simple rules that make it perfect for both beginners and experienced players.</p>
+            <h3 className="text-xl font-semibold mb-3 text-accent"><TranslatableText translationKey="content.feature4.title" /></h3>
+            <TranslatableText translationKey="content.feature4.text" className="text-gray-300" as="p" />
           </div>
           <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">5: Daily Bonus</h3>
-            <p className="text-gray-300">This app rewards you every day with free login bonuses or chips. You can earn extra coins just by opening the app regularly. It also provides special rewards on weekly or festival occasions. These bonuses help you to keep playing even if you do not want to deposit money.</p>
+            <h3 className="text-xl font-semibold mb-3 text-accent"><TranslatableText translationKey="content.feature5.title" /></h3>
+            <TranslatableText translationKey="content.feature5.text" className="text-gray-300" as="p" />
           </div>
           <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">6: Referral Earning</h3>
-            <p className="text-gray-300">3 Patti Card Rummy offers you a referral program where you can earn money without playing games. You just need to share your referral link with your friends and invite them to join. When they start playing games, you receive a commission automatically.</p>
+            <h3 className="text-xl font-semibold mb-3 text-accent"><TranslatableText translationKey="content.feature6.title" /></h3>
+            <TranslatableText translationKey="content.feature6.text" className="text-gray-300" as="p" />
           </div>
           <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">7: Fast Performance</h3>
-            <p className="text-gray-300">This app runs smoothly on almost every Android device, even on older models. It does not hang, crash, or use too much storage space. The lightweight design of this app helps it to run faster and load to provide a smooth gameplay.</p>
+            <h3 className="text-xl font-semibold mb-3 text-accent"><TranslatableText translationKey="content.feature7.title" /></h3>
+            <TranslatableText translationKey="content.feature7.text" className="text-gray-300" as="p" />
           </div>
           <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">8: Safe & Secure Platform</h3>
-            <p className="text-gray-300">In 3Patti Card Rummy, your privacy and money are completely safe because it uses a secure payment method and data protection system that keeps everything private. This app is trusted by thousands of players for its reliability.</p>
+            <h3 className="text-xl font-semibold mb-3 text-accent"><TranslatableText translationKey="content.feature8.title" /></h3>
+            <TranslatableText translationKey="content.feature8.text" className="text-gray-300" as="p" />
           </div>
           <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">9: Free to Play</h3>
-            <p className="text-gray-300">3 Patti Card Rummy is free to download and does not ask for any registration fees. Through this feature, you can start playing games quickly with free chips that are given by the app. This feature is a perfect choice, especially for beginners.</p>
+            <h3 className="text-xl font-semibold mb-3 text-accent"><TranslatableText translationKey="content.feature9.title" /></h3>
+            <TranslatableText translationKey="content.feature9.text" className="text-gray-300" as="p" />
           </div>
           <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">10: 24/7 Support</h3>
-            <p className="text-gray-300">This app also provides you with fast customer support, which helps you anytime. Whether you face a deposit issue or a technical error, this support team responds quickly. You can contact the team directly through the app for quick help.</p>
+            <h3 className="text-xl font-semibold mb-3 text-accent"><TranslatableText translationKey="content.feature10.title" /></h3>
+            <TranslatableText translationKey="content.feature10.text" className="text-gray-300" as="p" />
           </div>
           </div>
         </div>
       </section>
 
-      {/* Available Games Section */}
+      {/* Available Games Section - Comprehensive List for SEO */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Best Games to Play on Card Rummy</h2>
+          <SectionHeading translationKey="section.games" className="text-2xl md:text-3xl font-bold mb-6 text-accent" />
           
           <div className="mb-8">
-            <h3 className="text-2xl font-semibold mb-4 text-[#FFA500]">1: Multiplayer Games</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-accent">1: Multiplayer Games</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               <div className="bg-[#0A1029] p-4 rounded-lg">
                 <p className="text-white font-medium">Tiger Dragon <span className="text-[#f97316]">(Hot)</span></p>
@@ -687,7 +636,7 @@ export default function Home() {
           </div>
 
           <div className="mb-8">
-            <h3 className="text-2xl font-semibold mb-4 text-[#FFA500]">2: Skill-Based Games</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-accent">2: Skill-Based Games</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               <div className="bg-[#0A1029] p-4 rounded-lg">
                 <p className="text-white font-medium">Domino <span className="text-[#f97316]">(Hot)</span></p>
@@ -717,7 +666,7 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold mb-4 text-[#FFA500]">3: Slots</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-accent">3: Slots</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               <div className="bg-[#0A1029] p-4 rounded-lg">
                 <p className="text-white font-medium">Mines <span className="text-[#f97316]">(Hot)</span></p>
@@ -748,15 +697,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Bonuses Section */}
+      {/* Bonuses Section - Detailed Value Proposition */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Benefits for New Players by Joining Card Rummy</h2>
+        <SectionHeading translationKey="section.bonuses" className="text-2xl md:text-3xl font-bold mb-6 text-accent" />
         
         {/* New Player Welcome Bonus */}
         <div className="mb-8">
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">1: New Player Welcome Bonus</h3>
-          <p className="text-gray-300 mb-4">3Patti offers a 100% recharge bonus for all new, fresh users on their first deposit in this game.</p>
+          <h3 className="text-xl font-semibold mb-4 text-accent"><TranslatableText translationKey="content.bonus1.title" /></h3>
+          <TranslatableText translationKey="content.bonus1.text" className="text-gray-300 mb-4" as="p" />
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
               <thead className="bg-[#0a1029]">
@@ -779,8 +728,8 @@ export default function Home() {
 
         {/* Recharge Rebate */}
         <div className="mb-8">
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">2: Recharge Rebate</h3>
-          <p className="text-gray-300 mb-4">3 Patti Card Rummy game is also offering huge recharge rebate bonuses for every player when they deposit an amount.</p>
+          <h3 className="text-xl font-semibold mb-4 text-accent"><TranslatableText translationKey="content.bonus2.title" /></h3>
+          <TranslatableText translationKey="content.bonus2.text" className="text-gray-300 mb-4" as="p" />
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
               <thead className="bg-[#0a1029]">
@@ -802,10 +751,10 @@ export default function Home() {
           </div>
           </div>
 
-        {/* Big Rebate on Recharge */}
+        {/* VIP Rebate Program */}
         <div>
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">3: Big Rebate on Recharge</h3>
-          <p className="text-gray-300 mb-4">This type of reward is only available for deposit of a minimum of 3000PKR or more. It also depends upon VIP Level with increasing rebate bonus. It can be claimed every day.</p>
+          <h3 className="text-xl font-semibold mb-4 text-accent"><TranslatableText translationKey="content.bonus3.title" /></h3>
+          <TranslatableText translationKey="content.bonus3.text" className="text-gray-300 mb-4" as="p" />
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
               <thead className="bg-[#0a1029]">
@@ -832,36 +781,36 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Download Instructions */}
+      {/* Download Instructions - Bilingual */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Download Card Rummy APK Latest Version For Android</h2>
-          <p className="text-gray-300 mb-4">To download the latest version of Card Rummy APK for Android devices, follow the given steps:</p>
+          <SectionHeading translationKey="section.download" className="text-2xl md:text-3xl font-bold mb-4 text-accent" />
+          <TranslatableText translationKey="content.download.intro" className="text-gray-300 mb-4" as="p" />
           <div className="mb-8">
           <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>First, you open the browser on your Android device and click on the search bar.</li>
-            <li>In the search bar, type the latest version of 3Card Rummy and visit the trusted website.</li>
-            <li>On the trusted website, click on the Download button to start downloading.</li>
-            <li>Now wait a few seconds to complete the downloading process.</li>
-            <li>Once complete, that file will be saved in the Download Folder of the device.</li>
+            <li><strong><TranslatableText translationKey="content.download.step1" /></strong></li>
+            <li><strong><TranslatableText translationKey="content.download.step2" /></strong></li>
+            <li><strong><TranslatableText translationKey="content.download.step3" /></strong></li>
+            <li><strong><TranslatableText translationKey="content.download.step4" /></strong></li>
+            <li><strong><TranslatableText translationKey="content.download.step5" /></strong></li>
           </ol>
         </div>
         
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Installation Guide for Card Rummy APK</h2>
-        <p className="text-gray-300 mb-4">After downloading to installing the Card Rummy APK, follow the given steps:</p>
+        <SectionHeading translationKey="content.install.title" className="text-2xl md:text-3xl font-bold mb-6 text-accent" />
+        <TranslatableText translationKey="content.install.intro" className="text-gray-300 mb-4" as="p" />
         <div className="mb-8">
           <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>To start installation, your device grants permission to install unknown sources.</li>
-            <li>Open the Settings &lt; Security and enable the Install Unknown Apps.</li>
-            <li>After this, open the File Manager and go to the Download Folder.</li>
-            <li>Click on the download APK file, and the installation process will start.</li>
-            <li>Wait until the installation completes successfully on your device.</li>
-            <li>Once complete then the app icon will show on your device.</li>
-            <li>Click on it to launch the app and start playing the games that you want.</li>
+            <li><strong><TranslatableText translationKey="content.install.step1" /></strong></li>
+            <li><strong><TranslatableText translationKey="content.install.step2" /></strong></li>
+            <li><strong><TranslatableText translationKey="content.install.step3" /></strong></li>
+            <li><strong><TranslatableText translationKey="content.install.step4" /></strong></li>
+            <li><strong><TranslatableText translationKey="content.install.step5" /></strong></li>
+            <li><strong><TranslatableText translationKey="content.install.step6" /></strong></li>
+            <li><strong><TranslatableText translationKey="content.install.step7" /></strong></li>
           </ol>
         </div>
 
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">System Requirements</h2>
+        <SectionHeading translationKey="content.requirements.title" className="text-2xl md:text-3xl font-bold mb-6 text-accent" />
         <div className="overflow-x-auto mb-8">
           <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
             <thead className="bg-[#0a1029]">
@@ -883,12 +832,12 @@ export default function Home() {
 
         <div className="flex justify-center">
           <a 
-            href="https://pkcardrummy.com/?from_gameid=5784509&channelCode=100000"
+            href="https://3pattibluevip.com?from_gameid=9483409&channelCode=100000"
             target="_blank"
             rel="noopener noreferrer"
             className="download-btn bg-transparent hover:bg-[#0ea5e9]/10 text-white font-bold py-4 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl border-2 border-[#0ea5e9]"
           >
-            <span className="text-lg">DOWNLOAD NOW</span>
+            <TranslatableText translationKey="btn.downloadNow" className="text-lg" />
             <div className="download-icon ml-2 bg-[#f97316] rounded-full p-2">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
@@ -899,214 +848,235 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Account Creation */}
+      {/* Account Creation - User Journey Optimization */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How to Register & Login on Card Rummy?</h2>
+        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">3Patti Blue Account Registration & Login Guide</h2>
           
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">1: Register Method</h3>
-          <p className="text-gray-300 mb-4">To register the account on Card Rummy, follow the given steps:</p>
+          <h3 className="text-xl font-semibold mb-4 text-accent"><TranslatableText translationKey="content.registration.title1" /></h3>
+          <TranslatableText translationKey="content.registration.intro" className="text-gray-300 mb-4" as="p" />
           <div className="mb-8">
           <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>Firstly, open the Card Rummy app on your device.</li>
-            <li>On the homescreen, click on the Register or Sign Up option.</li>
-            <li>Now, enter your valid mobile number or email address.</li>
-            <li>Set a strong password that can never be accessed easily.</li>
-            <li>Enter the OTP that you can receive through phone or email for verification.</li>
-            <li>Once verification is complete then your account will be created successfully.</li>
+            <li><strong>Launch App:</strong> Open 3Patti Blue app after installation.</li>
+            <li><strong>Tap Register/Sign Up:</strong> On the welcome screen, click the "Register" or "Sign Up" button (usually prominent and colored).</li>
+            <li><strong>Enter Mobile Number:</strong> Input your Pakistani mobile number (Jazz, Telenor, Zong, Ufone). This will be your username and withdrawal verification method.</li>
+            <li><strong>Create Strong Password:</strong> Set a secure password (minimum 8 characters, mix of letters, numbers, symbols recommended).</li>
+            <li><strong>Verify OTP:</strong> You'll receive a 6-digit verification code via SMS. Enter this code within 5 minutes to verify your number.</li>
+            <li><strong>Complete Profile (Optional):</strong> Add email for account recovery, set username, and complete KYC (recommended for faster withdrawals).</li>
+            <li><strong>Account Created:</strong> Congratulations! Your verified account is ready. Claim your welcome bonus immediately.</li>
           </ol>
           </div>
 
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">2: Login Method</h3>
-          <p className="text-gray-300 mb-4">After registration, the next step is to log account for Follow the given steps:</p>
+          <h3 className="text-xl font-semibold mb-4 text-accent"><TranslatableText translationKey="content.login.title" /></h3>
+          <TranslatableText translationKey="content.login.intro" className="text-gray-300 mb-4" as="p" />
           <div className="space-y-4">
           <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>Open the Card Rummy app on your device.</li>
-            <li>Click on the Login button on the homescreen.</li>
-            <li>Enter your registered mobile number, email, or password.</li>
-            <li>Make sure that your entered details are correct.</li>
-            <li>Once confirmed, tap on the Sign in or Login option.</li>
-            <li>If you forget your password, then use Forgot Password to reset it.</li>
-            <li>Once logging is complete, you can start playing games.</li>
+            <li><strong>Open 3Patti Blue:</strong> Launch the app from your home screen.</li>
+            <li><strong>Click Login:</strong> Tap the "Login" button on the welcome screen.</li>
+            <li><strong>Enter Credentials:</strong> Input your registered mobile number or email, and your password.</li>
+            <li><strong>Verify Details:</strong> Double-check your credentials to avoid login errors.</li>
+            <li><strong>Tap Sign In:</strong> Click the "Sign In" or "Login" button to access your account.</li>
+            <li><strong>Two-Factor Authentication (if enabled):</strong> Enter OTP sent to your mobile for additional security.</li>
+            <li><strong>Forgot Password?</strong> Tap "Forgot Password" to reset via SMS OTP. You'll receive a code to create a new password.</li>
+            <li><strong>Start Playing:</strong> Once logged in, your wallet balance, game history, and bonuses are instantly accessible. Choose your game and start earning!</li>
           </ol>
           </div>
         </div>
       </section>
 
-      {/* Payment Methods Section */}
+      {/* Payment Methods Section - Bilingual */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Ways to Deposit & Withdraw Money in Card Rummy</h2>
+          <SectionHeading translationKey="section.payment" className="text-2xl md:text-3xl font-bold mb-4 text-accent" />
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">1: Jazzcash</h3>
-              <p className="text-gray-300">Jazzcash is one of the most trusted and secure mobile banking services that allows you to deposit money quickly into your gaming account and start playing games quickly. It's a fast and safe transaction system that allows you to withdraw your winnings directly into your account wallet. The best part of this method is that you can wait a long time because the transactions are completed within seconds.</p>
+              <h3 className="text-xl font-semibold mb-3 text-accent"><TranslatableText translationKey="content.payment1.title" /></h3>
+              <TranslatableText translationKey="content.payment1.text" className="text-gray-300" as="p" />
             </div>
             <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">2: Easypaisa</h3>
-              <p className="text-gray-300">Easypaisa is another secure and most commonly used payment method that is similar to the JazzCash method. It allows you to deposit or withdraw money without any difficulty. Through this method, you can add funds to your game account and transfer winnings to your Easypaisa wallet in just a few steps. The process of this method is very safe, reliable, and suitable for all types of users.</p>
+              <h3 className="text-xl font-semibold mb-3 text-accent"><TranslatableText translationKey="content.payment2.title" /></h3>
+              <TranslatableText translationKey="content.payment2.text" className="text-gray-300" as="p" />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Deposit Instructions */}
+      {/* Deposit & Withdrawal Instructions - Detailed User Guide */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-secondary rounded-xl p-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How to Deposit Money?</h2>
-            <p className="text-gray-300 mb-4">To deposit money in Card Rummy, follow the given steps:</p>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent"><TranslatableText translationKey="content.deposit.title" /></h2>
+            <TranslatableText translationKey="content.deposit.intro" className="text-gray-300 mb-4" as="p" />
                 <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-              <li>First, open the Card Rummy app on your device and log in.</li>
-              <li>Now, click on the Wallet option that is available on the homescreen.</li>
-              <li>In this wallet section, click on the Deposit option.</li>
-              <li>Choose a payment method that you want to use.</li>
-              <li>Enter the amount that you want to deposit.</li>
-              <li>Click on the confirm option and wait to complete it.</li>
-              <li>Once complete, the balance will show in your game wallet.</li>
+              <li><strong>Login:</strong> Open 3Patti Blue app and log into your verified account.</li>
+              <li><strong>Go to Wallet:</strong> Tap the "Wallet" icon on the home screen (usually top-right corner with wallet/rupee symbol).</li>
+              <li><strong>Select Deposit:</strong> In wallet section, click "Deposit" or "Add Money" button.</li>
+              <li><strong>Choose Payment Method:</strong> Select JazzCash or EasyPaisa (both offer instant processing).</li>
+              <li><strong>Enter Amount:</strong> Input deposit amount (minimum PKR 100). Remember: first deposit gets 100% welcome bonus!</li>
+              <li><strong>Enter Payment Details:</strong> Provide your JazzCash/EasyPaisa account number/mobile number.</li>
+              <li><strong>Confirm Transaction:</strong> Review details carefully, then tap "Confirm" or "Deposit Now".</li>
+              <li><strong>Complete Payment:</strong> You'll be redirected to JazzCash/EasyPaisa. Authorize payment with PIN/OTP.</li>
+              <li><strong>Instant Credit:</strong> Within 5 seconds, deposited amount + bonus (if applicable) appears in your 3Patti Blue wallet. Start playing!</li>
                 </ol>
               </div>
           <div className="bg-secondary rounded-xl p-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How to Withdraw Money?</h2>
-            <p className="text-gray-300 mb-4">To withdraw money in Card Rummy, follow the given steps:</p>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent"><TranslatableText translationKey="content.withdraw.title" /></h2>
+            <TranslatableText translationKey="content.withdraw.intro" className="text-gray-300 mb-4" as="p" />
                 <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-              <li>Open the Card Rummy app and log in to your account.</li>
-              <li>Click on the Wallet option that is available on the main screen.</li>
-              <li>In the wallet section, click on the Withdrawal option.</li>
-              <li>Choose your payment method, like JazzCash or EasyPaisa.</li>
-              <li>Now enter the amount that you want to withdraw.</li>
-              <li>Enter some required details, like the account number.</li>
-              <li>Double-check all entered details and click on Confirm.</li>
-              <li>Wait a few seconds to complete the withdrawal process.</li>
-              <li>Once complete, that money will be shown in your selected payment method.</li>
+              <li><strong>Login to Account:</strong> Open 3Patti Blue app and log in with your credentials.</li>
+              <li><strong>Access Wallet:</strong> Tap the "Wallet" icon on home screen to view your balance.</li>
+              <li><strong>Select Withdrawal:</strong> Click "Withdraw" or "Cash Out" button in wallet section.</li>
+              <li><strong>Choose Payment Method:</strong> Select JazzCash or EasyPaisa (both process within 5-30 minutes).</li>
+              <li><strong>Enter Withdrawal Amount:</strong> Input amount (minimum PKR 500, no maximum limit). Ensure you have sufficient balance.</li>
+              <li><strong>Provide Account Details:</strong> Enter your verified JazzCash/EasyPaisa mobile number or account number.</li>
+              <li><strong>Verify with OTP:</strong> For security, you'll receive OTP on registered mobile. Enter code to verify.</li>
+              <li><strong>Double-Check Details:</strong> Review withdrawal amount and account number carefully to avoid errors.</li>
+              <li><strong>Confirm Withdrawal:</strong> Tap "Confirm" button. Your request is processed immediately.</li>
+              <li><strong>Receive Money:</strong> Within 5-30 minutes, money is transferred to your JazzCash/EasyPaisa account. You'll receive confirmation SMS from both 3Patti Blue and your payment provider.</li>
                 </ol>
           </div>
         </div>
       </section>
 
-      {/* Tips and Tricks */}
+      {/* Tips and Tricks - Expert Strategies for E-E-A-T */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Tips & Tricks to Earn Maximum on Teen Patti Card Rummy Game</h2>
+        <SectionHeading translationKey="tips.title" className="text-2xl md:text-3xl font-bold mb-6 text-accent" />
           <div className="space-y-4">
           <ul className="list-disc pl-5 space-y-3 text-gray-300">
-            <li><strong>Start with Small Bets:</strong> Always start a game with a small investment because it will help you to understand the game rules and overcome the risk of losing money. When you become confident, then increase your bet.</li>
-            <li><strong>Use Bonuses Wisely:</strong> Card Rummy offers you daily login bonuses, referral bonuses, or deposit rewards. It helps you to play more games without spending your one money or earning extra money.</li>
-            <li><strong>Play Popular Games:</strong> Focus on high-earning games such as Dragon vs Tiger or Teen Patti Classic that provide you with higher winning chances, and also attract players with better opportunities to earn.</li>
-            <li><strong>Invite Friends:</strong> Use the referral link system to invite friends every time your friends join, and then you can earn commission. The more friends you invite, the higher you can become.</li>
-            <li><strong>Stay Active Daily:</strong> Regularly log in to the app to collect the daily rewards or spin bonuses. Always stay active because it will increase your bonus balance or improve your chances of winning big.</li>
-            <li><strong>Withdraw on Time:</strong> When you earn a good amount then do not delay withdrawal. Always transfer your winnings as soon as possible through Jazcash or EasyPaisa to keep your money safe.</li>
-            <li><strong>Learn from Practice Mode:</strong> Before playing games with real money, try the free or demo mode as practice. This helps you to understand the gameplay easily and develop the winning strategies without any risk.</li>
-            <li><strong>Keep the Emotions in Control:</strong> Never play games with frustration or greed. Always stay calm or make smart decisions during the game because it helps you to avoid unnecessary losses.</li>
-            <li><strong>With Expert Players:</strong> Observe how other players make the moves. Through this, you can learn new techniques or strategies and timing from them to improve your skills.</li>
-            <li><strong>Avoid Fake Apps:</strong> Always download the original Card Rummy app through official or trusted sources because fake links or websites can steal your personal data or money.</li>
+            <TranslatableText translationKey="tips.tip1" as="li" />
+            <TranslatableText translationKey="tips.tip2" as="li" />
+            <TranslatableText translationKey="tips.tip3" as="li" />
+            <TranslatableText translationKey="tips.tip4" as="li" />
+            <TranslatableText translationKey="tips.tip5" as="li" />
+            <TranslatableText translationKey="tips.tip6" as="li" />
+            <TranslatableText translationKey="tips.tip7" as="li" />
+            <TranslatableText translationKey="tips.tip8" as="li" />
+            <TranslatableText translationKey="tips.tip9" as="li" />
+            <TranslatableText translationKey="tips.tip10" as="li" />
           </ul>
           </div>
         </div>
       </section>
 
-      {/* What's New Section */}
+      {/* What's New Section - Freshness Signal for SEO */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">What's New in the Latest Version of the Card Rummy?</h2>
+          <SectionHeading translationKey="whatsnew.title" className="text-2xl md:text-3xl font-bold mb-6 text-accent" />
           <div className="space-y-4">
             <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-              <li>In the latest version, the game looks better with improved graphics and smooth animations.</li>
-              <li>Provide fast performance so that the app opens quickly and runs smoothly without lag.</li>
-              <li>Its menu and layout are simple, which makes it very easy, especially for new users.</li>
-              <li>In the latest versions, more games are added, such as Dragon vs Tiger, Rumany, and others.</li>
-              <li>The withdrawal or deposit options work faster and smoothly in the latest version.</li>
-              <li>In the latest version, better security measures can be used that can protect your account and money.</li>
-              <li>New bonuses and referral rewards provide you with more chances to earn money.</li>
-              <li>Old Errors or app issues are removed to offer a smooth gaming experience.</li>
-              <li>The background music or game sounds improve the app and provide more fun.</li>
-              <li>The new VIP system gives you extra prizes and benefits that help you stay active.</li>
+              <TranslatableText translationKey="whatsnew.item1" as="li" />
+              <TranslatableText translationKey="whatsnew.item2" as="li" />
+              <TranslatableText translationKey="whatsnew.item3" as="li" />
+              <TranslatableText translationKey="whatsnew.item4" as="li" />
+              <TranslatableText translationKey="whatsnew.item5" as="li" />
+              <TranslatableText translationKey="whatsnew.item6" as="li" />
+              <TranslatableText translationKey="whatsnew.item7" as="li" />
+              <TranslatableText translationKey="whatsnew.item8" as="li" />
+              <TranslatableText translationKey="whatsnew.item9" as="li" />
+              <TranslatableText translationKey="whatsnew.item10" as="li" />
             </ol>
           </div>
         </div>
       </section>
 
-      {/* Pros and Cons */}
+      {/* Pros and Cons - Balanced View for Trust */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Pros & Cons of using Card Rummy</h2>
+        <SectionHeading translationKey="proscons.title" className="text-2xl md:text-3xl font-bold mb-6 text-accent" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
-            <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">Pros</h3>
+            <SectionHeading translationKey="proscons.pros.title" className="text-xl font-semibold mb-3 text-accent" tag="h3" />
             <div className="bg-[#0A1029] px-8 py-8 rounded-lg">
               <ul className="list-disc pl-5 space-y-3 text-gray-300">
-                <li>Very simple and fun to play</li>
-                <li>Earn money with a small investment</li>
-                <li>Jazzcash and Easypaisa make payment easy</li>
-                <li>Many different games for enjoyment</li>
-                <li>Fast withdrawal of your money</li>
-                <li>Very easy to use and quick to start</li>
-                <li>Daily rewards and bonuses</li>
+                <TranslatableText translationKey="proscons.pro1" as="li" />
+                <TranslatableText translationKey="proscons.pro2" as="li" />
+                <TranslatableText translationKey="proscons.pro3" as="li" />
+                <TranslatableText translationKey="proscons.pro4" as="li" />
+                <TranslatableText translationKey="proscons.pro5" as="li" />
+                <TranslatableText translationKey="proscons.pro6" as="li" />
+                <TranslatableText translationKey="proscons.pro7" as="li" />
+                <TranslatableText translationKey="proscons.pro8" as="li" />
+                <TranslatableText translationKey="proscons.pro9" as="li" />
+                <TranslatableText translationKey="proscons.pro10" as="li" />
+                <TranslatableText translationKey="proscons.pro11" as="li" />
+                <TranslatableText translationKey="proscons.pro12" as="li" />
               </ul>
             </div>
           </div>
           <div>
-            <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">Cons</h3>
+            <SectionHeading translationKey="proscons.cons.title" className="text-xl font-semibold mb-3 text-accent" tag="h3" />
             <div className="bg-[#0A1029] px-8 py-8 rounded-lg">
               <ul className="list-disc pl-5 space-y-3 text-gray-300">
-                <li>Risk of losing money</li>
-                <li>Sometimes withdrawals take time</li>
-                <li>Gameplay can be addictive</li>
-                <li>Run slow on weak phones</li>
-                <li>No legal Support</li>
-                <li>No Financial Freedom</li>
-                <li>Gameplay can be complicated</li>
+                <TranslatableText translationKey="proscons.con1" as="li" />
+                <TranslatableText translationKey="proscons.con2" as="li" />
+                <TranslatableText translationKey="proscons.con3" as="li" />
+                <TranslatableText translationKey="proscons.con4" as="li" />
+                <TranslatableText translationKey="proscons.con5" as="li" />
+                <TranslatableText translationKey="proscons.con6" as="li" />
+                <TranslatableText translationKey="proscons.con7" as="li" />
+                <TranslatableText translationKey="proscons.con8" as="li" />
+                <TranslatableText translationKey="proscons.con9" as="li" />
               </ul>
               </div>
             </div>
           </div>
+          <TranslatableText translationKey="content.proscons.bottomLine" className="text-gray-300 mt-6 italic font-bold" as="p" />
         </div>
       </section>
 
-      {/* About Safety Section */}
+      {/* Safety & Security - Trust Building for E-E-A-T */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">About the Safety & Security of the Card Rummy</h2>
+          <SectionHeading translationKey="content.security.title" className="text-2xl md:text-3xl font-bold mb-6 text-accent" />
           <div className="space-y-4">
-            <p className="text-gray-300 leading-relaxed">
-              Card Rummy is an online gaming platform that provides you with a safe and secure environment. It uses basic security features such as data encryption or SSL certificates that can protect your information. This app also supports local payment options such as JazzCash or Easy Paisa, which can make the transactions safer and secure. However, this app is not officially available on the Google Play Store and may come with some risks, such as malware or scams. So, it is important to make sure that you can download it from official, safe, and secure sources. Always avoid sharing your sensitive personal information or banking details.
-            </p>
+            <TranslatableText translationKey="content.security.intro" className="text-gray-300 leading-relaxed font-bold" as="p" />
+            <TranslatableText translationKey="content.security.technical" className="text-gray-300 leading-relaxed" as="p" />
+            <TranslatableText translationKey="content.security.payment" className="text-gray-300 leading-relaxed" as="p" />
+            <TranslatableText translationKey="content.security.fairplay" className="text-gray-300 leading-relaxed" as="p" />
+            <TranslatableText translationKey="content.security.googleplay" className="text-gray-300 leading-relaxed" as="p" />
+            <TranslatableText translationKey="content.security.responsibility" className="text-gray-300 leading-relaxed" as="p" />
           </div>
         </div>
       </section>
 
-      {/* Contact Support Section */}
+      {/* Contact Support Section - Accessibility & Trust */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How Can We Contact the Card Rummy?</h2>
-          <p className="text-gray-300 mb-6">To contact the customer support team of Card Rummy, you can use the given methods:</p>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">3Patti Blue Customer Support: 24/7 Help in Urdu & English</h2>
+          <TranslatableText translationKey="content.support.intro" className="text-gray-300 mb-6" as="p" />
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">Live Chat</h3>
-              <p className="text-gray-300">Card Rummy provides you with a live chat feature inside the app so that you can directly talk to the support team if you face any problems. Whether you face any issue like playing or using the app, this team responds to you quickly and helps you solve your issues in real time. Live chat is the fastest way to get support without leaving the app.</p>
+              <SectionHeading translationKey="support.livechat.title" className="text-xl font-semibold mb-3 text-accent" tag="h3" />
+              <TranslatableText translationKey="support.livechat.details" className="text-gray-300" as="p" />
             </div>
             <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">WhatsApp</h3>
-              <p className="text-gray-300">You can also contact the support team through WhatsApp. You can simply use the number that is provided in the app to send your problem. This support team replies to you with instructions or solutions that make it easy to fix any problem. This WhatsApp support is very convenient because this is a simple and easy way to get help.</p>
+              <SectionHeading translationKey="support.whatsapp.title" className="text-xl font-semibold mb-3 text-accent" tag="h3" />
+              <TranslatableText translationKey="support.whatsapp.details" className="text-gray-300" as="p" />
             </div>
             <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">FAQs</h3>
-              <p className="text-gray-300">This app also dedicates a FAQs section where common questions are given with their answers. You can check this section before contacting the customer support team to save time. These FAQs mostly cover all topics such as registration, deposit, withdrawals, bonuses, and game rules. So, this is quick and easy to find the solution without waiting long.</p>
+              <SectionHeading translationKey="support.email.title" className="text-xl font-semibold mb-3 text-accent" tag="h3" />
+              <TranslatableText translationKey="support.email.details" className="text-gray-300" as="p" />
             </div>
           </div>
+          <div className="bg-[#0A1029] p-6 rounded-lg mt-6">
+            <SectionHeading translationKey="support.faqdb.title" className="text-xl font-semibold mb-3 text-accent" tag="h3" />
+            <TranslatableText translationKey="content.support.faq" className="text-gray-300" as="p" />
+          </div>
+          <TranslatableText translationKey="content.support.urgent" className="text-gray-300 mt-6 text-center italic font-bold" as="p" />
         </div>
       </section>
 
-      {/* FAQ Section */}
+      {/* FAQ Section - Bilingual */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Frequently Asked Questions</h2>
+        <SectionHeading translationKey="section.faq" className="text-3xl font-bold mb-4 text-accent" />
         <div className="space-y-4">
           <details className="group bg-[#0a1029]/50 rounded-xl">
             <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-              What is Card Rummy and how does it work?
+              <TranslatableText translationKey="faq.q1" />
               <span className="transition group-open:rotate-180">
                 <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
                   <path d="M6 9l6 6 6-6"></path>
@@ -1114,13 +1084,13 @@ export default function Home() {
               </span>
             </summary>
             <div className="p-4 pt-0 text-gray-300">
-              Card Rummy is Pakistan's premier online card game platform where you can play Teen Patti, Rummy, Dragon vs Tiger, and many other exciting casino games. You can play Card Rummy without depositing money by using free bonuses like the Welcome Bonus and Referral Commission. Card Rummy offers real cash rewards with fast withdrawals via JazzCash and EasyPaisa.
+              <TranslatableText translationKey="faq.a1" />
             </div>
           </details>
 
           <details className="group bg-[#0a1029]/50 rounded-xl">
             <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-              How to download Card Rummy APK?
+              <TranslatableText translationKey="faq.q2" />
               <span className="transition group-open:rotate-180">
                 <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
                   <path d="M6 9l6 6 6-6"></path>
@@ -1128,13 +1098,13 @@ export default function Home() {
               </span>
             </summary>
             <div className="p-4 pt-0 text-gray-300">
-              To download Card Rummy APK, visit cardrummyapp.com.pk and click the download button. The Card Rummy APK file will be saved to your device. Enable "Install from Unknown Sources" in your Android settings, then open the downloaded file to install Card Rummy.
+              <TranslatableText translationKey="faq.a2" />
             </div>
           </details>
 
           <details className="group bg-[#0a1029]/50 rounded-xl">
             <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-              What makes Card Rummy different from other card games?
+              <TranslatableText translationKey="faq.q3" />
               <span className="transition group-open:rotate-180">
                 <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
                   <path d="M6 9l6 6 6-6"></path>
@@ -1142,13 +1112,13 @@ export default function Home() {
               </span>
             </summary>
             <div className="p-4 pt-0 text-gray-300">
-              Card Rummy stands out with its simple design, fast transactions via JazzCash and EasyPaisa, exciting games like Teen Patti and Rummy, daily bonuses, and secure platform. Card Rummy offers the best card gaming experience in Pakistan with real cash rewards.
+              <TranslatableText translationKey="faq.a3" />
             </div>
           </details>
 
           <details className="group bg-[#0a1029]/50 rounded-xl">
             <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-              Is Card Rummy safe and legal to use?
+              <TranslatableText translationKey="faq.q4" />
               <span className="transition group-open:rotate-180">
                 <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
                   <path d="M6 9l6 6 6-6"></path>
@@ -1156,13 +1126,13 @@ export default function Home() {
               </span>
             </summary>
             <div className="p-4 pt-0 text-gray-300">
-              Yes, Card Rummy is safe to use with secure data encryption and privacy protection. Card Rummy ensures your personal information and transactions are protected. However, the legality of online gaming depends on your local laws, so always check your region's regulations before playing Card Rummy.
+              <TranslatableText translationKey="faq.a4" />
             </div>
           </details>
 
           <details className="group bg-[#0a1029]/50 rounded-xl">
             <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-              Can users lose money while playing?
+              <TranslatableText translationKey="faq.q5" />
               <span className="transition group-open:rotate-180">
                 <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
                   <path d="M6 9l6 6 6-6"></path>
@@ -1170,13 +1140,13 @@ export default function Home() {
               </span>
             </summary>
             <div className="p-4 pt-0 text-gray-300">
-              Yes, this app is involved with real money, so you might lose some amount if you do not play the games carefully. So, always play wisely and set a limit while playing.
+              <TranslatableText translationKey="faq.a5" />
             </div>
           </details>
 
           <details className="group bg-[#0a1029]/50 rounded-xl">
             <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-              Is it possible to change the language of Card Rummy?
+              <TranslatableText translationKey="faq.q6" />
               <span className="transition group-open:rotate-180">
                 <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
                   <path d="M6 9l6 6 6-6"></path>
@@ -1184,13 +1154,13 @@ export default function Home() {
               </span>
             </summary>
             <div className="p-4 pt-0 text-gray-300">
-              Yes, it is possible because this app supports multiple languages, so you can change the language from the settings menu easily.
+              <TranslatableText translationKey="faq.a6" />
             </div>
           </details>
 
           <details className="group bg-[#0a1029]/50 rounded-xl">
             <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-              How do referral rewards work?
+              <TranslatableText translationKey="faq.q7" />
               <span className="transition group-open:rotate-180">
                 <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
                   <path d="M6 9l6 6 6-6"></path>
@@ -1198,13 +1168,13 @@ export default function Home() {
               </span>
             </summary>
             <div className="p-4 pt-0 text-gray-300">
-              When you share your referral link with others, or when someone joins this app through your link, you can receive a commission.
+              <TranslatableText translationKey="faq.a7" />
             </div>
           </details>
 
           <details className="group bg-[#0a1029]/50 rounded-xl">
             <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-              Is Card Rummy available on iPhone (iOS)?
+              <TranslatableText translationKey="faq.q8" />
               <span className="transition group-open:rotate-180">
                 <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
                   <path d="M6 9l6 6 6-6"></path>
@@ -1212,21 +1182,36 @@ export default function Home() {
               </span>
             </summary>
             <div className="p-4 pt-0 text-gray-300">
-              This app is mainly available for Android devices, but you can also check the official website or store for updates about iOS availability.
+              <TranslatableText translationKey="faq.a8" />
             </div>
           </details>
           </div>
         </div>
       </section>
 
-      {/* Conclusion */}
+      {/* Conclusion - Call to Action with Value Summary */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Final Thoughts</h2>
+        <SectionHeading translationKey="verdict.title" className="text-2xl md:text-3xl font-bold mb-6 text-accent" />
           <div className="space-y-4">
-          <p className="text-gray-300">
-            Card Rummy is one of the most popular online card games in the world. It not only provides you with fun or entertainment but also provides you with a great chance to earn money if you play games wisely. This app provides you with a simple and user-friendly interface that can make it easy, especially for beginners, to play games. The deposit or withdrawal system through JazzCash or EasyPaisa is very convenient, which makes this platform very easy to use. If you play responsibly, make plans with smart strategies, and focus on your skill rather than luck, Card Rummy can become a more exciting or rewarding gaming experience.
-          </p>
+          <TranslatableText translationKey="verdict.para1" className="text-gray-300 leading-relaxed" as="p" />
+          <TranslatableText translationKey="verdict.para2" className="text-gray-300 leading-relaxed" as="p" />
+          <TranslatableText translationKey="verdict.para3" className="text-gray-300 leading-relaxed" as="p" />
+          <div className="flex justify-center mt-8">
+            <a 
+              href="https://3pattibluevip.com?from_gameid=9483409&channelCode=100000"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="download-btn bg-gradient-to-r from-[#0ea5e9] to-[#0284c7] hover:from-[#0284c7] hover:to-[#0ea5e9] text-white font-bold py-4 px-10 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-2xl transform hover:scale-105"
+            >
+              <TranslatableText translationKey="btn.download3pattiFull" className="text-xl" />
+              <div className="download-icon ml-3 bg-[#f97316] rounded-full p-2">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                </svg>
+              </div>
+            </a>
+          </div>
           </div>
         </div>
       </section>

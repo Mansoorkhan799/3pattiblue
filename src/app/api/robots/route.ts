@@ -1,11 +1,11 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://cardrummyapp.com.pk';
+  const baseUrl = 'https://3patiblueapp.com.pk';
   
   // This API route ensures consistent robots.txt across all URL variations
   // (HTTP/HTTPS, www/non-www). Matches the static file exactly.
-  const robotsTxt = `# robots.txt for cardrummyapp.com.pk
+  const robotsTxt = `# robots.txt for 3patiblueapp.com.pk
 
 # ============================================
 # AI CONTENT USAGE POLICY
@@ -37,7 +37,7 @@ Allow: /
 Disallow: /api/
 Disallow: /admin/
 
-# Priority pages
+# Priority pages (3Patti Blue routes)
 Allow: /download-card-rummy
 Allow: /deposit-money-in-card-rummy
 Allow: /withdraw-money-from-card-rummy
@@ -47,6 +47,10 @@ Allow: /blog
 Allow: /blog/is-card-rummy-real-or-fake
 Allow: /blog/create-card-rummy-account-and-login
 Allow: /blog/tips-to-win-big-in-card-rummy
+Allow: /blog/3patti-blue-vs-card-rummy
+Allow: /blog/3patti-gold-vs-card-rummy
+Allow: /blog/3patti-lucky-vs-card-rummy
+Allow: /blog/dragon-vs-tiger-andar-bahar-high-payout-games
 
 # Standard pages
 Allow: /contact-us
