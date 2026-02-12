@@ -1,3 +1,4 @@
+// 3Patti Blue - Official Deployment - Last Updated: 2026-02-13
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Script from "next/script";
