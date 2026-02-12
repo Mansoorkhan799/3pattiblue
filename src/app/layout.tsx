@@ -21,7 +21,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://3patiblueapp.com.pk'),
   title: {
-    default: "3Patti Blue - Download APK | Pakistan's #1 Teen Patti App 2026",
+    default: "3 Patti Blue APK Download Latest V1.2024(1) for Android 2026",
     template: "%s | 3Patti Blue"
   },
   description: "3Patti Blue 2026 - Pakistan's most trusted Teen Patti platform with 1M+ players. Download official APK, play authentic Teen Patti, Rummy, Dragon Tiger & win real money. Instant withdrawals via JazzCash & EasyPaisa. Get PKR 100 bonus! | تین پتی بلیو - 10 لاکھ سے زیادہ کھلاڑی۔ جاز کیش اور ایزی پیسہ سے فوری نکاسی۔ 100 روپے بونس حاصل کریں!",
