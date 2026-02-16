@@ -1,6 +1,7 @@
 'use client';
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { usePathname, useRouter } from 'next/navigation';
 
 type Language = 'en' | 'ur';
 
@@ -14,45 +15,84 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguage] = useState<Language>('en');
+  const pathname = usePathname();
+  const router = useRouter();
 
-  // Load saved language preference
+  // Sync language from URL: /ur → Urdu. Root / uses localStorage or default.
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      try {
+    if (pathname === '/ur') {
+      setLanguage('ur');
+      if (typeof window !== 'undefined') {
+        try {
+          localStorage.setItem('preferred-language', 'ur');
+        } catch {
+          // ignore
+        }
+        document.documentElement.setAttribute('lang', 'ur-PK');
+        document.documentElement.setAttribute('dir', 'rtl');
+      }
+      return;
+    }
+    if (pathname === '/') {
+      // On home (English URL), load from localStorage or keep current
+      if (typeof window !== 'undefined') {
+        try {
+          const savedLang = localStorage.getItem('preferred-language') as Language;
+          if (savedLang && (savedLang === 'en' || savedLang === 'ur')) {
+            setLanguage(savedLang);
+            document.documentElement.setAttribute('lang', savedLang === 'ur' ? 'ur-PK' : 'en-PK');
+            document.documentElement.setAttribute('dir', savedLang === 'ur' ? 'rtl' : 'ltr');
+          } else {
+            setLanguage('en');
+            document.documentElement.setAttribute('lang', 'en-PK');
+            document.documentElement.setAttribute('dir', 'ltr');
+          }
+        } catch {
+          setLanguage('en');
+        }
+      }
+    }
+  }, [pathname]);
+
+  // For non-home pages, apply saved language from localStorage
+  useEffect(() => {
+    if (pathname === '/ur') return;
+    if (typeof window === 'undefined') return;
+    try {
       const savedLang = localStorage.getItem('preferred-language') as Language;
       if (savedLang && (savedLang === 'en' || savedLang === 'ur')) {
         setLanguage(savedLang);
         document.documentElement.setAttribute('lang', savedLang === 'ur' ? 'ur-PK' : 'en-PK');
         document.documentElement.setAttribute('dir', savedLang === 'ur' ? 'rtl' : 'ltr');
-        }
-      } catch (error) {
-        // Handle corrupted localStorage gracefully
-        console.error('Error loading language preference:', error);
-        // Clear corrupted data and set default
-        try {
-          localStorage.removeItem('preferred-language');
-        } catch {
-          // Ignore if we can't clear it
-        }
       }
+    } catch {
+      // ignore
     }
-  }, []);
+  }, [pathname]);
 
   const toggleLanguage = () => {
     if (typeof window === 'undefined') return;
-    
+
     const newLang: Language = language === 'en' ? 'ur' : 'en';
-    console.log('Toggling language from', language, 'to', newLang);
-    setLanguage(newLang);
-    
+
     try {
-    localStorage.setItem('preferred-language', newLang);
+      localStorage.setItem('preferred-language', newLang);
     } catch (error) {
       console.error('Error saving language preference:', error);
     }
-    
     document.documentElement.setAttribute('lang', newLang === 'ur' ? 'ur-PK' : 'en-PK');
     document.documentElement.setAttribute('dir', newLang === 'ur' ? 'rtl' : 'ltr');
+    setLanguage(newLang);
+
+    // Reflect language in URL on home: /ur for Urdu, / for English
+    const isHome = pathname === '/' || pathname === '/ur';
+    if (isHome) {
+      if (newLang === 'ur') {
+        router.push('/ur');
+      } else {
+        router.push('/');
+      }
+    }
   };
 
   const t = (key: string): string => {
@@ -234,18 +274,71 @@ const translations: Record<Language, Record<string, string>> = {
     'content.install.step6': 'Create Account: Launch the app, register with your mobile number, verify via OTP, and start playing!',
     'content.install.step7': 'Claim Welcome Bonus: After registration, claim your free chips and 100% welcome bonus immediately.',
     'content.requirements.title': 'System Requirements',
+    'content.requirements.tableSystem': 'System',
+    'content.requirements.tableMinimum': 'Minimum',
+    'content.requirements.tableRecommended': 'Recommended',
+    'content.requirements.os': 'Operating System',
+    'content.requirements.osMin': 'Android 4.1',
+    'content.requirements.osRec': 'Android 8.0 or above',
+    'content.requirements.ram': 'RAM',
+    'content.requirements.ramMin': '2GB or more',
+    'content.requirements.ramRec': '4GB or more',
+    'content.requirements.storage': 'Storage Space',
+    'content.requirements.storageMin': 'At least 500 MB free',
+    'content.requirements.storageRec': '1GB free space',
+    'content.requirements.processor': 'Processor',
+    'content.requirements.processorMin': 'Quad-core 1.5 GHz',
+    'content.requirements.processorRec': 'Octa-core 2.0 GHz',
+    'content.requirements.internet': 'Internet',
+    'content.requirements.internetMin': 'Stable 3G or WiFi',
+    'content.requirements.internetRec': 'Fast & stable 4G or WiFi',
+    'content.registrationGuide.title': '3Patti Blue Account Registration & Login Guide',
     'content.registration.title1': '1: Quick Registration Process (Under 2 Minutes)',
     'content.registration.intro': 'Create your verified 3Patti Blue account in just 2 minutes and start earning immediately:',
+    'content.registration.step1': 'Launch App: Open 3Patti Blue app after installation.',
+    'content.registration.step2': 'Tap Register/Sign Up: On the welcome screen, click the "Register" or "Sign Up" button (usually prominent and colored).',
+    'content.registration.step3': 'Enter Mobile Number: Input your Pakistani mobile number (Jazz, Telenor, Zong, Ufone). This will be your username and withdrawal verification method.',
+    'content.registration.step4': 'Create Strong Password: Set a secure password (minimum 8 characters, mix of letters, numbers, symbols recommended).',
+    'content.registration.step5': 'Verify OTP: You\'ll receive a 6-digit verification code via SMS. Enter this code within 5 minutes to verify your number.',
+    'content.registration.step6': 'Complete Profile (Optional): Add email for account recovery, set username, and complete KYC (recommended for faster withdrawals).',
+    'content.registration.step7': 'Account Created: Congratulations! Your verified account is ready. Claim your welcome bonus immediately.',
     'content.login.title': '2: Secure Login Process',
     'content.login.intro': 'Access your 3Patti Blue account securely anytime, anywhere:',
+    'content.login.step1': 'Open 3Patti Blue: Launch the app from your home screen.',
+    'content.login.step2': 'Click Login: Tap the "Login" button on the welcome screen.',
+    'content.login.step3': 'Enter Credentials: Input your registered mobile number or email, and your password.',
+    'content.login.step4': 'Verify Details: Double-check your credentials to avoid login errors.',
+    'content.login.step5': 'Tap Sign In: Click the "Sign In" or "Login" button to access your account.',
+    'content.login.step6': 'Two-Factor Authentication (if enabled): Enter OTP sent to your mobile for additional security.',
+    'content.login.step7': 'Forgot Password? Tap "Forgot Password" to reset via SMS OTP. You\'ll receive a code to create a new password.',
+    'content.login.step8': 'Start Playing: Once logged in, your wallet balance, game history, and bonuses are instantly accessible. Choose your game and start earning!',
     'content.payment1.title': '1: JazzCash - Pakistan\'s Most Trusted Digital Wallet',
     'content.payment1.text': 'JazzCash is Pakistan\'s leading mobile financial services platform with 20+ million users. 3Patti Blue\'s seamless JazzCash integration enables: Instant deposits (funds reflect in wallet within 5 seconds), Fast withdrawals (processed in 5-30 minutes, directly to your JazzCash account), Zero hidden fees (what you withdraw is what you get), Secure transactions (encrypted and verified by JazzCash\'s banking-grade security), Minimum deposit: PKR 100, Minimum withdrawal: PKR 500. Over 500,000 successful transactions processed since launch. JazzCash is ideal for users who want the fastest, most reliable payment experience on 3Patti Blue.',
     'content.payment2.title': '2: EasyPaisa - Secure & Convenient Transactions',
     'content.payment2.text': 'EasyPaisa is Pakistan\'s largest mobile wallet service with 10+ million active users. Benefits of using EasyPaisa on 3Patti Blue: Instant deposits (money added to gaming wallet immediately), Quick withdrawals (completed within 5-30 minutes to your EasyPaisa account), Widely accessible (available at 180,000+ retail shops across Pakistan), Bank-level security (SSL encrypted transactions), No withdrawal charges, Works with all banks (link any bank account to EasyPaisa for seamless transfers). Perfect for users who prefer Telenor\'s trusted ecosystem. Both JazzCash and EasyPaisa transactions on 3Patti Blue are verified, secure, and processed 24/7 without delays.',
     'content.deposit.title': 'How to Deposit Money in 3Patti Blue (Instant Process)',
     'content.deposit.intro': 'Add funds to your 3Patti Blue wallet in under 60 seconds and start playing immediately:',
+    'content.deposit.step1': 'Login: Open 3Patti Blue app and log into your verified account.',
+    'content.deposit.step2': 'Go to Wallet: Tap the "Wallet" icon on the home screen (usually top-right corner with wallet/rupee symbol).',
+    'content.deposit.step3': 'Select Deposit: In wallet section, click "Deposit" or "Add Money" button.',
+    'content.deposit.step4': 'Choose Payment Method: Select JazzCash or EasyPaisa (both offer instant processing).',
+    'content.deposit.step5': 'Enter Amount: Input deposit amount (minimum PKR 100). Remember: first deposit gets 100% welcome bonus!',
+    'content.deposit.step6': 'Enter Payment Details: Provide your JazzCash/EasyPaisa account number/mobile number.',
+    'content.deposit.step7': 'Confirm Transaction: Review details carefully, then tap "Confirm" or "Deposit Now".',
+    'content.deposit.step8': 'Complete Payment: You\'ll be redirected to JazzCash/EasyPaisa. Authorize payment with PIN/OTP.',
+    'content.deposit.step9': 'Instant Credit: Within 5 seconds, deposited amount + bonus (if applicable) appears in your 3Patti Blue wallet. Start playing!',
     'content.withdraw.title': 'How to Withdraw Money from 3Patti Blue (5-30 Minutes)',
     'content.withdraw.intro': 'Withdraw your winnings quickly and securely to your JazzCash or EasyPaisa account:',
+    'content.withdraw.step1': 'Login to Account: Open 3Patti Blue app and log in with your credentials.',
+    'content.withdraw.step2': 'Access Wallet: Tap the "Wallet" icon on home screen to view your balance.',
+    'content.withdraw.step3': 'Select Withdrawal: Click "Withdraw" or "Cash Out" button in wallet section.',
+    'content.withdraw.step4': 'Choose Payment Method: Select JazzCash or EasyPaisa (both process within 5-30 minutes).',
+    'content.withdraw.step5': 'Enter Withdrawal Amount: Input amount (minimum PKR 500, no maximum limit). Ensure you have sufficient balance.',
+    'content.withdraw.step6': 'Provide Account Details: Enter your verified JazzCash/EasyPaisa mobile number or account number.',
+    'content.withdraw.step7': 'Verify with OTP: For security, you\'ll receive OTP on registered mobile. Enter code to verify.',
+    'content.withdraw.step8': 'Double-Check Details: Review withdrawal amount and account number carefully to avoid errors.',
+    'content.withdraw.step9': 'Confirm Withdrawal: Tap "Confirm" button. Your request is processed immediately.',
+    'content.withdraw.step10': 'Receive Money: Within 5-30 minutes, money is transferred to your JazzCash/EasyPaisa account. You\'ll receive confirmation SMS from both 3Patti Blue and your payment provider.',
     'content.proscons.bottomLine': 'Bottom Line: 3Patti Blue\'s advantages significantly outweigh limitations for responsible players. The platform offers genuine earning opportunities with proven payouts, but requires emotional discipline and financial responsibility. Ideal for adults 18+ who enjoy Teen Patti and understand gaming risks.',
     'content.support.intro': '3Patti Blue offers industry-leading customer support with multiple channels and guaranteed response times. Choose your preferred method:',
     'content.support.chat': 'Response Time: 2-5 minutes',
@@ -511,18 +604,71 @@ const translations: Record<Language, Record<string, string>> = {
     'content.install.step6': 'اکاؤنٹ بنائیں: ایپ لانچ کریں، اپنے موبائل نمبر سے رجسٹر کریں، OTP کے ذریعے تصدیق کریں، اور کھیلنا شروع کریں!',
     'content.install.step7': 'خوش آمدید بونس حاصل کریں: رجسٹریشن کے بعد، فوری طور پر اپنے مفت چپس اور 100% خوش آمدید بونس کا دعویٰ کریں۔',
     'content.requirements.title': 'سسٹم کی ضروریات',
+    'content.requirements.tableSystem': 'سسٹم',
+    'content.requirements.tableMinimum': 'کم از کم',
+    'content.requirements.tableRecommended': 'تجویز کردہ',
+    'content.requirements.os': 'آپریٹنگ سسٹم',
+    'content.requirements.osMin': 'اینڈرائیڈ 4.1',
+    'content.requirements.osRec': 'اینڈرائیڈ 8.0 یا اس سے اوپر',
+    'content.requirements.ram': 'ریم',
+    'content.requirements.ramMin': '2GB یا زیادہ',
+    'content.requirements.ramRec': '4GB یا زیادہ',
+    'content.requirements.storage': 'اسٹوریج جگہ',
+    'content.requirements.storageMin': 'کم از کم 500 MB خالی',
+    'content.requirements.storageRec': '1GB خالی جگہ',
+    'content.requirements.processor': 'پروسیسر',
+    'content.requirements.processorMin': 'کواڈ کور 1.5 GHz',
+    'content.requirements.processorRec': 'آکٹا کور 2.0 GHz',
+    'content.requirements.internet': 'انٹرنیٹ',
+    'content.requirements.internetMin': 'مستحکم 3G یا WiFi',
+    'content.requirements.internetRec': 'تیز اور مستحکم 4G یا WiFi',
+    'content.registrationGuide.title': 'تین پتی بلیو اکاؤنٹ رجسٹریشن اور لاگ ان گائیڈ',
     'content.registration.title1': '1: فوری رجسٹریشن کا عمل (2 منٹ سے کم)',
     'content.registration.intro': 'صرف 2 منٹ میں اپنا تصدیق شدہ تین پتی بلیو اکاؤنٹ بنائیں اور فوری طور پر کمانا شروع کریں:',
+    'content.registration.step1': 'ایپ لانچ کریں: انسٹالیشن کے بعد تین پتی بلیو ایپ کھولیں۔',
+    'content.registration.step2': 'رجسٹر/سائن اپ پر ٹیپ کریں: ویلکم اسکرین پر "Register" یا "Sign Up" بٹن پر کلک کریں (عام طور پر نمایاں اور رنگین)۔',
+    'content.registration.step3': 'موبائل نمبر درج کریں: اپنا پاکستانی موبائل نمبر (جاز، ٹیلی نار، زونگ، یوفون) درج کریں۔ یہ آپ کا یوزرنیم اور نکاسی کی تصدیق کا طریقہ ہوگا۔',
+    'content.registration.step4': 'مضبوط پاس ورڈ بنائیں: محفوظ پاس ورڈ سیٹ کریں (کم از کم 8 حروف، حروف، نمبرز اور علامات کا مرکب تجویز ہے)۔',
+    'content.registration.step5': 'OTP سے تصدیق کریں: آپ کو SMS کے ذریعے 6 ہندسوں کی تصدیقی کوڈ موصول ہوگی۔ اپنے نمبر کی تصدیق کے لیے 5 منٹ کے اندر یہ کوڈ درج کریں۔',
+    'content.registration.step6': 'پروفائل مکمل کریں (اختیاری): اکاؤنٹ بحالی کے لیے ای میل شامل کریں، یوزرنیم سیٹ کریں، اور KYC مکمل کریں (تیز نکاسی کے لیے تجویز شدہ)۔',
+    'content.registration.step7': 'اکاؤنٹ بن گیا: مبارک ہو! آپ کا تصدیق شدہ اکاؤنٹ تیار ہے۔ فوری طور پر اپنا ویلکم بونس حاصل کریں۔',
     'content.login.title': '2: محفوظ لاگ ان کا عمل',
     'content.login.intro': 'اپنے تین پتی بلیو اکاؤنٹ تک کسی بھی وقت، کہیں بھی محفوظ طریقے سے رسائی حاصل کریں:',
+    'content.login.step1': 'تین پتی بلیو کھولیں: اپنی ہوم اسکرین سے ایپ لانچ کریں۔',
+    'content.login.step2': 'لاگ ان پر کلک کریں: ویلکم اسکرین پر "Login" بٹن پر ٹیپ کریں۔',
+    'content.login.step3': 'کریڈنشلز درج کریں: اپنا رجسٹرڈ موبائل نمبر یا ای میل اور پاس ورڈ درج کریں۔',
+    'content.login.step4': 'تفصیلات کی تصدیق کریں: لاگ ان کی غلطیوں سے بچنے کے لیے اپنے کریڈنشلز دوبارہ چیک کریں۔',
+    'content.login.step5': 'سائن ان پر ٹیپ کریں: اپنے اکاؤنٹ تک رسائی کے لیے "Sign In" یا "Login" بٹن پر کلک کریں۔',
+    'content.login.step6': 'ٹو فیکٹر تصدیق (اگر فعال ہو): اضافی سیکیورٹی کے لیے اپنے موبائل پر بھیجا گیا OTP درج کریں۔',
+    'content.login.step7': 'پاس ورڈ بھول گئے؟ SMS OTP کے ذریعے ری سیٹ کرنے کے لیے "Forgot Password" پر ٹیپ کریں۔ نیا پاس ورڈ بنانے کے لیے آپ کو کوڈ موصول ہوگا۔',
+    'content.login.step8': 'کھیلنا شروع کریں: لاگ ان ہونے کے بعد، آپ کا والٹ بیلنس، گیم ہسٹری اور بونسز فوری طور پر قابل رسائی ہیں۔ اپنا گیم منتخب کریں اور کمانا شروع کریں!',
     'content.payment1.title': '1: جاز کیش - پاکستان کا سب سے قابل اعتماد ڈیجیٹل والٹ',
     'content.payment1.text': 'جاز کیش 20+ ملین صارفین کے ساتھ پاکستان کا معروف موبائل مالیاتی خدمات کا پلیٹ فارم ہے۔ تین پتی بلیو کی بغیر کسی رکاوٹ کے جاز کیش انٹیگریشن فعال کرتی ہے: فوری ڈپازٹس (5 سیکنڈ میں فنڈز والٹ میں ظاہر ہوتے ہیں)، تیز نکاسی (5-30 منٹ میں کارروائی کی جاتی ہے، براہ راست آپ کے جاز کیش اکاؤنٹ میں)، صفر چھپی ہوئی فیس (جو آپ نکالتے ہیں وہی آپ کو ملتا ہے)، محفوظ لین دین (جاز کیش کی بینکنگ گریڈ سیکیورٹی سے انکرپٹ اور تصدیق شدہ)، کم سے کم ڈپازٹ: PKR 100، کم سے کم نکاسی: PKR 500۔ شروع سے 500,000 سے زیادہ کامیاب لین دین کی کارروائی کی گئی ہے۔ جاز کیش ان صارفین کے لیے مثالی ہے جو تین پتی بلیو پر سب سے تیز، سب سے قابل اعتماد ادائیگی کا تجربہ چاہتے ہیں۔',
     'content.payment2.title': '2: ایزی پیسہ - محفوظ اور آسان لین دین',
     'content.payment2.text': 'ایزی پیسہ 10+ ملین فعال صارفین کے ساتھ پاکستان کی سب سے بڑی موبائل والٹ سروس ہے۔ تین پتی بلیو پر ایزی پیسہ استعمال کرنے کے فوائد: فوری ڈپازٹس (فوری طور پر گیمنگ والٹ میں رقم شامل کی جاتی ہے)، فوری نکاسی (5-30 منٹ میں آپ کے ایزی پیسہ اکاؤنٹ میں مکمل ہو جاتی ہے)، وسیع پیمانے پر قابل رسائی (پاکستان بھر میں 180,000+ ریٹیل دکانوں پر دستیاب)، بینک لیول سیکیورٹی (SSL انکرپٹ شدہ لین دین)، کوئی نکاسی چارجز نہیں، تمام بینکوں کے ساتھ کام کرتا ہے (بغیر کسی رکاوٹ کے منتقلی کے لیے کسی بھی بینک اکاؤنٹ کو ایزی پیسہ سے لنک کریں)۔ ان صارفین کے لیے بہترین جو Telenor کے قابل اعتماد ماحول کو ترجیح دیتے ہیں۔ تین پتی بلیو پر جاز کیش اور ایزی پیسہ دونوں لین دین تصدیق شدہ، محفوظ، اور 24/7 بغیر تاخیر کے کارروائی کیے جاتے ہیں۔',
     'content.deposit.title': 'تین پتی بلیو میں رقم کیسے جمع کریں (فوری عمل)',
     'content.deposit.intro': '60 سیکنڈ سے کم میں اپنے تین پتی بلیو والٹ میں فنڈز شامل کریں اور فوری طور پر کھیلنا شروع کریں:',
+    'content.deposit.step1': 'لاگ ان کریں: تین پتی بلیو ایپ کھولیں اور اپنے تصدیق شدہ اکاؤنٹ میں لاگ ان کریں۔',
+    'content.deposit.step2': 'والٹ پر جائیں: ہوم اسکرین پر "Wallet" آئیکن پر ٹیپ کریں (عام طور پر اوپر دائیں کونے میں والٹ/روپے کا نشان)۔',
+    'content.deposit.step3': 'ڈپازٹ منتخب کریں: والٹ سیکشن میں "Deposit" یا "Add Money" بٹن پر کلک کریں۔',
+    'content.deposit.step4': 'ادائیگی کا طریقہ منتخب کریں: جاز کیش یا ایزی پیسہ منتخب کریں (دونوں فوری پروسیسنگ پیش کرتے ہیں)۔',
+    'content.deposit.step5': 'رقم درج کریں: ڈپازٹ کی رقم درج کریں (کم از کم PKR 100)۔ یاد رکھیں: پہلی ڈپازٹ پر 100% ویلکم بونس ملتا ہے!',
+    'content.deposit.step6': 'ادائیگی کی تفصیلات درج کریں: اپنا جاز کیش/ایزی پیسہ اکاؤنٹ نمبر/موبائل نمبر فراہم کریں۔',
+    'content.deposit.step7': 'لین دین کی تصدیق کریں: تفصیلات احتیاط سے جائیں، پھر "Confirm" یا "Deposit Now" پر ٹیپ کریں۔',
+    'content.deposit.step8': 'ادائیگی مکمل کریں: آپ کو جاز کیش/ایزی پیسہ پر ری ڈائریکٹ کیا جائے گا۔ PIN/OTP سے ادائیگی کی توثیق کریں۔',
+    'content.deposit.step9': 'فوری کریڈٹ: 5 سیکنڈ کے اندر، جمع شدہ رقم + بونس (اگر لاگو ہو) آپ کے تین پتی بلیو والٹ میں ظاہر ہو جاتی ہے۔ کھیلنا شروع کریں!',
     'content.withdraw.title': 'تین پتی بلیو سے رقم کیسے نکالیں (5-30 منٹ)',
     'content.withdraw.intro': 'اپنی جیت کو تیزی سے اور محفوظ طریقے سے اپنے جاز کیش یا ایزی پیسہ اکاؤنٹ میں نکالیں:',
+    'content.withdraw.step1': 'اکاؤنٹ میں لاگ ان کریں: تین پتی بلیو ایپ کھولیں اور اپنے کریڈنشلز سے لاگ ان کریں۔',
+    'content.withdraw.step2': 'والٹ تک رسائی: بیلنس دیکھنے کے لیے ہوم اسکرین پر "Wallet" آئیکن پر ٹیپ کریں۔',
+    'content.withdraw.step3': 'نکاسی منتخب کریں: والٹ سیکشن میں "Withdraw" یا "Cash Out" بٹن پر کلک کریں۔',
+    'content.withdraw.step4': 'ادائیگی کا طریقہ منتخب کریں: جاز کیش یا ایزی پیسہ منتخب کریں (دونوں 5-30 منٹ میں پروسیس ہوتے ہیں)۔',
+    'content.withdraw.step5': 'نکاسی کی رقم درج کریں: رقم درج کریں (کم از کم PKR 500، زیادہ سے زیادہ حد نہیں)۔ یقینی بنائیں کہ آپ کے پاس کافی بیلنس ہے۔',
+    'content.withdraw.step6': 'اکاؤنٹ کی تفصیلات فراہم کریں: اپنا تصدیق شدہ جاز کیش/ایزی پیسہ موبائل نمبر یا اکاؤنٹ نمبر درج کریں۔',
+    'content.withdraw.step7': 'OTP سے تصدیق کریں: سیکیورٹی کے لیے آپ کو رجسٹرڈ موبائل پر OTP موصول ہوگا۔ تصدیق کے لیے کوڈ درج کریں۔',
+    'content.withdraw.step8': 'تفصیلات دوبارہ چیک کریں: غلطیوں سے بچنے کے لیے نکاسی کی رقم اور اکاؤنٹ نمبر احتیاط سے جائیں۔',
+    'content.withdraw.step9': 'نکاسی کی تصدیق کریں: "Confirm" بٹن پر ٹیپ کریں۔ آپ کی درخواست فوری طور پر پروسیس ہو جاتی ہے۔',
+    'content.withdraw.step10': 'رقم وصول کریں: 5-30 منٹ کے اندر رقم آپ کے جاز کیش/ایزی پیسہ اکاؤنٹ میں منتقل ہو جاتی ہے۔ آپ کو تین پتی بلیو اور اپنے ادائیگی فراہم کنندہ دونوں سے تصدیقی SMS موصول ہوگا۔',
     'content.proscons.bottomLine': 'نتیجہ: ذمہ دار کھلاڑیوں کے لیے تین پتی بلیو کے فوائد حدود سے نمایاں طور پر زیادہ ہیں۔ پلیٹ فارم ثابت شدہ ادائیگیوں کے ساتھ حقیقی کمائی کے مواقع فراہم کرتا ہے، لیکن جذباتی نظم و ضبط اور مالی ذمہ داری کی ضرورت ہے۔ 18+ بالغوں کے لیے مثالی جو تین پتی سے لطف اندوز ہوتے ہیں اور گیمنگ کے خطرات کو سمجھتے ہیں۔',
     'content.support.intro': 'تین پتی بلیو متعدد چینلز اور گارنٹی شدہ جوابی اوقات کے ساتھ صنعت کی معروف کسٹمر سپورٹ پیش کرتا ہے۔ اپنا ترجیحی طریقہ منتخب کریں:',
     'content.support.chat': 'جوابی وقت: 2-5 منٹ',

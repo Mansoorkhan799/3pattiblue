@@ -817,17 +817,17 @@ export default function Home() {
           <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
             <thead className="bg-[#0a1029]">
               <tr>
-                <th className="py-3 px-6 text-left text-white font-semibold">System</th>
-                <th className="py-3 px-6 text-left text-white font-semibold">Minimum</th>
-                <th className="py-3 px-6 text-left text-white font-semibold">Recommended</th>
+                <th className="py-3 px-6 text-left text-white font-semibold"><TranslatableText translationKey="content.requirements.tableSystem" /></th>
+                <th className="py-3 px-6 text-left text-white font-semibold"><TranslatableText translationKey="content.requirements.tableMinimum" /></th>
+                <th className="py-3 px-6 text-left text-white font-semibold"><TranslatableText translationKey="content.requirements.tableRecommended" /></th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-800">
-              <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">Operating System</td><td className="py-3 px-6 text-gray-300">Android 4.1</td><td className="py-3 px-6 text-gray-300">Android 8.0 or above</td></tr>
-              <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">RAM</td><td className="py-3 px-6 text-gray-300">2GB or more</td><td className="py-3 px-6 text-gray-300">4GB or more</td></tr>
-              <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">Storage Space</td><td className="py-3 px-6 text-gray-300">At least 500 MB free</td><td className="py-3 px-6 text-gray-300">1GB free space</td></tr>
-              <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">Processor</td><td className="py-3 px-6 text-gray-300">Quad-core 1.5 GHz</td><td className="py-3 px-6 text-gray-300">Octa-core 2.0 GHz</td></tr>
-              <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">Internet</td><td className="py-3 px-6 text-gray-300">Stable 3G or WiFi</td><td className="py-3 px-6 text-gray-300">Fast & stable 4G or WiFi</td></tr>
+              <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300"><TranslatableText translationKey="content.requirements.os" /></td><td className="py-3 px-6 text-gray-300"><TranslatableText translationKey="content.requirements.osMin" /></td><td className="py-3 px-6 text-gray-300"><TranslatableText translationKey="content.requirements.osRec" /></td></tr>
+              <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300"><TranslatableText translationKey="content.requirements.ram" /></td><td className="py-3 px-6 text-gray-300"><TranslatableText translationKey="content.requirements.ramMin" /></td><td className="py-3 px-6 text-gray-300"><TranslatableText translationKey="content.requirements.ramRec" /></td></tr>
+              <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300"><TranslatableText translationKey="content.requirements.storage" /></td><td className="py-3 px-6 text-gray-300"><TranslatableText translationKey="content.requirements.storageMin" /></td><td className="py-3 px-6 text-gray-300"><TranslatableText translationKey="content.requirements.storageRec" /></td></tr>
+              <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300"><TranslatableText translationKey="content.requirements.processor" /></td><td className="py-3 px-6 text-gray-300"><TranslatableText translationKey="content.requirements.processorMin" /></td><td className="py-3 px-6 text-gray-300"><TranslatableText translationKey="content.requirements.processorRec" /></td></tr>
+              <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300"><TranslatableText translationKey="content.requirements.internet" /></td><td className="py-3 px-6 text-gray-300"><TranslatableText translationKey="content.requirements.internetMin" /></td><td className="py-3 px-6 text-gray-300"><TranslatableText translationKey="content.requirements.internetRec" /></td></tr>
             </tbody>
           </table>
         </div>
@@ -853,19 +853,19 @@ export default function Home() {
       {/* Account Creation - User Journey Optimization */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">3Patti Blue Account Registration & Login Guide</h2>
+        <SectionHeading translationKey="content.registrationGuide.title" className="text-2xl md:text-3xl font-bold mb-6 text-accent" />
           
           <h3 className="text-xl font-semibold mb-4 text-accent"><TranslatableText translationKey="content.registration.title1" /></h3>
           <TranslatableText translationKey="content.registration.intro" className="text-gray-300 mb-4" as="p" />
           <div className="mb-8">
           <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li><strong>Launch App:</strong> Open 3Patti Blue app after installation.</li>
-            <li><strong>Tap Register/Sign Up:</strong> On the welcome screen, click the "Register" or "Sign Up" button (usually prominent and colored).</li>
-            <li><strong>Enter Mobile Number:</strong> Input your Pakistani mobile number (Jazz, Telenor, Zong, Ufone). This will be your username and withdrawal verification method.</li>
-            <li><strong>Create Strong Password:</strong> Set a secure password (minimum 8 characters, mix of letters, numbers, symbols recommended).</li>
-            <li><strong>Verify OTP:</strong> You'll receive a 6-digit verification code via SMS. Enter this code within 5 minutes to verify your number.</li>
-            <li><strong>Complete Profile (Optional):</strong> Add email for account recovery, set username, and complete KYC (recommended for faster withdrawals).</li>
-            <li><strong>Account Created:</strong> Congratulations! Your verified account is ready. Claim your welcome bonus immediately.</li>
+            <li><TranslatableText translationKey="content.registration.step1" as="span" /></li>
+            <li><TranslatableText translationKey="content.registration.step2" as="span" /></li>
+            <li><TranslatableText translationKey="content.registration.step3" as="span" /></li>
+            <li><TranslatableText translationKey="content.registration.step4" as="span" /></li>
+            <li><TranslatableText translationKey="content.registration.step5" as="span" /></li>
+            <li><TranslatableText translationKey="content.registration.step6" as="span" /></li>
+            <li><TranslatableText translationKey="content.registration.step7" as="span" /></li>
           </ol>
           </div>
 
@@ -873,14 +873,14 @@ export default function Home() {
           <TranslatableText translationKey="content.login.intro" className="text-gray-300 mb-4" as="p" />
           <div className="space-y-4">
           <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li><strong>Open 3Patti Blue:</strong> Launch the app from your home screen.</li>
-            <li><strong>Click Login:</strong> Tap the "Login" button on the welcome screen.</li>
-            <li><strong>Enter Credentials:</strong> Input your registered mobile number or email, and your password.</li>
-            <li><strong>Verify Details:</strong> Double-check your credentials to avoid login errors.</li>
-            <li><strong>Tap Sign In:</strong> Click the "Sign In" or "Login" button to access your account.</li>
-            <li><strong>Two-Factor Authentication (if enabled):</strong> Enter OTP sent to your mobile for additional security.</li>
-            <li><strong>Forgot Password?</strong> Tap "Forgot Password" to reset via SMS OTP. You'll receive a code to create a new password.</li>
-            <li><strong>Start Playing:</strong> Once logged in, your wallet balance, game history, and bonuses are instantly accessible. Choose your game and start earning!</li>
+            <li><TranslatableText translationKey="content.login.step1" as="span" /></li>
+            <li><TranslatableText translationKey="content.login.step2" as="span" /></li>
+            <li><TranslatableText translationKey="content.login.step3" as="span" /></li>
+            <li><TranslatableText translationKey="content.login.step4" as="span" /></li>
+            <li><TranslatableText translationKey="content.login.step5" as="span" /></li>
+            <li><TranslatableText translationKey="content.login.step6" as="span" /></li>
+            <li><TranslatableText translationKey="content.login.step7" as="span" /></li>
+            <li><TranslatableText translationKey="content.login.step8" as="span" /></li>
           </ol>
           </div>
         </div>
@@ -911,31 +911,31 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent"><TranslatableText translationKey="content.deposit.title" /></h2>
             <TranslatableText translationKey="content.deposit.intro" className="text-gray-300 mb-4" as="p" />
                 <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-              <li><strong>Login:</strong> Open 3Patti Blue app and log into your verified account.</li>
-              <li><strong>Go to Wallet:</strong> Tap the "Wallet" icon on the home screen (usually top-right corner with wallet/rupee symbol).</li>
-              <li><strong>Select Deposit:</strong> In wallet section, click "Deposit" or "Add Money" button.</li>
-              <li><strong>Choose Payment Method:</strong> Select JazzCash or EasyPaisa (both offer instant processing).</li>
-              <li><strong>Enter Amount:</strong> Input deposit amount (minimum PKR 100). Remember: first deposit gets 100% welcome bonus!</li>
-              <li><strong>Enter Payment Details:</strong> Provide your JazzCash/EasyPaisa account number/mobile number.</li>
-              <li><strong>Confirm Transaction:</strong> Review details carefully, then tap "Confirm" or "Deposit Now".</li>
-              <li><strong>Complete Payment:</strong> You'll be redirected to JazzCash/EasyPaisa. Authorize payment with PIN/OTP.</li>
-              <li><strong>Instant Credit:</strong> Within 5 seconds, deposited amount + bonus (if applicable) appears in your 3Patti Blue wallet. Start playing!</li>
+              <li><TranslatableText translationKey="content.deposit.step1" as="span" /></li>
+              <li><TranslatableText translationKey="content.deposit.step2" as="span" /></li>
+              <li><TranslatableText translationKey="content.deposit.step3" as="span" /></li>
+              <li><TranslatableText translationKey="content.deposit.step4" as="span" /></li>
+              <li><TranslatableText translationKey="content.deposit.step5" as="span" /></li>
+              <li><TranslatableText translationKey="content.deposit.step6" as="span" /></li>
+              <li><TranslatableText translationKey="content.deposit.step7" as="span" /></li>
+              <li><TranslatableText translationKey="content.deposit.step8" as="span" /></li>
+              <li><TranslatableText translationKey="content.deposit.step9" as="span" /></li>
                 </ol>
               </div>
           <div className="bg-secondary rounded-xl p-8">
             <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent"><TranslatableText translationKey="content.withdraw.title" /></h2>
             <TranslatableText translationKey="content.withdraw.intro" className="text-gray-300 mb-4" as="p" />
                 <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-              <li><strong>Login to Account:</strong> Open 3Patti Blue app and log in with your credentials.</li>
-              <li><strong>Access Wallet:</strong> Tap the "Wallet" icon on home screen to view your balance.</li>
-              <li><strong>Select Withdrawal:</strong> Click "Withdraw" or "Cash Out" button in wallet section.</li>
-              <li><strong>Choose Payment Method:</strong> Select JazzCash or EasyPaisa (both process within 5-30 minutes).</li>
-              <li><strong>Enter Withdrawal Amount:</strong> Input amount (minimum PKR 500, no maximum limit). Ensure you have sufficient balance.</li>
-              <li><strong>Provide Account Details:</strong> Enter your verified JazzCash/EasyPaisa mobile number or account number.</li>
-              <li><strong>Verify with OTP:</strong> For security, you'll receive OTP on registered mobile. Enter code to verify.</li>
-              <li><strong>Double-Check Details:</strong> Review withdrawal amount and account number carefully to avoid errors.</li>
-              <li><strong>Confirm Withdrawal:</strong> Tap "Confirm" button. Your request is processed immediately.</li>
-              <li><strong>Receive Money:</strong> Within 5-30 minutes, money is transferred to your JazzCash/EasyPaisa account. You'll receive confirmation SMS from both 3Patti Blue and your payment provider.</li>
+              <li><TranslatableText translationKey="content.withdraw.step1" as="span" /></li>
+              <li><TranslatableText translationKey="content.withdraw.step2" as="span" /></li>
+              <li><TranslatableText translationKey="content.withdraw.step3" as="span" /></li>
+              <li><TranslatableText translationKey="content.withdraw.step4" as="span" /></li>
+              <li><TranslatableText translationKey="content.withdraw.step5" as="span" /></li>
+              <li><TranslatableText translationKey="content.withdraw.step6" as="span" /></li>
+              <li><TranslatableText translationKey="content.withdraw.step7" as="span" /></li>
+              <li><TranslatableText translationKey="content.withdraw.step8" as="span" /></li>
+              <li><TranslatableText translationKey="content.withdraw.step9" as="span" /></li>
+              <li><TranslatableText translationKey="content.withdraw.step10" as="span" /></li>
                 </ol>
           </div>
         </div>
