@@ -180,7 +180,7 @@ export default function Blog() {
 
         {/* 3Patti Blue Comparison */}
         <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
-          <h2 className="text-2xl font-bold mb-4 text-white">3Patti Blue vs 3Patti Blue: Which Game Is Better for Earning Real Cash?</h2>
+          <h2 className="text-2xl font-bold mb-4 text-white">3Patti Blue vs 3 Patti Loot: Which Game Is Better for Earning Real Cash?</h2>
           <p className="text-gray-300 mb-4">Complete comparison: Features, bonuses, withdrawal speed, game variety & earning potential. Find out which app pays better!</p>
           <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
             <span>📅 January 2026</span>

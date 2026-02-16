@@ -2,23 +2,23 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: '3Patti Blue vs 3Patti Blue: Which Game Is Better for Earning Real Cash? 2026',
-  description: '3Patti Blue vs 3Patti Blue comparison 2026: Features, bonuses, withdrawal speed, game variety & earning potential. Find out which app pays better in Pakistan!',
+  title: '3Patti Blue vs 3 Patti Loot: Which Game Is Better for Earning Real Cash? 2026',
+  description: '3Patti Blue vs 3 Patti Loot comparison 2026: Features, bonuses, withdrawal speed, game variety & earning potential. Find out which app pays better in Pakistan!',
   keywords: [
-    '3Patti Blue vs 3Patti Blue',
-    '3Patti Blue vs 3Patti Blue',
+    '3Patti Blue vs 3 Patti Loot',
+    '3 Patti Loot',
     '3Patti Blue',
     '3Patti Blue comparison',
     'best earning app Pakistan',
     'real money game comparison',
     'Teen Patti app comparison',
-    '3Patti Blue review',
+    '3 Patti Loot review',
     '3Patti Blue review',
     'which game pays more'
   ],
   openGraph: {
-    title: '3Patti Blue vs 3Patti Blue: Which Game Is Better for Earning Real Cash?',
-    description: '3Patti Blue vs 3Patti Blue comparison: Features, bonuses, withdrawal speed & earning potential. Find the best app for Pakistan!',
+    title: '3Patti Blue vs 3 Patti Loot: Which Game Is Better for Earning Real Cash?',
+    description: '3Patti Blue vs 3 Patti Loot comparison: Features, bonuses, withdrawal speed & earning potential. Find the best app for Pakistan!',
     type: 'article',
   },
 };
@@ -33,13 +33,13 @@ export default function Blog3PattiBlueVsCardRummy() {
           <span className="mx-2">/</span>
           <Link href="/blog" className="hover:text-[#FFA500]">Blog</Link>
           <span className="mx-2">/</span>
-          <span className="text-white">3Patti Blue vs 3Patti Blue</span>
+          <span className="text-white">3Patti Blue vs 3 Patti Loot</span>
         </nav>
 
         {/* Article Header */}
         <header className="mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            3Patti Blue vs 3Patti Blue: Which Game Is Better for Earning Real Cash?
+            3Patti Blue vs 3 Patti Loot: Which Game Is Better for Earning Real Cash?
           </h1>
           <div className="flex items-center gap-4 text-gray-400 text-sm">
             <time dateTime="2026-01-11">January 11, 2026</time>
@@ -51,7 +51,7 @@ export default function Blog3PattiBlueVsCardRummy() {
         {/* Article Content */}
         <div className="prose prose-invert prose-lg max-w-none">
           <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-            If you're looking to earn real cash by playing card games in Pakistan, you've probably heard of both <strong>3Patti Blue</strong> and <Link href="/" className="text-[#FFA500] hover:underline font-semibold">3Patti Blue</Link>. Both apps offer Teen Patti and other popular card games with real money rewards. But which one is actually better for earning? Let's compare them head-to-head.
+            If you're looking to earn real cash by playing card games in Pakistan, you've probably heard of both <strong>3 Patti Loot</strong> and <Link href="/" className="text-[#FFA500] hover:underline font-semibold">3Patti Blue</Link>. Both apps offer Teen Patti and other popular card games with real money rewards. But which one is actually better for earning? Let's compare them head-to-head.
           </p>
 
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">Quick Comparison Table</h2>
@@ -60,7 +60,7 @@ export default function Blog3PattiBlueVsCardRummy() {
               <thead>
                 <tr className="bg-purple-900">
                   <th className="border border-gray-700 p-4 text-left text-white">Feature</th>
-                  <th className="border border-gray-700 p-4 text-left text-white">3Patti Blue</th>
+                  <th className="border border-gray-700 p-4 text-left text-white">3 Patti Loot</th>
                   <th className="border border-gray-700 p-4 text-left text-white">3Patti Blue</th>
                 </tr>
               </thead>
@@ -106,9 +106,9 @@ export default function Blog3PattiBlueVsCardRummy() {
 
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">1. Game Variety & Entertainment Value</h2>
           
-          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">3Patti Blue</h3>
+          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">3 Patti Loot</h3>
           <p className="text-gray-300 mb-4">
-            3Patti Blue focuses exclusively on Teen Patti (3 Patti) with different variations. While this specialization can be good for Teen Patti purists, it limits your earning opportunities if you want variety.
+            3 Patti Loot focuses exclusively on Teen Patti (3 Patti) with different variations. While this specialization can be good for Teen Patti purists, it limits your earning opportunities if you want variety.
           </p>
 
           <h3 className="text-2xl font-semibold text-white mt-8 mb-4">3Patti Blue</h3>
@@ -129,7 +129,7 @@ export default function Blog3PattiBlueVsCardRummy() {
 
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">2. Bonuses & Rewards Comparison</h2>
           
-          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">3Patti Blue Bonuses</h3>
+          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">3 Patti Loot Bonuses</h3>
           <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
             <li>Welcome Bonus: ₨200 (with deposit)</li>
             <li>Daily login bonus (small amounts)</li>
@@ -158,7 +158,7 @@ export default function Blog3PattiBlueVsCardRummy() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">3. Withdrawal Speed & Reliability</h2>
           
           <p className="text-gray-300 mb-4">
-            <strong>3Patti Blue:</strong> Withdrawals typically take 24-48 hours. Some users report delays during peak times or on weekends.
+            <strong>3 Patti Loot:</strong> Withdrawals typically take 24-48 hours. Some users report delays during peak times or on weekends.
           </p>
 
           <p className="text-gray-300 mb-4">
@@ -173,7 +173,7 @@ export default function Blog3PattiBlueVsCardRummy() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">4. Minimum Withdrawal & Accessibility</h2>
           
           <p className="text-gray-300 mb-4">
-            <strong>3Patti Blue:</strong> Minimum withdrawal is ₨500, which can be a barrier for casual players or those just starting out.
+            <strong>3 Patti Loot:</strong> Minimum withdrawal is ₨500, which can be a barrier for casual players or those just starting out.
           </p>
 
           <p className="text-gray-300 mb-4">
@@ -187,7 +187,7 @@ export default function Blog3PattiBlueVsCardRummy() {
 
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">5. VIP Program & Long-Term Earning</h2>
           
-          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">3Patti Blue VIP</h3>
+          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">3 Patti Loot VIP</h3>
           <p className="text-gray-300 mb-4">
             Basic VIP system with limited benefits. You get slightly better bonuses as you play more, but the rewards are minimal.
           </p>
@@ -212,7 +212,7 @@ export default function Blog3PattiBlueVsCardRummy() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">6. User Interface & Experience</h2>
           
           <p className="text-gray-300 mb-4">
-            <strong>3Patti Blue:</strong> Simple interface focused on Teen Patti. Easy to navigate but somewhat basic in design.
+            <strong>3 Patti Loot:</strong> Simple interface focused on Teen Patti. Easy to navigate but somewhat basic in design.
           </p>
 
           <p className="text-gray-300 mb-4">
@@ -227,7 +227,7 @@ export default function Blog3PattiBlueVsCardRummy() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">7. Referral Program & Passive Income</h2>
           
           <p className="text-gray-300 mb-4">
-            <strong>3Patti Blue:</strong> Basic referral program with limited commission (5-10%).
+            <strong>3 Patti Loot:</strong> Basic referral program with limited commission (5-10%).
           </p>
 
           <p className="text-gray-300 mb-4">
@@ -243,19 +243,19 @@ export default function Blog3PattiBlueVsCardRummy() {
           
           <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Average Monthly Earnings (Casual Players)</h3>
           <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
-            <li><strong>3Patti Blue:</strong> ₨2,000 - ₨5,000/month</li>
+            <li><strong>3 Patti Loot:</strong> ₨2,000 - ₨5,000/month</li>
             <li><strong>3Patti Blue:</strong> ₨5,000 - ₨15,000/month (with game variety, VIP rewards, and referrals)</li>
           </ul>
 
           <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Average Monthly Earnings (Dedicated Players)</h3>
           <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
-            <li><strong>3Patti Blue:</strong> ₨10,000 - ₨20,000/month</li>
+            <li><strong>3 Patti Loot:</strong> ₨10,000 - ₨20,000/month</li>
             <li><strong>3Patti Blue:</strong> ₨25,000 - ₨100,000+/month (with high VIP level, multiple games, and active referrals)</li>
           </ul>
 
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">Which App Should You Choose?</h2>
           
-          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Choose 3Patti Blue If:</h3>
+          <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Choose 3 Patti Loot If:</h3>
           <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
             <li>You ONLY want to play Teen Patti</li>
             <li>You prefer a very simple, focused app</li>
@@ -280,7 +280,7 @@ export default function Blog3PattiBlueVsCardRummy() {
               3Patti Blue wins in almost every category: game variety, bonuses, withdrawal speed, VIP program, and earning potential.
             </p>
             <p className="text-white">
-              <strong>For serious earners:</strong> 3Patti Blue offers 2-5x more earning potential than 3Patti Blue through its combination of multiple games, generous bonuses, fast withdrawals, and comprehensive VIP program.
+              <strong>For serious earners:</strong> 3Patti Blue offers 2-5x more earning potential than 3 Patti Loot through its combination of multiple games, generous bonuses, fast withdrawals, and comprehensive VIP program.
             </p>
           </div>
 
@@ -306,7 +306,7 @@ export default function Blog3PattiBlueVsCardRummy() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">Conclusion</h2>
           
           <p className="text-gray-300 mb-4">
-            While 3Patti Blue is a decent option for Teen Patti enthusiasts, <strong>3Patti Blue clearly offers better value for money</strong>. With its multiple games, generous bonuses, fast withdrawals, and comprehensive VIP program, 3Patti Blue provides significantly more earning opportunities.
+            While 3 Patti Loot is a decent option for Teen Patti enthusiasts, <strong>3Patti Blue clearly offers better value for money</strong>. With its multiple games, generous bonuses, fast withdrawals, and comprehensive VIP program, 3Patti Blue provides significantly more earning opportunities.
           </p>
 
           <p className="text-gray-300 mb-4">

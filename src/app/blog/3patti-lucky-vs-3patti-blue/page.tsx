@@ -445,7 +445,7 @@ export default function Blog3PattiLuckyVsCardRummy() {
           <h3 className="text-2xl font-bold text-white mb-6">More Comparisons</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <Link href="/blog/3patti-blue-vs-other-apps" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
-              <h4 className="text-xl font-semibold text-white mb-2">3Patti Blue vs 3Patti Blue</h4>
+              <h4 className="text-xl font-semibold text-white mb-2">3Patti Blue vs 3 Patti Loot</h4>
             </Link>
             <Link href="/blog/3patti-gold-vs-3patti-blue" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
               <h4 className="text-xl font-semibold text-white mb-2">3Patti Gold vs 3Patti Blue</h4>

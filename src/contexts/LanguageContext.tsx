@@ -133,11 +133,13 @@ const translations: Record<Language, Record<string, string>> = {
     'header.contactUs': 'Contact Us',
     
     // Hero Section
-    'hero.title': '3Patti Blue',
+    'hero.title': '3 Patti Blue',
     'hero.subtitle': "Pakistan's Most Trusted",
     'hero.subtitle2': 'Teen Patti Gaming Platform 2026',
-    'hero.description': "3Patti Blue is Pakistan's #1 authentic Teen Patti gaming platform, trusted by over 1 million verified players since 2024. Experience genuine Teen Patti gameplay with advanced security, fair play algorithms, and instant withdrawals via JazzCash & EasyPaisa. Download the official 3Patti Blue APK now and get PKR 100 welcome bonus. Play 30+ exciting card games including Teen Patti, Rummy, and Dragon Tiger - all with real money rewards and same-day payouts.",
-    'hero.link': '3Patti Blue',
+    'hero.description': "3 Patti Blue is Pakistan's #1 authentic Teen Patti gaming platform, trusted by over 1 million verified players since 2024. Experience genuine Teen Patti gameplay with advanced security, fair play algorithms, and instant withdrawals via JazzCash & EasyPaisa. Download the official 3 Patti Blue APK now and get PKR 100 welcome bonus. Play 30+ exciting card games including Teen Patti, Rummy, and Dragon Tiger - all with real money rewards and same-day payouts.",
+    'hero.descriptionLink': '3 Patti Blue',
+    'hero.descriptionRest': " is Pakistan's #1 authentic Teen Patti gaming platform, trusted by over 1 million verified players since 2024. Experience genuine Teen Patti gameplay with advanced security, fair play algorithms, and instant withdrawals via JazzCash & EasyPaisa. Download the official 3 Patti Blue APK now and get PKR 100 welcome bonus. Play 30+ exciting card games including Teen Patti, Rummy, and Dragon Tiger - all with real money rewards and same-day payouts.",
+    'hero.link': '3 Patti Blue',
     
     // Stats
     'stats.players': 'Active Players',
@@ -466,7 +468,9 @@ const translations: Record<Language, Record<string, string>> = {
     'hero.title': 'تین پتی بلیو',
     'hero.subtitle': 'پاکستان کا سب سے قابل اعتماد',
     'hero.subtitle2': 'تین پتی گیمنگ پلیٹ فارم 2026',
-    'hero.description': 'تین پتی بلیو پاکستان کا نمبر ون اور سب سے قابل اعتماد تین پتی گیمنگ پلیٹ فارم ہے۔ 2024 سے 10 لاکھ سے زیادہ تصدیق شدہ کھلاڑی ہم پر اعتماد کرتے ہیں۔ جاز کیش اور ایزی پیسہ کے ذریعے فوری نکاسی (5-30 منٹ)۔ ابھی آفیشل 3Patti Blue APK ڈاؤن لوڈ کریں اور 100 روپے ویلکم بونس حاصل کریں۔ 30+ دلچسپ کارڈ گیمز جیسے تین پتی، رمی اور ڈریگن ٹائیگر کھیلیں - سب کے ساتھ حقیقی پیسے کے انعامات اور اسی دن ادائیگی۔',
+    'hero.description': 'تین پتی بلیو پاکستان کا نمبر ون اور سب سے قابل اعتماد تین پتی گیمنگ پلیٹ فارم ہے۔ 2024 سے 10 لاکھ سے زیادہ تصدیق شدہ کھلاڑی ہم پر اعتماد کرتے ہیں۔ جاز کیش اور ایزی پیسہ کے ذریعے فوری نکاسی (5-30 منٹ)۔ ابھی آفیشل تین پتی بلیو APK ڈاؤن لوڈ کریں اور 100 روپے ویلکم بونس حاصل کریں۔ 30+ دلچسپ کارڈ گیمز جیسے تین پتی، رمی اور ڈریگن ٹائیگر کھیلیں - سب کے ساتھ حقیقی پیسے کے انعامات اور اسی دن ادائیگی۔',
+    'hero.descriptionLink': 'تین پتی بلیو',
+    'hero.descriptionRest': ' پاکستان کا نمبر ون اور سب سے قابل اعتماد تین پتی گیمنگ پلیٹ فارم ہے۔ 2024 سے 10 لاکھ سے زیادہ تصدیق شدہ کھلاڑی ہم پر اعتماد کرتے ہیں۔ جاز کیش اور ایزی پیسہ کے ذریعے فوری نکاسی (5-30 منٹ)۔ ابھی آفیشل تین پتی بلیو APK ڈاؤن لوڈ کریں اور 100 روپے ویلکم بونس حاصل کریں۔ 30+ دلچسپ کارڈ گیمز جیسے تین پتی، رمی اور ڈریگن ٹائیگر کھیلیں - سب کے ساتھ حقیقی پیسے کے انعامات اور اسی دن ادائیگی۔',
     'hero.link': 'تین پتی بلیو',
     
     // Stats (Urdu)

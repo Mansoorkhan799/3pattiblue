@@ -2,6 +2,7 @@
 
 import { useLanguage } from '@/contexts/LanguageContext';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function HeroSection() {
   const { t, language } = useLanguage();
@@ -30,7 +31,8 @@ export default function HeroSection() {
             </div>
             
             <p className="text-lg text-gray-300 leading-relaxed" style={isUrdu ? { fontFamily: 'system-ui', direction: 'rtl', textAlign: 'right' } : { contain: 'layout style', minHeight: '120px', display: 'block' }}>
-              {t('hero.description')}
+              <Link href={language === 'ur' ? '/ur' : '/'} className="text-[#0ea5e9] hover:text-[#38bdf8] font-semibold underline decoration-[#0ea5e9]/50 hover:decoration-[#38bdf8]">{t('hero.descriptionLink')}</Link>
+              {t('hero.descriptionRest')}
             </p>
 
             {/* Download Button */}
@@ -88,7 +90,7 @@ export default function HeroSection() {
             <div className="relative mx-auto" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
               <Image
                 src="/3-patti-blue.webp"
-                alt="3Patti Blue - Pakistan's Most Trusted Teen Patti App"
+                alt="3 Patti Blue - Pakistan's Most Trusted Teen Patti App"
                 width={280}
                 height={280}
                 className="object-contain drop-shadow-2xl"

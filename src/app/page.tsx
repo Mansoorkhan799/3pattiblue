@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Script from 'next/script';
+import Link from 'next/link';
 import { Metadata } from 'next';
 import HeroSection from '@/components/HomePage/HeroSection';
 import SectionHeading from '@/components/SectionHeading';
@@ -784,10 +785,13 @@ export default function Home() {
       </section>
 
       {/* Download Instructions - Bilingual */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="download-guide">
         <div className="bg-secondary rounded-xl p-8">
           <SectionHeading translationKey="section.download" className="text-2xl md:text-3xl font-bold mb-4 text-accent" />
-          <TranslatableText translationKey="content.download.intro" className="text-gray-300 mb-4" as="p" />
+          <TranslatableText translationKey="content.download.intro" className="text-gray-300 mb-2" as="p" />
+          <p className="text-gray-300 mb-4">
+            <Link href="/download-3-patti-blue" className="text-[#0ea5e9] hover:text-[#38bdf8] font-semibold underline">Full 3Patti Blue download guide →</Link>
+          </p>
           <div className="mb-8">
           <ol className="list-decimal pl-5 space-y-3 text-gray-300">
             <li><strong><TranslatableText translationKey="content.download.step1" /></strong></li>
@@ -908,7 +912,10 @@ export default function Home() {
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-secondary rounded-xl p-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent"><TranslatableText translationKey="content.deposit.title" /></h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-2 text-accent"><TranslatableText translationKey="content.deposit.title" /></h2>
+            <p className="mb-6">
+              <Link href="/deposit-money-in-3-patti-blue" className="text-[#0ea5e9] hover:text-[#38bdf8] text-sm font-semibold">Detailed deposit guide →</Link>
+            </p>
             <TranslatableText translationKey="content.deposit.intro" className="text-gray-300 mb-4" as="p" />
                 <ol className="list-decimal pl-5 space-y-3 text-gray-300">
               <li><TranslatableText translationKey="content.deposit.step1" as="span" /></li>
@@ -923,7 +930,10 @@ export default function Home() {
                 </ol>
               </div>
           <div className="bg-secondary rounded-xl p-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent"><TranslatableText translationKey="content.withdraw.title" /></h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-2 text-accent"><TranslatableText translationKey="content.withdraw.title" /></h2>
+            <p className="mb-6">
+              <Link href="/withdraw-money-from-3-patti-blue" className="text-[#0ea5e9] hover:text-[#38bdf8] text-sm font-semibold">Detailed withdrawal guide →</Link>
+            </p>
             <TranslatableText translationKey="content.withdraw.intro" className="text-gray-300 mb-4" as="p" />
                 <ol className="list-decimal pl-5 space-y-3 text-gray-300">
               <li><TranslatableText translationKey="content.withdraw.step1" as="span" /></li>
@@ -1043,10 +1053,61 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Internal Links - Explore 3Patti Blue (SEO & Navigation) */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" aria-label="Explore 3Patti Blue">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Explore 3Patti Blue</h2>
+          <p className="text-gray-300 mb-8">Find guides, download the app, manage deposits & withdrawals, and get support.</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            <Link href="/download-3-patti-blue" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
+              Download APK
+            </Link>
+            <Link href="/deposit-money-in-3-patti-blue" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
+              Deposit Money
+            </Link>
+            <Link href="/withdraw-money-from-3-patti-blue" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
+              Withdraw Money
+            </Link>
+            <Link href="/blog/create-3-patti-blue-account-and-login" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
+              Account & Login
+            </Link>
+            <Link href="/blog" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
+              Blog
+            </Link>
+            <Link href="/blog/tips-to-win-big-in-3-patti-blue" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
+              Tips to Win
+            </Link>
+            <Link href="/blog/3-patti-blue-bonuses-vip-guide" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
+              Bonuses & VIP
+            </Link>
+            <Link href="/blog/is-3-patti-blue-safe-legal-pakistan" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
+              Safety & Legal
+            </Link>
+            <Link href="/3-patti-blue-pakistan-about-us" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
+              About Us
+            </Link>
+            <Link href="/contact-us" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
+              Contact Us
+            </Link>
+            <Link href="/3-patti-blue-for-pc" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
+              PC Version
+            </Link>
+            <Link href="/privacy" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-gray-300 hover:text-white font-medium transition-colors border border-gray-700 hover:border-gray-500">
+              Privacy Policy
+            </Link>
+            <Link href="/disclaimer" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-gray-300 hover:text-white font-medium transition-colors border border-gray-700 hover:border-gray-500">
+              Disclaimer
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Support Section - Accessibility & Trust */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">3Patti Blue Customer Support: 24/7 Help in Urdu & English</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">
+            <Link href="/contact-us" className="hover:text-[#38bdf8] transition-colors">3Patti Blue Customer Support: 24/7 Help in Urdu & English</Link>
+          </h2>
           <TranslatableText translationKey="content.support.intro" className="text-gray-300 mb-6" as="p" />
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
