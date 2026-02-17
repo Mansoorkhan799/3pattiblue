@@ -34,6 +34,8 @@ const nextConfig = {
         source: '/sitemap.xml',
         destination: '/api/sitemap',
       },
+      // Serve 3 Patti Blue logo as favicon (replaces Card Rummy favicon.ico)
+      { source: '/favicon.ico', destination: '/3-patti-blue-logo.webp' },
       // Fallback so /feature/ OG images don't 404 if files missing
       { source: '/feature/3-patti-blue-OG-image.webp', destination: '/3-patti-blue-logo.webp' },
       { source: '/feature/3-patti-blue-feature-image-twitter.webp', destination: '/3-patti-blue-logo.webp' },
