@@ -16,16 +16,43 @@ export const metadata: Metadata = {
     '3Patti Blue review',
     'which game pays more'
   ],
+  alternates: { canonical: 'https://3patiblueapp.com.pk/blog/3patti-blue-vs-other-apps' },
   openGraph: {
-    title: '3Patti Blue vs 3 Patti Loot: Which Game Is Better for Earning Real Cash?',
-    description: '3Patti Blue vs 3 Patti Loot comparison: Features, bonuses, withdrawal speed & earning potential. Find the best app for Pakistan!',
+    title: '3 Patti Blue vs 3 Patti Loot: Which Game Is Better for Earning Real Cash?',
+    description: '3 Patti Blue vs 3 Patti Loot comparison: Features, bonuses, withdrawal speed & earning potential. Find the best app for Pakistan!',
+    url: 'https://3patiblueapp.com.pk/blog/3patti-blue-vs-other-apps',
     type: 'article',
+    images: [{ url: 'https://3patiblueapp.com.pk/3-patti-blue.webp', width: 1200, height: 630, alt: '3 Patti Blue vs 3 Patti Loot' }],
   },
 };
 
 export default function Blog3PattiBlueVsCardRummy() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://3patiblueapp.com.pk/" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://3patiblueapp.com.pk/blog" },
+      { "@type": "ListItem", "position": 3, "name": "3 Patti Blue vs 3 Patti Loot", "item": "https://3patiblueapp.com.pk/blog/3patti-blue-vs-other-apps" }
+    ]
+  };
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "3 Patti Blue vs 3 Patti Loot: Which Game Is Better for Earning Real Cash?",
+    "description": "3 Patti Blue vs 3 Patti Loot comparison: features, bonuses, withdrawal speed & earning potential in Pakistan.",
+    "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+    "datePublished": "2026-01-11",
+    "dateModified": "2026-01-11",
+    "author": { "@type": "Organization", "name": "3 Patti Blue", "url": "https://3patiblueapp.com.pk" },
+    "publisher": { "@type": "Organization", "name": "3 Patti Blue", "logo": { "@type": "ImageObject", "url": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp" } },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://3patiblueapp.com.pk/blog/3patti-blue-vs-other-apps" }
+  };
+
   return (
     <main className="min-h-screen bg-[#060A20]">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <article className="container mx-auto px-4 py-12 max-w-4xl">
         {/* Breadcrumbs */}
         <nav className="mb-8 text-sm text-gray-400">

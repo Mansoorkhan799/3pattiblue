@@ -31,12 +31,14 @@ Your 3Patti Blue website is **100% optimized** and ready for the next phase. All
 
 ### 3. **GEO Targeting (Pakistan)** ✅ OPTIMIZED
 - ✅ Language: en-PK, ur-PK (Bilingual)
+- ✅ **Alternates (hreflang):** `alternates.languages` in layout for en-PK (/) and ur-PK (/ur) so search engines serve the correct language version
 - ✅ Currency: PKR (Pakistani Rupees)
 - ✅ Local Payment Methods: JazzCash, EasyPaisa
 - ✅ Local Keywords: "Pakistan teen patti", "جاز کیش", "ایزی پیسہ"
 - ✅ Area Served: Pakistan (PK)
 - ✅ Contact: support@3patiblueapp.com.pk
 - ✅ Phone Numbers: Pakistani format
+- ✅ Urdu homepage: /ur in sitemap with high priority for GEO indexing
 
 ### 4. **Keywords Optimization** ✅ COMPREHENSIVE
 **Primary Keywords (English):**
@@ -76,11 +78,12 @@ Your 3Patti Blue website is **100% optimized** and ready for the next phase. All
 ```
 
 ### 7. **Sitemap** ✅ COMPLETE
-- ✅ XML Sitemap: Dynamic generation
+- ✅ XML Sitemap: Dynamic generation (API route with mobile + image extensions)
 - ✅ Image Sitemap: Included
 - ✅ Mobile Sitemap: Configured
-- ✅ Priority & Changefreq: Optimized
+- ✅ Priority & Changefreq: Optimized (home daily 1.0, /ur 0.95, key pages 0.9)
 - ✅ Last Modified: Auto-updated
+- ✅ Urdu route /ur included for GEO and language targeting
 
 ### 8. **Mobile Optimization** ✅ PERFECT
 - ✅ Responsive design (viewport configured)

@@ -275,7 +275,7 @@ export default function TipsToWinBig() {
                   rel="noopener noreferrer"
                   className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#0A1029] transition-all shadow-2xl hover:shadow-3xl transform hover:scale-105"
                 >
-                  DOWNLOAD CARD RUMMY NOW
+                  DOWNLOAD 3 PATTI BLUE NOW
                 </Link>
               </div>
             </div>

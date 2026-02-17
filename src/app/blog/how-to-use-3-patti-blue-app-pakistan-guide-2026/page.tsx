@@ -89,7 +89,7 @@ export default function BlogHowToUseCardRummyGuide() {
           <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Installation Process</h3>
           <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-3">
             <li>Open your "Downloads" folder or notification bar</li>
-            <li>Tap the downloaded APK file (named something like "CardRummy_v1.225.apk")</li>
+            <li>Tap the downloaded APK file (named something like "3Patti_Blue_v1.225.apk")</li>
             <li>If prompted, go to Settings → Security → Enable "Install from Unknown Sources"</li>
             <li>Go back and tap the APK again</li>
             <li>Click "Install" and wait 10-30 seconds</li>

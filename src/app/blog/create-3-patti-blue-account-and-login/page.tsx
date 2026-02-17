@@ -57,7 +57,7 @@ export default function CreateAccountLogin() {
                 
                 <div className="space-y-8">
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       1
                     </div>
                     <div className="flex-1">
@@ -67,7 +67,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       2
                     </div>
                     <div className="flex-1">
@@ -77,7 +77,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       3
                     </div>
                     <div className="flex-1">
@@ -93,7 +93,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       4
                     </div>
                     <div className="flex-1">
@@ -103,7 +103,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       5
                     </div>
                     <div className="flex-1">
@@ -119,7 +119,7 @@ export default function CreateAccountLogin() {
                 
                 <div className="space-y-8">
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       1
                     </div>
                     <div className="flex-1">
@@ -129,7 +129,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       2
                     </div>
                     <div className="flex-1">
@@ -139,7 +139,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       3
                     </div>
                     <div className="flex-1">
@@ -149,7 +149,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       4
                     </div>
                     <div className="flex-1">

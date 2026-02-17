@@ -115,12 +115,25 @@ export default function DownloadPage() {
     "countriesSupported": "PK"
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://3patiblueapp.com.pk/" },
+      { "@type": "ListItem", "position": 2, "name": "Download 3 Patti Blue APK", "item": "https://3patiblueapp.com.pk/download-3-patti-blue" }
+    ]
+  };
+
   return (
     <>
       {/* Schema.org JSON-LD */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       
       {/* Hero Section */}

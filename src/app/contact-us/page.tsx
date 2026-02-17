@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Contact Us - 3Patti Blue | Get Help & Support',
   description: 'Contact 3Patti Blue support team for help with the app, content, privacy policy, and more. We are here to assist you.',
-  keywords: 'contact card rummy, card rummy support, card rummy email, customer support, help card rummy',
+  keywords: 'contact 3 patti blue, 3patti blue support, 3patti blue email, customer support, help 3 patti blue, 3 patti blue contact',
   openGraph: {
     title: 'Contact Us - 3Patti Blue',
     description: 'Get in touch with 3Patti Blue support team for any queries or assistance.',

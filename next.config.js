@@ -23,13 +23,20 @@ const nextConfig = {
     qualities: [75, 80, 90, 100], // Configure allowed image quality values
   },
 
-  // Optimize static file serving
+  // Optimize static file serving + dynamic sitemap for SEO
   async rewrites() {
     return [
       {
         source: '/.well-known/:path*',
         destination: '/public/.well-known/:path*',
       },
+      {
+        source: '/sitemap.xml',
+        destination: '/api/sitemap',
+      },
+      // Fallback so /feature/ OG images don't 404 if files missing
+      { source: '/feature/3-patti-blue-OG-image.webp', destination: '/3-patti-blue-logo.webp' },
+      { source: '/feature/3-patti-blue-feature-image-twitter.webp', destination: '/3-patti-blue-logo.webp' },
     ];
   },
 

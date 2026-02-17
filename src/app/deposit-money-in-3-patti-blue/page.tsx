@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'How to Deposit Money in 3Patti Blue? | Quick & Safe Payment Guide 2026',
   description: 'Learn how to deposit money in 3Patti Blue using JazzCash and EasyPaisa. Follow our step-by-step guide for quick, safe, and secure deposits.',
-  keywords: 'deposit money card rummy, card rummy payment methods, jazzcash deposit, easypaisa deposit, add funds card rummy, card rummy recharge',
+  keywords: 'deposit money 3 patti blue, 3patti blue deposit, jazzcash deposit, easypaisa deposit, add funds 3 patti blue, 3patti blue recharge, how to deposit 3 patti blue',
   openGraph: {
     title: 'How to Deposit Money in 3Patti Blue? | Quick & Safe Payment Guide',
     description: 'Step-by-step guide to deposit money in 3Patti Blue using JazzCash and EasyPaisa. Quick, safe, and secure payment methods.',
@@ -75,7 +75,7 @@ export default function DepositMoneyPage() {
               {/* Step 1 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     1
                   </div>
                   <div className="flex-1">
@@ -90,7 +90,7 @@ export default function DepositMoneyPage() {
               {/* Step 2 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     2
                   </div>
                   <div className="flex-1">
@@ -105,7 +105,7 @@ export default function DepositMoneyPage() {
               {/* Step 3 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     3
                   </div>
                   <div className="flex-1">
@@ -120,7 +120,7 @@ export default function DepositMoneyPage() {
               {/* Step 4 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     4
                   </div>
                   <div className="flex-1">
@@ -135,7 +135,7 @@ export default function DepositMoneyPage() {
               {/* Step 5 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     5
                   </div>
                   <div className="flex-1">
@@ -150,7 +150,7 @@ export default function DepositMoneyPage() {
               {/* Step 6 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     6
                   </div>
                   <div className="flex-1">
@@ -165,7 +165,7 @@ export default function DepositMoneyPage() {
               {/* Step 7 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     7
                   </div>
                   <div className="flex-1">

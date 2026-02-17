@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://3patiblueapp.com.pk'),
   title: {
     default: "3 Patti Blue APK Download Latest V1.2024(1) for Android 2026",
-    template: "%s | 3Patti Blue"
+    template: "%s | 3 Patti Blue"
   },
   description: "3Patti Blue 2026 - Pakistan's most trusted Teen Patti platform with 1M+ players. Download official APK, play authentic Teen Patti, Rummy, Dragon Tiger & win real money. Instant withdrawals via JazzCash & EasyPaisa. Get PKR 100 bonus! | تین پتی بلیو - 10 لاکھ سے زیادہ کھلاڑی۔ جاز کیش اور ایزی پیسہ سے فوری نکاسی۔ 100 روپے بونس حاصل کریں!",
   keywords: [
@@ -103,6 +103,10 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://3patiblueapp.com.pk",
+    languages: {
+      "en-PK": "https://3patiblueapp.com.pk",
+      "ur-PK": "https://3patiblueapp.com.pk/ur",
+    },
   },
   openGraph: {
     title: "3Patti Blue - Pakistan's #1 Teen Patti App | Download & Win Real Cash",
@@ -111,32 +115,28 @@ export const metadata: Metadata = {
     siteName: "3Patti Blue",
     locale: "en_PK",
     type: "website",
+    // public/feature/3-patti-blue-OG-image.webp – used when link is shared on Facebook, WhatsApp, etc.
     images: [
       {
-        url: "https://3patiblueapp.com.pk/feature/og-image.webp",
+        url: "https://3patiblueapp.com.pk/feature/3-patti-blue-OG-image.webp",
         width: 1200,
         height: 630,
-        alt: "3Patti Blue - Pakistan's Most Trusted Teen Patti Gaming Platform",
+        alt: "3 Patti Blue - Pakistan's Most Trusted Teen Patti Gaming Platform",
       },
-      {
-        url: "https://3patiblueapp.com.pk/feature/og-image-square.webp",
-        width: 800,
-        height: 800,
-        alt: "3Patti Blue - Authentic Teen Patti Experience",
-      }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "3Patti Blue - Pakistan's #1 Teen Patti App | Win Real Money",
-    description: "3Patti Blue 2026 - Join 1M+ players earning daily. Authentic Teen Patti, instant withdrawals, 100% bonus. Download official APK & play now!",
+    title: "3 Patti Blue - Pakistan's #1 Teen Patti App | Win Real Money",
+    description: "3 Patti Blue 2026 - Join 1M+ players earning daily. Authentic Teen Patti, instant withdrawals, 100% bonus. Download official APK & play now!",
     creator: "@3PattiBlue",
+    // public/feature/3-patti-blue-feature-image-twitter.webp – used when link is shared on Twitter/X
     images: [
       {
-        url: "https://3patiblueapp.com.pk/feature/twitter-card.webp",
+        url: "https://3patiblueapp.com.pk/feature/3-patti-blue-feature-image-twitter.webp",
         width: 1200,
         height: 600,
-        alt: "3Patti Blue - Authentic Teen Patti Gaming Platform",
+        alt: "3 Patti Blue - Authentic Teen Patti Gaming Platform",
       }
     ],
   },
@@ -162,7 +162,7 @@ export default function RootLayout({
         <link rel="icon" href="/3-patti-blue-logo.webp" type="image/webp" sizes="192x192" />
         <link rel="icon" href="/3-patti-blue-logo.webp" type="image/webp" sizes="512x512" />
         <link rel="apple-touch-icon" href="/3-patti-blue-logo.webp" sizes="180x180" />
-        <meta property="og:image" content="https://3patiblueapp.com.pk/3-patti-blue-logo.webp" />
+        <meta property="og:image" content="https://3patiblueapp.com.pk/feature/3-patti-blue-OG-image.webp" />
         
         {/* Preconnect to external domains for faster loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
@@ -275,7 +275,9 @@ export default function RootLayout({
               "dateModified": "2026-02-10",
               "fileSize": "49MB",
               "contentRating": "18+",
-              "description": "3Patti Blue - Pakistan's #1 Teen Patti app with 1M+ players. Authentic gameplay, instant withdrawals, 100% bonus. Download now!"
+              "downloadUrl": "https://3patiblueapp.com.pk/download-3-patti-blue",
+              "installUrl": "https://3patiblueapp.com.pk/download-3-patti-blue",
+              "description": "3 Patti Blue - Pakistan's #1 Teen Patti app with 1M+ players. Authentic gameplay, instant withdrawals, 100% bonus. Download now!"
             })
           }}
         />

@@ -9,10 +9,10 @@ import TranslatableText from '@/components/TranslatableText';
 // Enhanced metadata with E-E-A-T signals and GEO optimization for 2026
 export const metadata: Metadata = {
   title: {
-    default: "3Patti Blue APK Download v1.204(1) | Play Real Teen Patti & Win Cash 2026",
-    template: "%s | 3Patti Blue"
+    default: "3 Patti Blue APK Download v1.204(1) | Play Real Teen Patti & Win Cash 2026",
+    template: "%s | 3 Patti Blue"
   },
-  description: "3Patti Blue - Pakistan's most trusted Teen Patti gaming platform in 2026. Download 3Patti Blue APK for Android. Play authentic Teen Patti, Rummy, Dragon Tiger & win real money. Instant withdrawals via JazzCash & EasyPaisa. Join 1M+ verified players earning daily! | تین پتی بلیو - پاکستان کا سب سے قابل اعتماد گیمنگ پلیٹ فارم۔ جاز کیش اور ایزی پیسہ سے فوری نکاسی۔",
+  description: "3 Patti Blue - Pakistan's most trusted Teen Patti gaming platform in 2026. Download 3 Patti Blue APK for Android. Play authentic Teen Patti, Rummy, Dragon Tiger & win real money. Instant withdrawals via JazzCash & EasyPaisa. Join 1M+ verified players earning daily! | تین پتی بلیو - پاکستان کا سب سے قابل اعتماد گیمنگ پلیٹ فارم۔ جاز کیش اور ایزی پیسہ سے فوری نکاسی۔",
   keywords: [
     "3Patti Blue",
     "3patti blue download",
@@ -54,23 +54,24 @@ export const metadata: Metadata = {
     "آن لائن کارڈ گیمز پاکستان"
   ],
   openGraph: {
-    title: '3Patti Blue APK - Download & Win Real Money | Pakistan #1 Teen Patti App',
-    description: '3Patti Blue 2026 - Join 1M+ players winning real cash daily. Authentic Teen Patti experience with instant JazzCash & EasyPaisa withdrawals. Download now & get Rs.100 bonus!',
+    title: '3 Patti Blue APK - Download & Win Real Money | Pakistan #1 Teen Patti App',
+    description: '3 Patti Blue 2026 - Join 1M+ players winning real cash daily. Authentic Teen Patti experience with instant JazzCash & EasyPaisa withdrawals. Download now & get Rs.100 bonus!',
+    url: 'https://3patiblueapp.com.pk/',
     images: [
       {
-        url: 'https://3patiblueapp.com.pk/3-patti-blue-logo.webp',
+        url: 'https://3patiblueapp.com.pk/feature/3-patti-blue-OG-image.webp',
         width: 1200,
         height: 630,
-        alt: '3Patti Blue - Authentic Teen Patti Gaming Platform'
+        alt: '3 Patti Blue - Pakistan\'s Most Trusted Teen Patti Gaming Platform'
       }
     ],
     type: 'website'
   },
   twitter: {
     card: 'summary_large_image',
-    title: '3Patti Blue - Pakistan\'s #1 Teen Patti App | Win Real Cash',
-    description: '3Patti Blue 2026 - Trusted by 1M+ players. Play authentic Teen Patti & win real money. Instant withdrawals via JazzCash & EasyPaisa. Download now & get PKR 100 bonus!',
-    images: ['https://3patiblueapp.com.pk/3-patti-blue-logo.webp']
+    title: '3 Patti Blue - Pakistan\'s #1 Teen Patti App | Win Real Cash',
+    description: '3 Patti Blue 2026 - Trusted by 1M+ players. Play authentic Teen Patti & win real money. Instant withdrawals via JazzCash & EasyPaisa. Download now & get PKR 100 bonus!',
+    images: ['https://3patiblueapp.com.pk/feature/3-patti-blue-feature-image-twitter.webp']
   }
 };
 
