@@ -1,4 +1,4 @@
-robots.txt for 3patiblueapp.com.pk
+# robots.txt for teenpattigoldgame.com.pk
 
 # ============================================
 # AI CONTENT USAGE POLICY
@@ -31,21 +31,22 @@ Disallow: /api/
 Disallow: /admin/
 
 # Priority pages
-Allow: /download-3-patti-blue
-Allow: /deposit-money-in-3-patti-blue
-Allow: /withdraw-money-from-3-patti-blue
-Allow: /3-patti-blue-for-pc
-Allow: /3-patti-blue-pakistan-about-us
+Allow: /download-teen-patti-gold
+Allow: /deposit-money-in-teen-patti-gold
+Allow: /withdraw-money-from-teen-patti-gold
+Allow: /teen-patti-gold-for-pc
+Allow: /teen-patti-gold-for-ios
+Allow: /about-us
 Allow: /blog
-Allow: /blog/is-3-patti-blue-real-or-fake
-Allow: /blog/create-3-patti-blue-account-and-login
-Allow: /blog/tips-to-win-big-in-3-patti-blue
+Allow: /blog/is-teen-patti-gold-real-or-fake
+Allow: /blog/create-teen-patti-gold-account-and-login
+Allow: /blog/tips-to-win-big-in-teen-patti-gold
 
 # Standard pages
 Allow: /contact-us
 Allow: /privacy
 Allow: /disclaimer
-Allow: /ur
+Allow: /terms
 
 # ============================================
 # AI BOT RESTRICTIONS (Training Prevention)
@@ -123,7 +124,9 @@ Allow: /
 # SITEMAPS
 # ============================================
 
-Sitemap: https://3patiblueapp.com.pk/sitemap.xml
+Sitemap: https://teenpattigoldgame.com.pk/sitemap-index.xml
+Sitemap: https://teenpattigoldgame.com.pk/sitemap.xml
+Sitemap: https://teenpattigoldgame.com.pk/image-sitemap.xml
 
 # ============================================
 # IMPORTANT: DO NOT ADD Host DIRECTIVE
@@ -131,4 +134,3 @@ Sitemap: https://3patiblueapp.com.pk/sitemap.xml
 # The Host directive is DEPRECATED and IGNORED by Googlebot.
 # Adding it will cause warnings in Google Search Console.
 # Use canonical URLs and redirects instead (handled at hosting level).
-
