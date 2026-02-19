@@ -16,9 +16,11 @@ export const metadata: Metadata = {
     '3Patti Blue tips Pakistan',
     '3Patti Blue tricks 2026'
   ],
+  alternates: { canonical: 'https://3patiblueapp.com.pk/blog/3-patti-blue-tips-10-smart-tricks' },
   openGraph: {
     title: '3Patti Blue Tips: 10 Smart Tricks to Play Safely and Win More',
     description: 'Proven tips and tricks to maximize your 3Patti Blue earnings. Learn bankroll management, game strategies, and safe play techniques!',
+    url: 'https://3patiblueapp.com.pk/blog/3-patti-blue-tips-10-smart-tricks',
     type: 'article',
   },
 };

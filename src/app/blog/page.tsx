@@ -26,6 +26,7 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  alternates: { canonical: 'https://3patiblueapp.com.pk/blog' },
 };
 
 export default function Blog() {

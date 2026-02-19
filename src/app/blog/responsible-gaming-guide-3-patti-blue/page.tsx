@@ -16,9 +16,11 @@ export const metadata: Metadata = {
     'gaming addiction Pakistan',
     'how to play safely'
   ],
+  alternates: { canonical: 'https://3patiblueapp.com.pk/blog/responsible-gaming-guide-3-patti-blue' },
   openGraph: {
     title: 'Responsible Gaming Guide: How to Enjoy 3Patti Blue Without Addiction or Big Losses',
     description: 'Essential guide to playing 3Patti Blue responsibly. Learn to set limits, recognize addiction signs, and enjoy gaming safely.',
+    url: 'https://3patiblueapp.com.pk/blog/responsible-gaming-guide-3-patti-blue',
     type: 'article',
   },
 };

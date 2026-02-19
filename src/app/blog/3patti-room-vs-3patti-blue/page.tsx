@@ -15,9 +15,11 @@ export const metadata: Metadata = {
     '3Patti Room review',
     '3Patti Blue review'
   ],
+  alternates: { canonical: 'https://3patiblueapp.com.pk/blog/3patti-room-vs-3patti-blue' },
   openGraph: {
     title: '3Patti Room vs 3Patti Blue: Which Game Is Better for Earning Real Cash?',
     description: '3Patti Room vs 3Patti Blue comparison: Find out which app offers better games, bonuses, and earning potential in Pakistan!',
+    url: 'https://3patiblueapp.com.pk/blog/3patti-room-vs-3patti-blue',
     type: 'article',
   },
 };

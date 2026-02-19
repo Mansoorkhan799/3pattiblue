@@ -16,9 +16,11 @@ export const metadata: Metadata = {
     '3Patti Blue honest review',
     '3Patti Blue Pakistan review'
   ],
+  alternates: { canonical: 'https://3patiblueapp.com.pk/blog/3-patti-blue-app-review-2026' },
   openGraph: {
     title: '3Patti Blue App Review 2026: Features, Pros, Cons, and Payout Speed',
     description: 'Honest, comprehensive review of 3Patti Blue app. Features, games, bonuses, withdrawal speed, and real user experience for 2026.',
+    url: 'https://3patiblueapp.com.pk/blog/3-patti-blue-app-review-2026',
     type: 'article',
   },
 };

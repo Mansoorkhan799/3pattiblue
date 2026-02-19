@@ -16,9 +16,11 @@ export const metadata: Metadata = {
     '3Patti Blue Pakistan 2026',
     '3Patti Blue complete guide'
   ],
+  alternates: { canonical: 'https://3patiblueapp.com.pk/blog/how-to-use-3-patti-blue-app-pakistan-guide-2026' },
   openGraph: {
     title: 'How to Use 3Patti Blue App in Pakistan: Complete Beginner\'s Guide 2026',
     description: 'Step-by-step guide to download, register, deposit, play & earn from 3Patti Blue app in Pakistan. Perfect for beginners!',
+    url: 'https://3patiblueapp.com.pk/blog/how-to-use-3-patti-blue-app-pakistan-guide-2026',
     type: 'article',
   },
 };

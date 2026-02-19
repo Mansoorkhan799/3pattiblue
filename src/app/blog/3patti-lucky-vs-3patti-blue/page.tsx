@@ -15,9 +15,11 @@ export const metadata: Metadata = {
     '3Patti Lucky review',
     '3Patti Blue review'
   ],
+  alternates: { canonical: 'https://3patiblueapp.com.pk/blog/3patti-lucky-vs-3patti-blue' },
   openGraph: {
     title: '3Patti Lucky vs 3Patti Blue: Which Game Is Better for Earning Real Cash?',
     description: '3Patti Lucky vs 3Patti Blue comparison: Discover which app offers better earning potential, bonuses & withdrawals for Pakistan players!',
+    url: 'https://3patiblueapp.com.pk/blog/3patti-lucky-vs-3patti-blue',
     type: 'article',
   },
 };

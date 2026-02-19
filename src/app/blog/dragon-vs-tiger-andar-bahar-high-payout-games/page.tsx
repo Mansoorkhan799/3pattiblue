@@ -16,9 +16,11 @@ export const metadata: Metadata = {
     '3Patti Blue games Pakistan',
     'best games to win money'
   ],
+  alternates: { canonical: 'https://3patiblueapp.com.pk/blog/dragon-vs-tiger-andar-bahar-high-payout-games' },
   openGraph: {
     title: 'Dragon vs Tiger, Andar Bahar & More: Best High-Payout Games in 3Patti Blue',
     description: 'Complete guide to highest-paying games in 3Patti Blue app. Learn which games offer best win rates and fastest earnings!',
+    url: 'https://3patiblueapp.com.pk/blog/dragon-vs-tiger-andar-bahar-high-payout-games',
     type: 'article',
   },
 };

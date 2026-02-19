@@ -16,9 +16,11 @@ export const metadata: Metadata = {
     'is 3Patti Blue trustworthy',
     '3Patti Blue safety guide'
   ],
+  alternates: { canonical: 'https://3patiblueapp.com.pk/blog/is-3-patti-blue-safe-legal-pakistan' },
   openGraph: {
     title: 'Is 3Patti Blue Safe and Legal in Pakistan? Complete Safety Guide 2026',
     description: 'Everything you need to know about 3Patti Blue safety and legal status in Pakistan. Risks, security, and safe play tips.',
+    url: 'https://3patiblueapp.com.pk/blog/is-3-patti-blue-safe-legal-pakistan',
     type: 'article',
   },
 };

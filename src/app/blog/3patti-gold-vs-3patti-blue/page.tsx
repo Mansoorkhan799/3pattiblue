@@ -15,9 +15,11 @@ export const metadata: Metadata = {
     '3Patti Gold review',
     '3Patti Blue review'
   ],
+  alternates: { canonical: 'https://3patiblueapp.com.pk/blog/3patti-gold-vs-3patti-blue' },
   openGraph: {
     title: '3Patti Gold vs 3Patti Blue: Which Game Is Better for Earning Real Cash?',
     description: '3Patti Gold vs 3Patti Blue comparison: Find out which app offers better bonuses, faster withdrawals & higher earning potential in Pakistan!',
+    url: 'https://3patiblueapp.com.pk/blog/3patti-gold-vs-3patti-blue',
     type: 'article',
   },
 };

@@ -16,9 +16,11 @@ export const metadata: Metadata = {
     '3Patti Blue bonus explained',
     '3Patti Blue VIP program'
   ],
+  alternates: { canonical: 'https://3patiblueapp.com.pk/blog/3-patti-blue-bonuses-vip-guide' },
   openGraph: {
     title: '3Patti Blue Bonuses Explained: Welcome Bonus, Recharge Rebate, and VIP Rewards Guide',
     description: 'Complete guide to all 3Patti Blue bonuses and VIP rewards. Learn how to maximize welcome bonus, recharge rebates, and VIP level benefits!',
+    url: 'https://3patiblueapp.com.pk/blog/3-patti-blue-bonuses-vip-guide',
     type: 'article',
   },
 };
