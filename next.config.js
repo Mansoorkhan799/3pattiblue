@@ -126,9 +126,11 @@ const nextConfig = {
     if (!isServer) {
       config.target = ['web', 'es2022'];
       
-      // Disable polyfills for modern features
+      // Exclude Next.js polyfills for modern browsers (saves ~12 KiB, fixes Lighthouse legacy JS)
       config.resolve.alias = {
         ...config.resolve.alias,
+        '../build/polyfills/polyfill-module': false,
+        'next/dist/build/polyfills/polyfill-module': false,
       };
     }
 
