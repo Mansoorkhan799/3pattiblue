@@ -24,11 +24,12 @@ img {
   height: auto;
 }
 
-/* Prevent layout shift for footer */
-footer {
-  contain: layout style paint;
-  min-height: 400px;
-  height: auto;
+/* Prevent layout shift for footer - reserve space when below fold, avoid contain which can cause CLS */
+footer,
+.footer-stable {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 380px;
+  min-height: 380px;
 }
 
 /* Optimize font loading to prevent layout shift */

@@ -7,9 +7,9 @@ export default function Footer() {
   const { t, language } = useLanguage();
   
   return (
-    <footer className="bg-primary text-white py-8 px-4 md:px-8 border-t border-gray-800 relative z-20" style={{ minHeight: '400px' }}>
+    <footer className="footer-stable bg-primary text-white py-8 px-4 md:px-8 border-t border-gray-800 relative z-20">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 min-h-[280px]">
           {/* About Column */}
           <div className={language === 'ur' ? 'text-right' : ''}>
             <h3 className="text-xl font-bold text-accent mb-4" style={language === 'ur' ? { fontFamily: 'system-ui' } : {}}>
