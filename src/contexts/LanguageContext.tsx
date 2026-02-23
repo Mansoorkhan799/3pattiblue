@@ -14,8 +14,9 @@ interface LanguageContextType {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>('en');
   const pathname = usePathname();
+  // Initialize from pathname so server/client render same content - prevents footer CLS
+  const [language, setLanguage] = useState<Language>(() => (pathname === '/ur' ? 'ur' : 'en'));
   const router = useRouter();
 
   // Sync language from URL: /ur → Urdu. Root / uses localStorage or default.

@@ -15,7 +15,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold text-accent mb-4" style={language === 'ur' ? { fontFamily: 'system-ui' } : {}}>
               {t('hero.title')}
             </h3>
-            <p className="text-sm text-gray-300 mb-4" style={language === 'ur' ? { fontFamily: 'system-ui', direction: 'rtl' } : {}}>
+            <p className="text-sm text-gray-300 mb-4 min-h-[4.5rem]" style={language === 'ur' ? { fontFamily: 'system-ui', direction: 'rtl' } : {}}>
               {t('footer.description')}
             </p>
             <ul className="flex space-x-4 min-h-[20px] list-none m-0 p-0">
