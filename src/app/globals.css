@@ -24,12 +24,20 @@ img {
   height: auto;
 }
 
-/* Prevent layout shift for footer - reserve space when below fold, avoid contain which can cause CLS */
+/* Prevent layout shift for footer - reserve space, explicit dimensions for social icons */
 footer,
 .footer-stable {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 380px;
   min-height: 380px;
+}
+
+/* Reserve space for footer social icons (Facebook, etc.) - prevents CLS from icon/link rendering */
+.footer-stable a[aria-label="Facebook"],
+.footer-stable a[aria-label="Twitter"],
+.footer-stable a[aria-label="Pinterest"] {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: block;
 }
 
 /* Optimize font loading to prevent layout shift */
