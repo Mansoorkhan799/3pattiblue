@@ -159,6 +159,7 @@ export async function GET() {
   const blogPosts: PageType[] = [
     { url: '/blog/is-3-patti-blue-real-or-fake', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8, images: blogImage },
     { url: '/blog/create-3-patti-blue-account-and-login', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8, images: blogImage },
+    { url: '/blog/ips-exceed-issue-3-patti-blue-how-to-fix', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8, images: blogImage },
     { url: '/blog/tips-to-win-big-in-3-patti-blue', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8, images: blogImage },
     { url: '/blog/3patti-blue-vs-other-apps', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8, images: blogImage },
     { url: '/blog/3patti-gold-vs-3patti-blue', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8, images: blogImage },
