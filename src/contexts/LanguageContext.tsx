@@ -18,10 +18,10 @@ function setLanguageCookie(lang: string) {
   document.cookie = `preferred-language=${lang}; path=/; max-age=31536000; SameSite=Lax`;
 }
 
-export function LanguageProvider({ children, initialLanguage }: { children: React.ReactNode; initialLanguage?: string }) {
+export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  // Server-provided initialLanguage prevents footer CLS (no content change after hydration)
-  const [language, setLanguage] = useState<Language>(() => (initialLanguage === 'ur' ? 'ur' : 'en'));
+  // Pathname = language (middleware redirects /↔/ur by cookie); static layout = bfcache
+  const [language, setLanguage] = useState<Language>(() => (pathname === '/ur' ? 'ur' : 'en'));
   const router = useRouter();
 
   // Sync language from URL: /ur → Urdu. Root / uses localStorage (deferred to idle to reduce main-thread work)
@@ -49,11 +49,11 @@ export function LanguageProvider({ children, initialLanguage }: { children: Reac
           if (savedLang && (savedLang === 'en' || savedLang === 'ur')) {
             setLanguageCookie(savedLang);
           }
-          const lang = initialLanguage === 'ur' ? 'ur' : 'en';
+          const lang = pathname === '/ur' ? 'ur' : 'en';
           document.documentElement.setAttribute('lang', lang === 'ur' ? 'ur-PK' : 'en-PK');
           document.documentElement.setAttribute('dir', lang === 'ur' ? 'rtl' : 'ltr');
         } catch {
-          const lang = initialLanguage === 'ur' ? 'ur' : 'en';
+          const lang = pathname === '/ur' ? 'ur' : 'en';
           document.documentElement.setAttribute('lang', lang === 'ur' ? 'ur-PK' : 'en-PK');
           document.documentElement.setAttribute('dir', lang === 'ur' ? 'rtl' : 'ltr');
         }
@@ -65,23 +65,31 @@ export function LanguageProvider({ children, initialLanguage }: { children: Reac
       const id = setTimeout(applySavedLang, 0);
       return () => clearTimeout(id);
     }
-  }, [pathname, initialLanguage]);
+  }, [pathname]);
 
-  // For non-home pages, apply saved language from localStorage (server has cookie for /)
+  // For non-home pages, defer language from localStorage to idle (reduces footer CLS during load)
   useEffect(() => {
-    if (pathname === '/ur') return;
+    if (pathname === '/ur' || pathname === '/') return;
     if (typeof window === 'undefined') return;
-    try {
-      const savedLang = localStorage.getItem('preferred-language') as Language;
-      if (savedLang && (savedLang === 'en' || savedLang === 'ur')) {
-        setLanguage(savedLang);
-        setLanguageCookie(savedLang);
-        document.documentElement.setAttribute('lang', savedLang === 'ur' ? 'ur-PK' : 'en-PK');
-        document.documentElement.setAttribute('dir', savedLang === 'ur' ? 'rtl' : 'ltr');
+    const apply = () => {
+      try {
+        const savedLang = localStorage.getItem('preferred-language') as Language;
+        if (savedLang && (savedLang === 'en' || savedLang === 'ur')) {
+          setLanguage(savedLang);
+          setLanguageCookie(savedLang);
+          document.documentElement.setAttribute('lang', savedLang === 'ur' ? 'ur-PK' : 'en-PK');
+          document.documentElement.setAttribute('dir', savedLang === 'ur' ? 'rtl' : 'ltr');
+        }
+      } catch {
+        // ignore
       }
-    } catch {
-      // ignore
+    };
+    if (typeof requestIdleCallback !== 'undefined') {
+      const id = requestIdleCallback(apply, { timeout: 4000 });
+      return () => cancelIdleCallback(id);
     }
+    const id = setTimeout(apply, 500);
+    return () => clearTimeout(id);
   }, [pathname]);
 
   const toggleLanguage = () => {
