@@ -172,7 +172,12 @@ export async function GET() {
     { url: '/blog/dragon-vs-tiger-andar-bahar-high-payout-games', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8, images: blogImage },
     { url: '/blog/how-to-use-3-patti-blue-app-pakistan-guide-2026', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8, images: blogImage },
     { url: '/blog/is-3-patti-blue-safe-legal-pakistan', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8, images: blogImage },
-    { url: '/blog/responsible-gaming-guide-3-patti-blue', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8, images: blogImage }
+    { url: '/blog/responsible-gaming-guide-3-patti-blue', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8, images: blogImage },
+    { url: '/blog/3patti-blue-old-version-features-review-and-details-2026', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8, images: blogImage },
+    { url: '/blog/3patti-blue-latest-version-new-features-and-2026-updates', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8, images: blogImage },
+    { url: '/blog/how-to-claim-welcome-bonus-on-3patti-blue-2026-guide', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8, images: blogImage },
+    { url: '/blog/3patti-blue-login-problems-and-solutions-2026-guide', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8, images: blogImage },
+    { url: '/blog/latest-offers-and-rewards-on-3patti-blue-2026', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8, images: blogImage }
   ];
 
   // Only include existing pages

@@ -248,6 +248,76 @@ export default function Blog() {
             Read More →
           </Link>
         </div>
+
+        {/* 3Patti Blue Old Version */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
+          <h2 className="text-2xl font-bold mb-4 text-white">3Patti Blue Old Version: Features Review and Details 2026</h2>
+          <p className="text-gray-300 mb-4">Complete review of 3Patti Blue old versions: Features, gameplay, UI changes, and what made the app popular. Compare legacy versions with current 3Patti Blue 2026.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 February 2026</span>
+            <span>•</span>
+            <span>10 min read</span>
+          </div>
+          <Link href="/blog/3patti-blue-old-version-features-review-and-details-2026" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
+
+        {/* 3Patti Blue Latest Version */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
+          <h2 className="text-2xl font-bold mb-4 text-white">3Patti Blue Latest Version New Features and 2026 Updates</h2>
+          <p className="text-gray-300 mb-4">Discover all new features in 3Patti Blue latest version 2026: Enhanced security, improved UI, new games, faster withdrawals, and better bonuses.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 February 2026</span>
+            <span>•</span>
+            <span>12 min read</span>
+          </div>
+          <Link href="/blog/3patti-blue-latest-version-new-features-and-2026-updates" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
+
+        {/* How to Claim Welcome Bonus */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
+          <h2 className="text-2xl font-bold mb-4 text-white">How to Claim Your Welcome Bonus on 3Patti Blue (2026 Guide)</h2>
+          <p className="text-gray-300 mb-4">Step-by-step guide to claim your 3Patti Blue welcome bonus: 100% first deposit up to PKR 100,000. Easy tips to maximize your bonus and start playing.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 February 2026</span>
+            <span>•</span>
+            <span>8 min read</span>
+          </div>
+          <Link href="/blog/how-to-claim-welcome-bonus-on-3patti-blue-2026-guide" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
+
+        {/* Login Problems and Solutions */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
+          <h2 className="text-2xl font-bold mb-4 text-white">3Patti Blue Login Problems and Solutions (2026 Guide)</h2>
+          <p className="text-gray-300 mb-4">Fix 3Patti Blue login issues: IPs exceed, forgot password, wrong OTP, app not opening, and more. Complete troubleshooting guide for 2026.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 February 2026</span>
+            <span>•</span>
+            <span>10 min read</span>
+          </div>
+          <Link href="/blog/3patti-blue-login-problems-and-solutions-2026-guide" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
+
+        {/* Latest Offers and Rewards */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
+          <h2 className="text-2xl font-bold mb-4 text-white">Latest Offers and Rewards on 3Patti Blue (2026)</h2>
+          <p className="text-gray-300 mb-4">Discover the latest 3Patti Blue offers 2026: Welcome bonus, daily rewards, VIP rebates, referral commission, festival bonuses, and loyalty program.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 February 2026</span>
+            <span>•</span>
+            <span>11 min read</span>
+          </div>
+          <Link href="/blog/latest-offers-and-rewards-on-3patti-blue-2026" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
       </div>
     </div>
   );
