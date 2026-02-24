@@ -18,10 +18,10 @@ function setLanguageCookie(lang: string) {
   document.cookie = `preferred-language=${lang}; path=/; max-age=31536000; SameSite=Lax`;
 }
 
-export function LanguageProvider({ children, initialLanguage }: { children: React.ReactNode; initialLanguage?: string }) {
+export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  // Use server-provided initialLanguage to prevent hydration mismatch and footer CLS
-  const [language, setLanguage] = useState<Language>(() => (initialLanguage === 'ur' ? 'ur' : 'en'));
+  // Pathname-based init allows static rendering (enables bfcache, avoids cache-control: no-store)
+  const [language, setLanguage] = useState<Language>(() => (pathname === '/ur' ? 'ur' : 'en'));
   const router = useRouter();
 
   // Sync language from URL: /ur → Urdu. Root / uses localStorage or default.

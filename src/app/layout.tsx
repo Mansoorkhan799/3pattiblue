@@ -1,6 +1,5 @@
 // 3Patti Blue - Official Deployment - Last Updated: 2026-02-13
 import type { Metadata, Viewport } from "next";
-import { headers } from "next/headers";
 import "./globals.css";
 import Script from "next/script";
 import Header from "@/components/Header";
@@ -23,7 +22,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://3patiblueapp.com.pk'),
   title: {
-    default: "3 Patti Blue APK Download Latest V1.2024(1) for Android 2026",
+    default: "3 Patti Blue Pakistan v1.204 Free Download Official APK",
     template: "%s | 3 Patti Blue"
   },
   description: "3Patti Blue 2026 - Pakistan's #1 Teen Patti app. 1M+ players. Download APK, play Teen Patti & Rummy, win real money. JazzCash & EasyPaisa. PKR 100 bonus!",
@@ -146,13 +145,11 @@ export const metadata: Metadata = {
   classification: "Card Gaming Platform",
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const headersList = await headers();
-  const initialLang = headersList.get('x-initial-lang') || 'en';
   return (
     <html lang="en" suppressHydrationWarning data-lang="en-PK">
       <head>
@@ -201,7 +198,7 @@ export default async function RootLayout({
         }}
         suppressHydrationWarning
       >
-        <LanguageProvider initialLanguage={initialLang}>
+        <LanguageProvider>
           <div className="stars-bg fixed inset-0 z-0 opacity-20"></div>
           <Header />
           <main className="flex-grow relative z-10">

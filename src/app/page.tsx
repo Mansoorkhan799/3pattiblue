@@ -9,7 +9,7 @@ import TranslatableText from '@/components/TranslatableText';
 // Enhanced metadata with E-E-A-T signals and GEO optimization for 2026
 export const metadata: Metadata = {
   title: {
-    default: "3 Patti Blue APK Download v1.204(1) | Play Real Teen Patti & Win Cash 2026",
+    default: "3 Patti Blue Pakistan v1.204 Free Download Official APK",
     template: "%s | 3 Patti Blue"
   },
   description: "3 Patti Blue - Pakistan's most trusted Teen Patti gaming platform in 2026. Download 3 Patti Blue APK for Android. Play authentic Teen Patti, Rummy, Dragon Tiger & win real money. Instant withdrawals via JazzCash & EasyPaisa. Join 1M+ verified players earning daily! | تین پتی بلیو - پاکستان کا سب سے قابل اعتماد گیمنگ پلیٹ فارم۔ جاز کیش اور ایزی پیسہ سے فوری نکاسی۔",
