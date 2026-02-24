@@ -246,7 +246,7 @@ export default function CreateAccountLogin() {
             "headline": "How to Create Account and Login? - 3Patti Blue",
             "description": "Learn how to create an account and login to 3Patti Blue. Step by step guide for registration and accessing your account.",
             "datePublished": "2026-01-20T00:00:00Z",
-            "dateModified": new Date().toISOString(),
+            "dateModified": "2026-02-24T00:00:00Z",
             "author": {
               "@type": "Organization",
               "name": "3Patti Blue Team",

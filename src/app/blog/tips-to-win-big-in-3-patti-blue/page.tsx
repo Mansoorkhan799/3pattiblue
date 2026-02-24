@@ -293,7 +293,7 @@ export default function TipsToWinBig() {
             "headline": "Tips to Win Big in 3Patti Blue - Expert Strategies",
             "description": "Discover expert strategies and tips to maximize your winnings in Teen Patti, Rummy, and other card games.",
             "datePublished": "2026-01-20T00:00:00Z",
-            "dateModified": new Date().toISOString(),
+            "dateModified": "2026-02-24T00:00:00Z",
             "author": {
               "@type": "Organization",
               "name": "3Patti Blue Team",
