@@ -27,7 +27,9 @@ img {
 /* Prevent layout shift for footer - reserve space, explicit dimensions for social icons */
 footer,
 .footer-stable {
-  min-height: 380px;
+  min-height: 420px;
+  flex-shrink: 0;
+  contain: layout;
 }
 
 /* Reserve space for footer social icons (Facebook, etc.) - prevents CLS from icon/link rendering */

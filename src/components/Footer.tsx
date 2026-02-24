@@ -7,7 +7,7 @@ export default function Footer() {
   const { t, language } = useLanguage();
   
   return (
-    <footer className="footer-stable bg-primary text-white py-8 px-4 md:px-8 border-t border-gray-800 relative z-20">
+    <footer className="footer-stable flex-shrink-0 bg-primary text-white py-8 px-4 md:px-8 border-t border-gray-800 relative z-20">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 min-h-[280px]">
           {/* About Column */}
@@ -15,7 +15,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold text-accent mb-4" style={language === 'ur' ? { fontFamily: 'system-ui' } : {}}>
               {t('hero.title')}
             </h3>
-            <p className="text-sm text-gray-300 mb-4 min-h-[4.5rem]" style={language === 'ur' ? { fontFamily: 'system-ui', direction: 'rtl' } : {}}>
+            <p className="text-sm text-gray-300 mb-4 min-h-[5.5rem]" style={language === 'ur' ? { fontFamily: 'system-ui', direction: 'rtl' } : {}}>
               {t('footer.description')}
             </p>
             <ul className="flex space-x-4 min-h-[20px] list-none m-0 p-0">

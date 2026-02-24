@@ -13,10 +13,15 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-export function LanguageProvider({ children }: { children: React.ReactNode }) {
+function setLanguageCookie(lang: string) {
+  if (typeof document === 'undefined') return;
+  document.cookie = `preferred-language=${lang}; path=/; max-age=31536000; SameSite=Lax`;
+}
+
+export function LanguageProvider({ children, initialLanguage }: { children: React.ReactNode; initialLanguage?: string }) {
   const pathname = usePathname();
-  // Initialize from pathname so server/client render same content - prevents footer CLS
-  const [language, setLanguage] = useState<Language>(() => (pathname === '/ur' ? 'ur' : 'en'));
+  // Use server-provided initialLanguage to prevent hydration mismatch and footer CLS
+  const [language, setLanguage] = useState<Language>(() => (initialLanguage === 'ur' ? 'ur' : 'en'));
   const router = useRouter();
 
   // Sync language from URL: /ur → Urdu. Root / uses localStorage or default.
@@ -26,6 +31,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       if (typeof window !== 'undefined') {
         try {
           localStorage.setItem('preferred-language', 'ur');
+          setLanguageCookie('ur');
         } catch {
           // ignore
         }
@@ -41,6 +47,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
           const savedLang = localStorage.getItem('preferred-language') as Language;
           if (savedLang && (savedLang === 'en' || savedLang === 'ur')) {
             setLanguage(savedLang);
+            setLanguageCookie(savedLang);
             document.documentElement.setAttribute('lang', savedLang === 'ur' ? 'ur-PK' : 'en-PK');
             document.documentElement.setAttribute('dir', savedLang === 'ur' ? 'rtl' : 'ltr');
           } else {
@@ -55,7 +62,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     }
   }, [pathname]);
 
-  // For non-home pages, apply saved language from localStorage
+  // For non-home pages, apply saved language from localStorage and sync cookie
   useEffect(() => {
     if (pathname === '/ur') return;
     if (typeof window === 'undefined') return;
@@ -63,6 +70,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       const savedLang = localStorage.getItem('preferred-language') as Language;
       if (savedLang && (savedLang === 'en' || savedLang === 'ur')) {
         setLanguage(savedLang);
+        setLanguageCookie(savedLang);
         document.documentElement.setAttribute('lang', savedLang === 'ur' ? 'ur-PK' : 'en-PK');
         document.documentElement.setAttribute('dir', savedLang === 'ur' ? 'rtl' : 'ltr');
       }
@@ -78,6 +86,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
     try {
       localStorage.setItem('preferred-language', newLang);
+      setLanguageCookie(newLang);
     } catch (error) {
       console.error('Error saving language preference:', error);
     }
