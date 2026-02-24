@@ -24,10 +24,10 @@ img {
   height: auto;
 }
 
-/* Prevent layout shift for footer - reserve space for both EN/UR, no resize on language switch */
+/* Prevent layout shift for footer - reserve space for both EN/UR */
 footer,
 .footer-stable {
-  min-height: 520px;
+  min-height: 540px;
   flex-shrink: 0;
   contain: layout;
   transform: translateZ(0);
