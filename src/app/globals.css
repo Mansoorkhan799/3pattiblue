@@ -24,13 +24,13 @@ img {
   height: auto;
 }
 
-/* Prevent layout shift for footer - reserve space, explicit dimensions for social icons */
+/* Prevent layout shift for footer - reserve space for both EN/UR, no resize on language switch */
 footer,
 .footer-stable {
-  min-height: 450px;
+  min-height: 520px;
   flex-shrink: 0;
   contain: layout;
-  transform: translateZ(0); /* Create compositing layer for layout stability */
+  transform: translateZ(0);
 }
 
 /* Reserve space for footer social icons (Facebook, etc.) - prevents CLS from icon/link rendering */

@@ -1,6 +1,5 @@
 // 3Patti Blue - Official Deployment - Last Updated: 2026-02-13
 import type { Metadata, Viewport } from "next";
-import { headers } from "next/headers";
 import "./globals.css";
 import Script from "next/script";
 import Header from "@/components/Header";
@@ -146,13 +145,11 @@ export const metadata: Metadata = {
   classification: "Card Gaming Platform",
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const headersList = await headers();
-  const initialLang = headersList.get('x-initial-lang') || 'en';
   return (
     <html lang="en" suppressHydrationWarning data-lang="en-PK">
       <head>
@@ -201,7 +198,7 @@ export default async function RootLayout({
         }}
         suppressHydrationWarning
       >
-        <LanguageProvider initialLanguage={initialLang}>
+        <LanguageProvider>
           <div className="stars-bg fixed inset-0 z-0 opacity-20"></div>
           <Header />
           <main className="flex-grow relative z-10">

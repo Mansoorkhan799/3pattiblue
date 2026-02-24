@@ -18,13 +18,13 @@ function setLanguageCookie(lang: string) {
   document.cookie = `preferred-language=${lang}; path=/; max-age=31536000; SameSite=Lax`;
 }
 
-export function LanguageProvider({ children, initialLanguage }: { children: React.ReactNode; initialLanguage?: string }) {
+export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  // Server-provided initialLanguage ensures hydration match (fixes React 418) and prevents footer CLS
-  const [language, setLanguage] = useState<Language>(() => (initialLanguage === 'ur' ? 'ur' : 'en'));
+  // Pathname-only init enables static rendering (bfcache) and prevents hydration mismatch
+  const [language, setLanguage] = useState<Language>(() => (pathname === '/ur' ? 'ur' : 'en'));
   const router = useRouter();
 
-  // Sync language from URL: /ur → Urdu. Root / uses localStorage or default.
+  // Sync language from URL: /ur → Urdu. Root / uses localStorage (deferred to idle to reduce main-thread work)
   useEffect(() => {
     if (pathname === '/ur') {
       setLanguage('ur');
@@ -41,8 +41,9 @@ export function LanguageProvider({ children, initialLanguage }: { children: Reac
       return;
     }
     if (pathname === '/') {
-      // On home (English URL), load from localStorage or keep current
-      if (typeof window !== 'undefined') {
+      // Defer localStorage read to idle callback - reduces main-thread blocking
+      const applySavedLang = () => {
+        if (typeof window === 'undefined') return;
         try {
           const savedLang = localStorage.getItem('preferred-language') as Language;
           if (savedLang && (savedLang === 'en' || savedLang === 'ur')) {
@@ -58,7 +59,13 @@ export function LanguageProvider({ children, initialLanguage }: { children: Reac
         } catch {
           setLanguage('en');
         }
+      };
+      if (typeof requestIdleCallback !== 'undefined') {
+        const id = requestIdleCallback(applySavedLang, { timeout: 2000 });
+        return () => cancelIdleCallback(id);
       }
+      const id = setTimeout(applySavedLang, 0);
+      return () => clearTimeout(id);
     }
   }, [pathname]);
 

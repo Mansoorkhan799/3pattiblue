@@ -3,9 +3,7 @@
 import { useEffect } from 'react';
 import { onCLS, onFCP, onLCP, onTTFB, onINP, Metric } from 'web-vitals';
 
-// Function to send Core Web Vitals to Google Analytics
 function sendToAnalytics(metric: Metric) {
-  // Check if gtag is available
   if (typeof window !== 'undefined' && (window as any).gtag) {
     (window as any).gtag('event', metric.name, {
       event_category: 'Web Vitals',
@@ -18,13 +16,19 @@ function sendToAnalytics(metric: Metric) {
 
 export default function WebVitalsTracker() {
   useEffect(() => {
-    // Track Core Web Vitals
-    // Note: onFID is deprecated, replaced by onINP
-    onCLS(sendToAnalytics);
-    onFCP(sendToAnalytics);
-    onLCP(sendToAnalytics);
-    onTTFB(sendToAnalytics);
-    onINP(sendToAnalytics); // Replaces onFID
+    // Defer to idle to reduce main-thread work and avoid forced reflow during initial load
+    const init = () => {
+      onCLS(sendToAnalytics);
+      onFCP(sendToAnalytics);
+      onLCP(sendToAnalytics);
+      onTTFB(sendToAnalytics);
+      onINP(sendToAnalytics);
+    };
+    if (typeof requestIdleCallback !== 'undefined') {
+      requestIdleCallback(init, { timeout: 3000 });
+    } else {
+      setTimeout(init, 100);
+    }
   }, []);
 
   return null;
