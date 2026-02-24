@@ -49,13 +49,11 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
           if (savedLang && (savedLang === 'en' || savedLang === 'ur')) {
             setLanguageCookie(savedLang);
           }
-          const lang = pathname === '/ur' ? 'ur' : 'en';
-          document.documentElement.setAttribute('lang', lang === 'ur' ? 'ur-PK' : 'en-PK');
-          document.documentElement.setAttribute('dir', lang === 'ur' ? 'rtl' : 'ltr');
+          document.documentElement.setAttribute('lang', 'en-PK');
+          document.documentElement.setAttribute('dir', 'ltr');
         } catch {
-          const lang = pathname === '/ur' ? 'ur' : 'en';
-          document.documentElement.setAttribute('lang', lang === 'ur' ? 'ur-PK' : 'en-PK');
-          document.documentElement.setAttribute('dir', lang === 'ur' ? 'rtl' : 'ltr');
+          document.documentElement.setAttribute('lang', 'en-PK');
+          document.documentElement.setAttribute('dir', 'ltr');
         }
       };
       if (typeof requestIdleCallback !== 'undefined') {

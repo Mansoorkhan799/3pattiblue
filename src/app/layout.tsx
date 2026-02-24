@@ -1,6 +1,9 @@
 // 3Patti Blue - Official Deployment - Last Updated: 2026-02-13
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+
+// Force static rendering so Next.js does not add cache-control: no-store (enables bfcache)
+export const dynamic = "force-static";
 import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
