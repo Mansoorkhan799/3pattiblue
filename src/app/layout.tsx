@@ -156,7 +156,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning data-lang="en-PK">
       <head>
-        <meta name="description" content="3Patti Blue 2026 - Pakistan's #1 Teen Patti app. 1M+ players. Download APK, play Teen Patti & Rummy, win real money. JazzCash & EasyPaisa. PKR 100 bonus!" />
+
         <link rel="manifest" href="/manifest.json" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -166,7 +166,6 @@ export default function RootLayout({
         <link rel="icon" href="/3-patti-blue-logo.webp" type="image/webp" sizes="192x192" />
         <link rel="icon" href="/3-patti-blue-logo.webp" type="image/webp" sizes="512x512" />
         <link rel="apple-touch-icon" href="/3-patti-blue-logo.webp" sizes="180x180" />
-        <meta property="og:image" content="https://3patiblueapp.com.pk/feature/3-patti-blue-OG-image.webp" />
         
         {/* Preconnect to own origin - reduces critical path latency for CSS/JS (1st party) */}
         <link rel="preconnect" href="https://3patiblueapp.com.pk" crossOrigin="anonymous" />
