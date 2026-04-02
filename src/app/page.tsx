@@ -108,7 +108,12 @@ export default function Home() {
           "url": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
           "width": 512,
           "height": 512,
-          "caption": "3Patti Blue - Authentic Teen Patti Gaming"
+          "caption": "3Patti Blue - Authentic Teen Patti Gaming",
+          "license": "https://3patiblueapp.com.pk",
+          "creator": { "@type": "Organization", "name": "3Patti Blue", "url": "https://3patiblueapp.com.pk" },
+          "acquireLicensePage": "https://3patiblueapp.com.pk/contact-us",
+          "copyrightNotice": "© 3Patti Blue. All rights reserved.",
+          "creditText": "3Patti Blue"
         },
         "foundingDate": "2024",
         "sameAs": [
@@ -276,6 +281,21 @@ export default function Home() {
             }
           }
         ]
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+        "url": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+        "width": 1024,
+        "height": 1024,
+        "name": "3 Patti Blue App",
+        "caption": "3 Patti Blue — Pakistan's most trusted Teen Patti gaming app",
+        "description": "Official image of the 3 Patti Blue app for Android",
+        "license": "https://3patiblueapp.com.pk",
+        "creator": { "@type": "Organization", "name": "3Patti Blue", "url": "https://3patiblueapp.com.pk" },
+        "acquireLicensePage": "https://3patiblueapp.com.pk/contact-us",
+        "copyrightNotice": "© 3Patti Blue. All rights reserved.",
+        "creditText": "3Patti Blue"
       }
     ]
   };
@@ -434,7 +454,7 @@ export default function Home() {
       {/* Game Screenshots Section - Visual Content for GEO */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-[#06091F] rounded-xl p-8">
-          <SectionHeading translationKey="section.screenshots" className="text-4xl font-bold mb-12 text-accent text-center" />
+          <SectionHeading translationKey="section.screenshots" className="text-2xl md:text-3xl font-bold mb-8 text-accent text-center" />
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             {/* Main Game Interface */}
@@ -610,7 +630,7 @@ export default function Home() {
           <SectionHeading translationKey="section.games" className="text-2xl md:text-3xl font-bold mb-6 text-accent" />
           
           <div className="mb-8">
-            <h3 className="text-2xl font-semibold mb-4 text-accent">1: Multiplayer Games</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-accent">Multiplayer Games</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               <div className="bg-[#0A1029] p-4 rounded-lg">
                 <p className="text-white font-medium">Tiger Dragon <span className="text-[#f97316]">(Hot)</span></p>
@@ -640,7 +660,7 @@ export default function Home() {
           </div>
 
           <div className="mb-8">
-            <h3 className="text-2xl font-semibold mb-4 text-accent">2: Skill-Based Games</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-accent">Skill-Based Games</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               <div className="bg-[#0A1029] p-4 rounded-lg">
                 <p className="text-white font-medium">Domino <span className="text-[#f97316]">(Hot)</span></p>
@@ -670,7 +690,7 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold mb-4 text-accent">3: Slots</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-accent">Slots</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               <div className="bg-[#0A1029] p-4 rounded-lg">
                 <p className="text-white font-medium">Mines <span className="text-[#f97316]">(Hot)</span></p>

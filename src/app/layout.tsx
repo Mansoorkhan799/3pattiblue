@@ -1,5 +1,6 @@
-// 3Patti Blue - Official Deployment - Last Updated: 2026-02-13
+// 3Patti Blue - Official Deployment - Last Updated: 2026-04-02
 import type { Metadata, Viewport } from "next";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
 // Force static rendering so Next.js does not add cache-control: no-store (enables bfcache)
@@ -11,6 +12,16 @@ import DeferredStyles from "@/components/DeferredStyles";
 import ScrollToTopWrapper from "@/components/ScrollToTopWrapper";
 import WebVitalsTracker from "@/components/WebVitalsTracker";
 import { LanguageProvider } from "@/contexts/LanguageContext";
+
+// Self-hosted via Next.js — no Google Fonts CDN <link> tag emitted
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-poppins",
+});
+
+const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -61,7 +72,6 @@ export const metadata: Metadata = {
     "best earning app 2026",
     "3patti blue login",
     "3patti blue register",
-    // Urdu Keywords for SEO
     "تین پتی بلیو",
     "تین پتی گیم",
     "آن لائن تین پتی پاکستان",
@@ -100,7 +110,6 @@ export const metadata: Metadata = {
       { url: '/3-patti-blue-logo.webp', type: 'image/webp' }
     ]
   },
-  manifest: 'https://3patiblueapp.com.pk/manifest.json',
   verification: {
     google: "8a7c21f6e90a89ef",
   },
@@ -118,7 +127,6 @@ export const metadata: Metadata = {
     siteName: "3Patti Blue",
     locale: "en_PK",
     type: "website",
-    // public/feature/3-patti-blue-OG-image.webp – used when link is shared on Facebook, WhatsApp, etc.
     images: [
       {
         url: "https://3patiblueapp.com.pk/feature/3-patti-blue-OG-image.webp",
@@ -133,7 +141,6 @@ export const metadata: Metadata = {
     title: "3 Patti Blue - Pakistan's #1 Teen Patti App | Win Real Money",
     description: "3 Patti Blue 2026 - Join 1M+ players earning daily. Authentic Teen Patti, instant withdrawals, 100% bonus. Download official APK & play now!",
     creator: "@3PattiBlue",
-    // public/feature/3-patti-blue-feature-image-twitter.webp – used when link is shared on Twitter/X
     images: [
       {
         url: "https://3patiblueapp.com.pk/feature/3-patti-blue-feature-image-twitter.webp",
@@ -154,10 +161,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning data-lang="en-PK">
+    <html lang="en" suppressHydrationWarning data-lang="en-PK" className={poppins.variable}>
       <head>
-
-        <link rel="manifest" href="/manifest.json" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <link rel="icon" href="/3-patti-blue-logo.webp" type="image/webp" sizes="16x16" />
@@ -166,34 +171,43 @@ export default function RootLayout({
         <link rel="icon" href="/3-patti-blue-logo.webp" type="image/webp" sizes="192x192" />
         <link rel="icon" href="/3-patti-blue-logo.webp" type="image/webp" sizes="512x512" />
         <link rel="apple-touch-icon" href="/3-patti-blue-logo.webp" sizes="180x180" />
-        
+
         {/* Preconnect to own origin - reduces critical path latency for CSS/JS (1st party) */}
         <link rel="preconnect" href="https://3patiblueapp.com.pk" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://3patiblueapp.com.pk" />
-        {/* Preconnect to external domains for faster loading */}
+        {/* Preconnect to GTM/GA for faster analytics loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        
-        {/* Google Analytics - Load after page is interactive to reduce impact on LCP */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
-          strategy="lazyOnload"
-        />
-        <Script id="google-analytics" strategy="lazyOnload">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-XXXXXXXXXX', {
-              page_path: window.location.pathname,
-              send_page_view: false,
-              transport_type: 'beacon'
-            });
-          `}
+
+        {/* Defer manifest injection — avoids render-blocking <link rel="manifest"> */}
+        <Script id="manifest-loader" strategy="afterInteractive">
+          {`(function(){var l=document.createElement('link');l.rel='manifest';l.href='/manifest.json';document.head.appendChild(l);})();`}
         </Script>
+
+        {/* GA4 — only loaded when a real measurement ID is configured */}
+        {GA_ID && GA_ID !== 'G-XXXXXXXXXX' && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+              strategy="lazyOnload"
+            />
+            <Script id="google-analytics" strategy="lazyOnload">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_ID}', {
+                  page_path: window.location.pathname,
+                  send_page_view: false,
+                  transport_type: 'beacon'
+                });
+              `}
+            </Script>
+          </>
+        )}
       </head>
       <body
-        className="antialiased bg-primary text-white min-h-screen flex flex-col"
+        className={`${poppins.className} antialiased bg-primary text-white min-h-screen flex flex-col`}
         style={{
           backgroundImage: "radial-gradient(circle at 10% 20%, rgba(10, 16, 41, 0.4) 0%, rgba(6, 9, 31, 0.01) 90%)",
           backgroundAttachment: "fixed",
@@ -212,7 +226,7 @@ export default function RootLayout({
           <ScrollToTopWrapper />
           <WebVitalsTracker />
         </LanguageProvider>
-        
+
         {/* Structured data for Organization */}
         <Script
           id="organization-schema"
@@ -249,7 +263,7 @@ export default function RootLayout({
             })
           }}
         />
-        
+
         {/* Structured data for SoftwareApplication */}
         <Script
           id="app-schema"
