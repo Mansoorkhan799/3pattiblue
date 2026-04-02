@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
@@ -43,6 +44,16 @@ export default function DepositMoneyPage() {
             >
               Download & Deposit Now
             </Link>
+            <div className="flex justify-center mt-10">
+              <Image
+                src="/3-patti-blue.webp"
+                alt="3Patti Blue - How to Deposit Money"
+                width={220}
+                height={220}
+                className="object-contain drop-shadow-2xl"
+                priority
+              />
+            </div>
           </div>
         </div>
       </section>
