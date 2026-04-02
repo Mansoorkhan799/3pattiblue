@@ -342,52 +342,88 @@ export default function WithdrawMoneyPage() {
             "@context": "https://schema.org",
             "@type": "HowTo",
             "name": "How to Withdraw Money from 3Patti Blue",
-            "description": "Step-by-step guide to withdraw money from 3Patti Blue using JazzCash, EasyPaisa, and Bank Transfer",
+            "description": "Cash out your 3Patti Blue winnings to JazzCash or EasyPaisa in 5–30 minutes. No hidden fees. Minimum withdrawal PKR 500.",
+            "totalTime": "PT30M",
+            "estimatedCost": {
+              "@type": "MonetaryAmount",
+              "currency": "PKR",
+              "value": "0"
+            },
+            "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue",
+            "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+            "supply": [
+              { "@type": "HowToSupply", "name": "3Patti Blue Account with verified balance" },
+              { "@type": "HowToSupply", "name": "JazzCash or EasyPaisa Account" },
+              { "@type": "HowToSupply", "name": "Minimum PKR 500 in wallet" }
+            ],
+            "tool": [
+              { "@type": "HowToTool", "name": "Android Smartphone" },
+              { "@type": "HowToTool", "name": "3Patti Blue App" },
+              { "@type": "HowToTool", "name": "Internet Connection" }
+            ],
             "step": [
               {
                 "@type": "HowToStep",
-                "name": "Open 3Patti Blue App",
-                "text": "Open the 3Patti Blue app on your phone and log in to your account."
+                "position": 1,
+                "name": "Open App and Log In",
+                "text": "Open the 3 Patti Blue app and log in to your account.",
+                "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue"
               },
               {
                 "@type": "HowToStep",
-                "name": "Click on Wallet Option",
-                "text": "Click on the wallet option to see your balance and withdrawal options."
+                "position": 2,
+                "name": "Go to Wallet",
+                "text": "Click on the Wallet option available on the main screen to view your balance.",
+                "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue"
               },
               {
                 "@type": "HowToStep",
-                "name": "Choose Withdraw Button",
-                "text": "Choose the withdraw button to start the withdrawal process."
+                "position": 3,
+                "name": "Select Withdrawal",
+                "text": "In the wallet section, click on the Withdrawal or Cash Out button.",
+                "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue"
               },
               {
                 "@type": "HowToStep",
-                "name": "Type Amount",
-                "text": "Type the amount you want to cash out within withdrawal limits."
+                "position": 4,
+                "name": "Choose Payment Method",
+                "text": "Choose your payment method — JazzCash or EasyPaisa — both process within 5–30 minutes.",
+                "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue"
               },
               {
                 "@type": "HowToStep",
-                "name": "Select Payment Method",
-                "text": "Select your payment method: Easypaisa, Jazzcash, or Bank Transfer."
+                "position": 5,
+                "name": "Enter Withdrawal Amount",
+                "text": "Enter the amount you want to withdraw. Minimum is PKR 500 with no maximum limit.",
+                "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue"
               },
               {
                 "@type": "HowToStep",
-                "name": "Enter Payment Details",
-                "text": "Enter your account information including account number and name."
+                "position": 6,
+                "name": "Enter Account Details",
+                "text": "Enter your verified JazzCash or EasyPaisa account number.",
+                "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue"
               },
               {
                 "@type": "HowToStep",
-                "name": "Confirm Payout",
-                "text": "Re-check all details and confirm your withdrawal."
+                "position": 7,
+                "name": "Confirm Withdrawal",
+                "text": "Double-check all entered details and click on Confirm.",
+                "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue"
               },
               {
                 "@type": "HowToStep",
+                "position": 8,
                 "name": "Wait for Processing",
-                "text": "Wait for 3Patti Blue to process your withdrawal (usually within 24 hours)."
+                "text": "Wait a few seconds for 3Patti Blue to process your withdrawal request.",
+                "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue"
               },
               {
                 "@type": "HowToStep",
-                "name": "Check Your Account",
-                "text": "Check your personal account to confirm you've received the payment."
+                "position": 9,
+                "name": "Receive Your Money",
+                "text": "Once complete, the money will be transferred to your selected JazzCash or EasyPaisa account.",
+                "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue"
               }
             ]
           })
@@ -396,4 +432,5 @@ export default function WithdrawMoneyPage() {
     </div>
   );
 }
+
 

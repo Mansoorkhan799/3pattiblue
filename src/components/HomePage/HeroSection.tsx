@@ -59,7 +59,7 @@ export default function HeroSection() {
                 <svg className="w-6 h-6 mb-3 text-accent mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true">
                   <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
                 </svg>
-                <div className="text-white text-2xl font-bold mb-1">1M+</div>
+                <div className="text-white text-2xl font-bold mb-1">600K+</div>
                 <div className="text-gray-400 text-sm" style={isUrdu ? { fontFamily: 'system-ui' } : {}}>{t('stats.players')}</div>
               </div>
 
@@ -67,7 +67,7 @@ export default function HeroSection() {
                 <svg className="w-6 h-6 mb-3 text-accent mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true">
                   <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
                 </svg>
-                <div className="text-white text-2xl font-bold mb-1">4.7★</div>
+                <div className="text-white text-2xl font-bold mb-1">300K+</div>
                 <div className="text-gray-400 text-sm" style={isUrdu ? { fontFamily: 'system-ui' } : {}}>{t('stats.rating')}</div>
               </div>
 
@@ -75,7 +75,7 @@ export default function HeroSection() {
                 <svg className="w-6 h-6 mb-3 text-accent mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true">
                   <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
                 </svg>
-                <div className="text-white text-2xl font-bold mb-1">100%</div>
+                <div className="text-white text-2xl font-bold mb-1">49MB</div>
                 <div className="text-gray-400 text-sm" style={isUrdu ? { fontFamily: 'system-ui' } : {}}>{t('stats.secure')}</div>
               </div>
             </div>

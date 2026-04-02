@@ -267,6 +267,109 @@ export default function CreateAccountLogin() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "HowTo",
+                "name": "How to Create a 3Patti Blue Account",
+                "description": "Create your free 3Patti Blue account in under 2 minutes using your mobile number and start playing real money card games.",
+                "totalTime": "PT2M",
+                "estimatedCost": { "@type": "MonetaryAmount", "currency": "PKR", "value": "0" },
+                "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login",
+                "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+                "supply": [
+                  { "@type": "HowToSupply", "name": "Valid Pakistani Mobile Number" },
+                  { "@type": "HowToSupply", "name": "Android Device with 3Patti Blue App installed" }
+                ],
+                "tool": [
+                  { "@type": "HowToTool", "name": "3Patti Blue App" },
+                  { "@type": "HowToTool", "name": "Internet Connection" }
+                ],
+                "step": [
+                  {
+                    "@type": "HowToStep",
+                    "position": 1,
+                    "name": "Download and Install 3Patti Blue",
+                    "text": "Download the 3Patti Blue app from the official website 3patiblueapp.com.pk and install it on your Android device.",
+                    "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "position": 2,
+                    "name": "Open the App and Tap Register",
+                    "text": "Launch the 3Patti Blue app on your device. On the welcome screen, tap the Register or Sign Up button.",
+                    "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "position": 3,
+                    "name": "Fill Out the Registration Form",
+                    "text": "Enter your valid mobile number, create a strong password (minimum 6 characters), confirm your password, and enter the OTP sent to your mobile.",
+                    "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "position": 4,
+                    "name": "Complete Registration",
+                    "text": "After filling out all required fields, tap the Register button. If all information is correct, your account will be created instantly.",
+                    "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "position": 5,
+                    "name": "Claim Your Welcome Bonus",
+                    "text": "Once your account is created, you will automatically receive a welcome bonus of free chips to start playing.",
+                    "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login"
+                  }
+                ]
+              },
+              {
+                "@type": "HowTo",
+                "name": "How to Login to 3Patti Blue Account",
+                "description": "Sign in to your 3Patti Blue account securely to access your balance, games, and bonuses.",
+                "totalTime": "PT1M",
+                "estimatedCost": { "@type": "MonetaryAmount", "currency": "PKR", "value": "0" },
+                "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login",
+                "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+                "step": [
+                  {
+                    "@type": "HowToStep",
+                    "position": 1,
+                    "name": "Open the 3Patti Blue App",
+                    "text": "Launch the 3Patti Blue app on your Android device.",
+                    "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "position": 2,
+                    "name": "Enter Your Credentials",
+                    "text": "On the welcome screen, enter your registered mobile number and password.",
+                    "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "position": 3,
+                    "name": "Tap Login",
+                    "text": "After entering your credentials, tap the Login button to access your account.",
+                    "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "position": 4,
+                    "name": "Verify Your Identity if Required",
+                    "text": "For security purposes, you may be asked to verify with an OTP, especially when logging in from a new device.",
+                    "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login"
+                  }
+                ]
+              }
+            ]
+          })
+        }}
+      />
     </>
   );
 }

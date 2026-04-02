@@ -297,6 +297,131 @@ export default function Home() {
         "copyrightNotice": "© 3Patti Blue. All rights reserved.",
         "creditText": "3Patti Blue"
       }
+      ,
+      {
+        "@type": "HowTo",
+        "name": "How to Get Started with 3Patti Blue",
+        "description": "Follow these 6 simple steps to start playing 3Patti Blue and earning real money in under 5 minutes.",
+        "totalTime": "PT5M",
+        "estimatedCost": { "@type": "MonetaryAmount", "currency": "PKR", "value": "0" },
+        "url": "https://3patiblueapp.com.pk/#get-started",
+        "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "Download the 3Patti Blue APK", "text": "Firstly, open the official website of 3 Patti Blue and download the APK file to your device.", "url": "https://3patiblueapp.com.pk/#get-started" },
+          { "@type": "HowToStep", "position": 2, "name": "Install the App", "text": "Once downloaded, click on the downloaded APK file to start the installation by allowing Unknown Sources.", "url": "https://3patiblueapp.com.pk/#get-started" },
+          { "@type": "HowToStep", "position": 3, "name": "Open 3Patti Blue", "text": "Once installation is complete, click on it to open the 3 Patti Blue app.", "url": "https://3patiblueapp.com.pk/#get-started" },
+          { "@type": "HowToStep", "position": 4, "name": "Log In or Play as Guest", "text": "When the app opens, log in with your mobile number or just play as a guest.", "url": "https://3patiblueapp.com.pk/#get-started" },
+          { "@type": "HowToStep", "position": 5, "name": "Claim Your Welcome Bonus", "text": "When you log in, you will get free chips or welcome bonuses to start playing the game.", "url": "https://3patiblueapp.com.pk/#get-started" },
+          { "@type": "HowToStep", "position": 6, "name": "Choose a Game and Play", "text": "Choose a table or game that you want to play, and start enjoying the game.", "url": "https://3patiblueapp.com.pk/#get-started" }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "name": "How to Download 3Patti Blue APK for Android",
+        "description": "Step-by-step guide to download the latest 3Patti Blue APK safely on your Android device.",
+        "totalTime": "PT2M",
+        "estimatedCost": { "@type": "MonetaryAmount", "currency": "PKR", "value": "0" },
+        "url": "https://3patiblueapp.com.pk/download-3-patti-blue",
+        "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "Open Your Browser", "text": "First, open the browser on your Android device and click on the search bar.", "url": "https://3patiblueapp.com.pk/download-3-patti-blue" },
+          { "@type": "HowToStep", "position": 2, "name": "Search for 3Patti Blue", "text": "In the search bar, type 3 Patti Blue or directly paste the link 3patiblueapp.com.pk and visit the trusted website.", "url": "https://3patiblueapp.com.pk/download-3-patti-blue" },
+          { "@type": "HowToStep", "position": 3, "name": "Click the Download Button", "text": "On the trusted website, click on the Download button to start downloading.", "url": "https://3patiblueapp.com.pk/download-3-patti-blue" },
+          { "@type": "HowToStep", "position": 4, "name": "Wait for Download to Complete", "text": "Now wait a few seconds to complete the downloading process.", "url": "https://3patiblueapp.com.pk/download-3-patti-blue" },
+          { "@type": "HowToStep", "position": 5, "name": "Locate the Downloaded File", "text": "Once complete, that file will be saved in the Download Folder of the device.", "url": "https://3patiblueapp.com.pk/download-3-patti-blue" }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "name": "How to Install 3Patti Blue APK on Android",
+        "description": "Complete installation guide for 3Patti Blue APK on any Android device.",
+        "totalTime": "PT3M",
+        "estimatedCost": { "@type": "MonetaryAmount", "currency": "PKR", "value": "0" },
+        "url": "https://3patiblueapp.com.pk/download-3-patti-blue",
+        "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "Enable Unknown Sources", "text": "To start installation, your device must grant permission to install from unknown sources.", "url": "https://3patiblueapp.com.pk/download-3-patti-blue" },
+          { "@type": "HowToStep", "position": 2, "name": "Open Security Settings", "text": "Open the Settings → Security and enable the Install Unknown Apps option.", "url": "https://3patiblueapp.com.pk/download-3-patti-blue" },
+          { "@type": "HowToStep", "position": 3, "name": "Go to Download Folder", "text": "After this, open the File Manager and go to the Download Folder.", "url": "https://3patiblueapp.com.pk/download-3-patti-blue" },
+          { "@type": "HowToStep", "position": 4, "name": "Tap the APK File", "text": "Click on the downloaded APK file, and the installation process will start.", "url": "https://3patiblueapp.com.pk/download-3-patti-blue" },
+          { "@type": "HowToStep", "position": 5, "name": "Wait for Installation", "text": "Wait until the installation completes successfully on your device.", "url": "https://3patiblueapp.com.pk/download-3-patti-blue" },
+          { "@type": "HowToStep", "position": 6, "name": "Find the App Icon", "text": "Once complete, the app icon will appear on your device home screen.", "url": "https://3patiblueapp.com.pk/download-3-patti-blue" },
+          { "@type": "HowToStep", "position": 7, "name": "Launch and Play", "text": "Click on it to launch the app and start playing the games that you want.", "url": "https://3patiblueapp.com.pk/download-3-patti-blue" }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "name": "How to Register on 3Patti Blue",
+        "description": "Create your free 3Patti Blue account in under 2 minutes with your mobile number.",
+        "totalTime": "PT2M",
+        "estimatedCost": { "@type": "MonetaryAmount", "currency": "PKR", "value": "0" },
+        "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login",
+        "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "Open the App", "text": "Firstly, open the 3 Patti Blue app on your device.", "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login" },
+          { "@type": "HowToStep", "position": 2, "name": "Tap Register or Sign Up", "text": "On the homescreen, click on the Register or Sign Up option.", "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login" },
+          { "@type": "HowToStep", "position": 3, "name": "Enter Your Mobile Number", "text": "Now, enter your valid mobile number or email address.", "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login" },
+          { "@type": "HowToStep", "position": 4, "name": "Set a Strong Password", "text": "Set a strong password that cannot be accessed easily.", "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login" },
+          { "@type": "HowToStep", "position": 5, "name": "Verify via OTP", "text": "Enter the OTP received on your phone or email for verification.", "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login" },
+          { "@type": "HowToStep", "position": 6, "name": "Account Created", "text": "Once verification is complete, your account will be created successfully.", "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login" }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "name": "How to Login to 3Patti Blue",
+        "description": "Sign in to your 3Patti Blue account quickly and securely.",
+        "totalTime": "PT1M",
+        "estimatedCost": { "@type": "MonetaryAmount", "currency": "PKR", "value": "0" },
+        "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login",
+        "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "Open the App", "text": "Open the 3 Patti Blue app on your device.", "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login" },
+          { "@type": "HowToStep", "position": 2, "name": "Tap Login", "text": "Click on the Login button on the homescreen.", "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login" },
+          { "@type": "HowToStep", "position": 3, "name": "Enter Your Credentials", "text": "Enter your registered mobile number, email, or password.", "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login" },
+          { "@type": "HowToStep", "position": 4, "name": "Verify Your Details", "text": "Make sure that your entered details are correct.", "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login" },
+          { "@type": "HowToStep", "position": 5, "name": "Tap Sign In", "text": "Once confirmed, tap on the Sign in or Login option.", "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login" },
+          { "@type": "HowToStep", "position": 6, "name": "Reset Password if Needed", "text": "If you forget your password, use Forgot Password to reset it.", "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login" },
+          { "@type": "HowToStep", "position": 7, "name": "Start Playing", "text": "Once logging in is complete, you can start playing games.", "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login" }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "name": "How to Deposit Money in 3Patti Blue",
+        "description": "Add funds to your 3Patti Blue wallet instantly using JazzCash or EasyPaisa.",
+        "totalTime": "PT3M",
+        "estimatedCost": { "@type": "MonetaryAmount", "currency": "PKR", "value": "100" },
+        "url": "https://3patiblueapp.com.pk/deposit-money-in-3-patti-blue",
+        "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "Open App and Log In", "text": "First, open the 3 Patti Blue app on your device and log in.", "url": "https://3patiblueapp.com.pk/deposit-money-in-3-patti-blue" },
+          { "@type": "HowToStep", "position": 2, "name": "Go to Wallet", "text": "Click on the Wallet option that is available on the homescreen.", "url": "https://3patiblueapp.com.pk/deposit-money-in-3-patti-blue" },
+          { "@type": "HowToStep", "position": 3, "name": "Select Deposit", "text": "In the wallet section, click on the Deposit option.", "url": "https://3patiblueapp.com.pk/deposit-money-in-3-patti-blue" },
+          { "@type": "HowToStep", "position": 4, "name": "Choose Payment Method", "text": "Choose a payment method — JazzCash or EasyPaisa.", "url": "https://3patiblueapp.com.pk/deposit-money-in-3-patti-blue" },
+          { "@type": "HowToStep", "position": 5, "name": "Enter Amount", "text": "Enter the amount that you want to deposit (minimum PKR 100).", "url": "https://3patiblueapp.com.pk/deposit-money-in-3-patti-blue" },
+          { "@type": "HowToStep", "position": 6, "name": "Confirm the Deposit", "text": "Click on the confirm option and wait to complete it.", "url": "https://3patiblueapp.com.pk/deposit-money-in-3-patti-blue" },
+          { "@type": "HowToStep", "position": 7, "name": "Funds Added to Wallet", "text": "Once complete, the balance will show in your game wallet.", "url": "https://3patiblueapp.com.pk/deposit-money-in-3-patti-blue" }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "name": "How to Withdraw Money from 3Patti Blue",
+        "description": "Cash out your winnings from 3Patti Blue to JazzCash or EasyPaisa in 5–30 minutes.",
+        "totalTime": "PT30M",
+        "estimatedCost": { "@type": "MonetaryAmount", "currency": "PKR", "value": "0" },
+        "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue",
+        "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "Open App and Log In", "text": "Open the 3 Patti Blue app and log in to your account.", "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue" },
+          { "@type": "HowToStep", "position": 2, "name": "Go to Wallet", "text": "Click on the Wallet option that is available on the main screen.", "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue" },
+          { "@type": "HowToStep", "position": 3, "name": "Select Withdrawal", "text": "In the wallet section, click on the Withdrawal option.", "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue" },
+          { "@type": "HowToStep", "position": 4, "name": "Choose Payment Method", "text": "Choose your payment method, like JazzCash or EasyPaisa.", "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue" },
+          { "@type": "HowToStep", "position": 5, "name": "Enter Withdrawal Amount", "text": "Now enter the amount that you want to withdraw (minimum PKR 500).", "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue" },
+          { "@type": "HowToStep", "position": 6, "name": "Enter Account Details", "text": "Enter some required details, like your JazzCash or EasyPaisa account number.", "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue" },
+          { "@type": "HowToStep", "position": 7, "name": "Confirm Withdrawal", "text": "Double-check all entered details and click on Confirm.", "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue" },
+          { "@type": "HowToStep", "position": 8, "name": "Wait for Processing", "text": "Wait a few seconds to complete the withdrawal process.", "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue" },
+          { "@type": "HowToStep", "position": 9, "name": "Receive Your Money", "text": "Once complete, the money will be shown in your selected payment method.", "url": "https://3patiblueapp.com.pk/withdraw-money-from-3-patti-blue" }
+        ]
+      }
     ]
   };
 
@@ -439,13 +564,12 @@ export default function Home() {
               as="p"
             />
             <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-              <li><strong><TranslatableText translationKey="content.getStarted.step1" /></strong></li>
-              <li><strong><TranslatableText translationKey="content.getStarted.step2" /></strong></li>
-              <li><strong><TranslatableText translationKey="content.getStarted.step3" /></strong></li>
-              <li><strong><TranslatableText translationKey="content.getStarted.step4" /></strong></li>
-              <li><strong><TranslatableText translationKey="content.getStarted.step5" /></strong></li>
-              <li><strong><TranslatableText translationKey="content.getStarted.step6" /></strong></li>
-              <li><strong><TranslatableText translationKey="content.getStarted.step7" /></strong></li>
+              <li><TranslatableText translationKey="content.getStarted.step1" /></li>
+              <li><TranslatableText translationKey="content.getStarted.step2" /></li>
+              <li><TranslatableText translationKey="content.getStarted.step3" /></li>
+              <li><TranslatableText translationKey="content.getStarted.step4" /></li>
+              <li><TranslatableText translationKey="content.getStarted.step5" /></li>
+              <li><TranslatableText translationKey="content.getStarted.step6" /></li>
             </ol>
           </div>
         </div>
@@ -815,11 +939,11 @@ export default function Home() {
           </p>
           <div className="mb-8">
           <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li><strong><TranslatableText translationKey="content.download.step1" /></strong></li>
-            <li><strong><TranslatableText translationKey="content.download.step2" /></strong></li>
-            <li><strong><TranslatableText translationKey="content.download.step3" /></strong></li>
-            <li><strong><TranslatableText translationKey="content.download.step4" /></strong></li>
-            <li><strong><TranslatableText translationKey="content.download.step5" /></strong></li>
+            <li><TranslatableText translationKey="content.download.step1" /></li>
+            <li>In the search bar, type 3 Patti Blue or directly paste the link <Link href="https://3patiblueapp.com.pk" className="text-[#0ea5e9] hover:text-[#38bdf8] underline" target="_blank" rel="noopener noreferrer">3patiblueapp.com.pk</Link> and visit the trusted website.</li>
+            <li><TranslatableText translationKey="content.download.step3" /></li>
+            <li><TranslatableText translationKey="content.download.step4" /></li>
+            <li><TranslatableText translationKey="content.download.step5" /></li>
           </ol>
         </div>
         
@@ -827,13 +951,13 @@ export default function Home() {
         <TranslatableText translationKey="content.install.intro" className="text-gray-300 mb-4" as="p" />
         <div className="mb-8">
           <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li><strong><TranslatableText translationKey="content.install.step1" /></strong></li>
-            <li><strong><TranslatableText translationKey="content.install.step2" /></strong></li>
-            <li><strong><TranslatableText translationKey="content.install.step3" /></strong></li>
-            <li><strong><TranslatableText translationKey="content.install.step4" /></strong></li>
-            <li><strong><TranslatableText translationKey="content.install.step5" /></strong></li>
-            <li><strong><TranslatableText translationKey="content.install.step6" /></strong></li>
-            <li><strong><TranslatableText translationKey="content.install.step7" /></strong></li>
+            <li><TranslatableText translationKey="content.install.step1" /></li>
+            <li><TranslatableText translationKey="content.install.step2" /></li>
+            <li><TranslatableText translationKey="content.install.step3" /></li>
+            <li><TranslatableText translationKey="content.install.step4" /></li>
+            <li><TranslatableText translationKey="content.install.step5" /></li>
+            <li><TranslatableText translationKey="content.install.step6" /></li>
+            <li><TranslatableText translationKey="content.install.step7" /></li>
           </ol>
         </div>
 
@@ -890,7 +1014,6 @@ export default function Home() {
             <li><TranslatableText translationKey="content.registration.step4" as="span" /></li>
             <li><TranslatableText translationKey="content.registration.step5" as="span" /></li>
             <li><TranslatableText translationKey="content.registration.step6" as="span" /></li>
-            <li><TranslatableText translationKey="content.registration.step7" as="span" /></li>
           </ol>
           </div>
 
@@ -905,7 +1028,6 @@ export default function Home() {
             <li><TranslatableText translationKey="content.login.step5" as="span" /></li>
             <li><TranslatableText translationKey="content.login.step6" as="span" /></li>
             <li><TranslatableText translationKey="content.login.step7" as="span" /></li>
-            <li><TranslatableText translationKey="content.login.step8" as="span" /></li>
           </ol>
           </div>
         </div>
@@ -946,8 +1068,6 @@ export default function Home() {
               <li><TranslatableText translationKey="content.deposit.step5" as="span" /></li>
               <li><TranslatableText translationKey="content.deposit.step6" as="span" /></li>
               <li><TranslatableText translationKey="content.deposit.step7" as="span" /></li>
-              <li><TranslatableText translationKey="content.deposit.step8" as="span" /></li>
-              <li><TranslatableText translationKey="content.deposit.step9" as="span" /></li>
                 </ol>
               </div>
           <div className="bg-secondary rounded-xl p-8">
@@ -966,7 +1086,6 @@ export default function Home() {
               <li><TranslatableText translationKey="content.withdraw.step7" as="span" /></li>
               <li><TranslatableText translationKey="content.withdraw.step8" as="span" /></li>
               <li><TranslatableText translationKey="content.withdraw.step9" as="span" /></li>
-              <li><TranslatableText translationKey="content.withdraw.step10" as="span" /></li>
                 </ol>
           </div>
         </div>
@@ -1029,13 +1148,7 @@ export default function Home() {
                 <TranslatableText translationKey="proscons.pro4" as="li" />
                 <TranslatableText translationKey="proscons.pro5" as="li" />
                 <TranslatableText translationKey="proscons.pro6" as="li" />
-                <TranslatableText translationKey="proscons.pro7" as="li" />
-                <TranslatableText translationKey="proscons.pro8" as="li" />
-                <TranslatableText translationKey="proscons.pro9" as="li" />
-                <TranslatableText translationKey="proscons.pro10" as="li" />
-                <TranslatableText translationKey="proscons.pro11" as="li" />
-                <TranslatableText translationKey="proscons.pro12" as="li" />
-              </ul>
+                <TranslatableText translationKey="proscons.pro7" as="li" />              </ul>
             </div>
           </div>
           <div>
@@ -1048,14 +1161,10 @@ export default function Home() {
                 <TranslatableText translationKey="proscons.con4" as="li" />
                 <TranslatableText translationKey="proscons.con5" as="li" />
                 <TranslatableText translationKey="proscons.con6" as="li" />
-                <TranslatableText translationKey="proscons.con7" as="li" />
-                <TranslatableText translationKey="proscons.con8" as="li" />
-                <TranslatableText translationKey="proscons.con9" as="li" />
-              </ul>
+                <TranslatableText translationKey="proscons.con7" as="li" />              </ul>
               </div>
             </div>
           </div>
-          <TranslatableText translationKey="content.proscons.bottomLine" className="text-gray-300 mt-6 italic font-bold" as="p" />
         </div>
       </section>
 
@@ -1068,9 +1177,7 @@ export default function Home() {
             <TranslatableText translationKey="content.security.technical" className="text-gray-300 leading-relaxed" as="p" />
             <TranslatableText translationKey="content.security.payment" className="text-gray-300 leading-relaxed" as="p" />
             <TranslatableText translationKey="content.security.fairplay" className="text-gray-300 leading-relaxed" as="p" />
-            <TranslatableText translationKey="content.security.googleplay" className="text-gray-300 leading-relaxed" as="p" />
-            <TranslatableText translationKey="content.security.responsibility" className="text-gray-300 leading-relaxed" as="p" />
-          </div>
+            <TranslatableText translationKey="content.security.googleplay" className="text-gray-300 leading-relaxed" as="p" />          </div>
         </div>
       </section>
 
@@ -1144,133 +1251,7 @@ export default function Home() {
               <SectionHeading translationKey="support.email.title" className="text-xl font-semibold mb-3 text-accent" tag="h3" />
               <TranslatableText translationKey="support.email.details" className="text-gray-300" as="p" />
             </div>
-          </div>
-          <div className="bg-[#0A1029] p-6 rounded-lg mt-6">
-            <SectionHeading translationKey="support.faqdb.title" className="text-xl font-semibold mb-3 text-accent" tag="h3" />
-            <TranslatableText translationKey="content.support.faq" className="text-gray-300" as="p" />
-          </div>
-          <TranslatableText translationKey="content.support.urgent" className="text-gray-300 mt-6 text-center italic font-bold" as="p" />
-        </div>
-      </section>
-
-      {/* FAQ Section - Bilingual */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-        <SectionHeading translationKey="section.faq" className="text-3xl font-bold mb-4 text-accent" />
-        <div className="space-y-4">
-          <details className="group bg-[#0a1029]/50 rounded-xl">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-              <TranslatableText translationKey="faq.q1" />
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300">
-              <TranslatableText translationKey="faq.a1" />
-            </div>
-          </details>
-
-          <details className="group bg-[#0a1029]/50 rounded-xl">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-              <TranslatableText translationKey="faq.q2" />
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300">
-              <TranslatableText translationKey="faq.a2" />
-            </div>
-          </details>
-
-          <details className="group bg-[#0a1029]/50 rounded-xl">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-              <TranslatableText translationKey="faq.q3" />
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300">
-              <TranslatableText translationKey="faq.a3" />
-            </div>
-          </details>
-
-          <details className="group bg-[#0a1029]/50 rounded-xl">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-              <TranslatableText translationKey="faq.q4" />
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300">
-              <TranslatableText translationKey="faq.a4" />
-            </div>
-          </details>
-
-          <details className="group bg-[#0a1029]/50 rounded-xl">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-              <TranslatableText translationKey="faq.q5" />
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300">
-              <TranslatableText translationKey="faq.a5" />
-            </div>
-          </details>
-
-          <details className="group bg-[#0a1029]/50 rounded-xl">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-              <TranslatableText translationKey="faq.q6" />
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300">
-              <TranslatableText translationKey="faq.a6" />
-            </div>
-          </details>
-
-          <details className="group bg-[#0a1029]/50 rounded-xl">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-              <TranslatableText translationKey="faq.q7" />
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300">
-              <TranslatableText translationKey="faq.a7" />
-            </div>
-          </details>
-
-          <details className="group bg-[#0a1029]/50 rounded-xl">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-              <TranslatableText translationKey="faq.q8" />
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300">
-              <TranslatableText translationKey="faq.a8" />
-            </div>
-          </details>
-          </div>
-        </div>
+          </div>        </div>
       </section>
 
       {/* Conclusion - Call to Action with Value Summary */}
@@ -1280,7 +1261,6 @@ export default function Home() {
           <div className="space-y-4">
           <TranslatableText translationKey="verdict.para1" className="text-gray-300 leading-relaxed" as="p" />
           <TranslatableText translationKey="verdict.para2" className="text-gray-300 leading-relaxed" as="p" />
-          <TranslatableText translationKey="verdict.para3" className="text-gray-300 leading-relaxed" as="p" />
           <div className="flex justify-center mt-8">
             <a 
               href="https://3pattibluevip.com?from_gameid=9483409&channelCode=100000"

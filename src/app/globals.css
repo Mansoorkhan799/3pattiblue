@@ -24,10 +24,9 @@ img {
   height: auto;
 }
 
-/* Prevent layout shift for footer - reserve space, lock layout */
+/* Prevent layout shift for footer */
 footer,
 .footer-stable {
-  min-height: 600px;
   flex-shrink: 0;
   contain: layout;
   transform: translateZ(0);

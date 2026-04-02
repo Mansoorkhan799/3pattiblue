@@ -312,42 +312,74 @@ export default function DepositMoneyPage() {
             "@context": "https://schema.org",
             "@type": "HowTo",
             "name": "How to Deposit Money in 3Patti Blue",
-            "description": "Step-by-step guide to deposit money in 3Patti Blue using JazzCash and EasyPaisa",
+            "description": "Add funds to your 3Patti Blue wallet instantly using JazzCash or EasyPaisa. Minimum deposit PKR 100 — credited within seconds.",
+            "totalTime": "PT3M",
+            "estimatedCost": {
+              "@type": "MonetaryAmount",
+              "currency": "PKR",
+              "value": "100"
+            },
+            "url": "https://3patiblueapp.com.pk/deposit-money-in-3-patti-blue",
+            "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+            "supply": [
+              { "@type": "HowToSupply", "name": "JazzCash or EasyPaisa Account" },
+              { "@type": "HowToSupply", "name": "3Patti Blue Account" },
+              { "@type": "HowToSupply", "name": "Minimum PKR 100" }
+            ],
+            "tool": [
+              { "@type": "HowToTool", "name": "Android Smartphone" },
+              { "@type": "HowToTool", "name": "3Patti Blue App" },
+              { "@type": "HowToTool", "name": "Internet Connection" }
+            ],
             "step": [
               {
                 "@type": "HowToStep",
-                "name": "Open 3Patti Blue App",
-                "text": "Open the 3Patti Blue app on your Android device and log in to your account."
+                "position": 1,
+                "name": "Open App and Log In",
+                "text": "First, open the 3 Patti Blue app on your device and log in to your verified account.",
+                "url": "https://3patiblueapp.com.pk/deposit-money-in-3-patti-blue"
               },
               {
                 "@type": "HowToStep",
-                "name": "Click on Shop Option",
-                "text": "After logging in, click on the shop button to start the depositing process."
+                "position": 2,
+                "name": "Go to Wallet",
+                "text": "Click on the Wallet option available on the homescreen (top-right corner).",
+                "url": "https://3patiblueapp.com.pk/deposit-money-in-3-patti-blue"
               },
               {
                 "@type": "HowToStep",
-                "name": "Select Payment Method",
-                "text": "Choose a payment method like JazzCash or EasyPaisa."
+                "position": 3,
+                "name": "Select Deposit",
+                "text": "In the wallet section, click on the Deposit or Add Money button.",
+                "url": "https://3patiblueapp.com.pk/deposit-money-in-3-patti-blue"
               },
               {
                 "@type": "HowToStep",
-                "name": "Choose Amount",
-                "text": "Select the amount you want to deposit (Rs 200, Rs 500, Rs 1000, or Rs 2000)."
+                "position": 4,
+                "name": "Choose Payment Method",
+                "text": "Choose a payment method — JazzCash or EasyPaisa — both offer instant processing.",
+                "url": "https://3patiblueapp.com.pk/deposit-money-in-3-patti-blue"
               },
               {
                 "@type": "HowToStep",
-                "name": "Click on Add Chips",
-                "text": "Click the Add Chips option and enter your account number."
+                "position": 5,
+                "name": "Enter Deposit Amount",
+                "text": "Enter the amount you want to deposit. Minimum is PKR 100. First-time depositors receive a 100% welcome bonus.",
+                "url": "https://3patiblueapp.com.pk/deposit-money-in-3-patti-blue"
               },
               {
                 "@type": "HowToStep",
-                "name": "Approve Payment",
-                "text": "Log in to your mobile wallet and approve the payment request."
+                "position": 6,
+                "name": "Confirm the Transaction",
+                "text": "Click on the Confirm option and approve the payment in your JazzCash or EasyPaisa app.",
+                "url": "https://3patiblueapp.com.pk/deposit-money-in-3-patti-blue"
               },
               {
                 "@type": "HowToStep",
-                "name": "Wait for Complete Payment",
-                "text": "Wait for the deposit to be added to your 3Patti Blue account."
+                "position": 7,
+                "name": "Funds Added to Wallet",
+                "text": "Once complete, your deposit balance — plus any bonus — will appear in your 3Patti Blue wallet within seconds.",
+                "url": "https://3patiblueapp.com.pk/deposit-money-in-3-patti-blue"
               }
             ]
           })
@@ -356,4 +388,5 @@ export default function DepositMoneyPage() {
     </div>
   );
 }
+
 
