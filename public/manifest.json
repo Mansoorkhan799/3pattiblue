@@ -8,18 +8,18 @@
   "theme_color": "#06091F",
   "icons": [
     {
-      "src": "/3-patti-blue-logo.webp",
+      "src": "/3-patti-blue.webp",
       "sizes": "16x16 32x32 48x48 64x64 128x128",
       "type": "image/webp"
     },
     {
-      "src": "/3-patti-blue-logo.webp",
+      "src": "/3-patti-blue.webp",
       "sizes": "192x192",
       "type": "image/webp",
       "purpose": "any maskable"
     },
     {
-      "src": "/3-patti-blue-logo.webp",
+      "src": "/3-patti-blue.webp",
       "sizes": "512x512",
       "type": "image/webp",
       "purpose": "any maskable"

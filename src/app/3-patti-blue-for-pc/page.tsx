@@ -44,7 +44,7 @@ export default function CardRummyForPCPage() {
     "@type": "TechArticle",
     "headline": "3Patti Blue for PC Download Latest Version Free 2026",
     "description": "Complete guide to download and play 3Patti Blue on PC using Android emulator. Learn about system requirements, best emulators, and features.",
-    "image": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
+    "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
     "author": {
       "@type": "Organization",
       "name": "3Patti Blue",
@@ -55,7 +55,7 @@ export default function CardRummyForPCPage() {
       "name": "3Patti Blue",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp"
+        "url": "https://3patiblueapp.com.pk/3-patti-blue.webp"
       }
     },
     "datePublished": "2026-01-03",

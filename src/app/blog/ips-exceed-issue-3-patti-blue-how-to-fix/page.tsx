@@ -42,7 +42,7 @@ export default function IPsExceedIssuePage() {
     "@type": "BlogPosting",
     "headline": "IPs Exceed Issue in 3 Patti Blue! How to Fix? - Complete Guide 2026",
     "description": "Facing IPs Exceed error in 3Patti Blue? Fix it in 3 steps: Use SuperVPN once, open 3Patti Blue, register and enjoy. No VPN needed after fix.",
-    "image": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
+    "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
     "author": {
       "@type": "Organization",
       "name": "3Patti Blue",
@@ -53,7 +53,7 @@ export default function IPsExceedIssuePage() {
       "name": "3Patti Blue",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp"
+        "url": "https://3patiblueapp.com.pk/3-patti-blue.webp"
       }
     },
     "datePublished": "2026-02-24",

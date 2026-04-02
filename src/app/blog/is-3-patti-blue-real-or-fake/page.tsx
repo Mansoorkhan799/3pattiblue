@@ -44,7 +44,7 @@ export default function CardRummyRealOrFakePage() {
     "@type": "BlogPosting",
     "headline": "Is 3Patti Blue Real or Fake to Earn Money? - Complete Guide 2026",
     "description": "Discover if 3Patti Blue app is real or fake. Learn about legitimacy, payment methods, safety tips, and how to identify fake apps.",
-    "image": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
+    "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
     "author": {
       "@type": "Organization",
       "name": "3Patti Blue",
@@ -55,7 +55,7 @@ export default function CardRummyRealOrFakePage() {
       "name": "3Patti Blue",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp"
+        "url": "https://3patiblueapp.com.pk/3-patti-blue.webp"
       }
     },
     "datePublished": "2026-01-03",

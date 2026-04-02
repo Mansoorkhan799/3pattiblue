@@ -16,7 +16,7 @@ export default function Header() {
         <Link href="/" className="flex items-center">
           <div className="relative h-10 w-10 mr-2">
             <Image
-              src="/3-patti-blue-logo.webp"
+              src="/3-patti-blue.webp"
               alt="3Patti Blue - Pakistan's #1 Teen Patti App"
               width={40}
               height={40}

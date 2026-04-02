@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
+        url: "https://3patiblueapp.com.pk/3-patti-blue.webp",
         width: 1200,
         height: 630,
         alt: "About 3Patti Blue - Pakistan's Most Trusted Teen Patti Platform",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: 'About 3Patti Blue - Pakistan\'s #1 Teen Patti Platform',
     description: '3Patti Blue story: From startup to 1M+ players. Authentic Teen Patti gaming with instant payouts and verified security.',
-    images: ["https://3patiblueapp.com.pk/3-patti-blue-logo.webp"],
+    images: ["https://3patiblueapp.com.pk/3-patti-blue.webp"],
   },
 };
 
@@ -132,7 +132,7 @@ export default function AboutPage() {
               "legalName": "3Patti Blue Gaming Platform",
               "alternateName": ["3Patti Blue App", "3 Patti Blue"],
               "url": "https://3patiblueapp.com.pk",
-              "logo": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
+              "logo": "https://3patiblueapp.com.pk/3-patti-blue.webp",
               "description": "3Patti Blue is Pakistan's most trusted Teen Patti gaming platform since 2024, serving 1M+ players with authentic gameplay, instant payouts, and verified security.",
               "foundingDate": "2024",
               "foundingLocation": {

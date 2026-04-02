@@ -103,7 +103,7 @@ export default function MobileNavigation() {
               <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity" onClick={() => setIsOpen(false)}>
                 <div className="relative w-12 h-12 flex-shrink-0">
                   <Image
-                    src="/3-patti-blue-logo.webp"
+                    src="/3-patti-blue.webp"
                     alt="3Patti Blue Logo"
                     fill
                     sizes="(max-width: 768px) 48px, 48px"

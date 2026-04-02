@@ -98,16 +98,16 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/3-patti-blue-logo.webp', type: 'image/webp', sizes: '16x16' },
-      { url: '/3-patti-blue-logo.webp', type: 'image/webp', sizes: '32x32' },
-      { url: '/3-patti-blue-logo.webp', type: 'image/webp', sizes: '192x192' },
-      { url: '/3-patti-blue-logo.webp', type: 'image/webp', sizes: '512x512' }
+      { url: '/3-patti-blue.webp', type: 'image/webp', sizes: '16x16' },
+      { url: '/3-patti-blue.webp', type: 'image/webp', sizes: '32x32' },
+      { url: '/3-patti-blue.webp', type: 'image/webp', sizes: '192x192' },
+      { url: '/3-patti-blue.webp', type: 'image/webp', sizes: '512x512' }
     ],
     apple: [
-      { url: '/3-patti-blue-logo.webp', sizes: '180x180' }
+      { url: '/3-patti-blue.webp', sizes: '180x180' }
     ],
     shortcut: [
-      { url: '/3-patti-blue-logo.webp', type: 'image/webp' }
+      { url: '/3-patti-blue.webp', type: 'image/webp' }
     ]
   },
   verification: {
@@ -165,12 +165,12 @@ export default function RootLayout({
       <head>
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="icon" href="/3-patti-blue-logo.webp" type="image/webp" sizes="16x16" />
-        <link rel="icon" href="/3-patti-blue-logo.webp" type="image/webp" sizes="32x32" />
-        <link rel="shortcut icon" href="/3-patti-blue-logo.webp" type="image/webp" />
-        <link rel="icon" href="/3-patti-blue-logo.webp" type="image/webp" sizes="192x192" />
-        <link rel="icon" href="/3-patti-blue-logo.webp" type="image/webp" sizes="512x512" />
-        <link rel="apple-touch-icon" href="/3-patti-blue-logo.webp" sizes="180x180" />
+        <link rel="icon" href="/3-patti-blue.webp" type="image/webp" sizes="16x16" />
+        <link rel="icon" href="/3-patti-blue.webp" type="image/webp" sizes="32x32" />
+        <link rel="shortcut icon" href="/3-patti-blue.webp" type="image/webp" />
+        <link rel="icon" href="/3-patti-blue.webp" type="image/webp" sizes="192x192" />
+        <link rel="icon" href="/3-patti-blue.webp" type="image/webp" sizes="512x512" />
+        <link rel="apple-touch-icon" href="/3-patti-blue.webp" sizes="180x180" />
 
         {/* Preconnect to own origin - reduces critical path latency for CSS/JS (1st party) */}
         <link rel="preconnect" href="https://3patiblueapp.com.pk" crossOrigin="anonymous" />
@@ -238,7 +238,7 @@ export default function RootLayout({
               "name": "3Patti Blue",
               "legalName": "3Patti Blue Gaming Platform",
               "url": "https://3patiblueapp.com.pk",
-              "logo": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
+              "logo": "https://3patiblueapp.com.pk/3-patti-blue.webp",
               "description": "3Patti Blue is Pakistan's most trusted Teen Patti gaming platform since 2024, offering authentic Teen Patti, Rummy, and 30+ card games with instant payouts and verified security.",
               "foundingDate": "2024",
               "sameAs": [

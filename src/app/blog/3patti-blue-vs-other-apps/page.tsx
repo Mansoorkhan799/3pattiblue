@@ -45,7 +45,7 @@ export default function Blog3PattiBlueVsCardRummy() {
     "datePublished": "2026-01-11",
     "dateModified": "2026-01-11",
     "author": { "@type": "Organization", "name": "3 Patti Blue", "url": "https://3patiblueapp.com.pk" },
-    "publisher": { "@type": "Organization", "name": "3 Patti Blue", "logo": { "@type": "ImageObject", "url": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp" } },
+    "publisher": { "@type": "Organization", "name": "3 Patti Blue", "logo": { "@type": "ImageObject", "url": "https://3patiblueapp.com.pk/3-patti-blue.webp" } },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://3patiblueapp.com.pk/blog/3patti-blue-vs-other-apps" }
   };
 

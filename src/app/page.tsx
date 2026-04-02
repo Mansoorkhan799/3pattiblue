@@ -105,7 +105,7 @@ export default function Home() {
         "url": "https://3patiblueapp.com.pk/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
+          "url": "https://3patiblueapp.com.pk/3-patti-blue.webp",
           "width": 512,
           "height": 512,
           "caption": "3Patti Blue - Authentic Teen Patti Gaming",
@@ -144,8 +144,8 @@ export default function Home() {
         "operatingSystem": "Android 5.0+",
         "applicationCategory": "GameApplication",
         "applicationSubCategory": "Card Game",
-        "image": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
-        "logo": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
+        "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+        "logo": "https://3patiblueapp.com.pk/3-patti-blue.webp",
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.7",
@@ -180,7 +180,7 @@ export default function Home() {
           "Email binding for account security"
         ],
         "screenshot": [
-          "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
+          "https://3patiblueapp.com.pk/3-patti-blue.webp",
           "https://3patiblueapp.com.pk/3-patti-blue.webp",
           "https://3patiblueapp.com.pk/3-patti-blue-game.webp",
           "https://3patiblueapp.com.pk/3-patti-blue-pakistan.webp",

@@ -25,7 +25,7 @@ export async function GET() {
       priority: 1.0,
       images: [
         { loc: '/3-patti-blue.webp', title: '3 Patti Blue Logo', caption: 'The official logo of 3 Patti Blue gaming platform' },
-        { loc: '/3-patti-blue-logo.webp', title: '3 Patti Blue Hero Image', caption: '3 Patti Blue gaming platform showcase' },
+        { loc: '/3-patti-blue.webp', title: '3 Patti Blue Hero Image', caption: '3 Patti Blue gaming platform showcase' },
         { loc: '/3-patti-blue-game.webp', title: '3 Patti Blue Game', caption: '3 Patti Blue Teen Patti and card games' },
         { loc: '/3-patti-blue-pakistan.webp', title: '3 Patti Blue Pakistan', caption: '3 Patti Blue - Pakistan\'s trusted Teen Patti app' },
         { loc: '/3-patti-blue-Pakistan-refer-and-earn.webp', title: '3 Patti Blue Refer and Earn', caption: 'Refer friends and earn with 3 Patti Blue' },
@@ -70,7 +70,7 @@ export async function GET() {
       priority: 0.9,
       images: [
         { loc: '/3-patti-blue-apk-add-money.webp', title: '3 Patti Blue Deposit', caption: 'Deposit money in 3 Patti Blue via JazzCash and EasyPaisa' },
-        { loc: '/3-patti-blue-logo.webp', title: '3 Patti Blue', caption: '3 Patti Blue - Deposit and play' }
+        { loc: '/3-patti-blue.webp', title: '3 Patti Blue', caption: '3 Patti Blue - Deposit and play' }
       ]
     },
     {
@@ -80,7 +80,7 @@ export async function GET() {
       priority: 0.9,
       images: [
         { loc: '/3-patti-blue-withdraw-money.webp', title: '3 Patti Blue Withdraw', caption: 'Withdraw money from 3 Patti Blue via JazzCash and EasyPaisa' },
-        { loc: '/3-patti-blue-logo.webp', title: '3 Patti Blue', caption: '3 Patti Blue - Withdraw winnings' }
+        { loc: '/3-patti-blue.webp', title: '3 Patti Blue', caption: '3 Patti Blue - Withdraw winnings' }
       ]
     },
     {
@@ -128,7 +128,7 @@ export async function GET() {
       changeFreq: 'monthly',
       priority: 0.7,
       images: [
-        { loc: '/3-patti-blue-logo.webp', title: '3 Patti Blue Contact', caption: 'Contact 3 Patti Blue support' }
+        { loc: '/3-patti-blue.webp', title: '3 Patti Blue Contact', caption: 'Contact 3 Patti Blue support' }
       ]
     },
     {
@@ -137,7 +137,7 @@ export async function GET() {
       changeFreq: 'yearly',
       priority: 0.6,
       images: [
-        { loc: '/3-patti-blue-logo.webp', title: '3 Patti Blue Privacy', caption: '3 Patti Blue privacy policy' }
+        { loc: '/3-patti-blue.webp', title: '3 Patti Blue Privacy', caption: '3 Patti Blue privacy policy' }
       ]
     },
     {
@@ -146,7 +146,7 @@ export async function GET() {
       changeFreq: 'yearly',
       priority: 0.6,
       images: [
-        { loc: '/3-patti-blue-logo.webp', title: '3 Patti Blue Disclaimer', caption: '3 Patti Blue disclaimer' }
+        { loc: '/3-patti-blue.webp', title: '3 Patti Blue Disclaimer', caption: '3 Patti Blue disclaimer' }
       ]
     }
   ];

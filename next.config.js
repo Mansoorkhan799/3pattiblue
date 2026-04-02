@@ -34,9 +34,9 @@ const nextConfig = {
         source: '/sitemap.xml',
         destination: '/api/sitemap',
       },
-      { source: '/favicon.ico', destination: '/3-patti-blue-logo.webp' },
-      { source: '/feature/3-patti-blue-OG-image.webp', destination: '/3-patti-blue-logo.webp' },
-      { source: '/feature/3-patti-blue-feature-image-twitter.webp', destination: '/3-patti-blue-logo.webp' },
+      { source: '/favicon.ico', destination: '/3-patti-blue.webp' },
+      { source: '/feature/3-patti-blue-OG-image.webp', destination: '/3-patti-blue.webp' },
+      { source: '/feature/3-patti-blue-feature-image-twitter.webp', destination: '/3-patti-blue.webp' },
     ];
   },
 

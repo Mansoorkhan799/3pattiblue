@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
+        url: "https://3patiblueapp.com.pk/3-patti-blue.webp",
         width: 1200,
         height: 630,
         alt: "Download 3Patti Blue APK - Official Teen Patti App",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: 'Download 3Patti Blue APK Free - 1M+ Players, Instant Payouts',
     description: '3Patti Blue: Pakistan\'s most trusted Teen Patti app. Free download, PKR 100 bonus, instant withdrawals. Join now!',
-    images: ["https://3patiblueapp.com.pk/3-patti-blue-logo.webp"],
+    images: ["https://3patiblueapp.com.pk/3-patti-blue.webp"],
   },
 };
 
@@ -100,7 +100,7 @@ export default function DownloadPage() {
       "https://3patiblueapp.com.pk/3-patti-blue-pakistan.webp",
       "https://3patiblueapp.com.pk/3-patti-blue-Pakistan-refer-and-earn.webp"
     ],
-    "image": "https://3patiblueapp.com.pk/3-patti-blue-logo.webp",
+    "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
     "author": {
       "@type": "Organization",
       "name": "3Patti Blue",
