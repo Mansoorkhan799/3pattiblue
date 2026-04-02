@@ -72,7 +72,26 @@ export const metadata: Metadata = {
     title: '3 Patti Blue - Pakistan\'s #1 Teen Patti App | Win Real Cash',
     description: '3 Patti Blue 2026 - Trusted by 1M+ players. Play authentic Teen Patti & win real money. Instant withdrawals via JazzCash & EasyPaisa. Download now & get PKR 100 bonus!',
     images: ['https://3patiblueapp.com.pk/feature/3-patti-blue-feature-image-twitter.webp']
-  }
+  },
+  alternates: {
+    canonical: 'https://3patiblueapp.com.pk/',
+    languages: {
+      'x-default': 'https://3patiblueapp.com.pk/',
+      'en-PK': 'https://3patiblueapp.com.pk/',
+      'ur-PK': 'https://3patiblueapp.com.pk/ur',
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function Home() {

@@ -18,9 +18,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://3patiblueapp.com.pk/ur',
     languages: {
+      'x-default': 'https://3patiblueapp.com.pk/',
       'en-PK': 'https://3patiblueapp.com.pk/',
-      'ur-PK': 'https://3patiblueapp.com.pk/ur'
-    }
+      'ur-PK': 'https://3patiblueapp.com.pk/ur',
+    },
   }
 };
 
