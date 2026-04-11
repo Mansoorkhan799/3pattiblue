@@ -321,6 +321,41 @@ export default function DepositMoneyPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How can we add money to our 3Patti Blue account?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You can add money to your 3Patti Blue account by opening the app, selecting the Shop option, choosing a payment method (JazzCash or EasyPaisa) and amount, clicking Add Chips, and approving the payment request."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is adding funds to 3Patti Blue secure?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, it is safe to add funds to 3Patti Blue, as it uses a modern security system to protect your personal data and funds."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which payment methods are available on 3Patti Blue?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "3Patti Blue provides two payment methods, including EasyPaisa and JazzCash, that are secure and authentic."
+                }
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "HowTo",
             "name": "How to Deposit Money in 3Patti Blue",
             "description": "Add funds to your 3Patti Blue wallet instantly using JazzCash or EasyPaisa. Minimum deposit PKR 100 — credited within seconds.",

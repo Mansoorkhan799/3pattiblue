@@ -38,6 +38,89 @@ export const metadata: Metadata = {
 };
 
 export default function CardRummyForPCPage() {
+  const howToSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Download 3Patti Blue on PC",
+    "description": "Step-by-step guide to download and install 3Patti Blue on PC using an Android emulator like BlueStacks, LD Player, or Nox Player.",
+    "totalTime": "PT15M",
+    "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+    "url": "https://3patiblueapp.com.pk/3-patti-blue-for-pc",
+    "tool": [
+      { "@type": "HowToTool", "name": "Android Emulator (BlueStacks, LD Player, or Nox Player)" },
+      { "@type": "HowToTool", "name": "Windows PC (Windows 7 or higher)" },
+      { "@type": "HowToTool", "name": "Internet Connection" }
+    ],
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Visit the Official 3Patti Blue Website",
+        "text": "Open your browser and go to the official 3Patti Blue website at www.3patiblueapp.com.pk to find the latest APK download link.",
+        "url": "https://3patiblueapp.com.pk/3-patti-blue-for-pc"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Install an Android Emulator",
+        "text": "Download and install an Android emulator on your PC. BlueStacks is the most recommended option for best performance.",
+        "url": "https://3patiblueapp.com.pk/3-patti-blue-for-pc"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Download the 3Patti Blue APK",
+        "text": "Download the latest version of the 3Patti Blue APK file from the official website to your PC.",
+        "url": "https://3patiblueapp.com.pk/3-patti-blue-for-pc"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 4,
+        "name": "Install APK via Emulator",
+        "text": "Open your Android emulator, locate the 'Install APK' option, and select the downloaded 3Patti Blue APK file to install it.",
+        "url": "https://3patiblueapp.com.pk/3-patti-blue-for-pc"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 5,
+        "name": "Register and Start Playing",
+        "text": "Once installed, open the 3Patti Blue app inside the emulator, register your account or log in, and start playing on your PC.",
+        "url": "https://3patiblueapp.com.pk/3-patti-blue-for-pc"
+      }
+    ]
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is an emulator safe to use on a PC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, emulators are generally safe if you download them from official websites. Make sure to download BlueStacks, LD Player, or Nox Player from their official sources to avoid security risks."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is the APK not installing on my device?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If the APK is not installing, make sure your emulator is properly configured and has enough storage space. Also, ensure you have downloaded the latest version of 3Patti Blue APK from the official source and that your emulator supports Android 5.0 or higher."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which emulator is best for 3Patti Blue?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "BlueStacks is the most recommended emulator for 3Patti Blue due to its high performance, user-friendly interface, and excellent compatibility. However, if you have a low-end PC, LD Player is a great lightweight alternative that still offers smooth gameplay."
+        }
+      }
+    ]
+  };
+
   // Schema.org structured data for PC version page
   const schemaData = {
     "@context": "https://schema.org",
@@ -81,6 +164,14 @@ export default function CardRummyForPCPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       
       {/* Hero Section */}

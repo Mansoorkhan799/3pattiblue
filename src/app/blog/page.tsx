@@ -30,7 +30,129 @@ export const metadata: Metadata = {
 };
 
 export default function Blog() {
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "3Patti Blue Blog",
+    "description": "Complete 3Patti Blue blog 2026: App reviews, comparison guides, beginner tutorials, tips & tricks, bonuses guide, safety tips, and responsible gaming.",
+    "url": "https://3patiblueapp.com.pk/blog",
+    "publisher": {
+      "@type": "Organization",
+      "name": "3Patti Blue",
+      "url": "https://3patiblueapp.com.pk",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://3patiblueapp.com.pk/3-patti-blue.webp"
+      }
+    },
+    "blogPost": [
+      {
+        "@type": "BlogPosting",
+        "headline": "3Patti Blue App Review 2026",
+        "url": "https://3patiblueapp.com.pk/blog/3-patti-blue-app-review-2026",
+        "datePublished": "2026-01-01",
+        "description": "Complete honest review: Features, pros, cons, payout speed, and real user experience."
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Is 3Patti Blue Real or Fake to Earn Money?",
+        "url": "https://3patiblueapp.com.pk/blog/is-3-patti-blue-real-or-fake",
+        "datePublished": "2026-01-01",
+        "description": "Discover the truth about 3Patti Blue legitimacy, payment methods, and how to identify fake apps."
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "How to Use 3Patti Blue App in Pakistan: Complete Beginner's Guide 2026",
+        "url": "https://3patiblueapp.com.pk/blog/how-to-use-3-patti-blue-app-pakistan-guide-2026",
+        "datePublished": "2026-01-01",
+        "description": "Step-by-step guide: Download, registration, deposit, withdrawal, gameplay & earning tips."
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "How to Create a 3Patti Blue Account and Login",
+        "url": "https://3patiblueapp.com.pk/blog/create-3-patti-blue-account-and-login",
+        "datePublished": "2026-01-01",
+        "description": "Learn how to create your 3Patti Blue account and login to start playing and earning real money."
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "IPs Exceed Issue in 3 Patti Blue! How to Fix?",
+        "url": "https://3patiblueapp.com.pk/blog/ips-exceed-issue-3-patti-blue-how-to-fix",
+        "datePublished": "2026-02-01",
+        "description": "Facing IPs Exceed error? Fix it in 3 steps using SuperVPN once, then register and enjoy."
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Tips to Win Big in 3Patti Blue",
+        "url": "https://3patiblueapp.com.pk/blog/tips-to-win-big-in-3-patti-blue",
+        "datePublished": "2026-01-01",
+        "description": "Discover expert strategies and tips to maximize your winnings in Teen Patti, Rummy, and other card games."
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "3Patti Blue Tips: 10 Smart Tricks to Play Safely and Win More",
+        "url": "https://3patiblueapp.com.pk/blog/3-patti-blue-tips-10-smart-tricks",
+        "datePublished": "2026-01-01",
+        "description": "Proven tips and tricks: Bankroll management, game selection, bonus maximization & safe play strategies."
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Dragon vs Tiger, Andar Bahar & More: Best High-Payout Games",
+        "url": "https://3patiblueapp.com.pk/blog/dragon-vs-tiger-andar-bahar-high-payout-games",
+        "datePublished": "2026-01-01",
+        "description": "Discover the best high-payout games in 3Patti Blue with highest win rates and fastest earnings."
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "3Patti Blue Bonuses Explained: Welcome Bonus, Recharge Rebate, and VIP Rewards Guide",
+        "url": "https://3patiblueapp.com.pk/blog/3-patti-blue-bonuses-vip-guide",
+        "datePublished": "2026-01-01",
+        "description": "Complete bonuses guide: Welcome bonus, recharge rebate, VIP levels, referral commission & step-by-step guide."
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Is 3Patti Blue Safe and Legal in Pakistan? Risks, Rules, and Safe Play Tips",
+        "url": "https://3patiblueapp.com.pk/blog/is-3-patti-blue-safe-legal-pakistan",
+        "datePublished": "2026-01-01",
+        "description": "Complete safety guide: Legal status, risks, security measures, withdrawal safety, and tips for safe play."
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Responsible Gaming Guide: How to Enjoy 3Patti Blue Without Addiction or Big Losses",
+        "url": "https://3patiblueapp.com.pk/blog/responsible-gaming-guide-3-patti-blue",
+        "datePublished": "2026-01-01",
+        "description": "Essential guide: How to play safely, avoid addiction, set limits, and recognize warning signs."
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "How to Claim Your Welcome Bonus on 3Patti Blue (2026 Guide)",
+        "url": "https://3patiblueapp.com.pk/blog/how-to-claim-welcome-bonus-on-3patti-blue-2026-guide",
+        "datePublished": "2026-02-01",
+        "description": "Step-by-step guide to claim your 3Patti Blue welcome bonus: 100% first deposit up to PKR 100,000."
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "3Patti Blue Login Problems and Solutions (2026 Guide)",
+        "url": "https://3patiblueapp.com.pk/blog/3patti-blue-login-problems-and-solutions-2026-guide",
+        "datePublished": "2026-02-01",
+        "description": "Fix 3Patti Blue login issues: IPs exceed, forgot password, wrong OTP, app not opening, and more."
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Latest Offers and Rewards on 3Patti Blue (2026)",
+        "url": "https://3patiblueapp.com.pk/blog/latest-offers-and-rewards-on-3patti-blue-2026",
+        "datePublished": "2026-02-01",
+        "description": "Discover the latest 3Patti Blue offers 2026: Welcome bonus, daily rewards, VIP rebates, referral commission."
+      }
+    ]
+  };
+
   return (
+    <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+    />
     <div className="container mx-auto px-4 py-12">
       <h1 className="text-3xl md:text-4xl font-bold mb-8 text-accent">3Patti Blue Blog</h1>
       <p className="text-gray-300 mb-8 text-lg">Stay updated with the latest guides, tips, and tutorials for 3Patti Blue</p>
@@ -320,5 +442,6 @@ export default function Blog() {
         </div>
       </div>
     </div>
+    </>
   );
 } 

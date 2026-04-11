@@ -115,6 +115,50 @@ export default function DownloadPage() {
     "countriesSupported": "PK"
   };
 
+  const howToSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Download and Install 3Patti Blue APK",
+    "description": "Step-by-step guide to download the 3Patti Blue APK on your Android device and start playing in minutes.",
+    "totalTime": "PT5M",
+    "image": "https://3patiblueapp.com.pk/3-patti-blue.webp",
+    "url": "https://3patiblueapp.com.pk/download-3-patti-blue",
+    "tool": [
+      { "@type": "HowToTool", "name": "Android Smartphone (Android 5.0+)" },
+      { "@type": "HowToTool", "name": "Internet Connection" }
+    ],
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Download the APK",
+        "text": "Click the Download button on this page to get the latest 3Patti Blue APK file. Wait for the download to complete automatically.",
+        "url": "https://3patiblueapp.com.pk/download-3-patti-blue"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Enable Unknown Sources",
+        "text": "Go to your device's Settings > Privacy (or Security) and enable 'Install from Unknown Sources' to allow APK installation.",
+        "url": "https://3patiblueapp.com.pk/download-3-patti-blue"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Install the APK",
+        "text": "Locate the downloaded 3Patti Blue APK file in your downloads folder, tap on it, and click Install. The installation will complete automatically.",
+        "url": "https://3patiblueapp.com.pk/download-3-patti-blue"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 4,
+        "name": "Open App and Start Earning",
+        "text": "Once installed, open 3Patti Blue, register or log in to your account, make your first deposit, and start playing to earn real money.",
+        "url": "https://3patiblueapp.com.pk/download-3-patti-blue"
+      }
+    ]
+  };
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -134,6 +178,10 @@ export default function DownloadPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
       
       {/* Hero Section */}

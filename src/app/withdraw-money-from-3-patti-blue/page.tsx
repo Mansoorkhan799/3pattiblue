@@ -351,6 +351,41 @@ export default function WithdrawMoneyPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is the minimum amount that we can withdraw from the 3Patti Blue Game?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You can easily withdraw a minimum of Rs 100 from your 3Patti Blue account, as it supports withdrawals of that amount."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does 3Patti Blue take to send withdrawals?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "3Patti Blue usually processes withdrawals in 3 to 24 hours. It may take longer due to some network or payment issues."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What should we do if our payout fails on 3Patti Blue?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "If your withdrawal fails on 3Patti Blue, contact its customer support team to approve your withdrawal."
+                }
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "HowTo",
             "name": "How to Withdraw Money from 3Patti Blue",
             "description": "Cash out your 3Patti Blue winnings to JazzCash or EasyPaisa in 5–30 minutes. No hidden fees. Minimum withdrawal PKR 500.",
