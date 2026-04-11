@@ -156,7 +156,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Hero Section
     'hero.title': '3 Patti Blue',
     'hero.subtitle': "Pakistan's Most Trusted Teen Patti",
-    'hero.subtitle2': 'Teen Patti Gaming Platform 2026',
+    'hero.subtitle2': 'Gaming Platform 2026',
     'hero.description': "3 Patti Blue is Pakistan's #1 authentic Teen Patti gaming platform, trusted by over 1 million verified players since 2024. Experience genuine Teen Patti gameplay with advanced security, fair play algorithms, and instant withdrawals via JazzCash & EasyPaisa. Download the official 3 Patti Blue APK now and get PKR 100 welcome bonus. Play 30+ exciting card games including Teen Patti, Rummy, and Dragon Tiger - all with real money rewards and same-day payouts.",
     'hero.descriptionLink': '3 Patti Blue',
     'hero.descriptionRest': " is an exciting online card game where you can enjoy a wide collection of casino games with its attractive design, fun background music, and engaging look. Click on following download button to get this wonderful app.",
