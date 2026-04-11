@@ -1200,55 +1200,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Internal Links - Explore 3Patti Blue (SEO & Navigation) */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" aria-label="Explore 3Patti Blue">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Explore 3Patti Blue</h2>
-          <p className="text-gray-300 mb-8">Find guides, download the app, manage deposits & withdrawals, and get support.</p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-            <Link href="/download-3-patti-blue" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
-              Download APK
-            </Link>
-            <Link href="/deposit-money-in-3-patti-blue" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
-              Deposit Money
-            </Link>
-            <Link href="/withdraw-money-from-3-patti-blue" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
-              Withdraw Money
-            </Link>
-            <Link href="/blog/create-3-patti-blue-account-and-login" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
-              Account & Login
-            </Link>
-            <Link href="/blog" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
-              Blog
-            </Link>
-            <Link href="/blog/tips-to-win-big-in-3-patti-blue" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
-              Tips to Win
-            </Link>
-            <Link href="/blog/3-patti-blue-bonuses-vip-guide" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
-              Bonuses & VIP
-            </Link>
-            <Link href="/blog/is-3-patti-blue-safe-legal-pakistan" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
-              Safety & Legal
-            </Link>
-            <Link href="/3-patti-blue-pakistan-about-us" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
-              About Us
-            </Link>
-            <Link href="/contact-us" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
-              Contact Us
-            </Link>
-            <Link href="/3-patti-blue-for-pc" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-[#0ea5e9] hover:text-[#38bdf8] font-medium transition-colors border border-gray-700 hover:border-[#0ea5e9]/50">
-              PC Version
-            </Link>
-            <Link href="/privacy" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-gray-300 hover:text-white font-medium transition-colors border border-gray-700 hover:border-gray-500">
-              Privacy Policy
-            </Link>
-            <Link href="/disclaimer" className="bg-[#0A1029] hover:bg-[#0A1029]/80 p-4 rounded-lg text-gray-300 hover:text-white font-medium transition-colors border border-gray-700 hover:border-gray-500">
-              Disclaimer
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* Contact Support Section - Accessibility & Trust */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
