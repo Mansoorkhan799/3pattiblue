@@ -173,9 +173,9 @@ export default function RootLayout({
         <link rel="icon" href="/3-patti-blue.webp" type="image/webp" sizes="512x512" />
         <link rel="apple-touch-icon" href="/3-patti-blue.webp" sizes="180x180" />
         <link rel="canonical" href="https://3patiblueapp.com.pk/" />
-        <link rel="alternate" hreflang="x-default" href="https://3patiblueapp.com.pk/" />
-        <link rel="alternate" hreflang="en-PK" href="https://3patiblueapp.com.pk/" />
-        <link rel="alternate" hreflang="ur-PK" href="https://3patiblueapp.com.pk/ur" />
+        <link rel="alternate" hrefLang="x-default" href="https://3patiblueapp.com.pk/" />
+        <link rel="alternate" hrefLang="en-PK" href="https://3patiblueapp.com.pk/" />
+        <link rel="alternate" hrefLang="ur-PK" href="https://3patiblueapp.com.pk/ur" />
 
         {/* Preconnect to own origin - reduces critical path latency for CSS/JS (1st party) */}
         <link rel="preconnect" href="https://3patiblueapp.com.pk" crossOrigin="anonymous" />
